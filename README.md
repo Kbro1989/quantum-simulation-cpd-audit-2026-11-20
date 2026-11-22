@@ -365,6 +365,23 @@ EQ-10's three values are retained, not reconciled: printed equation **5.986907**
 closed-curve integral **7.736654**, source-stated **0.4045**. The page-8 diagram is
 the next gate.
 
+### 3.3.1 Reference audit and citation index (2026-11-22)
+
+**Domain 27 index defect fixed.** `validation_index.html` linked every asset by bare
+filename, but the assets live in per-test subdirectories. All 14 references were broken.
+`create_validation_index()` now emits `href` and `src` as `test_name/filename`; the index
+was regenerated and verified (28 targets, 0 broken, 0 missing parent directory).
+
+**Citation index added.** `pks_research_index/pks_citation_index.json` and `.md` index the
+six PDFs in `schauberger_sources_2026-11-22/`, with bibliographic fields extracted from the
+arXiv abs pages and PDF text layers, and hashes/byte sizes/page counts derived from disk.
+Evidence populations are kept separate: `gpe_bec`, `two_fluid_helium`, `classical_cfd`,
+`classical_geometry`. The populations overlap mathematically but do not validate the same
+physical model.
+
+**Global manifest re-reconciled.** `cpd_certification_manifest_v6.json` reconciles the
+working tree to its own commit; v1.0–v5.0 are preserved unchanged.
+
 ### 3.4 Open gates
 
 - **Gate 27 assets need re-evaluation.** See the flagged block in the visual-assets
