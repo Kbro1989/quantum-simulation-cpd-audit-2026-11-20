@@ -1,0 +1,65 @@
+======================================================================
+DOMAIN 24: NVIDIA Architecture Comparison
+======================================================================
+
+=== GPU Availability Check ===
+  GPU 0: NVIDIA RTX A1000 6GB Laptop GPU
+    VRAM: 6.00 GB
+    Compute capability: 8.6
+    SM Clock: 1297 MHz
+    Mem Clock: 5501 MHz
+
+  CPU: Intel64 Family 6 Model 186 Stepping 2, GenuineIntel
+  CPU count: 20
+
+=== CuPy Setup ===
+{
+  "cupy_available": true,
+  "cupy_version": "14.2.0",
+  "device_id": 0,
+  "device_name": "NVIDIA RTX A1000 6GB Laptop GPU",
+  "compute_capability": "8.6",
+  "total_memory_bytes": 6441926656
+}
+
+=== FFT Throughput Benchmark ===
+  1D FFT...
+    64^1: 0.077 ms
+    128^1: 0.065 ms
+    256^1: 0.079 ms
+    512^1: 0.065 ms
+    1024^1: 0.132 ms
+  2D FFT...
+    32^32: 1.326 ms
+    64^64: 0.102 ms
+    128^128: 0.196 ms
+    256^256: 0.337 ms
+  3D FFT...
+    16^16^16: 0.123 ms
+    32^32^32: 0.185 ms
+    64^64^64: 2.400 ms
+    128^128^128: 16.707 ms
+
+=== Memory Bandwidth ===
+{
+  "grid_size": [
+    256,
+    256,
+    256
+  ],
+  "dtype": "<class 'numpy.complex128'>",
+  "total_bytes": 268435456,
+  "transfer_time_s": 0.04753820000041742,
+  "bandwidth_gbps": 10.51785721789234
+}
+
+=== GPU Occupancy ===
+{
+  "grid_size": 128,
+  "dtype": "<class 'numpy.complex128'>",
+  "sm_utilization_pct": 46,
+  "memory_utilization_pct": 17
+}
+
+Results saved: C:\Users\krist\Desktop\quantum-simulation-cpd-audit-2026-11-20\nvidia_validation\domain24_architecture_comparison\domain24_architecture_comparison.json
+Done.

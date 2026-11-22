@@ -1,0 +1,229 @@
+{
+  "audit": {
+    "title": "quantum-simulation — Consumer/Producer/Detached defect register",
+    "date": "2026-11-20",
+    "repo": "C:/Users/krist/Desktop/quantum-simulation-main/quantum-simulation-main",
+    "branch": "remediation/2026-11-20",
+    "head": "44f30e30654c064b75f760833741ab55b392ff20",
+    "baseline": "7cb98a737e6fd6d171b691e23b69a7951053883e",
+    "baseline_untouched": true,
+    "severity_scale": {
+      "P0": "scientific correctness or severe system-integrity failure",
+      "P1": "major numerical or functional defect",
+      "P2": "incorrect behaviour under defined conditions",
+      "P3": "documentation, maintainability, or noncritical coverage"
+    },
+    "authorship_classes": ["user", "upstream", "shared", "unknown"],
+    "cpd_classes": ["producer", "consumer", "detached", "relationship"]
+  },
+  "defects": [
+    {
+      "id": "CPD-P0-1",
+      "severity": "P0",
+      "cpd": "relationship",
+      "authorship": "upstream",
+      "title": "1-D potentials return a 1-D array on a 3-D grid, applied along z",
+      "location": "quantumlab/potentials/wells.py:13-18,27-33,42-48; periodic.py:12-16; disorder.py:12-25",
+      "producer": "CrystalPotential.evaluate, InfiniteSquareWell.evaluate, FiniteSquareWell.evaluate, DoubleWell.evaluate, RandomDisorder.evaluate",
+      "consumer": "SplitOperatorSolver.__init__ (split_operator.py:143) — no shape check",
+      "evidence": "independently reproduced: CrystalPotential.evaluate(Grid3D(16,16,16)).shape == (16,); broadcast-axis probe shows a (N,) array varies along the LAST axis (z); Grid3D(16,16,8) raises ValueError",
+      "invariant_expected": "potential array shape must equal grid.shape; spatial orientation must match the declared axis",
+      "status": "OPEN",
+      "regression_coverage": "none"
+    },
+    {
+      "id": "CPD-V1",
+      "severity": "P0",
+      "cpd": "producer",
+      "authorship": "upstream",
+      "title": "vortex winding detector reports zero winding for a state with unit winding",
+      "location": "quantumlab/observables/current.py:71-73",
+      "producer": "vortex_positions",
+      "consumer": "examples/11 (:101,114,175,187), examples/13 (:222,223,229,230)",
+      "evidence": "psi=(x+iy)exp(-r^2/2), core at origin on a grid node: plaquette sum = -0.0000 (q=0) vs independent contour integral +6.2823 (q=+0.9999); vortex_positions returns 0 vortices. Shifted off-node by (0.13,0.07): both agree, 1 vortex found.",
+      "invariant_expected": "sum of plaquette charges must match the winding measured by an independent contour integral",
+      "status": "OPEN",
+      "regression_coverage": "partial — tests/test_new_potentials_and_observables.py:127 passes because its configuration avoids the branch-cut placement"
+    },
+    {
+      "id": "CPD-P1-1",
+      "severity": "P1",
+      "cpd": "producer",
+      "authorship": "shared",
+      "title": "legacy solvers freeze a time-dependent potential at t=0",
+      "location": "quantumlab/solvers/split_step_1d.py:10; split_step_2d.py:19; split_step_3d.py:41; quantumlab/potentials/time_dependent.py:23-24",
+      "producer": "potential.evaluate (dispatches to evaluate_at(grid, 0.0))",
+      "consumer": "SplitStep1D/2D/3DSolver.__init__",
+      "evidence": "evaluate(grid)=0.0 while evaluate_at(grid,0.05)=2.99; legacy solver vs SplitOperatorSolver diverge by 4.1e-3 over 50 steps",
+      "invariant_expected": "a time-dependent potential must be evaluated at the current time",
+      "status": "OPEN",
+      "authorship_detail": "split_step_2d.py / split_step_3d.py user-authored (8c54f3f, b59a20e); split_step_1d.py and time_dependent.py upstream",
+      "regression_coverage": "none"
+    },
+    {
+      "id": "CPD-CONF-1",
+      "severity": "P1",
+      "cpd": "detached",
+      "authorship": "upstream",
+      "title": "quantumlab.config is dead code and cannot drive SimulationRunner",
+      "location": "quantumlab/config.py (whole file); consumed by nothing",
+      "producer": "load_config, DEFAULT_CONFIG",
+      "consumer": "none — no importer anywhere in the repo; runner.py never calls load_config",
+      "evidence": "no importer found by repo-wide grep; SimulationRunner(load_config() output) fails: 'No simulations defined'; nested under simulations fails: missing ['dimension','dt','num_steps']; _build_grid requires grid['L'] (absent); runner.py:148 expects absorbing_boundary as dict (actual: bool False)",
+      "invariant_expected": "a configuration module's output must be consumable by the runner it appears to configure",
+      "status": "OPEN",
+      "regression_coverage": "none"
+    },
+    {
+      "id": "CPD-V2",
+      "severity": "P1",
+      "cpd": "consumer",
+      "authorship": "upstream",
+      "title": "default min_density suppresses genuine vortex cores",
+      "location": "quantumlab/observables/current.py:40 (default), :74-75 (mask)",
+      "producer": "gaussian_filter density mask",
+      "consumer": "vortex_positions keep predicate",
+      "evidence": "2x2 lattice cores at (+-4,+-4): 4 vortices at min_density<=0.05, 0 at the 0.2 default; core-plaquette rho/rho.max = 0.180-0.185",
+      "invariant_expected": "the default call must detect the vortices the function exists to find",
+      "status": "OPEN",
+      "regression_coverage": "none"
+    },
+    {
+      "id": "CPD-C1",
+      "severity": "P1",
+      "cpd": "consumer",
+      "authorship": "user",
+      "title": "unavailable GPU measurements were recorded as zero",
+      "location": "benchmarks/perf_comparison.py (baseline 7cb98a7:60,68,70,82,84)",
+      "producer": "benchmark()",
+      "consumer": "benchmarks/results.json readers",
+      "evidence": "speedup 0.0 and relative_error 0.0 beside backend 'unavailable'",
+      "status": "FIXED",
+      "fix_commit": "fbdc676",
+      "regression_coverage": "tests/test_benchmark_failure_handling.py (14 tests)"
+    },
+    {
+      "id": "CPD-C4",
+      "severity": "P3",
+      "cpd": "producer",
+      "authorship": "user",
+      "title": "GPU docstring claimed bit-identical CPU/GPU evolution",
+      "location": "quantumlab/solvers/split_step_3d_gpu.py:4",
+      "evidence": "max|dU_T| = 1.1e-16; per-step max|dpsi| 8.4e-17..3.1e-16",
+      "status": "FIXED",
+      "fix_commit": "78eaff6"
+    },
+    {
+      "id": "CPD-C9",
+      "severity": "P2",
+      "cpd": "detached",
+      "authorship": "user",
+      "title": "testbench_interlock.py hardcoded a machine-specific sys.path",
+      "location": "testbench_interlock.py:28",
+      "evidence": "inserted path resolved to a non-existent directory; import only worked because quantumlab was installed",
+      "status": "FIXED",
+      "fix_commit": "586c52e",
+      "residual_gap": "still NOT imported by any test — no automated regression gate"
+    },
+    {
+      "id": "CPD-D-P2-2",
+      "severity": "P2",
+      "cpd": "producer",
+      "authorship": "user",
+      "title": "ABL accepted boundary_width=0 (NaN mask) and negative widths (all-zero mask)",
+      "location": "quantumlab/core/absorbing_boundary.py:28 (after fix)",
+      "status": "FIXED",
+      "fix_commit": "44f30e3",
+      "regression_coverage": "tests/test_absorbing_boundary_validation.py (32 tests)"
+    },
+    {
+      "id": "CPD-C7",
+      "severity": "P2",
+      "cpd": "consumer",
+      "authorship": "upstream",
+      "title": "README 3D-example runtime claim contradicted by the example's own docstring",
+      "location": "README.md:477; docs/getting-started.md:66 vs examples/11_rotating_bec_vortex_lattice.py:19",
+      "evidence": "'a few minutes on a laptop' vs '~30-40 minutes on a CPU'",
+      "status": "OPEN"
+    },
+    {
+      "id": "CPD-C8",
+      "severity": "P2",
+      "cpd": "detached",
+      "authorship": "upstream",
+      "title": "requirements.txt is an orphan contradicting pyproject.toml",
+      "location": "requirements.txt vs pyproject.toml:27-44",
+      "evidence": "stale floors numpy>=1.22/scipy>=1.8/matplotlib>=3.5 plus h5py, plotly, numba, Pillow, imageio, imageio-ffmpeg, scikit-image; no lock file",
+      "status": "OPEN"
+    },
+    {
+      "id": "CPD-C2",
+      "severity": "P3",
+      "cpd": "consumer",
+      "authorship": "upstream",
+      "title": "README dependency floors contradict pyproject.toml",
+      "location": "README.md:413-416 vs pyproject.toml:27-30",
+      "status": "OPEN"
+    },
+    {
+      "id": "CPD-C3",
+      "severity": "P3",
+      "cpd": "consumer",
+      "authorship": "upstream",
+      "title": "published 64^3 speedup arithmetically inconsistent",
+      "location": "docs/guide/gpu.md:25; README.md:453",
+      "evidence": "33.1/4.4 = 7.52 -> 7.5, printed 7.6x",
+      "status": "OPEN"
+    },
+    {
+      "id": "CPD-C5",
+      "severity": "P1",
+      "cpd": "detached",
+      "authorship": "upstream",
+      "title": "GPU validation notebook has zero saved outputs",
+      "location": "notebooks/gpu_validation.ipynb",
+      "evidence": "8 cells, 7 code, 0 with outputs, all execution_count null",
+      "status": "OPEN"
+    },
+    {
+      "id": "CPD-C6",
+      "severity": "P3",
+      "cpd": "consumer",
+      "authorship": "upstream",
+      "title": "stale test count in docs",
+      "location": "docs/guide/gpu.md:35",
+      "evidence": "claims 130 tests; 204 collected at HEAD",
+      "status": "OPEN"
+    },
+    {
+      "id": "CPD-DETACHED-1",
+      "severity": "P3",
+      "cpd": "detached",
+      "authorship": "mixed",
+      "title": "8 of 49 modules unreachable from any test",
+      "location": "quantumlab/config.py, constants.py, core/__init__.py, visualization/__init__.py, visualization/plots_1d.py, plots_2d.py, plots_3d.py, quantumlab/__init__.py",
+      "evidence": "static reachability from test imports; see cpd_detached_inventory.md",
+      "authorship_detail": "plots_2d.py and core/__init__.py user-authored; remainder upstream",
+      "status": "OPEN"
+    },
+    {
+      "id": "CPD-VERS-1",
+      "severity": "P3",
+      "cpd": "detached",
+      "authorship": "upstream",
+      "title": "no version-consistency gate",
+      "location": "quantumlab/__init__.py:1 vs pyproject.toml:7 vs CITATION.cff:19",
+      "evidence": "all currently 1.3.0, but nothing asserts it",
+      "status": "OPEN"
+    }
+  ],
+  "summary": {
+    "total": 17,
+    "fixed": 4,
+    "open": 13,
+    "by_severity": {"P0": 2, "P1": 5, "P2": 4, "P3": 6},
+    "by_cpd": {"producer": 3, "consumer": 6, "detached": 5, "relationship": 3},
+    "by_authorship": {"user": 4, "upstream": 11, "shared": 1, "mixed": 1},
+    "note": "Counts of by_cpd do not sum to total because some rows list multiple classes; see each row's cpd field."
+  }
+}

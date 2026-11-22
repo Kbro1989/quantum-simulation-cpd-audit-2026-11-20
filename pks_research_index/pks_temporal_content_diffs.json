@@ -1,0 +1,120 @@
+{
+  "outcomes": {
+    "FIRST_OBSERVED": 11,
+    "IDENTICAL": 13,
+    "CHANGED": 10,
+    "CONTENT_UNAVAILABLE": 0
+  },
+  "urls": [
+    {
+      "url": "http://pks.or.at/wp-content/uploads/Berechnung_Ei-Kurve.pdf",
+      "captures": 3,
+      "changed": 0,
+      "distinct_raw": 1,
+      "identical": 2,
+      "first": "20201029223404",
+      "last": "20260711234929",
+      "diff_file": "pks_temporal_content_diffs/46ab54e425.md"
+    },
+    {
+      "url": "http://www.pks.or.at/forschung_wasser.html",
+      "captures": 3,
+      "changed": 2,
+      "distinct_raw": 3,
+      "identical": 0,
+      "first": "20070820181620",
+      "last": "20171003054101",
+      "diff_file": "pks_temporal_content_diffs/d0c815fcb7.md"
+    },
+    {
+      "url": "http://www.pks.or.at/v.schauberger.html",
+      "captures": 3,
+      "changed": 1,
+      "distinct_raw": 2,
+      "identical": 1,
+      "first": "20070820181030",
+      "last": "20141230035942",
+      "diff_file": "pks_temporal_content_diffs/8960ab9db4.md"
+    },
+    {
+      "url": "http://www.pks.or.at/v.schauberger_e.html",
+      "captures": 3,
+      "changed": 0,
+      "distinct_raw": 1,
+      "identical": 2,
+      "first": "20070820181052",
+      "last": "20110821031856",
+      "diff_file": "pks_temporal_content_diffs/a209c26d9c.md"
+    },
+    {
+      "url": "http://www.pks.or.at/w.schauberger.html",
+      "captures": 3,
+      "changed": 1,
+      "distinct_raw": 2,
+      "identical": 1,
+      "first": "20070730235440",
+      "last": "20120821183739",
+      "diff_file": "pks_temporal_content_diffs/08934dd2cd.md"
+    },
+    {
+      "url": "http://www.pks.or.at/w.schauberger_e.html",
+      "captures": 2,
+      "changed": 1,
+      "distinct_raw": 2,
+      "identical": 0,
+      "first": "20100324235812",
+      "last": "20130718095426",
+      "diff_file": "pks_temporal_content_diffs/c6a8f4c65d.md"
+    },
+    {
+      "url": "http://www.pks.or.at/w_berechnungen.html",
+      "captures": 3,
+      "changed": 1,
+      "distinct_raw": 2,
+      "identical": 1,
+      "first": "20070820181455",
+      "last": "20170521002120",
+      "diff_file": "pks_temporal_content_diffs/456a21e654.md"
+    },
+    {
+      "url": "http://www.pks.or.at:80/v_patents.html",
+      "captures": 3,
+      "changed": 0,
+      "distinct_raw": 1,
+      "identical": 2,
+      "first": "20091117122533",
+      "last": "20110722220350",
+      "diff_file": "pks_temporal_content_diffs/ad421afec0.md"
+    },
+    {
+      "url": "http://www.pks.or.at:80/viktor_patente.html",
+      "captures": 3,
+      "changed": 1,
+      "distinct_raw": 2,
+      "identical": 1,
+      "first": "20080417032553",
+      "last": "20150120154226",
+      "diff_file": "pks_temporal_content_diffs/ad001f5397.md"
+    },
+    {
+      "url": "http://www.pks.or.at:80/w_patents.html",
+      "captures": 5,
+      "changed": 1,
+      "distinct_raw": 2,
+      "identical": 3,
+      "first": "20080915103925",
+      "last": "20161001000105",
+      "diff_file": "pks_temporal_content_diffs/29570614a4.md"
+    },
+    {
+      "url": "https://pks.or.at/berechnungen/",
+      "captures": 3,
+      "changed": 2,
+      "distinct_raw": 3,
+      "identical": 0,
+      "first": "20190824093147",
+      "last": "20260711231444",
+      "diff_file": "pks_temporal_content_diffs/667aad42ae.md"
+    }
+  ]
+}

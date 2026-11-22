@@ -1,0 +1,248 @@
+{
+  "case": "A_vortex_line",
+  "grid_N": 48,
+  "box": [
+    -6.0,
+    6.0
+  ],
+  "dt": 0.005,
+  "steps": 40,
+  "hbar": 1.0,
+  "m": 1.0,
+  "charge_imposed": 1,
+  "thresholds": {
+    "mode": "GLOBAL_FIXED",
+    "fractions_of_global_max": [
+      0.5,
+      0.15,
+      0.03
+    ],
+    "global_max_density": 0.09166203857793545,
+    "absolute_levels": [
+      0.045831019,
+      0.013749306,
+      0.002749861
+    ]
+  },
+  "gif": {
+    "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_asset_suite\\A_vortex_line\\vortex_line_evolution.gif",
+    "frame_duration_s": 0.5,
+    "frames": 5
+  },
+  "frames": [
+    {
+      "density_max": 0.06349363638004314,
+      "density_min": 2.242994340290691e-25,
+      "density_min_point": [
+        -5.0,
+        -5.0,
+        -5.0
+      ],
+      "core_slice_xy": [
+        -5.0,
+        -5.0
+      ],
+      "core_slice_z": -5.0,
+      "loops": [
+        {
+          "radius_grid_units": 0.5,
+          "winding_number": 0.0,
+          "circulation_phase_sum_rad": 0.0,
+          "circulation_hbar_over_m": 0.0,
+          "h_over_m": 6.283185,
+          "ratio_to_h_over_m": 0.0
+        },
+        {
+          "radius_grid_units": 1.0,
+          "winding_number": -0.0,
+          "circulation_phase_sum_rad": -0.0,
+          "circulation_hbar_over_m": -0.0,
+          "h_over_m": 6.283185,
+          "ratio_to_h_over_m": -0.0
+        },
+        {
+          "radius_grid_units": 2.0,
+          "winding_number": -0.0,
+          "circulation_phase_sum_rad": -0.0,
+          "circulation_hbar_over_m": -0.0,
+          "h_over_m": 6.283185,
+          "ratio_to_h_over_m": -0.0
+        }
+      ],
+      "step": 0
+    },
+    {
+      "density_max": 0.09166203857793545,
+      "density_min": 2.3916448505154332e-20,
+      "density_min_point": [
+        4.5,
+        -5.0,
+        -5.0
+      ],
+      "core_slice_xy": [
+        4.5,
+        -5.0
+      ],
+      "core_slice_z": -5.0,
+      "loops": [
+        {
+          "radius_grid_units": 0.5,
+          "winding_number": -0.0,
+          "circulation_phase_sum_rad": -0.0,
+          "circulation_hbar_over_m": -0.0,
+          "h_over_m": 6.283185,
+          "ratio_to_h_over_m": -0.0
+        },
+        {
+          "radius_grid_units": 1.0,
+          "winding_number": 0.0,
+          "circulation_phase_sum_rad": 0.0,
+          "circulation_hbar_over_m": 0.0,
+          "h_over_m": 6.283185,
+          "ratio_to_h_over_m": 0.0
+        },
+        {
+          "radius_grid_units": 2.0,
+          "winding_number": -1.0,
+          "circulation_phase_sum_rad": -6.283185,
+          "circulation_hbar_over_m": -6.283185,
+          "h_over_m": 6.283185,
+          "ratio_to_h_over_m": -1.0
+        }
+      ],
+      "step": 10
+    },
+    {
+      "density_max": 0.08872793687218317,
+      "density_min": 2.297032962060691e-19,
+      "density_min_point": [
+        -5.0,
+        -3.5,
+        -5.0
+      ],
+      "core_slice_xy": [
+        -5.0,
+        -3.5
+      ],
+      "core_slice_z": -5.0,
+      "loops": [
+        {
+          "radius_grid_units": 0.5,
+          "winding_number": 0.0,
+          "circulation_phase_sum_rad": 0.0,
+          "circulation_hbar_over_m": 0.0,
+          "h_over_m": 6.283185,
+          "ratio_to_h_over_m": 0.0
+        },
+        {
+          "radius_grid_units": 1.0,
+          "winding_number": 0.0,
+          "circulation_phase_sum_rad": 0.0,
+          "circulation_hbar_over_m": 0.0,
+          "h_over_m": 6.283185,
+          "ratio_to_h_over_m": 0.0
+        },
+        {
+          "radius_grid_units": 2.0,
+          "winding_number": 2.0,
+          "circulation_phase_sum_rad": 12.566371,
+          "circulation_hbar_over_m": 12.566371,
+          "h_over_m": 6.283185,
+          "ratio_to_h_over_m": 2.0
+        }
+      ],
+      "step": 20
+    },
+    {
+      "density_max": 0.07236277219121591,
+      "density_min": 3.5717874159132153e-19,
+      "density_min_point": [
+        -3.5,
+        4.5,
+        -5.0
+      ],
+      "core_slice_xy": [
+        -3.5,
+        4.5
+      ],
+      "core_slice_z": -5.0,
+      "loops": [
+        {
+          "radius_grid_units": 0.5,
+          "winding_number": -1.0,
+          "circulation_phase_sum_rad": -6.283185,
+          "circulation_hbar_over_m": -6.283185,
+          "h_over_m": 6.283185,
+          "ratio_to_h_over_m": -1.0
+        },
+        {
+          "radius_grid_units": 1.0,
+          "winding_number": -0.0,
+          "circulation_phase_sum_rad": -0.0,
+          "circulation_hbar_over_m": -0.0,
+          "h_over_m": 6.283185,
+          "ratio_to_h_over_m": -0.0
+        },
+        {
+          "radius_grid_units": 2.0,
+          "winding_number": 3.0,
+          "circulation_phase_sum_rad": 18.849556,
+          "circulation_hbar_over_m": 18.849556,
+          "h_over_m": 6.283185,
+          "ratio_to_h_over_m": 3.0
+        }
+      ],
+      "step": 30
+    },
+    {
+      "density_max": 0.0664838289443645,
+      "density_min": 7.332941184708695e-17,
+      "density_min_point": [
+        3.5,
+        4.0,
+        -5.0
+      ],
+      "core_slice_xy": [
+        3.5,
+        4.0
+      ],
+      "core_slice_z": -5.0,
+      "loops": [
+        {
+          "radius_grid_units": 0.5,
+          "winding_number": -0.0,
+          "circulation_phase_sum_rad": -0.0,
+          "circulation_hbar_over_m": -0.0,
+          "h_over_m": 6.283185,
+          "ratio_to_h_over_m": -0.0
+        },
+        {
+          "radius_grid_units": 1.0,
+          "winding_number": -1.0,
+          "circulation_phase_sum_rad": -6.283185,
+          "circulation_hbar_over_m": -6.283185,
+          "h_over_m": 6.283185,
+          "ratio_to_h_over_m": -1.0
+        },
+        {
+          "radius_grid_units": 2.0,
+          "winding_number": -1.0,
+          "circulation_phase_sum_rad": -6.283185,
+          "circulation_hbar_over_m": -6.283185,
+          "h_over_m": 6.283185,
+          "ratio_to_h_over_m": -1.0
+        }
+      ],
+      "step": 40
+    }
+  ],
+  "core_axis_density": {
+    "axis_x_index": 24,
+    "axis_y_index": 24,
+    "min_density_on_axis": 1e-09,
+    "min_density_on_axis_point": [
+      0.0,
+      0.0
+    ]
+  }
+}

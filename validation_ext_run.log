@@ -1,0 +1,48 @@
+============================================================
+CPD Extension Domains 13-18 — executable evidence
+============================================================
+
+Domain 13: Gaussian state integrity
+  ERROR: WaveFunction2D.gaussian() missing 1 required positional argument: 'sigma_y'
+Traceback (most recent call last):
+  File "C:\Users\krist\Desktop\quantum-simulation-cpd-audit-2026-11-20\validation_ext_generator.py", line 632, in <module>
+    files = fn()
+            ^^^^
+  File "C:\Users\krist\Desktop\quantum-simulation-cpd-audit-2026-11-20\validation_ext_generator.py", line 169, in domain13_evidence
+    wf = WaveFunction.gaussian(g, 0, 0, 1.0, 0.0, 1.0)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: WaveFunction2D.gaussian() missing 1 required positional argument: 'sigma_y'
+
+Domain 14: Gaussian-to-non-Gaussian transitions
+  ERROR: 'obj' object has no attribute 'probability_density'
+Traceback (most recent call last):
+  File "C:\Users\krist\Desktop\quantum-simulation-cpd-audit-2026-11-20\validation_ext_generator.py", line 632, in <module>
+    files = fn()
+            ^^^^
+  File "C:\Users\krist\Desktop\quantum-simulation-cpd-audit-2026-11-20\validation_ext_generator.py", line 216, in domain14_evidence
+    plot_wavefunction_1d(psi_super, potential=None, title="Domain 14: Two-wavepacket superposition (interference)", save_path=fname1, show=False)
+  File "C:\Users\krist\Desktop\quantum-simulation-main\quantum-simulation-main\quantumlab\visualization\plots_1d.py", line 11, in plot_wavefunction_1d
+    prob = wf.probability_density
+           ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'obj' object has no attribute 'probability_density'
+
+Domain 15: Vortex topology
+  -> domain15_vortex_charges.png (487510 bytes)
+  -> domain15_grid_translation.png (614967 bytes)
+  -> domain15_threshold_sensitivity.png (158234 bytes)
+
+Domain 16: 3D vortex filaments
+  -> domain16_straight_vortex.png (392768 bytes)
+  -> domain16_vortex_ring.png (265653 bytes)
+
+Domain 17: Numerical zero-floor integrity
+  -> domain17_underflow.png (323239 bytes)
+  -> domain17_threshold_map.png (229494 bytes)
+  -> domain17_zero_taxonomy.png (128851 bytes)
+
+Domain 18: Representation invariance
+  -> domain18_cpu_gpu_precision.png (251354 bytes)
+  -> domain18_resolution_crosscheck.png (124293 bytes)
+
+Index written: C:\Users\krist\Desktop\quantum-simulation-cpd-audit-2026-11-20\validation_artifacts_ext\validation_index_ext.json
+Done.

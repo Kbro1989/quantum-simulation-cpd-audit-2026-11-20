@@ -1,0 +1,346 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>walter_patente</title><meta name="GENERATOR" content="Freeway Pro 3.5.15"><style type="text/css">
+<!--
+p { margin-top:0px }
+.style43 { font-family: Verdana; font-weight: bold; }
+.flie {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 9px;
+}
+.flieklein { font-family: Verdana; }
+.style6 {
+	font-family: Verdana;
+	font-size: 16px;
+}
+body,td,th {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 9px;
+}
+body {
+	background-image: url(Resources/thema_walter-3.jpg);
+	background-repeat: no-repeat;
+	background-position:center;
+	background-position:top;
+}
+a:link {
+	color: #333;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #333;
+}
+a:hover {
+	text-decoration: none;
+	color: #F00;
+}
+a:active {
+	text-decoration: none;
+	color: #333;
+}
+a {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+}
+#LayoutTable table {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 9px;
+}
+-->
+</style>
+<meta name="MSSmartTagsPreventParsing" content="true">
+<script language="javascript" type="text/javascript"><!--
+
+var fwIsNetscape = navigator.appName == 'Netscape';
+
+fwLoad = new Object;
+function FWLoad(image)
+{
+	if (!document.images)
+		return null;
+	if (!fwLoad[image])
+	{
+		fwLoad[image]=new Image;
+		fwLoad[image].src=image;
+	}
+	return fwLoad[image].src;
+}
+
+fwRestore = new Object;
+function FWRestore(msg,chain) 
+{
+	if (document.images) 
+		for (var i in fwRestore)
+		{
+			var r = fwRestore[i];
+			if (r && (!chain || r.chain==chain) && r.msg==msg)
+			{
+				r.src = FWLoad(r.old);
+				fwRestore[i]=null;
+			}
+		}
+}
+
+function FWLSwap(name,msg,newImg,layer,chain,trigger) 
+{
+	var r = fwRestore[name];
+	if (document.images && (!r || r.msg < msg)) 
+	{
+		var uselayers = fwIsNetscape && document.layers && layer != '';
+		var hld = (uselayers) ? document.layers[layer].document : document;
+		var im = hld[name];
+		if (!im.old) im.old = im.src;
+		im.msg = msg;
+		im.chain = chain;
+		im.trigger = trigger;
+		if (newImg) im.src = FWLoad(newImg);
+		fwRestore[name] = im;
+	}
+}
+
+function FWCallHit(func,targNum,msg)
+{
+	if(func)
+		for (var i in func)
+			func[i](targNum,msg);
+}
+function FW_Hit(frameset,chain,targNum,msg)
+{
+	if (frameset && frameset.length)
+		for (var i=0 ; i <frameset.length ; i++)
+		{
+			FW_Hit(frameset[i].frames,chain,targNum,msg);
+			FWCallHit(top["FT_"+chain],targNum,msg);
+			FWCallHit(frameset[i].window["FT_"+chain],targNum,msg);
+		}
+	else
+		FWCallHit(window["FT_"+chain],targNum,msg);
+}
+
+fwHit = new Object;
+function FWSlave(frameset,chain,targNum,msg)
+{
+	if (msg==1) fwHit[chain]=targNum;
+	FW_Hit(frameset,chain,targNum,1);
+}
+
+function FWSRestore(frameset,chain)
+{
+	var hit=fwHit[chain];
+	if (hit)
+		FW_Hit(frameset,chain,hit,0);
+	fwHit[chain]=null;
+}
+function FWPreload(){FWLoad("Resources/objekt4bc.gif");FWLoad("Resources/objekt4bb.gif");FWLoad("Resources/objekt4b1ac.gif");FWLoad("Resources/objekt4b1ab.gif");FWLoad("Resources/objekt4b1a1c.gif");FWLoad("Resources/objekt4b1a1b.gif");FWLoad("Resources/objekt4b1a1a1c.gif");FWLoad("Resources/objekt4b1a1a1b.gif");FWLoad("Resources/objekt5ag.gif");FWLoad("Resources/objekt5af.gif");FWLoad("Resources/objekt5e.gif");FWLoad("Resources/objekt5b.gif");}
+//-->
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body topmargin=0 leftmargin=0 marginheight=0 marginwidth=0 onload="FWPreload()"><div id="LayoutTable"><table border=0 cellspacing=0 cellpadding=0 align="center" width=804><tr valign=top><td rowspan=2><a href="w.schauberger.html" target="main"><img src="Resources/transparent.gif" width="151" height="28" border="0"></a></td><td height="10" colspan=2></td><td height=9></td></tr><tr valign=top><td><a name="oben" id="oben" onFocus="blur();"></a></td><td><p><span class="style6">Walter Schauberger | patents</span></p></td><td height=19></td></tr><tr><td width=151><img src="Resources/_clear.gif" border=0 width=151 height=1 alt=""></td><td width=29><img src="Resources/_clear.gif" border=0 width=29 height=1 alt=""></td><td width=278><img src="Resources/_clear.gif" border=0 width=278 height=1 alt=""></td><td width=344 height=1><img src="Resources/_clear.gif" border=0 width=344 height=1 alt=""></td></tr></table>
+  <table width="804" border="0" align="center" cellpadding="0" cellspacing="1">
+    <tr>
+      <td width="18" height="20" valign="top">&nbsp;</td>
+      <td width="125">&nbsp;</td>
+      <td width="10">&nbsp;</td>
+      <td width=89 valign=middle>&nbsp;</td>
+      <td width=79 valign=middle>&nbsp;</td>
+      <td width=75 valign=middle>&nbsp;</td>
+      <td width=165 valign=middle>&nbsp;</td>
+      <td width=140 valign=middle></td>
+      <td width=37 valign=middle>&nbsp;</td>
+    </tr>
+  </table>
+  <table width="804" border="0" align="center" cellpadding="1" cellspacing="2">
+    <tr>
+      <td width="14">&nbsp;</td>
+      <td width="125"><table border=0 cellspacing=0 cellpadding=0 width=125>
+        <tr valign=top>
+          <td colspan="3"><a href="w_biography.html" target="main">> biography</a><a href="w_biografy.html" target="main"></a></td>
+          <td height=13></td>
+        </tr>
+        <tr valign=top>
+          <td colspan=3></td>
+          <td height=5></td>
+        </tr>
+        <tr valign=top>
+          <td><a href="w_patents.html" target="main">> patents</a></td>
+          <td colspan=2></td>
+          <td height=12></td>
+        </tr>
+        <tr valign=top>
+          <td colspan=3></td>
+          <td height=5></td>
+        </tr>
+        <tr valign=top>
+          <td colspan=2><a href="w_texts.html" target="main">> texts</a></td>
+          <td></td>
+          <td height=13></td>
+        </tr>
+        <tr valign=top>
+          <td colspan=3></td>
+          <td height=5></td>
+        </tr>
+        <tr valign=top>
+          <td colspan=3><a href="w_calculations.html" target="main">> calculations</a></td>
+          <td height=13></td>
+        </tr>
+        <tr>
+          <td width=64><img src="Resources/_clear.gif" border=0 width=64 height=1 alt=""></td>
+          <td width=13><img src="Resources/_clear.gif" border=0 width=13 height=1 alt=""></td>
+          <td width=47><img src="Resources/_clear.gif" border=0 width=47 height=1 alt=""></td>
+          <td width=1 height=1><img src="Resources/_clear.gif" border=0 width=1 height=1 alt=""></td>
+        </tr>
+      </table>        <p>&nbsp;</p></td>
+      <td width="10">&nbsp;</td>
+      <td width=89 valign=middle><p><font size="-2"><span class="style43">Patent No.</span></font></p></td>
+      <td width=79 valign=middle><p><font size="-2"><span class="style43">Application filed </span></font></p></td>
+      <td width=75 valign=middle><p><font size="-2"><span class="style43">Patent beginning</span></font></p></td>
+      <td width=165 valign=middle><p><font size="-2"><span class="style43">Titel</span></font></p></td>
+      <td width=125 valign=middle></td>
+      <td width=37 valign=middle><p><font size="-2"><span class="style43">to find in/on</span></font></p></td>
+    </tr>
+    <tr>
+      <td width="14">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td valign=top><font size="-2">(&Ouml;sterr. <br>
+      Patentamt)</font></td>
+      <td valign=top>&nbsp;</td>
+      <td valign=top>&nbsp;</td>
+      <td valign=top></td>
+      <td valign=top></td>
+      <td valign=top>&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="14">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td valign=top><img src="Resources/_clear.gif" border=0 width=1 height=1 alt=""></td>
+      <td valign=top><img src="Resources/_clear.gif" border=0 width=1 height=1 alt=""></td>
+      <td valign=top><img src="Resources/_clear.gif" border=0 width=1 height=1 alt=""></td>
+      <td valign=top></td>
+      <td valign=top></td>
+      <td valign=top><img src="Resources/_clear.gif" border=0 width=1 height=1 alt=""></td>
+    </tr>
+    <tr>
+      <td width="14">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td width=89 valign=top><p><font size="-1"><span class="flie">196 680</span></font></p>
+        <p><font size="-2"><span class="flieklein">vergleiche mit:<br>
+          </span></font><font size="-2"><span class="flieklein"> BE 511 784, <br>
+            </span></font><font size="-2"><span class="flieklein">FR 1.057.576, <br>
+              </span></font><font size="-2"><span class="flieklein">LUX 31.480, <br>
+              </span></font><font size="-2"><span class="flieklein">SP 203 765 </span></font><font size="-1"><span class="flie"></span></font></p>
+        <p><font size="-1"><span class="flie">&nbsp;</span></font></p></td>
+      <td width=79 valign=top><p><font size="-1"><span class="flie">30.05.1951</span></font></p>
+        <p><font size="-2"><span class="flieklein">mit Viktor Schauberger</span></font></p></td>
+      <td width=75 valign=top><p><font size="-1"><span class="flie">15.08.1957 </span></font></p></td>
+      <td width=165 valign=top><p><font size="-1"><span class="flie">Rohrleitung f&uuml;r fl&uuml;ssige und gasf&ouml;rmige Medien (Wendelrohre)*)</span></font></p>
+        <p></p></td>
+      <td valign=top></td>
+      <td width=37 valign=top><p><font size="-2"><span class="flieklein">Implosion <br>
+        Heft Nr. 20 <br>
+        und <br>
+        Nr. 146</span></font></p></td>
+    </tr>
+    <tr>
+      <td width="14">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td width=89 valign=top><p><font size="-1"><span class="flie">197 625</span></font></p>
+        <p><font size="-2"><span class="flieklein">vergleiche mit:<br>
+          </span></font><font size="-2"><span class="flieklein"><a href="Resources/PAT_197_625.pdf" target="_blank"> DE 1.059.938,<br>
+          </a></span></font><font size="-2"><span class="flieklein"> FR 1.178.170</span></font></p></td>
+      <td width=79 valign=top><p><font size="-1"><span class="flie">14.07.1956</span></font></p>
+        <p><font size="-2"><span class="flieklein">mit Daniel Swarovski, Wattens/Tirol</span></font></p></td>
+      <td width=75 valign=top><p><font size="-1"><span class="flie">15.10.1957</span></font></p></td>
+      <td width=165 valign=top><p><font size="-1"><span class="flie">Bodenbearbeitungsger&auml;te, insbesondere f&uuml;r die Land-, Forst- und Gartenwirtschaft <br>
+        (Eintrag von Spurenelementen durch Abrieb)</span></font></p></td>
+      <td valign=top><p><a href="Resources/PAT_197_625.pdf" target="_blank"><img src="Resources/PAT_197_625.gif" alt="" width="125" height="125" border="0"></a></p></td>
+      <td width=37 valign=top><p><font size="-2"><span class="flieklein">Implosion<br>
+        Heft Nr. 9</span></font></p></td>
+    </tr>
+    <tr>
+      <td width="14">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td width=89 valign=top><p><font size="-2"><span class="flie"><a href="Resources/PAT_1069_162.pdf" target="_blank">DE 1.069.162</a></span></font></p></td>
+      <td width=79 valign=top><p><font size="-2"><span class="flieklein">mit Daniel Swarovski, Wattens/Tirol</span></font></p></td>
+      <td width=75 valign=top><font size="-1"><span class="flie">03.07.1957</span></font></td>
+      <td width=165 valign=top><p>Geräte zur Spurenelement-düngung von Böden und Bodenbearbeitungen.<font face="Verdana" size="-1"><br>
+          </font><br>
+        </p>
+<p></p></td>
+      <td valign=top><p><a href="Resources/PAT_1069_162.pdf" target="_blank"><img src="Resources/PAT_1069_162.gif" alt="" width="125" height="125" border="0"></a></p></td>
+      <td width=37 valign=top></td>
+    </tr>
+    <tr>
+      <td width="14">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td width=89 valign=top><p><font size="-1"><span class="flie"><a href="Resources/PAT_202_390.pdf" target="_blank">202 390</a></span></font></p></td>
+      <td width=79 valign=top><p><font size="-2"><span class="flieklein">mit Daniel Swarovski, Wattens/Tirol</span></font></p></td>
+      <td width=75 valign=top><font size="-1"><span class="flie">10.03.1959</span></font></td>
+      <td width=165 valign=top><p><font size="-1"><span class="flie">Bodenbearbeitungsgeräte</span><span style="font-family: Verdana, Geneva, sans-serif">, </span> <span class="flie">insbesondere für die Land</span><span style="font-family: Verdana, Geneva, sans-serif">-,</span><span class="flie">Forst- und Gartenwirtschaft</span><span style="font-family: Verdana, Geneva, sans-serif">.</span></font></p></td>
+      <td valign=top><p><a href="Resources/PAT_202_390.pdf" target="_blank"><img src="Resources/PAT_202_390.gif" alt="" width="125" height="125" border="0"></a></p></td>
+      <td width=37 valign=top></td>
+    </tr>
+    <tr>
+      <td width="14">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td width=89 valign=top><p><font size="-1"><span class="flie"><a href="Resources/PAT_272_278.pdf" target="_blank">272 278</a></span></font></p>
+        <p><font size="-2"><span class="flieklein">auch:<br>
+          </span></font><font size="-2"><span class="flieklein">DE 1.442.734,<br>
+          </span></font><font size="-2"><span class="flieklein"> GB 1.084.286</span></font></p></td>
+      <td width=79 valign=top><p><font size="-1"><span class="flie">23.10.1963 </span></font></p>
+        <p><font size="-2"><span class="flieklein">angemeldet von: Schauberger Biotechnik AG, Wetzikon/CH</span></font></p></td>
+      <td width=75 valign=top><p><font size="-1"><span class="flie">15.10.1968</span></font></p></td>
+      <td width=165 valign=top><p><font size="-1"><span class="flie">Vorrichtung mit einer Reaktions-Kammer, zur Durchf&uuml;hrung von physikalischen und/oder chemischen Prozessen<br>
+        (ei-f&ouml;rmige Reaktionskammer)</span></font></p></td>
+      <td valign=top><p><a href="Resources/PAT_272_278.pdf" target="_blank"><img src="Resources/PAT_272_278.gif" alt="" width="125" height="125" border="0"></a></p></td>
+      <td width=37 valign=top><p><font size="-2"><span class="flieklein"> Implosion<br>
+        Heft Nr. 37</span></font></p></td>
+    </tr>
+    <tr>
+      <td width="14">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td width=89 valign=top><p><font size="-1"><span class="flie">265 991</span></font></p>
+        <p><font size="-2"><span class="flieklein">auch: <br>
+          </span></font><font size="-2"><span class="flieklein">BE 699 135,<br>
+            </span></font><font size="-2"><span class="flieklein"> CH 500 136,<br>
+              </span></font><font size="-2"><span class="flieklein"><a href="Resources/PAT_265_991.pdf" target="_blank">DE 1.557.213,<br>
+                </a></span></font><font size="-2"><span class="flieklein">GB 1.187.632,<br>
+                  </span></font><font size="-2"><span class="flieklein">IT 1.023.501,<br>
+                  </span></font><font size="-2"><span class="flieklein">NL 6.707.758</span></font></p></td>
+      <td width=79 valign=top><p><font size="-1"><span class="flie">03.06.1966</span></font></p>
+        <p><font size="-2"><span class="flieklein">angemeldet von: Schauberger Biotechnik AG, Wetzikon/CH</span></font></p></td>
+      <td width=75 valign=top><p><font size="-1"><span class="flie">15.01.1968</span></font></p></td>
+      <td width=165 valign=top><p><font size="-1"><span class="flie">Verfahren und Vorrichtung zur Herstellung von Gemischen, L&ouml;sungen, Emulsionen, Suspensionen u. dgl. sowie zur biologischen Reinigung von freien Gew&auml;ssern</span></font></p>
+        <p></p></td>
+      <td valign=top><p><a href="Resources/PAT_265_991.pdf" target="_blank"><img src="Resources/PAT_265_991.gif" alt="" width="125" height="125" border="0"></a></p>
+      <p>&nbsp;</p></td>
+      <td width=37 valign=top><p><font size="-2"><span class="flieklein"> Implosion<br>
+        Heft Nr. 36</span></font></p></td>
+    </tr>
+  </table><table border=0 cellspacing=0 cellpadding=0 align="center" width=802><tr valign=top><td colspan=6></td><td height=36><font size="-2" face="Verdana">*) Anm.: urspr&uuml;nglich war der Titel der &ouml;sterr. Patentanmeldung wesentlich l&auml;nger, der Inhalt ebenfalls viel weiter reichend als die, nach vielen Jahren erteilte, eingek&uuml;rzte Fassung. <br>
+						</font>
+						<p><font face="Verdana"><br>
+							</font><font size="-2" face="Verdana">Die ausl&auml;ndischen Patente wurden hingegen praktisch gleich nach der Einreichung erteilt und waren daher ausf&uuml;hrlicher. <br>
+								<br>
+								So tr&auml;gt die Luxemburgische Patentschrift den auch f&uuml;r das &ouml;sterreichische Patent urspr&uuml;nglich vorgesehenen Titel: &#x201E;Verfahren und Vorrichtung zur Steuerung molekularer Abbau- und Aufbauprozesse bewegter fl&uuml;ssiger, gas- und luftf&ouml;rmiger Medien und zur Erzielung mechanischer Leistungssteigerungen&#x201C;.</font></p>
+					</td></tr><tr valign=top><td colspan=5></td><td rowspan=2>&nbsp;</td><td height=1></td></tr><tr valign=top><td width="50"></td><td>&nbsp;</td><td></td><td>&nbsp;</td><td></td><td height=14></td></tr><tr><td width=180><img src="Resources/_clear.gif" border=0 width=180 height=1 alt=""></td><td width=68><img src="Resources/_clear.gif" border=0 width=68 height=1 alt=""></td><td width=5><img src="Resources/_clear.gif" border=0 width=5 height=1 alt=""></td><td width=45><img src="Resources/_clear.gif" border=0 width=45 height=1 alt=""></td><td width=4><img src="Resources/_clear.gif" border=0 width=4 height=1 alt=""></td><td width=139><img src="Resources/_clear.gif" border=0 width=139 height=1 alt=""></td><td width=361 height=1><img src="Resources/_clear.gif" border=0 width=361 height=1 alt=""></td></tr></table>
+  <table width="804" align="center">
+    <tr>
+					    <th width="178" scope="col">&nbsp;</th>
+					    <th width="63" scope="col"><img src="Resources/objekt2a2ad.gif" border=0 width=22 height=11 alt="" usemap="#map1Map" name="img6">
+					      <map name="map1Map">
+					        <area shape=polygon alt="" coords="0,11,11,0,22,11" href="#oben" onMouseOver="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo');FWLSwap('img6',1,'Resources/objekt2a2ac.gif','','Indigo')" onMouseOut="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo')">
+					        <area shape=polygon alt="" coords="0,11,11,0,22,11" href="#v-patente" onMouseOver="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo');FWLSwap('img6',1,'Resources/objekt2a2ac.gif','','Indigo')" onMouseOut="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo')">
+      </map></th>
+					    <th width="547" align="left" scope="col"><a href="mailto:schauberger@pks.or.at" onMouseOver="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo');FWLSwap('img5',1,'Resources/objekt5f.gif','','Indigo')" onMouseOut="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo')"><img src="Resources/pks_ende.png" border=0 width=200 height=15 alt="" name="img5"></a></th>
+    </tr>
+  </table>
+					<p>&nbsp;</p>
+</div></body></html>

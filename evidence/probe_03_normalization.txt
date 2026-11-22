@@ -1,0 +1,9 @@
+=== Domain 3: Wavefunction normalization ===
+3a norm 1D Gaussian = 1.000000000000000
+3a norm 2D Gaussian = 1.000000000000000
+3a norm 3D Gaussian = 1.000000000000000
+3b free 300 steps: norm0 = 1.000000000000000  norm_end = 1.000000000000003  max|drift| = 2.887e-15
+3c HO 300 steps  : norm0 = 1.000000000000000  norm_end = 1.000000000000018  max|drift| = 1.843e-14
+3d 2D free 100 steps: norm0 = 1.000000000000000  norm_end = 1.000000000000010  |drift| = 9.548e-15
+3e 3D free 50 steps : norm0 = 1.000000000000000  norm_end = 0.999999999999970  |drift| = 2.953e-14
+=== end Domain 3 ===

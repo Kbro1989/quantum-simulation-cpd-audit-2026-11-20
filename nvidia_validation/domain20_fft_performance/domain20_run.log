@@ -1,0 +1,100 @@
+======================================================================
+DOMAIN 20: FFT Performance & Memory Bandwidth
+======================================================================
+Device: {
+  "available": true,
+  "device_id": 0,
+  "name": "NVIDIA RTX A1000 6GB Laptop GPU",
+  "compute_capability": "8.6",
+  "total_memory": 6441926656
+}
+
+=== Dimension 1D ===
+  Grid 64^1...
+    FFT: 1.426 + 1.439 = 2.864 ms
+    Step: 1.474 ms
+    Kinetic: 0.499 ms, Potential: 0.131 ms
+  Grid 128^1...
+    FFT: 1.428 + 1.429 = 2.857 ms
+    Step: 1.421 ms
+    Kinetic: 0.495 ms, Potential: 0.135 ms
+  Grid 256^1...
+    FFT: 1.691 + 1.654 = 3.345 ms
+    Step: 1.605 ms
+    Kinetic: 0.474 ms, Potential: 0.130 ms
+  Grid 512^1...
+    FFT: 1.481 + 1.472 = 2.953 ms
+    Step: 1.461 ms
+  Grid 1024^1...
+    FFT: 1.500 + 1.494 = 2.994 ms
+    Step: 1.513 ms
+  Grid 2048^1...
+    FFT: 1.354 + 1.546 = 2.900 ms
+    Step: 1.512 ms
+  Grid 4096^1...
+    FFT: 1.516 + 1.554 = 3.070 ms
+    Step: 1.644 ms
+  Grid 8192^1...
+    FFT: 1.655 + 1.652 = 3.306 ms
+    Step: 1.841 ms
+  Grid 16384^1...
+    FFT: 1.504 + 1.509 = 3.013 ms
+    Step: 1.542 ms
+  Grid 32768^1...
+    FFT: 1.591 + 1.561 = 3.152 ms
+    Step: 1.681 ms
+
+=== Dimension 2D ===
+  Grid 32^2...
+    FFT: 1.336 + 1.471 = 2.807 ms
+    Step: 1.599 ms
+    Kinetic: 0.620 ms, Potential: 0.121 ms
+  Grid 64^2...
+    FFT: 1.321 + 1.402 = 2.723 ms
+    Step: 1.583 ms
+    Kinetic: 0.458 ms, Potential: 0.130 ms
+  Grid 128^2...
+    FFT: 1.512 + 1.539 = 3.051 ms
+    Step: 1.625 ms
+    Kinetic: 0.410 ms, Potential: 0.124 ms
+  Grid 256^2...
+    FFT: 1.537 + 1.563 = 3.099 ms
+    Step: 2.887 ms
+    Kinetic: 1.107 ms, Potential: 0.090 ms
+  Grid 512^2...
+    FFT: 1.834 + 3.569 = 5.403 ms
+    Step: 8.887 ms
+  Grid 1024^2...
+    FFT: 9.384 + 11.825 = 21.209 ms
+    Step: 43.913 ms
+
+=== Dimension 3D ===
+  Grid 16^3...
+    FFT: 1.502 + 1.451 = 2.953 ms
+    Step: 1.588 ms
+    Kinetic: 0.983 ms, Potential: 0.127 ms
+  Grid 32^3...
+    FFT: 1.448 + 1.459 = 2.907 ms
+    Step: 1.674 ms
+    Kinetic: 0.588 ms, Potential: 0.117 ms
+  Grid 64^3...
+    FFT: 1.753 + 3.464 = 5.217 ms
+    Step: 9.284 ms
+    Kinetic: 4.935 ms, Potential: 0.538 ms
+  Grid 128^3...
+    FFT: 18.113 + 22.325 = 40.439 ms
+    Step: 43.803 ms
+    Kinetic: 10.133 ms, Potential: 1.137 ms
+  Grid 256^3...
+    FFT: 32.717 + 41.215 = 73.932 ms
+    Step: 397.666 ms
+    Kinetic: 119.955 ms, Potential: 8.597 ms
+
+=== CPU Comparison ===
+  CPU 1D 256^1...
+    CPU FFT: 0.032 ms
+  CPU 2D 64^2...
+    CPU FFT: 0.174 ms
+
+Results saved: C:\Users\krist\Desktop\quantum-simulation-cpd-audit-2026-11-20\nvidia_validation\domain20_fft_performance\domain20_fft_performance.json
+Done.

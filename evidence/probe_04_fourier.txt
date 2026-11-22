@@ -1,0 +1,12 @@
+=== Domain 4: Fourier-space operators ===
+4a max|grid.k - 2*pi*fftfreq(N,dx)| = 0.000e+00
+4a k[0:4] = [0.     0.3927 0.7854 1.1781]   k[N-3:N] = [-1.1781 -0.7854 -0.3927]
+4a dk = 0.392699  2*pi/L = 0.392699
+4b Parseval: sum|psi|^2 dx = 1.000000000000000   sum|phi|^2 dk = 1.000000000000000   diff = 0.000e+00
+4c max_j max_x |ifft(i k fft(e^{ik_j x})) - i k_j e^{ik_j x}| = 1.961e-13
+4d k_Nyq + 2*dk = 34*dk     -> peak bin 34, k = -11.7810, |peak| = 64.000 ; alias predicts -11.7810
+4d k_Nyq - 2*dk = 30*dk     -> peak bin 30, k = +11.7810, |peak| = 64.000 ; alias predicts -13.3518
+4d k_Nyq (exact)            -> peak bin 32, k = -12.5664, |peak| = 64.000 ; alias predicts -12.5664
+4d k_Nyq + dk  = 33*dk      -> peak bin 33, k = -12.1737, |peak| = 64.000 ; alias predicts -12.1737
+4e k_Nyq = 12.566371   T_k(k_Nyq)/hbar = 78.956835
+=== end Domain 4 ===

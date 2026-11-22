@@ -1,0 +1,439 @@
+{
+  "device": {
+    "available": true,
+    "device_id": 0,
+    "name": "NVIDIA RTX A1000 6GB Laptop GPU",
+    "compute_capability": "8.6",
+    "total_memory": 6441926656
+  },
+  "timestamp": "2026-11-21",
+  "benchmarks": {
+    "1D": {
+      "64^1": {
+        "fft": {
+          "forward_fft_ms": 1.4256860000023153,
+          "inverse_fft_ms": 1.438743999970029,
+          "total_fft_ms": 2.8644299999723444,
+          "array_size": 64,
+          "array_bytes": 1024
+        },
+        "split_operator_step": {
+          "step_time_ms": 1.473979999864241,
+          "grid_size": 64,
+          "dimension": 1,
+          "array_size": 64,
+          "array_bytes": 1024
+        },
+        "kinetic_potential": {
+          "kinetic_step_ms": 0.49886399996466935,
+          "potential_half_step_ms": 0.130531000031624,
+          "total_strang_ms": 0.7599260000279173
+        }
+      },
+      "128^1": {
+        "fft": {
+          "forward_fft_ms": 1.4280309999594465,
+          "inverse_fft_ms": 1.428578999984893,
+          "total_fft_ms": 2.8566099999443395,
+          "array_size": 128,
+          "array_bytes": 2048
+        },
+        "split_operator_step": {
+          "step_time_ms": 1.4205699999001808,
+          "grid_size": 128,
+          "dimension": 1,
+          "array_size": 128,
+          "array_bytes": 2048
+        },
+        "kinetic_potential": {
+          "kinetic_step_ms": 0.49469700003101025,
+          "potential_half_step_ms": 0.13507499999832362,
+          "total_strang_ms": 0.7648470000276575
+        }
+      },
+      "256^1": {
+        "fft": {
+          "forward_fft_ms": 1.6907630000059726,
+          "inverse_fft_ms": 1.6542050000134623,
+          "total_fft_ms": 3.344968000019435,
+          "array_size": 256,
+          "array_bytes": 4096
+        },
+        "split_operator_step": {
+          "step_time_ms": 1.6050179999729153,
+          "grid_size": 256,
+          "dimension": 1,
+          "array_size": 256,
+          "array_bytes": 4096
+        },
+        "kinetic_potential": {
+          "kinetic_step_ms": 0.47397099995578174,
+          "potential_half_step_ms": 0.13048900000285357,
+          "total_strang_ms": 0.7349489999614889
+        }
+      },
+      "512^1": {
+        "fft": {
+          "forward_fft_ms": 1.4806510000198614,
+          "inverse_fft_ms": 1.472215000030701,
+          "total_fft_ms": 2.9528660000505624,
+          "array_size": 512,
+          "array_bytes": 8192
+        },
+        "split_operator_step": {
+          "step_time_ms": 1.461336000065785,
+          "grid_size": 512,
+          "dimension": 1,
+          "array_size": 512,
+          "array_bytes": 8192
+        },
+        "kinetic_potential": null
+      },
+      "1024^1": {
+        "fft": {
+          "forward_fft_ms": 1.5003859999706037,
+          "inverse_fft_ms": 1.4939900000172202,
+          "total_fft_ms": 2.994375999987824,
+          "array_size": 1024,
+          "array_bytes": 16384
+        },
+        "split_operator_step": {
+          "step_time_ms": 1.5133750002860324,
+          "grid_size": 1024,
+          "dimension": 1,
+          "array_size": 1024,
+          "array_bytes": 16384
+        },
+        "kinetic_potential": null
+      },
+      "2048^1": {
+        "fft": {
+          "forward_fft_ms": 1.353735999946366,
+          "inverse_fft_ms": 1.546265999932075,
+          "total_fft_ms": 2.900001999878441,
+          "array_size": 2048,
+          "array_bytes": 32768
+        },
+        "split_operator_step": {
+          "step_time_ms": 1.511939999909373,
+          "grid_size": 2048,
+          "dimension": 1,
+          "array_size": 2048,
+          "array_bytes": 32768
+        },
+        "kinetic_potential": null
+      },
+      "4096^1": {
+        "fft": {
+          "forward_fft_ms": 1.515919000012218,
+          "inverse_fft_ms": 1.5541959999973187,
+          "total_fft_ms": 3.0701150000095367,
+          "array_size": 4096,
+          "array_bytes": 65536
+        },
+        "split_operator_step": {
+          "step_time_ms": 1.6436300000350457,
+          "grid_size": 4096,
+          "dimension": 1,
+          "array_size": 4096,
+          "array_bytes": 65536
+        },
+        "kinetic_potential": null
+      },
+      "8192^1": {
+        "fft": {
+          "forward_fft_ms": 1.654634000005899,
+          "inverse_fft_ms": 1.6516319999936968,
+          "total_fft_ms": 3.306265999999596,
+          "array_size": 8192,
+          "array_bytes": 131072
+        },
+        "split_operator_step": {
+          "step_time_ms": 1.840760000050068,
+          "grid_size": 8192,
+          "dimension": 1,
+          "array_size": 8192,
+          "array_bytes": 131072
+        },
+        "kinetic_potential": null
+      },
+      "16384^1": {
+        "fft": {
+          "forward_fft_ms": 1.50389800000994,
+          "inverse_fft_ms": 1.5093699999852106,
+          "total_fft_ms": 3.0132679999951506,
+          "array_size": 16384,
+          "array_bytes": 262144
+        },
+        "split_operator_step": {
+          "step_time_ms": 1.5422900003613904,
+          "grid_size": 16384,
+          "dimension": 1,
+          "array_size": 16384,
+          "array_bytes": 262144
+        },
+        "kinetic_potential": null
+      },
+      "32768^1": {
+        "fft": {
+          "forward_fft_ms": 1.5908479999779956,
+          "inverse_fft_ms": 1.5614110000024084,
+          "total_fft_ms": 3.152258999980404,
+          "array_size": 32768,
+          "array_bytes": 524288
+        },
+        "split_operator_step": {
+          "step_time_ms": 1.6814999995403923,
+          "grid_size": 32768,
+          "dimension": 1,
+          "array_size": 32768,
+          "array_bytes": 524288
+        },
+        "kinetic_potential": null
+      }
+    },
+    "2D": {
+      "32^2": {
+        "fft": {
+          "forward_fft_ms": 1.3359230000060052,
+          "inverse_fft_ms": 1.4713830000255257,
+          "total_fft_ms": 2.807306000031531,
+          "array_size": 1024,
+          "array_bytes": 16384
+        },
+        "split_operator_step": {
+          "step_time_ms": 1.5992580000602175,
+          "grid_size": 32,
+          "dimension": 2,
+          "array_size": 1024,
+          "array_bytes": 16384
+        },
+        "kinetic_potential": {
+          "kinetic_step_ms": 0.6204989999969257,
+          "potential_half_step_ms": 0.12108199996873736,
+          "total_strang_ms": 0.8626629999344004
+        }
+      },
+      "64^2": {
+        "fft": {
+          "forward_fft_ms": 1.3207390000025043,
+          "inverse_fft_ms": 1.4021180000418099,
+          "total_fft_ms": 2.722857000044314,
+          "array_size": 4096,
+          "array_bytes": 65536
+        },
+        "split_operator_step": {
+          "step_time_ms": 1.582627999887336,
+          "grid_size": 64,
+          "dimension": 2,
+          "array_size": 4096,
+          "array_bytes": 65536
+        },
+        "kinetic_potential": {
+          "kinetic_step_ms": 0.4576140000426676,
+          "potential_half_step_ms": 0.1299279999511782,
+          "total_strang_ms": 0.717469999945024
+        }
+      },
+      "128^2": {
+        "fft": {
+          "forward_fft_ms": 1.511638000010862,
+          "inverse_fft_ms": 1.5388890000031097,
+          "total_fft_ms": 3.0505270000139717,
+          "array_size": 16384,
+          "array_bytes": 262144
+        },
+        "split_operator_step": {
+          "step_time_ms": 1.6246019999380223,
+          "grid_size": 128,
+          "dimension": 2,
+          "array_size": 16384,
+          "array_bytes": 262144
+        },
+        "kinetic_potential": {
+          "kinetic_step_ms": 0.40980199999467004,
+          "potential_half_step_ms": 0.1235160000214819,
+          "total_strang_ms": 0.6568340000376338
+        }
+      },
+      "256^2": {
+        "fft": {
+          "forward_fft_ms": 1.536500000001979,
+          "inverse_fft_ms": 1.5626540000084788,
+          "total_fft_ms": 3.099154000010458,
+          "array_size": 65536,
+          "array_bytes": 1048576
+        },
+        "split_operator_step": {
+          "step_time_ms": 2.887159999954747,
+          "grid_size": 256,
+          "dimension": 2,
+          "array_size": 65536,
+          "array_bytes": 1048576
+        },
+        "kinetic_potential": {
+          "kinetic_step_ms": 1.1065099999541417,
+          "potential_half_step_ms": 0.09024999999382999,
+          "total_strang_ms": 1.2870099999418017
+        }
+      },
+      "512^2": {
+        "fft": {
+          "forward_fft_ms": 1.8342649999976857,
+          "inverse_fft_ms": 3.5685519999969983,
+          "total_fft_ms": 5.402816999994684,
+          "array_size": 262144,
+          "array_bytes": 4194304
+        },
+        "split_operator_step": {
+          "step_time_ms": 8.887484000006225,
+          "grid_size": 512,
+          "dimension": 2,
+          "array_size": 262144,
+          "array_bytes": 4194304
+        },
+        "kinetic_potential": null
+      },
+      "1024^2": {
+        "fft": {
+          "forward_fft_ms": 9.383902000045055,
+          "inverse_fft_ms": 11.824721000011778,
+          "total_fft_ms": 21.208623000056832,
+          "array_size": 1048576,
+          "array_bytes": 16777216
+        },
+        "split_operator_step": {
+          "step_time_ms": 43.913341666363216,
+          "grid_size": 1024,
+          "dimension": 2,
+          "array_size": 1048576,
+          "array_bytes": 16777216
+        },
+        "kinetic_potential": null
+      }
+    },
+    "3D": {
+      "16^3": {
+        "fft": {
+          "forward_fft_ms": 1.5018630000122357,
+          "inverse_fft_ms": 1.4510350000637118,
+          "total_fft_ms": 2.9528980000759475,
+          "array_size": 4096,
+          "array_bytes": 65536
+        },
+        "split_operator_step": {
+          "step_time_ms": 1.5879479999421164,
+          "grid_size": 16,
+          "dimension": 3,
+          "array_size": 4096,
+          "array_bytes": 65536
+        },
+        "kinetic_potential": {
+          "kinetic_step_ms": 0.9831929999927523,
+          "potential_half_step_ms": 0.12715000004391186,
+          "total_strang_ms": 1.2374930000805762
+        }
+      },
+      "32^3": {
+        "fft": {
+          "forward_fft_ms": 1.4478500000404892,
+          "inverse_fft_ms": 1.4589019999402808,
+          "total_fft_ms": 2.90675199998077,
+          "array_size": 32768,
+          "array_bytes": 524288
+        },
+        "split_operator_step": {
+          "step_time_ms": 1.673878000001423,
+          "grid_size": 32,
+          "dimension": 3,
+          "array_size": 32768,
+          "array_bytes": 524288
+        },
+        "kinetic_potential": {
+          "kinetic_step_ms": 0.5880839999736054,
+          "potential_half_step_ms": 0.11735000000044238,
+          "total_strang_ms": 0.8227839999744901
+        }
+      },
+      "64^3": {
+        "fft": {
+          "forward_fft_ms": 1.752658000041265,
+          "inverse_fft_ms": 3.4641890000057174,
+          "total_fft_ms": 5.216847000046982,
+          "array_size": 262144,
+          "array_bytes": 4194304
+        },
+        "split_operator_step": {
+          "step_time_ms": 9.28375400006189,
+          "grid_size": 64,
+          "dimension": 3,
+          "array_size": 262144,
+          "array_bytes": 4194304
+        },
+        "kinetic_potential": {
+          "kinetic_step_ms": 4.935414999999921,
+          "potential_half_step_ms": 0.5377649999718415,
+          "total_strang_ms": 6.010944999943604
+        }
+      },
+      "128^3": {
+        "fft": {
+          "forward_fft_ms": 18.11329999996815,
+          "inverse_fft_ms": 22.325345999997808,
+          "total_fft_ms": 40.438645999965956,
+          "array_size": 2097152,
+          "array_bytes": 33554432
+        },
+        "split_operator_step": {
+          "step_time_ms": 43.80282400001306,
+          "grid_size": 128,
+          "dimension": 3,
+          "array_size": 2097152,
+          "array_bytes": 33554432
+        },
+        "kinetic_potential": {
+          "kinetic_step_ms": 10.133099000013317,
+          "potential_half_step_ms": 1.1370760000136215,
+          "total_strang_ms": 12.40725100004056
+        }
+      },
+      "256^3": {
+        "fft": {
+          "forward_fft_ms": 32.71697599993786,
+          "inverse_fft_ms": 41.21466500000679,
+          "total_fft_ms": 73.93164099994465,
+          "array_size": 16777216,
+          "array_bytes": 268435456
+        },
+        "split_operator_step": {
+          "step_time_ms": 397.6658859998861,
+          "grid_size": 256,
+          "dimension": 3,
+          "array_size": 16777216,
+          "array_bytes": 268435456
+        },
+        "kinetic_potential": {
+          "kinetic_step_ms": 119.95478999997431,
+          "potential_half_step_ms": 8.597363000008045,
+          "total_strang_ms": 137.1495159999904
+        }
+      }
+    }
+  },
+  "cpu_comparison": {
+    "256^1": {
+      "forward_fft_ms": 0.015256999977282248,
+      "inverse_fft_ms": 0.017230000012204982,
+      "total_fft_ms": 0.03248699998948723,
+      "array_size": 256,
+      "array_bytes": 4096
+    },
+    "64^2": {
+      "forward_fft_ms": 0.07928099999844562,
+      "inverse_fft_ms": 0.09428700002899859,
+      "total_fft_ms": 0.1735680000274442,
+      "array_size": 4096,
+      "array_bytes": 65536
+    }
+  }
+}

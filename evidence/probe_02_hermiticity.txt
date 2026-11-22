@@ -1,0 +1,14 @@
+=== Domain 2: Hamiltonian construction and Hermiticity ===
+2a T_k all real        : True
+2a T_k min             : 0.000000e+00  (must be >= 0)
+2a T_k[j] == T_k[-j]   : True
+2a T_k symmetric matrix: False
+2b max|H - H^dagger|   : 9.339e-16
+2b max|H - H^T| (real) : 9.035e-16
+2b max|Im(H)|          : 3.309e-16  (roundoff; H is real-symmetric)
+2c <psi|H|psi>         : 1580.932698429347 +5.684341886081e-14j  (imag must be ~0)
+2d max|apply_hamiltonian - H@psi| : 7.108e-14
+2e |<psi|H|phi> - <Hpsi|phi>|    : 1.608e-13
+2f 2D T_k all real     : True  min: 0.000000e+00
+2g 2D |<psi|H|phi> - <Hpsi|phi>| : 3.216e-13
+=== end Domain 2 ===

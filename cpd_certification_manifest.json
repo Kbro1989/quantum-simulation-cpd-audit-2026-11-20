@@ -1,0 +1,336 @@
+{
+  "audit": "quantum-simulation CPD",
+  "date": "2026-11-21",
+  "manifest_version": "1.0",
+  "coverage": "72 files, 1,051,846 bytes",
+  "entries": [
+    {
+      "path": "CUSTOM-INSTRUCTIONS.md",
+      "size_bytes": 22091,
+      "sha256": "e4c3013adca37ebfdac520292e78f1a28191d1f391f72595a32268571fcd7fc5"
+    },
+    {
+      "path": "cpd_producer_inventory.md",
+      "size_bytes": 165113,
+      "sha256": "7dd751e94b5122daa3d081542108aedcf8456f842a5c95601b0c3b0e36bf508a"
+    },
+    {
+      "path": "cpd_relationship_graph.json",
+      "size_bytes": 593696,
+      "sha256": "a89f99c467189575b065b653a2c3b05e664aa10b4235b37edd27f31b8e2775fe"
+    },
+    {
+      "path": "cpd_defect_register.json",
+      "size_bytes": 10546,
+      "sha256": "214721bf103b57f73486961b35c33b0e8d729e37bc1f3c670961f040071902e1"
+    },
+    {
+      "path": "cpd_traceability_27plus.json",
+      "size_bytes": 5991,
+      "sha256": "1c9678d61fcc90456e85a5839243a2f3c6f69730013a976f40ebc85e98b91c45"
+    },
+    {
+      "path": "cpd_final_audit.md",
+      "size_bytes": 8846,
+      "sha256": "0bc47c66d87c1631c737c93733bb2c29b263ac21f948c27ad3618e280f042e9c"
+    },
+    {
+      "path": "cpd_mathematical_validation_report.md",
+      "size_bytes": 6890,
+      "sha256": "a5282316fc1cdd0983412cea7bb9c6f3ae7b4a17c80a42de32df11c02f9bc8f1"
+    },
+    {
+      "path": "cpd_physics_validation_matrix.md",
+      "size_bytes": 28004,
+      "sha256": "eaa2db99413ba9296c1eb2fb7ac44c772020ed4120360fe0a34719a62464c05c"
+    },
+    {
+      "path": "cpd_remediation_plan.md",
+      "size_bytes": 8097,
+      "sha256": "a036348cfb5424dd49751a512e657ae97a7d736cc57a36ee1cef609cdfc343e6"
+    },
+    {
+      "path": "cpd_solver_api_contract.md",
+      "size_bytes": 3172,
+      "sha256": "27be74918bad655b25db62135aa916eaa071529b7b075eb22a8b46d1e643f215"
+    },
+    {
+      "path": "cpd_solver_fix_evidence.md",
+      "size_bytes": 3333,
+      "sha256": "cd3c8b9d644a734d6557eae00dcdf54c38474d82d6040e75ab62ed12c70f5b5f"
+    },
+    {
+      "path": "cpd_solver_lifecycle_audit.md",
+      "size_bytes": 2304,
+      "sha256": "5a3479cf5e7ca71891fadf61ad109c903a590d8106d4f966fa63c2146f821827"
+    },
+    {
+      "path": "cpd_solver_usage_audit.md",
+      "size_bytes": 3006,
+      "sha256": "2d82883cbe50e6a1ecb91124527defb8c25b932d06ced566fee53dcc577fac26"
+    },
+    {
+      "path": "cpd_domain_variable_evidence_matrix.md",
+      "size_bytes": 7329,
+      "sha256": "d694798b0236a21c97b9b722d967920c44a7d896d697fd1f23eb2d0d1587efcf"
+    },
+    {
+      "path": "cpd_producer_authenticity_audit.md",
+      "size_bytes": 5175,
+      "sha256": "7821f3c385e1df62e3a617661197d12a1b52b6da3ece5c445028aa3870b3b19c"
+    },
+    {
+      "path": "cpd_evidence_lineage_graph.json",
+      "size_bytes": 3157,
+      "sha256": "5ed27c3064952ab92a66ab8f14e250bdf4ec5b24948f5b03c9e59004cbecab62"
+    },
+    {
+      "path": "cpd_mock_and_fixture_register.json",
+      "size_bytes": 1738,
+      "sha256": "f4fdea9c01651ea468274d452cb877f92bf8492a4e030fa8802dd8c58db86456"
+    },
+    {
+      "path": "cpd_domain_verdict_register.json",
+      "size_bytes": 4652,
+      "sha256": "3219d906e8b52a867f3da760001808cb492b8c699e7d1a23e39280415179a8bb"
+    },
+    {
+      "path": "cpd_independent_physics_validation.md",
+      "size_bytes": 1996,
+      "sha256": "677bca270ee997e0ac5ab679d6be87cbb3f5f606382c272b5efe71b2812fa55c"
+    },
+    {
+      "path": "cpd_evidence_index.json",
+      "size_bytes": 3311,
+      "sha256": "697531d7d41f96c5480ef4c41f75c89f5824aa89284cfe63c00de87a03b9969e"
+    },
+    {
+      "path": "cpd_consumer_inventory.md",
+      "size_bytes": 57818,
+      "sha256": "f7f6b032892049aa41bd11066bcf48bacb29adefb6482f6975313d526745a991"
+    },
+    {
+      "path": "cpd_detached_inventory.md",
+      "size_bytes": 5550,
+      "sha256": "42b8c93f91f551ebb8070fa5cbe53006ed4f18cdb75390590a2d9aeb0fe11a57"
+    },
+    {
+      "path": "domain27_zero_floor_physics.json",
+      "absent": true
+    },
+    {
+      "path": "domain27_zero_floor_comparison.json",
+      "absent": true
+    },
+    {
+      "path": "pix2text_extraction_report.json",
+      "absent": true
+    },
+    {
+      "path": "domain19_cuda_residency/g0_domain19_results.json",
+      "absent": true
+    },
+    {
+      "path": "domain19_cuda_residency/g0_domain19_probe.py",
+      "absent": true
+    },
+    {
+      "path": "domain19_cuda_residency/g0_domain19_run.log",
+      "absent": true
+    },
+    {
+      "path": "domain20_fft_performance/domain20_fft_performance.json",
+      "absent": true
+    },
+    {
+      "path": "domain20_fft_performance/domain20_fft_performance.py",
+      "absent": true
+    },
+    {
+      "path": "domain20_run.log",
+      "absent": true
+    },
+    {
+      "path": "domain21_precision_zero_floor/domain21_precision_zero_floor.json",
+      "absent": true
+    },
+    {
+      "path": "domain21_precision_zero_floor/domain21_precision_zero_floor.py",
+      "absent": true
+    },
+    {
+      "path": "domain22_memory_scaling/domain22_memory_scaling.json",
+      "absent": true
+    },
+    {
+      "path": "domain22_memory_scaling/domain22_memory_scaling.py",
+      "absent": true
+    },
+    {
+      "path": "domain22_run.log",
+      "absent": true
+    },
+    {
+      "path": "domain23_power_thermal/domain23_power_thermal.json",
+      "absent": true
+    },
+    {
+      "path": "domain23_power_thermal/domain23_power_thermal.py",
+      "absent": true
+    },
+    {
+      "path": "domain23_run.log",
+      "absent": true
+    },
+    {
+      "path": "domain24_architecture_comparison/domain24_architecture_comparison.json",
+      "absent": true
+    },
+    {
+      "path": "domain24_architecture_comparison/domain24_architecture_comparison.py",
+      "absent": true
+    },
+    {
+      "path": "domain24_run.log",
+      "absent": true
+    },
+    {
+      "path": "probes/probe_01_strang_ordering.py",
+      "size_bytes": 4083,
+      "sha256": "3a28238b01227dc71169ec6e44c56cfe9de1fb1441c3ac044d00e86b6c5e73bc"
+    },
+    {
+      "path": "probes/probe_01_strang_ordering.txt",
+      "absent": true
+    },
+    {
+      "path": "probes/probe_02_hermiticity.py",
+      "size_bytes": 2955,
+      "sha256": "773048e42666cdcce01843581ccd6871379b478a7e7dd97e501bcc548cd4c2d4"
+    },
+    {
+      "path": "probes/probe_02_hermiticity.txt",
+      "absent": true
+    },
+    {
+      "path": "probes/probe_03_normalization.py",
+      "size_bytes": 2467,
+      "sha256": "267b256e7e1a5eeed8330b32a2afd66f27fb95f8d13585030335e10bba47a549"
+    },
+    {
+      "path": "probes/probe_03_normalization.txt",
+      "absent": true
+    },
+    {
+      "path": "probes/probe_04_fourier.py",
+      "size_bytes": 2267,
+      "sha256": "7aeac62a1327e72d5f27416c68dd100e9fc4732445238c5282ab8c54678a15bc"
+    },
+    {
+      "path": "probes/probe_04_fourier.txt",
+      "absent": true
+    },
+    {
+      "path": "probes/probe_05_potentials.py",
+      "size_bytes": 7289,
+      "sha256": "95738ebfac20ecf4d9b62f18070078c2aeaa399d14f5b3fa06a276046bbeeb5d"
+    },
+    {
+      "path": "probes/probe_05_potentials.txt",
+      "absent": true
+    },
+    {
+      "path": "probes/probe_06_time_dependent.py",
+      "size_bytes": 3327,
+      "sha256": "6bc32a8745ee18680aab058bb4bfce1fe6accbb3381b870656c3dc442add24f7"
+    },
+    {
+      "path": "probes/probe_06_time_dependent.txt",
+      "absent": true
+    },
+    {
+      "path": "probes/probe_07_convergence.py",
+      "size_bytes": 2390,
+      "sha256": "9f30108e1acff1822f32622c06351d469dadab39f13db4ca5bcd6424224250aa"
+    },
+    {
+      "path": "probes/probe_07_convergence.txt",
+      "absent": true
+    },
+    {
+      "path": "probes/probe_08_energy_momentum.py",
+      "size_bytes": 2474,
+      "sha256": "aba906ac11e8a09015d47a4b849784a72117c4373516e3cd800991e562a04733"
+    },
+    {
+      "path": "probes/probe_08_energy_momentum.txt",
+      "absent": true
+    },
+    {
+      "path": "probes/probe_09_vortex.py",
+      "size_bytes": 3395,
+      "sha256": "5620f12f6acc2fb76d147697a6e042d719fa0102a0151bff720687eeac932150"
+    },
+    {
+      "path": "probes/probe_09_vortex.txt",
+      "absent": true
+    },
+    {
+      "path": "probes/probe_10_absorber.py",
+      "size_bytes": 3378,
+      "sha256": "bcdd493aaf41646ecac0e3d6307f4ec1c6bd0b26a48fb6ef6bbe7bb6a10bcc7c"
+    },
+    {
+      "path": "probes/probe_10_absorber.txt",
+      "absent": true
+    },
+    {
+      "path": "probes/probe_11_cpu_gpu.py",
+      "size_bytes": 2563,
+      "sha256": "4a20c0dfe5a2f35417b4f44f38d1593cea308cd7221a1b1d04431c134a5f8274"
+    },
+    {
+      "path": "probes/probe_11_cpu_gpu.txt",
+      "absent": true
+    },
+    {
+      "path": "probes/probe_12_resolution.py",
+      "size_bytes": 2841,
+      "sha256": "1d7e436611c1f597e57aab9d75c36705591979842300f9bc3ad16cd1f027b82c"
+    },
+    {
+      "path": "probes/probe_12_resolution.txt",
+      "absent": true
+    },
+    {
+      "path": "nvidia_validation/domain27_zero_floor/domain27_zero_floor_physics.json",
+      "size_bytes": 9083,
+      "sha256": "64c60e39ff1d9ef3028b2ea6924151e0116b52d333ae979aafd9cd1f2f2a93cd"
+    },
+    {
+      "path": "nvidia_validation/domain27_zero_floor/domain27_zero_floor_comparison.json",
+      "size_bytes": 3148,
+      "sha256": "54cc83b25dc97ade91aa08aed8a42dc02cb00acacb2b299bfecd1c5b35353f02"
+    },
+    {
+      "path": "nvidia_validation/domain27_zero_floor/pix2text_extraction_report.json",
+      "size_bytes": 375,
+      "sha256": "43b797cbf242229f1e30755aefec9a813528eab621c245356b50f54e43529979"
+    },
+    {
+      "path": "nvidia_validation/domain27_zero_floor/zero_floor_classification.py",
+      "size_bytes": 15208,
+      "sha256": "02800178c3675b5e008409a557bf52f6123ed6a2d2bfb50b8480513dec4bab3b"
+    },
+    {
+      "path": "nvidia_validation/domain27_zero_floor/physics_integration.py",
+      "size_bytes": 17726,
+      "sha256": "7d5147f3b805a95d787c3f2a5cca80e5fa8f7f05def39e3dac3568293dc1b0f8"
+    },
+    {
+      "path": "nvidia_validation/domain27_zero_floor/generate_validation_artifacts.py",
+      "size_bytes": 15062,
+      "sha256": "34ae68146e92cd2de0cfc3cc2bd4716bc5f917555f805bc2fdf89f35fa8c3e5b"
+    }
+  ]
+}

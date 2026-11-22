@@ -1,0 +1,13 @@
+claim_id,claim,classification,source,evidence_note,status
+PKS-C01,Walter Schauberger generalised the monochord relation to 1/n * n = 1 and called it the 'Tongesetz',historical_assertion,pks_ei-kurve_extracted_text.md,document states it directly,not testable as physics; attributable
+PKS-C02,The Tongesetz is the 'Urgesetz des Universums' (universal law of the universe),historical_assertion,pks_ei-kurve_extracted_text.md,PKS document itself calls the thesis 'eigenwillig' and individual to Walter,NOT established by the identity; explicitly disclaimed in the source
+PKS-C03,Plane sections through the hyperbolic cone produce egg curves,mathematical_claim,pks_ei-kurve_extracted_text.md,derivation present; equation glyph-fragmented,re-derivable - verify against printed PDF
+PKS-C04,Max Mack first observed that plane sections of the cone give egg curves,historical_attribution,pks_ei-kurve_extracted_text.md,document states it,attributable
+PKS-C05,H. Riffer first derived the egg-curve equation generally (1973),historical_attribution,pks_ei-kurve_extracted_text.md,document states it,attributable
+PKS-C06,Ines Rennert re-derived and systematised the representations (not Harthun as an earlier edition said),historical_attribution,pks_ei-kurve_extracted_text.md,document corrects its own earlier edition,attributable; correction recorded
+PKS-C07,"Egg solid of revolution volume V = 0.4045 for the 'Oktav-Ei' (z1=1, z2=2)",mathematical_claim,pks_ei-kurve_extracted_text.md,numeric result legible,re-derivable once the equation is confirmed
+PKS-C08,Viktor Schauberger observed fish holding station in moving water and derived centripetal flow forms,historical_assertion,pks_viktor_biography_extracted.md,biography present,attributable to Viktor's own writings; mechanism not established
+PKS-C09,Hyperbolic funnels produce a Twisted vortex regime with higher gas dissolution than other regimes,experimentally_supported,donepudi_2024_physics_of_fluids.pdf,"TU Delft thesis + 2024 Physics of Fluids paper, CFD validated against experiment",independent peer-reviewed evidence
+PKS-C10,Water exiting the funnel remains undersaturated under the tested conditions,experimentally_supported,donepudi_2024_physics_of_fluids.pdf,stated in both thesis and paper,negative result - keep
+PKS-C11,A power-law energy spectrum alone is insufficient evidence for a turbulent cascade,established_methodological_result,arxiv_2607.22244_turbulence.pdf,2026 review states it explicitly,adopt as a rule for our own simulations
+PKS-C12,Curved streamlines are not the same as local fluid rotation,established_mathematical_result,donepudi_2024_physics_of_fluids.pdf,u_theta ~ 1/r irrotational outside the core; u_theta ~ r solid-body rotation,use when comparing classical and quantum vortices

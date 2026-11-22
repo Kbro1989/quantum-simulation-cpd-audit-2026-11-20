@@ -1,0 +1,39 @@
+{
+  "audit": "quantum-simulation CPD",
+  "date": "2026-11-21",
+  "register_type": "mock and fixture inventory",
+  "entries": [
+    {
+      "class": "synthetic fixture",
+      "domain": "D27.3",
+      "item": "gaussian_tail_abs_sq.png (in generate_validation_artifacts.py)",
+      "source": "Analytical Gaussian: exp(-x^2/2) with hardcoded n=512",
+      "classification": "R3",
+      "finding": "This is a synthetic input for testing the visualization, not a measurement. It is legitimate as a test fixture but cannot be presented as measured evidence."
+    },
+    {
+      "class": "mock",
+      "domain": "D27.3",
+      "item": "classification_breakdown.png, cpu_vs_gpu_energy.png, energy_distribution.png (3 PNGs)",
+      "source": "Pix2Text PDF extraction with error 'Page object is not subscriptable'",
+      "classification": "R4",
+      "finding": "These 3 PNGs were generated from a failed extraction. They are R4 (derived visualization) and INVALID as scientific evidence."
+    },
+    {
+      "class": "synthetic fixture",
+      "domain": "D27.3",
+      "item": "gaussian_current_evolution.gif (in generate_validation_artifacts.py)",
+      "source": "Frame construction: ax.plot([0,1], [0, step/n_steps]) with hardcoded progression",
+      "classification": "R3",
+      "finding": "Synthetic visualization frame - test fixture, not measured data."
+    },
+    {
+      "class": "historical report",
+      "domain": "D1-D12 (legacy solvers)",
+      "item": "204 tests passed, 1 skipped (2026-11-21)",
+      "source": "Historical execution report",
+      "classification": "R6",
+      "finding": "Historical conclusion. Not independently verified. Requires fresh execution to certify."
+    }
+  ]
+}

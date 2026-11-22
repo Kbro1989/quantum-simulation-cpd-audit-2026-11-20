@@ -1,0 +1,33 @@
+======================================================================
+DOMAIN 21: GPU Precision & Zero-Floor Integrity
+======================================================================
+Device: {
+  "available": true,
+  "device_id": 0,
+  "name": "NVIDIA RTX A1000 6GB Laptop GPU",
+  "compute_capability": "8.6"
+}
+
+>>> precision_modes
+  OK
+
+>>> subnormal_handling
+  OK
+
+>>> underflow_behavior
+  OK
+
+>>> nan_inf_propagation
+  OK
+
+>>> vortex_core_precision
+  OK
+
+>>> phase_winding_precision
+  OK
+
+>>> norm_energy_conservation
+  OK
+
+Results saved: C:\Users\krist\Desktop\quantum-simulation-cpd-audit-2026-11-20\nvidia_validation\domain21_precision_zero_floor\domain21_precision_zero_floor.json
+Done.

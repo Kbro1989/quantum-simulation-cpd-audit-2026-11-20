@@ -1,0 +1,66 @@
+{
+  "vortex_core_density_at_origin": 0.25197943642298104,
+  "theoretical_h_over_m": 6.283185307179586,
+  "frames": [
+    {
+      "step": 0,
+      "vortex_core": [
+        0.75,
+        -1.0
+      ],
+      "core_rotation": 1.0,
+      "circulation_phase_rad": 6.283185,
+      "circulation_hbar_over_m": 6.283185,
+      "theoretical_h_over_m": 6.283185,
+      "quantization_ratio": 1.0
+    },
+    {
+      "step": 10,
+      "vortex_core": [
+        -0.25,
+        0.5
+      ],
+      "core_rotation": -0.0,
+      "circulation_phase_rad": 50.265482,
+      "circulation_hbar_over_m": 50.265482,
+      "theoretical_h_over_m": 6.283185,
+      "quantization_ratio": 8.0
+    },
+    {
+      "step": 20,
+      "vortex_core": [
+        -0.25,
+        -0.25
+      ],
+      "core_rotation": -0.0,
+      "circulation_phase_rad": 50.265482,
+      "circulation_hbar_over_m": 50.265482,
+      "theoretical_h_over_m": 6.283185,
+      "quantization_ratio": 8.0
+    },
+    {
+      "step": 30,
+      "vortex_core": [
+        0.75,
+        0.75
+      ],
+      "core_rotation": -0.0,
+      "circulation_phase_rad": -0.0,
+      "circulation_hbar_over_m": -0.0,
+      "theoretical_h_over_m": 6.283185,
+      "quantization_ratio": -0.0
+    },
+    {
+      "step": 40,
+      "vortex_core": [
+        0.25,
+        -0.25
+      ],
+      "core_rotation": 0.0,
+      "circulation_phase_rad": 0.0,
+      "circulation_hbar_over_m": 0.0,
+      "theoretical_h_over_m": 6.283185,
+      "quantization_ratio": 0.0
+    }
+  ]
+}

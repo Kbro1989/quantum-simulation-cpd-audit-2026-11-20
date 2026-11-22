@@ -1,0 +1,13 @@
+=== Domain 1: Strang ordering V/2, T, V/2 ===
+1a split_step_1d  max|step - manual(V/2,T,V/2)| = 2.289e-16
+1b split_step_1d  max|S^dagger S psi - psi|      = 2.259e-16
+1b norm(S psi) = 1.000000000000000   norm(psi) = 1.000000000000000
+1b2 split_step_1d max|S(-dt) S(dt) psi - psi|    = 2.831e-16
+1c split_step_1d  max|Strang - naive(V,T)|       = 2.290e-03
+1d split_operator o2 max|step - manual(V/2,T,V/2)| = 2.289e-16
+1e YOSHIDA_W1 = 1.351207191960  YOSHIDA_W0 = -1.702414383919  2*W1+W0 = 1.000000000000000
+1e order-4 substeps = (1.3512071919596578, -1.7024143839193153, 1.3512071919596578)  sum = 1.000000000000000
+1e split_operator o4 max|step - manual composition| = 3.140e-16
+1f split_operator 2D o2 max|step - manual(V/2,T,V/2)| = 2.483e-16
+1g split_operator 2D o2 max|S^dagger S psi - psi| = 3.433e-16
+=== end Domain 1 ===

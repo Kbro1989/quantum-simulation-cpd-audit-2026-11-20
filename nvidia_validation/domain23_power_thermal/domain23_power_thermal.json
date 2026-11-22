@@ -1,0 +1,3936 @@
+{
+  "device": {
+    "available": true,
+    "device_id": 0,
+    "name": "NVIDIA RTX A1000 6GB Laptop GPU",
+    "compute_capability": "8.6",
+    "total_memory": 6441926656
+  },
+  "timestamp": "2026-11-21",
+  "results": {
+    "device": {
+      "available": true,
+      "device_id": 0,
+      "name": "NVIDIA RTX A1000 6GB Laptop GPU",
+      "compute_capability": "8.6",
+      "total_memory": 6441926656
+    },
+    "nvml_available": true,
+    "benchmarks": {
+      "1D_8192^1": {
+        "dimension": 1,
+        "grid_size": 8192,
+        "dtype": "<class 'numpy.complex128'>",
+        "n_steps": 100,
+        "total_time_s": 0.07979321479797363,
+        "total_energy_j": 2.9380000000819564,
+        "energy_per_step_j": 0.029380000000819563,
+        "steps_per_joule": 34.036759699527046,
+        "avg_power_w": 17.316,
+        "avg_temp_c": 66.0,
+        "avg_gpu_util_pct": 15.0,
+        "avg_mem_util_pct": 5.0,
+        "initial_telemetry": {
+          "power_w": 17.316,
+          "temp_c": 66,
+          "gpu_util_pct": 15,
+          "mem_util_pct": 5,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)"
+        },
+        "final_telemetry": {
+          "power_w": 17.316,
+          "temp_c": 66,
+          "gpu_util_pct": 15,
+          "mem_util_pct": 5,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)"
+        },
+        "telemetry_samples": [
+          {
+            "power_w": 17.316,
+            "temp_c": 66,
+            "gpu_util_pct": 15,
+            "mem_util_pct": 5,
+            "sm_clock_mhz": 1297,
+            "mem_clock_mhz": 5501,
+            "power_limit_w": null,
+            "errors": [
+              "power_limit: Not Supported"
+            ],
+            "error": "power_limit: Not Supported (some telemetry unavailable)",
+            "step": 0,
+            "step_time_s": 0.0009999275207519531
+          },
+          {
+            "power_w": 17.316,
+            "temp_c": 66,
+            "gpu_util_pct": 15,
+            "mem_util_pct": 5,
+            "sm_clock_mhz": 1297,
+            "mem_clock_mhz": 5501,
+            "power_limit_w": null,
+            "errors": [
+              "power_limit: Not Supported"
+            ],
+            "error": "power_limit: Not Supported (some telemetry unavailable)",
+            "step": 10,
+            "step_time_s": 0.0
+          },
+          {
+            "power_w": 17.316,
+            "temp_c": 66,
+            "gpu_util_pct": 15,
+            "mem_util_pct": 5,
+            "sm_clock_mhz": 1297,
+            "mem_clock_mhz": 5501,
+            "power_limit_w": null,
+            "errors": [
+              "power_limit: Not Supported"
+            ],
+            "error": "power_limit: Not Supported (some telemetry unavailable)",
+            "step": 20,
+            "step_time_s": 0.0010006427764892578
+          },
+          {
+            "power_w": 17.316,
+            "temp_c": 66,
+            "gpu_util_pct": 15,
+            "mem_util_pct": 5,
+            "sm_clock_mhz": 1297,
+            "mem_clock_mhz": 5501,
+            "power_limit_w": null,
+            "errors": [
+              "power_limit: Not Supported"
+            ],
+            "error": "power_limit: Not Supported (some telemetry unavailable)",
+            "step": 30,
+            "step_time_s": 0.0010018348693847656
+          },
+          {
+            "power_w": 17.316,
+            "temp_c": 66,
+            "gpu_util_pct": 15,
+            "mem_util_pct": 5,
+            "sm_clock_mhz": 1297,
+            "mem_clock_mhz": 5501,
+            "power_limit_w": null,
+            "errors": [
+              "power_limit: Not Supported"
+            ],
+            "error": "power_limit: Not Supported (some telemetry unavailable)",
+            "step": 40,
+            "step_time_s": 0.0005033016204833984
+          },
+          {
+            "power_w": 17.316,
+            "temp_c": 66,
+            "gpu_util_pct": 15,
+            "mem_util_pct": 5,
+            "sm_clock_mhz": 1297,
+            "mem_clock_mhz": 5501,
+            "power_limit_w": null,
+            "errors": [
+              "power_limit: Not Supported"
+            ],
+            "error": "power_limit: Not Supported (some telemetry unavailable)",
+            "step": 50,
+            "step_time_s": 0.0009996891021728516
+          },
+          {
+            "power_w": 17.316,
+            "temp_c": 66,
+            "gpu_util_pct": 15,
+            "mem_util_pct": 5,
+            "sm_clock_mhz": 1297,
+            "mem_clock_mhz": 5501,
+            "power_limit_w": null,
+            "errors": [
+              "power_limit: Not Supported"
+            ],
+            "error": "power_limit: Not Supported (some telemetry unavailable)",
+            "step": 60,
+            "step_time_s": 0.0020012855529785156
+          },
+          {
+            "power_w": 17.316,
+            "temp_c": 66,
+            "gpu_util_pct": 15,
+            "mem_util_pct": 5,
+            "sm_clock_mhz": 1297,
+            "mem_clock_mhz": 5501,
+            "power_limit_w": null,
+            "errors": [
+              "power_limit: Not Supported"
+            ],
+            "error": "power_limit: Not Supported (some telemetry unavailable)",
+            "step": 70,
+            "step_time_s": 0.0009775161743164062
+          },
+          {
+            "power_w": 17.316,
+            "temp_c": 66,
+            "gpu_util_pct": 15,
+            "mem_util_pct": 5,
+            "sm_clock_mhz": 1297,
+            "mem_clock_mhz": 5501,
+            "power_limit_w": null,
+            "errors": [
+              "power_limit: Not Supported"
+            ],
+            "error": "power_limit: Not Supported (some telemetry unavailable)",
+            "step": 80,
+            "step_time_s": 0.0
+          },
+          {
+            "power_w": 17.316,
+            "temp_c": 66,
+            "gpu_util_pct": 15,
+            "mem_util_pct": 5,
+            "sm_clock_mhz": 1297,
+            "mem_clock_mhz": 5501,
+            "power_limit_w": null,
+            "errors": [
+              "power_limit: Not Supported"
+            ],
+            "error": "power_limit: Not Supported (some telemetry unavailable)",
+            "step": 90,
+            "step_time_s": 0.0009992122650146484
+          }
+        ],
+        "energy_samples": [
+          {
+            "step": 0,
+            "energy_j": 540799.785
+          },
+          {
+            "step": 10,
+            "energy_j": 540799.785
+          },
+          {
+            "step": 20,
+            "energy_j": 540799.785
+          },
+          {
+            "step": 30,
+            "energy_j": 540799.785
+          },
+          {
+            "step": 40,
+            "energy_j": 540799.785
+          },
+          {
+            "step": 50,
+            "energy_j": 540801.111
+          },
+          {
+            "step": 60,
+            "energy_j": 540801.111
+          },
+          {
+            "step": 70,
+            "energy_j": 540801.111
+          },
+          {
+            "step": 80,
+            "energy_j": 540801.111
+          },
+          {
+            "step": 90,
+            "energy_j": 540801.111
+          }
+        ]
+      },
+      "2D_512^2": {
+        "dimension": 2,
+        "grid_size": 512,
+        "dtype": "<class 'numpy.complex128'>",
+        "n_steps": 50,
+        "total_time_s": 0.08917713165283203,
+        "total_energy_j": 0.0,
+        "energy_per_step_j": null,
+        "steps_per_joule": null,
+        "avg_power_w": 17.4672,
+        "avg_temp_c": 66.4,
+        "avg_gpu_util_pct": 31.0,
+        "avg_mem_util_pct": 7.0,
+        "initial_telemetry": {
+          "power_w": 17.316,
+          "temp_c": 66,
+          "gpu_util_pct": 15,
+          "mem_util_pct": 5,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)"
+        },
+        "final_telemetry": {
+          "power_w": 17.694,
+          "temp_c": 67,
+          "gpu_util_pct": 55,
+          "mem_util_pct": 10,
+          "sm_clock_mhz": 1537,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)"
+        },
+        "telemetry_samples": [
+          {
+            "power_w": 17.316,
+            "temp_c": 66,
+            "gpu_util_pct": 15,
+            "mem_util_pct": 5,
+            "sm_clock_mhz": 1297,
+            "mem_clock_mhz": 5501,
+            "power_limit_w": null,
+            "errors": [
+              "power_limit: Not Supported"
+            ],
+            "error": "power_limit: Not Supported (some telemetry unavailable)",
+            "step": 0,
+            "step_time_s": 0.0010027885437011719
+          },
+          {
+            "power_w": 17.316,
+            "temp_c": 66,
+            "gpu_util_pct": 15,
+            "mem_util_pct": 5,
+            "sm_clock_mhz": 1297,
+            "mem_clock_mhz": 5501,
+            "power_limit_w": null,
+            "errors": [
+              "power_limit: Not Supported"
+            ],
+            "error": "power_limit: Not Supported (some telemetry unavailable)",
+            "step": 10,
+            "step_time_s": 0.0009996891021728516
+          },
+          {
+            "power_w": 17.316,
+            "temp_c": 66,
+            "gpu_util_pct": 15,
+            "mem_util_pct": 5,
+            "sm_clock_mhz": 1297,
+            "mem_clock_mhz": 5501,
+            "power_limit_w": null,
+            "errors": [
+              "power_limit: Not Supported"
+            ],
+            "error": "power_limit: Not Supported (some telemetry unavailable)",
+            "step": 20,
+            "step_time_s": 0.001003265380859375
+          },
+          {
+            "power_w": 17.694,
+            "temp_c": 67,
+            "gpu_util_pct": 55,
+            "mem_util_pct": 10,
+            "sm_clock_mhz": 1537,
+            "mem_clock_mhz": 5501,
+            "power_limit_w": null,
+            "errors": [
+              "power_limit: Not Supported"
+            ],
+            "error": "power_limit: Not Supported (some telemetry unavailable)",
+            "step": 30,
+            "step_time_s": 0.001016378402709961
+          },
+          {
+            "power_w": 17.694,
+            "temp_c": 67,
+            "gpu_util_pct": 55,
+            "mem_util_pct": 10,
+            "sm_clock_mhz": 1537,
+            "mem_clock_mhz": 5501,
+            "power_limit_w": null,
+            "errors": [
+              "power_limit: Not Supported"
+            ],
+            "error": "power_limit: Not Supported (some telemetry unavailable)",
+            "step": 40,
+            "step_time_s": 0.002000093460083008
+          }
+        ],
+        "energy_samples": [
+          {
+            "step": 0,
+            "energy_j": 540802.179
+          },
+          {
+            "step": 10,
+            "energy_j": 540802.179
+          },
+          {
+            "step": 20,
+            "energy_j": 540802.179
+          },
+          {
+            "step": 30,
+            "energy_j": 540802.179
+          },
+          {
+            "step": 40,
+            "energy_j": 540802.179
+          }
+        ]
+      },
+      "3D_128^3": {
+        "dimension": 3,
+        "grid_size": 128,
+        "dtype": "<class 'numpy.complex128'>",
+        "n_steps": 20,
+        "total_time_s": 0.2462773323059082,
+        "total_energy_j": 9.527000000001863,
+        "energy_per_step_j": 0.47635000000009314,
+        "steps_per_joule": 2.0992967355931658,
+        "avg_power_w": 20.653,
+        "avg_temp_c": 67.0,
+        "avg_gpu_util_pct": 18.0,
+        "avg_mem_util_pct": 6.0,
+        "initial_telemetry": {
+          "power_w": 20.653,
+          "temp_c": 67,
+          "gpu_util_pct": 18,
+          "mem_util_pct": 6,
+          "sm_clock_mhz": 1725,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)"
+        },
+        "final_telemetry": {
+          "power_w": 20.653,
+          "temp_c": 67,
+          "gpu_util_pct": 18,
+          "mem_util_pct": 6,
+          "sm_clock_mhz": 1725,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)"
+        },
+        "telemetry_samples": [
+          {
+            "power_w": 20.653,
+            "temp_c": 67,
+            "gpu_util_pct": 18,
+            "mem_util_pct": 6,
+            "sm_clock_mhz": 1725,
+            "mem_clock_mhz": 5501,
+            "power_limit_w": null,
+            "errors": [
+              "power_limit: Not Supported"
+            ],
+            "error": "power_limit: Not Supported (some telemetry unavailable)",
+            "step": 0,
+            "step_time_s": 0.009511709213256836
+          },
+          {
+            "power_w": 20.653,
+            "temp_c": 67,
+            "gpu_util_pct": 18,
+            "mem_util_pct": 6,
+            "sm_clock_mhz": 1725,
+            "mem_clock_mhz": 5501,
+            "power_limit_w": null,
+            "errors": [
+              "power_limit: Not Supported"
+            ],
+            "error": "power_limit: Not Supported (some telemetry unavailable)",
+            "step": 10,
+            "step_time_s": 0.010035514831542969
+          }
+        ],
+        "energy_samples": [
+          {
+            "step": 0,
+            "energy_j": 540815.453
+          },
+          {
+            "step": 10,
+            "energy_j": 540818.727
+          }
+        ]
+      },
+      "3D_256^3": {
+        "dimension": 3,
+        "grid_size": 256,
+        "dtype": "<class 'numpy.complex128'>",
+        "n_steps": 10,
+        "total_time_s": 1.0225856304168701,
+        "total_energy_j": 50.679000000003725,
+        "energy_per_step_j": 5.067900000000373,
+        "steps_per_joule": 0.19732038911579283,
+        "avg_power_w": 19.83,
+        "avg_temp_c": 68.0,
+        "avg_gpu_util_pct": 100.0,
+        "avg_mem_util_pct": 73.0,
+        "initial_telemetry": {
+          "power_w": 17.791,
+          "temp_c": 67,
+          "gpu_util_pct": 31,
+          "mem_util_pct": 9,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)"
+        },
+        "final_telemetry": {
+          "power_w": 38.429,
+          "temp_c": 69,
+          "gpu_util_pct": 95,
+          "mem_util_pct": 71,
+          "sm_clock_mhz": 1725,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)"
+        },
+        "telemetry_samples": [
+          {
+            "power_w": 19.83,
+            "temp_c": 68,
+            "gpu_util_pct": 100,
+            "mem_util_pct": 73,
+            "sm_clock_mhz": 1725,
+            "mem_clock_mhz": 5501,
+            "power_limit_w": null,
+            "errors": [
+              "power_limit: Not Supported"
+            ],
+            "error": "power_limit: Not Supported (some telemetry unavailable)",
+            "step": 0,
+            "step_time_s": 0.0910341739654541
+          }
+        ],
+        "energy_samples": [
+          {
+            "step": 0,
+            "energy_j": 540976.909
+          }
+        ]
+      }
+    },
+    "sustained_load": {
+      "duration_s": 30,
+      "telemetry_log": [
+        {
+          "power_w": 28.276,
+          "temp_c": 68,
+          "gpu_util_pct": 14,
+          "mem_util_pct": 5,
+          "sm_clock_mhz": 1725,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 0.00953817367553711
+        },
+        {
+          "power_w": 28.276,
+          "temp_c": 68,
+          "gpu_util_pct": 14,
+          "mem_util_pct": 5,
+          "sm_clock_mhz": 1725,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 0.11922168731689453
+        },
+        {
+          "power_w": 28.276,
+          "temp_c": 68,
+          "gpu_util_pct": 14,
+          "mem_util_pct": 5,
+          "sm_clock_mhz": 1725,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 0.24540066719055176
+        },
+        {
+          "power_w": 25.653,
+          "temp_c": 68,
+          "gpu_util_pct": 36,
+          "mem_util_pct": 17,
+          "sm_clock_mhz": 1717,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 0.3708341121673584
+        },
+        {
+          "power_w": 25.653,
+          "temp_c": 68,
+          "gpu_util_pct": 36,
+          "mem_util_pct": 17,
+          "sm_clock_mhz": 1717,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 0.480574369430542
+        },
+        {
+          "power_w": 25.653,
+          "temp_c": 68,
+          "gpu_util_pct": 36,
+          "mem_util_pct": 17,
+          "sm_clock_mhz": 1717,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 0.5903911590576172
+        },
+        {
+          "power_w": 25.653,
+          "temp_c": 68,
+          "gpu_util_pct": 36,
+          "mem_util_pct": 17,
+          "sm_clock_mhz": 1717,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 0.7106430530548096
+        },
+        {
+          "power_w": 25.849,
+          "temp_c": 69,
+          "gpu_util_pct": 24,
+          "mem_util_pct": 14,
+          "sm_clock_mhz": 1717,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 0.8211724758148193
+        },
+        {
+          "power_w": 25.849,
+          "temp_c": 69,
+          "gpu_util_pct": 24,
+          "mem_util_pct": 14,
+          "sm_clock_mhz": 1717,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 0.931283712387085
+        },
+        {
+          "power_w": 25.849,
+          "temp_c": 69,
+          "gpu_util_pct": 24,
+          "mem_util_pct": 14,
+          "sm_clock_mhz": 1717,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 1.0477294921875
+        },
+        {
+          "power_w": 25.849,
+          "temp_c": 69,
+          "gpu_util_pct": 24,
+          "mem_util_pct": 14,
+          "sm_clock_mhz": 1717,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 1.1754305362701416
+        },
+        {
+          "power_w": 25.849,
+          "temp_c": 69,
+          "gpu_util_pct": 24,
+          "mem_util_pct": 14,
+          "sm_clock_mhz": 1717,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 1.2860941886901855
+        },
+        {
+          "power_w": 43.984,
+          "temp_c": 69,
+          "gpu_util_pct": 38,
+          "mem_util_pct": 19,
+          "sm_clock_mhz": 1717,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 1.3969295024871826
+        },
+        {
+          "power_w": 43.984,
+          "temp_c": 69,
+          "gpu_util_pct": 38,
+          "mem_util_pct": 19,
+          "sm_clock_mhz": 1717,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 1.5077555179595947
+        },
+        {
+          "power_w": 43.984,
+          "temp_c": 69,
+          "gpu_util_pct": 38,
+          "mem_util_pct": 19,
+          "sm_clock_mhz": 1717,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 1.6184947490692139
+        },
+        {
+          "power_w": 43.984,
+          "temp_c": 69,
+          "gpu_util_pct": 38,
+          "mem_util_pct": 19,
+          "sm_clock_mhz": 1717,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 1.7288737297058105
+        },
+        {
+          "power_w": 24.65,
+          "temp_c": 68,
+          "gpu_util_pct": 22,
+          "mem_util_pct": 12,
+          "sm_clock_mhz": 1717,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 1.8497123718261719
+        },
+        {
+          "power_w": 24.65,
+          "temp_c": 68,
+          "gpu_util_pct": 22,
+          "mem_util_pct": 12,
+          "sm_clock_mhz": 1717,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 1.9809765815734863
+        },
+        {
+          "power_w": 24.65,
+          "temp_c": 68,
+          "gpu_util_pct": 22,
+          "mem_util_pct": 12,
+          "sm_clock_mhz": 1717,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 2.1134896278381348
+        },
+        {
+          "power_w": 24.65,
+          "temp_c": 68,
+          "gpu_util_pct": 22,
+          "mem_util_pct": 12,
+          "sm_clock_mhz": 1717,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 2.2351746559143066
+        },
+        {
+          "power_w": 25.092,
+          "temp_c": 67,
+          "gpu_util_pct": 44,
+          "mem_util_pct": 18,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 2.347588300704956
+        },
+        {
+          "power_w": 25.092,
+          "temp_c": 67,
+          "gpu_util_pct": 44,
+          "mem_util_pct": 18,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 2.4600882530212402
+        },
+        {
+          "power_w": 25.092,
+          "temp_c": 67,
+          "gpu_util_pct": 44,
+          "mem_util_pct": 18,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 2.5807743072509766
+        },
+        {
+          "power_w": 25.092,
+          "temp_c": 67,
+          "gpu_util_pct": 44,
+          "mem_util_pct": 18,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 2.7137269973754883
+        },
+        {
+          "power_w": 18.407,
+          "temp_c": 67,
+          "gpu_util_pct": 32,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 2.8380796909332275
+        },
+        {
+          "power_w": 18.407,
+          "temp_c": 67,
+          "gpu_util_pct": 32,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 2.950810194015503
+        },
+        {
+          "power_w": 18.407,
+          "temp_c": 67,
+          "gpu_util_pct": 32,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 3.063673973083496
+        },
+        {
+          "power_w": 18.407,
+          "temp_c": 67,
+          "gpu_util_pct": 32,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 3.181068181991577
+        },
+        {
+          "power_w": 19.264,
+          "temp_c": 67,
+          "gpu_util_pct": 43,
+          "mem_util_pct": 17,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 3.3136494159698486
+        },
+        {
+          "power_w": 19.264,
+          "temp_c": 67,
+          "gpu_util_pct": 43,
+          "mem_util_pct": 17,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 3.425509452819824
+        },
+        {
+          "power_w": 19.264,
+          "temp_c": 67,
+          "gpu_util_pct": 43,
+          "mem_util_pct": 17,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 3.5386924743652344
+        },
+        {
+          "power_w": 19.264,
+          "temp_c": 67,
+          "gpu_util_pct": 43,
+          "mem_util_pct": 17,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 3.6506447792053223
+        },
+        {
+          "power_w": 19.264,
+          "temp_c": 67,
+          "gpu_util_pct": 43,
+          "mem_util_pct": 17,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 3.783161163330078
+        },
+        {
+          "power_w": 16.961,
+          "temp_c": 67,
+          "gpu_util_pct": 23,
+          "mem_util_pct": 10,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 3.9161698818206787
+        },
+        {
+          "power_w": 16.961,
+          "temp_c": 67,
+          "gpu_util_pct": 23,
+          "mem_util_pct": 10,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 4.049061298370361
+        },
+        {
+          "power_w": 16.961,
+          "temp_c": 67,
+          "gpu_util_pct": 23,
+          "mem_util_pct": 10,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 4.182282209396362
+        },
+        {
+          "power_w": 18.825,
+          "temp_c": 67,
+          "gpu_util_pct": 47,
+          "mem_util_pct": 19,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 4.316321611404419
+        },
+        {
+          "power_w": 18.825,
+          "temp_c": 67,
+          "gpu_util_pct": 47,
+          "mem_util_pct": 19,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 4.448124885559082
+        },
+        {
+          "power_w": 18.825,
+          "temp_c": 67,
+          "gpu_util_pct": 47,
+          "mem_util_pct": 19,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 4.580057621002197
+        },
+        {
+          "power_w": 18.825,
+          "temp_c": 67,
+          "gpu_util_pct": 47,
+          "mem_util_pct": 19,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 4.712835073471069
+        },
+        {
+          "power_w": 16.941,
+          "temp_c": 67,
+          "gpu_util_pct": 32,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 4.833524703979492
+        },
+        {
+          "power_w": 16.941,
+          "temp_c": 67,
+          "gpu_util_pct": 32,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 4.946166515350342
+        },
+        {
+          "power_w": 16.941,
+          "temp_c": 67,
+          "gpu_util_pct": 32,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 5.0583953857421875
+        },
+        {
+          "power_w": 16.941,
+          "temp_c": 67,
+          "gpu_util_pct": 32,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 5.182066917419434
+        },
+        {
+          "power_w": 18.856,
+          "temp_c": 67,
+          "gpu_util_pct": 44,
+          "mem_util_pct": 18,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 5.31423807144165
+        },
+        {
+          "power_w": 18.856,
+          "temp_c": 67,
+          "gpu_util_pct": 44,
+          "mem_util_pct": 18,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 5.439976692199707
+        },
+        {
+          "power_w": 18.856,
+          "temp_c": 67,
+          "gpu_util_pct": 44,
+          "mem_util_pct": 18,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 5.553327560424805
+        },
+        {
+          "power_w": 18.856,
+          "temp_c": 67,
+          "gpu_util_pct": 44,
+          "mem_util_pct": 18,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 5.6661529541015625
+        },
+        {
+          "power_w": 18.856,
+          "temp_c": 67,
+          "gpu_util_pct": 44,
+          "mem_util_pct": 18,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 5.778241395950317
+        },
+        {
+          "power_w": 17.116,
+          "temp_c": 67,
+          "gpu_util_pct": 27,
+          "mem_util_pct": 12,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 5.890831470489502
+        },
+        {
+          "power_w": 17.116,
+          "temp_c": 67,
+          "gpu_util_pct": 27,
+          "mem_util_pct": 12,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 6.003177165985107
+        },
+        {
+          "power_w": 17.116,
+          "temp_c": 67,
+          "gpu_util_pct": 27,
+          "mem_util_pct": 12,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 6.136304616928101
+        },
+        {
+          "power_w": 17.116,
+          "temp_c": 67,
+          "gpu_util_pct": 27,
+          "mem_util_pct": 12,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 6.268629550933838
+        },
+        {
+          "power_w": 18.547,
+          "temp_c": 67,
+          "gpu_util_pct": 20,
+          "mem_util_pct": 7,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 6.399188041687012
+        },
+        {
+          "power_w": 18.547,
+          "temp_c": 67,
+          "gpu_util_pct": 20,
+          "mem_util_pct": 7,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 6.532050848007202
+        },
+        {
+          "power_w": 18.547,
+          "temp_c": 67,
+          "gpu_util_pct": 20,
+          "mem_util_pct": 7,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 6.665248870849609
+        },
+        {
+          "power_w": 20.256,
+          "temp_c": 66,
+          "gpu_util_pct": 39,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 6.797484636306763
+        },
+        {
+          "power_w": 20.256,
+          "temp_c": 66,
+          "gpu_util_pct": 39,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 6.930471420288086
+        },
+        {
+          "power_w": 20.256,
+          "temp_c": 66,
+          "gpu_util_pct": 39,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 7.063289642333984
+        },
+        {
+          "power_w": 20.256,
+          "temp_c": 66,
+          "gpu_util_pct": 39,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 7.196445465087891
+        },
+        {
+          "power_w": 17.592,
+          "temp_c": 67,
+          "gpu_util_pct": 35,
+          "mem_util_pct": 16,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 7.329477548599243
+        },
+        {
+          "power_w": 17.592,
+          "temp_c": 67,
+          "gpu_util_pct": 35,
+          "mem_util_pct": 16,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 7.459307432174683
+        },
+        {
+          "power_w": 17.592,
+          "temp_c": 67,
+          "gpu_util_pct": 35,
+          "mem_util_pct": 16,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 7.584698438644409
+        },
+        {
+          "power_w": 17.592,
+          "temp_c": 67,
+          "gpu_util_pct": 35,
+          "mem_util_pct": 16,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 7.697158336639404
+        },
+        {
+          "power_w": 18.886,
+          "temp_c": 66,
+          "gpu_util_pct": 39,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 7.809356927871704
+        },
+        {
+          "power_w": 18.886,
+          "temp_c": 66,
+          "gpu_util_pct": 39,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 7.93358850479126
+        },
+        {
+          "power_w": 18.886,
+          "temp_c": 66,
+          "gpu_util_pct": 39,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 8.066776275634766
+        },
+        {
+          "power_w": 18.886,
+          "temp_c": 66,
+          "gpu_util_pct": 39,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 8.200873613357544
+        },
+        {
+          "power_w": 14.546,
+          "temp_c": 67,
+          "gpu_util_pct": 34,
+          "mem_util_pct": 16,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 8.333239316940308
+        },
+        {
+          "power_w": 14.546,
+          "temp_c": 67,
+          "gpu_util_pct": 34,
+          "mem_util_pct": 16,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 8.46697735786438
+        },
+        {
+          "power_w": 14.546,
+          "temp_c": 67,
+          "gpu_util_pct": 34,
+          "mem_util_pct": 16,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 8.598843574523926
+        },
+        {
+          "power_w": 14.546,
+          "temp_c": 67,
+          "gpu_util_pct": 34,
+          "mem_util_pct": 16,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 8.7336585521698
+        },
+        {
+          "power_w": 19.515,
+          "temp_c": 66,
+          "gpu_util_pct": 45,
+          "mem_util_pct": 19,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 8.866331100463867
+        },
+        {
+          "power_w": 19.515,
+          "temp_c": 66,
+          "gpu_util_pct": 45,
+          "mem_util_pct": 19,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 8.998676300048828
+        },
+        {
+          "power_w": 19.515,
+          "temp_c": 66,
+          "gpu_util_pct": 45,
+          "mem_util_pct": 19,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 9.130993127822876
+        },
+        {
+          "power_w": 19.515,
+          "temp_c": 66,
+          "gpu_util_pct": 45,
+          "mem_util_pct": 19,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 9.262450933456421
+        },
+        {
+          "power_w": 18.269,
+          "temp_c": 67,
+          "gpu_util_pct": 24,
+          "mem_util_pct": 10,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 9.399986028671265
+        },
+        {
+          "power_w": 18.269,
+          "temp_c": 67,
+          "gpu_util_pct": 24,
+          "mem_util_pct": 10,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 9.533096551895142
+        },
+        {
+          "power_w": 18.269,
+          "temp_c": 67,
+          "gpu_util_pct": 24,
+          "mem_util_pct": 10,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 9.665383577346802
+        },
+        {
+          "power_w": 18.824,
+          "temp_c": 66,
+          "gpu_util_pct": 39,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 9.797705173492432
+        },
+        {
+          "power_w": 18.824,
+          "temp_c": 66,
+          "gpu_util_pct": 39,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 9.931108951568604
+        },
+        {
+          "power_w": 18.824,
+          "temp_c": 66,
+          "gpu_util_pct": 39,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 10.062715291976929
+        },
+        {
+          "power_w": 18.824,
+          "temp_c": 66,
+          "gpu_util_pct": 39,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 10.197061538696289
+        },
+        {
+          "power_w": 17.537,
+          "temp_c": 66,
+          "gpu_util_pct": 33,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 10.3324613571167
+        },
+        {
+          "power_w": 17.537,
+          "temp_c": 66,
+          "gpu_util_pct": 33,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 10.470492124557495
+        },
+        {
+          "power_w": 17.537,
+          "temp_c": 66,
+          "gpu_util_pct": 33,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 10.600004434585571
+        },
+        {
+          "power_w": 17.537,
+          "temp_c": 66,
+          "gpu_util_pct": 33,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 10.733518123626709
+        },
+        {
+          "power_w": 19.688,
+          "temp_c": 66,
+          "gpu_util_pct": 45,
+          "mem_util_pct": 19,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 10.865423440933228
+        },
+        {
+          "power_w": 19.688,
+          "temp_c": 66,
+          "gpu_util_pct": 45,
+          "mem_util_pct": 19,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 10.998558044433594
+        },
+        {
+          "power_w": 19.688,
+          "temp_c": 66,
+          "gpu_util_pct": 45,
+          "mem_util_pct": 19,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 11.130584716796875
+        },
+        {
+          "power_w": 19.688,
+          "temp_c": 66,
+          "gpu_util_pct": 45,
+          "mem_util_pct": 19,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 11.264219045639038
+        },
+        {
+          "power_w": 17.032,
+          "temp_c": 66,
+          "gpu_util_pct": 24,
+          "mem_util_pct": 10,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 11.396459341049194
+        },
+        {
+          "power_w": 17.032,
+          "temp_c": 66,
+          "gpu_util_pct": 24,
+          "mem_util_pct": 10,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 11.528793811798096
+        },
+        {
+          "power_w": 17.032,
+          "temp_c": 66,
+          "gpu_util_pct": 24,
+          "mem_util_pct": 10,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 11.653483390808105
+        },
+        {
+          "power_w": 17.032,
+          "temp_c": 66,
+          "gpu_util_pct": 24,
+          "mem_util_pct": 10,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 11.766418933868408
+        },
+        {
+          "power_w": 19.668,
+          "temp_c": 66,
+          "gpu_util_pct": 34,
+          "mem_util_pct": 12,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 11.878829956054688
+        },
+        {
+          "power_w": 19.668,
+          "temp_c": 66,
+          "gpu_util_pct": 34,
+          "mem_util_pct": 12,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 11.997421979904175
+        },
+        {
+          "power_w": 19.668,
+          "temp_c": 66,
+          "gpu_util_pct": 34,
+          "mem_util_pct": 12,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 12.129335165023804
+        },
+        {
+          "power_w": 19.668,
+          "temp_c": 66,
+          "gpu_util_pct": 34,
+          "mem_util_pct": 12,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 12.251363039016724
+        },
+        {
+          "power_w": 18.605,
+          "temp_c": 67,
+          "gpu_util_pct": 26,
+          "mem_util_pct": 11,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 12.363765239715576
+        },
+        {
+          "power_w": 18.605,
+          "temp_c": 67,
+          "gpu_util_pct": 26,
+          "mem_util_pct": 11,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 12.47640061378479
+        },
+        {
+          "power_w": 18.605,
+          "temp_c": 67,
+          "gpu_util_pct": 26,
+          "mem_util_pct": 11,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 12.597082614898682
+        },
+        {
+          "power_w": 18.605,
+          "temp_c": 67,
+          "gpu_util_pct": 26,
+          "mem_util_pct": 11,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 12.73000431060791
+        },
+        {
+          "power_w": 18.81,
+          "temp_c": 66,
+          "gpu_util_pct": 46,
+          "mem_util_pct": 19,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 12.856239080429077
+        },
+        {
+          "power_w": 18.81,
+          "temp_c": 66,
+          "gpu_util_pct": 46,
+          "mem_util_pct": 19,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 12.968600273132324
+        },
+        {
+          "power_w": 18.81,
+          "temp_c": 66,
+          "gpu_util_pct": 46,
+          "mem_util_pct": 19,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 13.081099510192871
+        },
+        {
+          "power_w": 18.81,
+          "temp_c": 66,
+          "gpu_util_pct": 46,
+          "mem_util_pct": 19,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 13.194475412368774
+        },
+        {
+          "power_w": 18.59,
+          "temp_c": 66,
+          "gpu_util_pct": 27,
+          "mem_util_pct": 12,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 13.323456287384033
+        },
+        {
+          "power_w": 18.59,
+          "temp_c": 66,
+          "gpu_util_pct": 27,
+          "mem_util_pct": 12,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 13.436651945114136
+        },
+        {
+          "power_w": 18.59,
+          "temp_c": 66,
+          "gpu_util_pct": 27,
+          "mem_util_pct": 12,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 13.548961400985718
+        },
+        {
+          "power_w": 18.59,
+          "temp_c": 66,
+          "gpu_util_pct": 27,
+          "mem_util_pct": 12,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 13.667618751525879
+        },
+        {
+          "power_w": 18.732,
+          "temp_c": 66,
+          "gpu_util_pct": 43,
+          "mem_util_pct": 17,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 13.80012845993042
+        },
+        {
+          "power_w": 18.732,
+          "temp_c": 66,
+          "gpu_util_pct": 43,
+          "mem_util_pct": 17,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 13.932591915130615
+        },
+        {
+          "power_w": 18.732,
+          "temp_c": 66,
+          "gpu_util_pct": 43,
+          "mem_util_pct": 17,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 14.062446355819702
+        },
+        {
+          "power_w": 18.732,
+          "temp_c": 66,
+          "gpu_util_pct": 43,
+          "mem_util_pct": 17,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 14.198318719863892
+        },
+        {
+          "power_w": 14.691,
+          "temp_c": 66,
+          "gpu_util_pct": 33,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 14.33087420463562
+        },
+        {
+          "power_w": 14.691,
+          "temp_c": 66,
+          "gpu_util_pct": 33,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 14.445708513259888
+        },
+        {
+          "power_w": 14.691,
+          "temp_c": 66,
+          "gpu_util_pct": 33,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 14.558098077774048
+        },
+        {
+          "power_w": 14.691,
+          "temp_c": 66,
+          "gpu_util_pct": 33,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 14.671122789382935
+        },
+        {
+          "power_w": 18.663,
+          "temp_c": 66,
+          "gpu_util_pct": 41,
+          "mem_util_pct": 16,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 14.798862934112549
+        },
+        {
+          "power_w": 18.663,
+          "temp_c": 66,
+          "gpu_util_pct": 41,
+          "mem_util_pct": 16,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 14.9320228099823
+        },
+        {
+          "power_w": 18.663,
+          "temp_c": 66,
+          "gpu_util_pct": 41,
+          "mem_util_pct": 16,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 15.064109802246094
+        },
+        {
+          "power_w": 18.663,
+          "temp_c": 66,
+          "gpu_util_pct": 41,
+          "mem_util_pct": 16,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 15.196094512939453
+        },
+        {
+          "power_w": 17.538,
+          "temp_c": 66,
+          "gpu_util_pct": 32,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 15.329028367996216
+        },
+        {
+          "power_w": 17.538,
+          "temp_c": 66,
+          "gpu_util_pct": 32,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 15.451111316680908
+        },
+        {
+          "power_w": 17.538,
+          "temp_c": 66,
+          "gpu_util_pct": 32,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 15.564092874526978
+        },
+        {
+          "power_w": 17.538,
+          "temp_c": 66,
+          "gpu_util_pct": 32,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 15.675608158111572
+        },
+        {
+          "power_w": 20.408,
+          "temp_c": 66,
+          "gpu_util_pct": 43,
+          "mem_util_pct": 17,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 15.795987606048584
+        },
+        {
+          "power_w": 20.408,
+          "temp_c": 66,
+          "gpu_util_pct": 43,
+          "mem_util_pct": 17,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 15.933318853378296
+        },
+        {
+          "power_w": 20.408,
+          "temp_c": 66,
+          "gpu_util_pct": 43,
+          "mem_util_pct": 17,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 16.066160678863525
+        },
+        {
+          "power_w": 20.408,
+          "temp_c": 66,
+          "gpu_util_pct": 43,
+          "mem_util_pct": 17,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 16.198383569717407
+        },
+        {
+          "power_w": 18.923,
+          "temp_c": 66,
+          "gpu_util_pct": 32,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 16.331363916397095
+        },
+        {
+          "power_w": 18.923,
+          "temp_c": 66,
+          "gpu_util_pct": 32,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 16.46344304084778
+        },
+        {
+          "power_w": 18.923,
+          "temp_c": 66,
+          "gpu_util_pct": 32,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 16.596383333206177
+        },
+        {
+          "power_w": 18.923,
+          "temp_c": 66,
+          "gpu_util_pct": 32,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 16.729551792144775
+        },
+        {
+          "power_w": 19.545,
+          "temp_c": 66,
+          "gpu_util_pct": 48,
+          "mem_util_pct": 20,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 16.85664200782776
+        },
+        {
+          "power_w": 19.545,
+          "temp_c": 66,
+          "gpu_util_pct": 48,
+          "mem_util_pct": 20,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 16.969769716262817
+        },
+        {
+          "power_w": 19.545,
+          "temp_c": 66,
+          "gpu_util_pct": 48,
+          "mem_util_pct": 20,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 17.082210302352905
+        },
+        {
+          "power_w": 19.545,
+          "temp_c": 66,
+          "gpu_util_pct": 48,
+          "mem_util_pct": 20,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 17.198947191238403
+        },
+        {
+          "power_w": 18.681,
+          "temp_c": 65,
+          "gpu_util_pct": 27,
+          "mem_util_pct": 12,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 17.331430673599243
+        },
+        {
+          "power_w": 18.681,
+          "temp_c": 65,
+          "gpu_util_pct": 27,
+          "mem_util_pct": 12,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 17.463414669036865
+        },
+        {
+          "power_w": 18.681,
+          "temp_c": 65,
+          "gpu_util_pct": 27,
+          "mem_util_pct": 12,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 17.59606432914734
+        },
+        {
+          "power_w": 18.681,
+          "temp_c": 65,
+          "gpu_util_pct": 27,
+          "mem_util_pct": 12,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 17.728874683380127
+        },
+        {
+          "power_w": 18.677,
+          "temp_c": 65,
+          "gpu_util_pct": 47,
+          "mem_util_pct": 20,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 17.84666156768799
+        },
+        {
+          "power_w": 18.677,
+          "temp_c": 65,
+          "gpu_util_pct": 47,
+          "mem_util_pct": 20,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 17.95860719680786
+        },
+        {
+          "power_w": 18.677,
+          "temp_c": 65,
+          "gpu_util_pct": 47,
+          "mem_util_pct": 20,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 18.072033882141113
+        },
+        {
+          "power_w": 18.677,
+          "temp_c": 65,
+          "gpu_util_pct": 47,
+          "mem_util_pct": 20,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 18.199687242507935
+        },
+        {
+          "power_w": 18.218,
+          "temp_c": 65,
+          "gpu_util_pct": 30,
+          "mem_util_pct": 14,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 18.332386016845703
+        },
+        {
+          "power_w": 18.218,
+          "temp_c": 65,
+          "gpu_util_pct": 30,
+          "mem_util_pct": 14,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 18.46573042869568
+        },
+        {
+          "power_w": 18.218,
+          "temp_c": 65,
+          "gpu_util_pct": 30,
+          "mem_util_pct": 14,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 18.598405838012695
+        },
+        {
+          "power_w": 18.218,
+          "temp_c": 65,
+          "gpu_util_pct": 30,
+          "mem_util_pct": 14,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 18.73131775856018
+        },
+        {
+          "power_w": 20.126,
+          "temp_c": 66,
+          "gpu_util_pct": 47,
+          "mem_util_pct": 20,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 18.867229223251343
+        },
+        {
+          "power_w": 20.126,
+          "temp_c": 66,
+          "gpu_util_pct": 47,
+          "mem_util_pct": 20,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 19.000446557998657
+        },
+        {
+          "power_w": 20.126,
+          "temp_c": 66,
+          "gpu_util_pct": 47,
+          "mem_util_pct": 20,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 19.13356590270996
+        },
+        {
+          "power_w": 20.126,
+          "temp_c": 66,
+          "gpu_util_pct": 47,
+          "mem_util_pct": 20,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 19.26580786705017
+        },
+        {
+          "power_w": 15.99,
+          "temp_c": 66,
+          "gpu_util_pct": 20,
+          "mem_util_pct": 7,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 19.398001670837402
+        },
+        {
+          "power_w": 15.99,
+          "temp_c": 66,
+          "gpu_util_pct": 20,
+          "mem_util_pct": 7,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 19.530638933181763
+        },
+        {
+          "power_w": 15.99,
+          "temp_c": 66,
+          "gpu_util_pct": 20,
+          "mem_util_pct": 7,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 19.65625786781311
+        },
+        {
+          "power_w": 15.99,
+          "temp_c": 66,
+          "gpu_util_pct": 20,
+          "mem_util_pct": 7,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 19.76909828186035
+        },
+        {
+          "power_w": 18.684,
+          "temp_c": 66,
+          "gpu_util_pct": 39,
+          "mem_util_pct": 14,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 19.885295152664185
+        },
+        {
+          "power_w": 18.684,
+          "temp_c": 66,
+          "gpu_util_pct": 39,
+          "mem_util_pct": 14,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 19.998587608337402
+        },
+        {
+          "power_w": 18.684,
+          "temp_c": 66,
+          "gpu_util_pct": 39,
+          "mem_util_pct": 14,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 20.129862546920776
+        },
+        {
+          "power_w": 18.684,
+          "temp_c": 66,
+          "gpu_util_pct": 39,
+          "mem_util_pct": 14,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 20.25508713722229
+        },
+        {
+          "power_w": 13.541,
+          "temp_c": 65,
+          "gpu_util_pct": 22,
+          "mem_util_pct": 9,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 20.367126941680908
+        },
+        {
+          "power_w": 13.541,
+          "temp_c": 65,
+          "gpu_util_pct": 22,
+          "mem_util_pct": 9,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 20.47961688041687
+        },
+        {
+          "power_w": 13.541,
+          "temp_c": 65,
+          "gpu_util_pct": 22,
+          "mem_util_pct": 9,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 20.598904132843018
+        },
+        {
+          "power_w": 13.541,
+          "temp_c": 65,
+          "gpu_util_pct": 22,
+          "mem_util_pct": 9,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 20.732120275497437
+        },
+        {
+          "power_w": 13.913,
+          "temp_c": 65,
+          "gpu_util_pct": 47,
+          "mem_util_pct": 20,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 20.863752603530884
+        },
+        {
+          "power_w": 13.913,
+          "temp_c": 65,
+          "gpu_util_pct": 47,
+          "mem_util_pct": 20,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 20.99646759033203
+        },
+        {
+          "power_w": 13.913,
+          "temp_c": 65,
+          "gpu_util_pct": 47,
+          "mem_util_pct": 20,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 21.12912631034851
+        },
+        {
+          "power_w": 13.913,
+          "temp_c": 65,
+          "gpu_util_pct": 47,
+          "mem_util_pct": 20,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 21.250360012054443
+        },
+        {
+          "power_w": 16.228,
+          "temp_c": 65,
+          "gpu_util_pct": 23,
+          "mem_util_pct": 9,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 21.362309217453003
+        },
+        {
+          "power_w": 16.228,
+          "temp_c": 65,
+          "gpu_util_pct": 23,
+          "mem_util_pct": 9,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 21.474780797958374
+        },
+        {
+          "power_w": 16.228,
+          "temp_c": 65,
+          "gpu_util_pct": 23,
+          "mem_util_pct": 9,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 21.59890651702881
+        },
+        {
+          "power_w": 16.228,
+          "temp_c": 65,
+          "gpu_util_pct": 23,
+          "mem_util_pct": 9,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 21.73098921775818
+        },
+        {
+          "power_w": 20.777,
+          "temp_c": 66,
+          "gpu_util_pct": 47,
+          "mem_util_pct": 20,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 21.86287808418274
+        },
+        {
+          "power_w": 20.777,
+          "temp_c": 66,
+          "gpu_util_pct": 47,
+          "mem_util_pct": 20,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 21.9972026348114
+        },
+        {
+          "power_w": 20.777,
+          "temp_c": 66,
+          "gpu_util_pct": 47,
+          "mem_util_pct": 20,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 22.1292884349823
+        },
+        {
+          "power_w": 20.777,
+          "temp_c": 66,
+          "gpu_util_pct": 47,
+          "mem_util_pct": 20,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 22.24688196182251
+        },
+        {
+          "power_w": 18.15,
+          "temp_c": 66,
+          "gpu_util_pct": 23,
+          "mem_util_pct": 9,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 22.359480619430542
+        },
+        {
+          "power_w": 18.15,
+          "temp_c": 66,
+          "gpu_util_pct": 23,
+          "mem_util_pct": 9,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 22.472214221954346
+        },
+        {
+          "power_w": 18.15,
+          "temp_c": 66,
+          "gpu_util_pct": 23,
+          "mem_util_pct": 9,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 22.584200620651245
+        },
+        {
+          "power_w": 18.15,
+          "temp_c": 66,
+          "gpu_util_pct": 23,
+          "mem_util_pct": 9,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 22.6973078250885
+        },
+        {
+          "power_w": 18.74,
+          "temp_c": 65,
+          "gpu_util_pct": 42,
+          "mem_util_pct": 17,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 22.81345558166504
+        },
+        {
+          "power_w": 18.74,
+          "temp_c": 65,
+          "gpu_util_pct": 42,
+          "mem_util_pct": 17,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 22.945451974868774
+        },
+        {
+          "power_w": 18.74,
+          "temp_c": 65,
+          "gpu_util_pct": 42,
+          "mem_util_pct": 17,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 23.077561616897583
+        },
+        {
+          "power_w": 18.74,
+          "temp_c": 65,
+          "gpu_util_pct": 42,
+          "mem_util_pct": 17,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 23.211425065994263
+        },
+        {
+          "power_w": 18.454,
+          "temp_c": 65,
+          "gpu_util_pct": 32,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 23.343367338180542
+        },
+        {
+          "power_w": 18.454,
+          "temp_c": 65,
+          "gpu_util_pct": 32,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 23.467621326446533
+        },
+        {
+          "power_w": 18.454,
+          "temp_c": 65,
+          "gpu_util_pct": 32,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 23.578577041625977
+        },
+        {
+          "power_w": 18.454,
+          "temp_c": 65,
+          "gpu_util_pct": 32,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 23.69129228591919
+        },
+        {
+          "power_w": 18.599,
+          "temp_c": 65,
+          "gpu_util_pct": 42,
+          "mem_util_pct": 16,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 23.81288719177246
+        },
+        {
+          "power_w": 18.599,
+          "temp_c": 65,
+          "gpu_util_pct": 42,
+          "mem_util_pct": 16,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 23.939578771591187
+        },
+        {
+          "power_w": 18.599,
+          "temp_c": 65,
+          "gpu_util_pct": 42,
+          "mem_util_pct": 16,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 24.05117130279541
+        },
+        {
+          "power_w": 18.599,
+          "temp_c": 65,
+          "gpu_util_pct": 42,
+          "mem_util_pct": 16,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 24.166295289993286
+        },
+        {
+          "power_w": 18.599,
+          "temp_c": 65,
+          "gpu_util_pct": 42,
+          "mem_util_pct": 16,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 24.279131174087524
+        },
+        {
+          "power_w": 18.643,
+          "temp_c": 65,
+          "gpu_util_pct": 27,
+          "mem_util_pct": 12,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 24.412237644195557
+        },
+        {
+          "power_w": 18.643,
+          "temp_c": 65,
+          "gpu_util_pct": 27,
+          "mem_util_pct": 12,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 24.54429602622986
+        },
+        {
+          "power_w": 18.643,
+          "temp_c": 65,
+          "gpu_util_pct": 27,
+          "mem_util_pct": 12,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 24.675585508346558
+        },
+        {
+          "power_w": 18.844,
+          "temp_c": 65,
+          "gpu_util_pct": 47,
+          "mem_util_pct": 19,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 24.808907985687256
+        },
+        {
+          "power_w": 18.844,
+          "temp_c": 65,
+          "gpu_util_pct": 47,
+          "mem_util_pct": 19,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 24.941455364227295
+        },
+        {
+          "power_w": 18.844,
+          "temp_c": 65,
+          "gpu_util_pct": 47,
+          "mem_util_pct": 19,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 25.058331727981567
+        },
+        {
+          "power_w": 18.844,
+          "temp_c": 65,
+          "gpu_util_pct": 47,
+          "mem_util_pct": 19,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 25.17008638381958
+        },
+        {
+          "power_w": 18.844,
+          "temp_c": 65,
+          "gpu_util_pct": 47,
+          "mem_util_pct": 19,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 25.282825469970703
+        },
+        {
+          "power_w": 12.566,
+          "temp_c": 66,
+          "gpu_util_pct": 27,
+          "mem_util_pct": 12,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 25.41353154182434
+        },
+        {
+          "power_w": 12.566,
+          "temp_c": 66,
+          "gpu_util_pct": 27,
+          "mem_util_pct": 12,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 25.546293258666992
+        },
+        {
+          "power_w": 12.566,
+          "temp_c": 66,
+          "gpu_util_pct": 27,
+          "mem_util_pct": 12,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 25.67890739440918
+        },
+        {
+          "power_w": 18.913,
+          "temp_c": 65,
+          "gpu_util_pct": 47,
+          "mem_util_pct": 20,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 25.81135082244873
+        },
+        {
+          "power_w": 18.913,
+          "temp_c": 65,
+          "gpu_util_pct": 47,
+          "mem_util_pct": 20,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 25.94372534751892
+        },
+        {
+          "power_w": 18.913,
+          "temp_c": 65,
+          "gpu_util_pct": 47,
+          "mem_util_pct": 20,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 26.076287984848022
+        },
+        {
+          "power_w": 18.913,
+          "temp_c": 65,
+          "gpu_util_pct": 47,
+          "mem_util_pct": 20,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 26.208853006362915
+        },
+        {
+          "power_w": 19.024,
+          "temp_c": 65,
+          "gpu_util_pct": 32,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 26.342155933380127
+        },
+        {
+          "power_w": 19.024,
+          "temp_c": 65,
+          "gpu_util_pct": 32,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 26.465024948120117
+        },
+        {
+          "power_w": 19.024,
+          "temp_c": 65,
+          "gpu_util_pct": 32,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 26.57780385017395
+        },
+        {
+          "power_w": 19.024,
+          "temp_c": 65,
+          "gpu_util_pct": 32,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 26.690449237823486
+        },
+        {
+          "power_w": 17.442,
+          "temp_c": 65,
+          "gpu_util_pct": 42,
+          "mem_util_pct": 17,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 26.812334775924683
+        },
+        {
+          "power_w": 17.442,
+          "temp_c": 65,
+          "gpu_util_pct": 42,
+          "mem_util_pct": 17,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 26.945845365524292
+        },
+        {
+          "power_w": 17.442,
+          "temp_c": 65,
+          "gpu_util_pct": 42,
+          "mem_util_pct": 17,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 27.0783634185791
+        },
+        {
+          "power_w": 17.442,
+          "temp_c": 65,
+          "gpu_util_pct": 42,
+          "mem_util_pct": 17,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 27.21351909637451
+        },
+        {
+          "power_w": 19.03,
+          "temp_c": 65,
+          "gpu_util_pct": 32,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 27.346019744873047
+        },
+        {
+          "power_w": 19.03,
+          "temp_c": 65,
+          "gpu_util_pct": 32,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 27.47845435142517
+        },
+        {
+          "power_w": 19.03,
+          "temp_c": 65,
+          "gpu_util_pct": 32,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 27.61079239845276
+        },
+        {
+          "power_w": 19.03,
+          "temp_c": 65,
+          "gpu_util_pct": 32,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 27.742115259170532
+        },
+        {
+          "power_w": 18.81,
+          "temp_c": 65,
+          "gpu_util_pct": 39,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 27.865651845932007
+        },
+        {
+          "power_w": 18.81,
+          "temp_c": 65,
+          "gpu_util_pct": 39,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 27.97771644592285
+        },
+        {
+          "power_w": 18.81,
+          "temp_c": 65,
+          "gpu_util_pct": 39,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 28.090439319610596
+        },
+        {
+          "power_w": 18.81,
+          "temp_c": 65,
+          "gpu_util_pct": 39,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 28.210801124572754
+        },
+        {
+          "power_w": 18.709,
+          "temp_c": 65,
+          "gpu_util_pct": 27,
+          "mem_util_pct": 13,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 28.34415578842163
+        },
+        {
+          "power_w": 18.709,
+          "temp_c": 65,
+          "gpu_util_pct": 27,
+          "mem_util_pct": 13,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 28.470661163330078
+        },
+        {
+          "power_w": 18.709,
+          "temp_c": 65,
+          "gpu_util_pct": 27,
+          "mem_util_pct": 13,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 28.590314865112305
+        },
+        {
+          "power_w": 18.709,
+          "temp_c": 65,
+          "gpu_util_pct": 27,
+          "mem_util_pct": 13,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 28.703176021575928
+        },
+        {
+          "power_w": 18.656,
+          "temp_c": 65,
+          "gpu_util_pct": 42,
+          "mem_util_pct": 17,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 28.814595937728882
+        },
+        {
+          "power_w": 18.656,
+          "temp_c": 65,
+          "gpu_util_pct": 42,
+          "mem_util_pct": 17,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 28.94645929336548
+        },
+        {
+          "power_w": 18.656,
+          "temp_c": 65,
+          "gpu_util_pct": 42,
+          "mem_util_pct": 17,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 29.079405307769775
+        },
+        {
+          "power_w": 18.656,
+          "temp_c": 65,
+          "gpu_util_pct": 42,
+          "mem_util_pct": 17,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 29.212096691131592
+        },
+        {
+          "power_w": 17.327,
+          "temp_c": 65,
+          "gpu_util_pct": 31,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 29.34504461288452
+        },
+        {
+          "power_w": 17.327,
+          "temp_c": 65,
+          "gpu_util_pct": 31,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 29.477537631988525
+        },
+        {
+          "power_w": 17.327,
+          "temp_c": 65,
+          "gpu_util_pct": 31,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 29.60891342163086
+        },
+        {
+          "power_w": 17.327,
+          "temp_c": 65,
+          "gpu_util_pct": 31,
+          "mem_util_pct": 15,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 29.742002248764038
+        },
+        {
+          "power_w": 18.288,
+          "temp_c": 65,
+          "gpu_util_pct": 40,
+          "mem_util_pct": 16,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 29.863301992416382
+        },
+        {
+          "power_w": 18.288,
+          "temp_c": 65,
+          "gpu_util_pct": 40,
+          "mem_util_pct": 16,
+          "sm_clock_mhz": 1297,
+          "mem_clock_mhz": 5501,
+          "power_limit_w": null,
+          "errors": [
+            "power_limit: Not Supported"
+          ],
+          "error": "power_limit: Not Supported (some telemetry unavailable)",
+          "elapsed_s": 29.975652933120728
+        }
+      ],
+      "temp_range_c": {
+        "min": 65,
+        "max": 69,
+        "avg": 66.08713692946058
+      },
+      "power_range_w": {
+        "min": 12.566,
+        "max": 43.984,
+        "avg": 19.214315352697096
+      },
+      "sm_clock_range_mhz": {
+        "min": 1297,
+        "max": 1725,
+        "avg": 1331.954356846473
+      },
+      "throttling_detected": true,
+      "clock_drop_pct": 24.81159420289855
+    }
+  }
+}

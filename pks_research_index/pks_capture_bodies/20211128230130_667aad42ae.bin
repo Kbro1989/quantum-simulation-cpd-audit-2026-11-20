@@ -1,0 +1,301 @@
+﻿<!doctype html>
+<html lang="de-DE">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<link rel="alternate" href="https://pks.or.at/berechnungen/" hreflang="de" />
+<link rel="alternate" href="https://pks.or.at/en/calculations/" hreflang="en" />
+<!-- This site is optimized with the Yoast SEO plugin v16.9 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>Berechnungen | PKS</title>
+<link rel="canonical" href="https://pks.or.at/berechnungen/" />
+<meta property="og:locale" content="de_DE" />
+<meta property="og:locale:alternate" content="en_GB" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Berechnungen | PKS" />
+<meta property="og:description" content="Berechnung Ei-Kurve (PDF)" />
+<meta property="og:url" content="https://pks.or.at/berechnungen/" />
+<meta property="og:site_name" content="PKS" />
+<meta property="article:publisher" content="https://www.facebook.com/pks.schauberger" />
+<meta property="article:modified_time" content="2019-02-19T21:49:23+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"http://pks.or.at/#organization","name":"PKS - Pythagoras Kepler System","url":"http://pks.or.at/","sameAs":["https://www.facebook.com/pks.schauberger","https://www.instagram.com/pks.schauberger/"],"logo":{"@type":"ImageObject","@id":"http://pks.or.at/#logo","inLanguage":"de-DE","url":"https://pks.or.at/wp-content/uploads/PKS_logo_white.jpg","contentUrl":"https://pks.or.at/wp-content/uploads/PKS_logo_white.jpg","width":3980,"height":4416,"caption":"PKS - Pythagoras Kepler System"},"image":{"@id":"http://pks.or.at/#logo"}},{"@type":"WebSite","@id":"http://pks.or.at/#website","url":"http://pks.or.at/","name":"PKS","description":"Pythagoras Kepler System nach Viktor und Walter Schauberger - Gesellschaft zur F\u00f6rderung naturgem\u00e4\u00dfer Technik","publisher":{"@id":"http://pks.or.at/#organization"},"inLanguage":"de-DE"},{"@type":"WebPage","@id":"https://pks.or.at/berechnungen/#webpage","url":"https://pks.or.at/berechnungen/","name":"Berechnungen | PKS","isPartOf":{"@id":"http://pks.or.at/#website"},"datePublished":"2018-07-08T20:56:57+00:00","dateModified":"2019-02-19T21:49:23+00:00","breadcrumb":{"@id":"https://pks.or.at/berechnungen/#breadcrumb"},"inLanguage":"de-DE","potentialAction":[{"@type":"ReadAction","target":["https://pks.or.at/berechnungen/"]}]},{"@type":"BreadcrumbList","@id":"https://pks.or.at/berechnungen/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://pks.or.at/"},{"@type":"ListItem","position":2,"name":"Berechnungen"}]}]}</script>
+<!-- / Yoast SEO plugin. -->
+<link rel='dns-prefetch' href='//code.jquery.com' />
+<link rel='dns-prefetch' href='//stackpath.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//secure.gravatar.com' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='dns-prefetch' href='//v0.wordpress.com' />
+<link rel="alternate" type="application/rss+xml" title="PKS &raquo; Feed" href="https://pks.or.at/feed/" />
+<link rel="alternate" type="application/rss+xml" title="PKS &raquo; Kommentar-Feed" href="https://pks.or.at/comments/feed/" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/pks.or.at\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8.1"}};
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+display: inline !important;
+border: none !important;
+box-shadow: none !important;
+height: 1em !important;
+width: 1em !important;
+margin: 0 .07em !important;
+vertical-align: -0.1em !important;
+background: none !important;
+padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bsn-bootstrap-css'  href='https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css?ver=5.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='bsn-style-css'  href='//pks.or.at/wp-content/cache/pks.or.at/wpfc-minified/f3loeocg/dkd8g.css' type='text/css' media='all' />
+<link rel='stylesheet' id='timeliner-style-css'  href='//pks.or.at/wp-content/cache/pks.or.at/wpfc-minified/6lttivr6/dkd8g.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tcb-style-css'  href='//pks.or.at/wp-content/cache/pks.or.at/wpfc-minified/2jgb0r7/dkd8g.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bookshelf-style-css'  href='//pks.or.at/wp-content/cache/pks.or.at/wpfc-minified/7nenm8mm/dkd8g.css' type='text/css' media='all' />
+<link rel='stylesheet' id='eventr-style-css'  href='//pks.or.at/wp-content/cache/pks.or.at/wpfc-minified/llyvlzjb/dkd8g.css' type='text/css' media='all' />
+<link rel='stylesheet' id='prmedia-style-css'  href='//pks.or.at/wp-content/cache/pks.or.at/wpfc-minified/5oq7ss/dkd8g.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='//pks.or.at/wp-content/cache/pks.or.at/wpfc-minified/798n7s39/dkd8g.css' type='text/css' media='all' />
+<style id='wp-block-library-inline-css' type='text/css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel='stylesheet' id='mediaelement-css'  href='//pks.or.at/wp-content/cache/pks.or.at/wpfc-minified/7nftit8g/dkd8g.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='//pks.or.at/wp-content/cache/pks.or.at/wpfc-minified/qsd77ln9/dkd8g.css' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%7CRaleway%3A300%2C600&#038;ver=5.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css?ver=5.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='pks-style-css'  href='//pks.or.at/wp-content/cache/pks.or.at/wpfc-minified/1emox2zd/dkd8g.css' type='text/css' media='all' />
+<link rel='stylesheet' id='cookie-notice-front-css'  href='//pks.or.at/wp-content/cache/pks.or.at/wpfc-minified/qjp62slw/dkd8g.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='//pks.or.at/wp-content/cache/pks.or.at/wpfc-minified/loydd7rm/dkd8g.css' type='text/css' media='all' />
+<script type='text/javascript' src='https://code.jquery.com/jquery-3.3.1.min.js?ver=5.8.1' id='bsn-jquery-js'></script>
+<script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js?ver=5.8.1' id='bsn-bootstrap-js'></script>
+<script type='text/javascript' src='https://pks.or.at/wp-content/plugins/bootstrapinator/inc/js/script-v3.js?ver=5.8.1' id='bsn-script-js'></script>
+<script type='text/javascript' src='https://pks.or.at/wp-content/plugins/mailcrypt/inc/script.js?ver=5.8.1' id='mailcrypt-script-js'></script>
+<script type='text/javascript' src='https://pks.or.at/wp-content/plugins/timeliner/inc/script.js?ver=5.8.1' id='timeliner-script-js'></script>
+<script type='text/javascript' src='https://pks.or.at/wp-content/plugins/bookshelf-min/inc/script.js?ver=5.8.1' id='bookshelf-script-js'></script>
+<script type='text/javascript' src='https://pks.or.at/wp-content/plugins/eventr/inc/script.js?ver=5.8.1' id='eventr-script-js'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js?ver=5.8.1' id='jquery-easing-js'></script>
+<script type='text/javascript' src='https://pks.or.at/wp-content/themes/pks/js/script.js?ver=5.8.1' id='pks-script-js'></script>
+<script type='text/javascript' src='https://pks.or.at/wp-content/plugins/smoothscroll-pro/inc/script.js?ver=5.8.1' id='smooth-pro-script-js'></script>
+<link rel="https://api.w.org/" href="https://pks.or.at/wp-json/" /><link rel="alternate" type="application/json" href="https://pks.or.at/wp-json/wp/v2/pages/119" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://pks.or.at/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://pks.or.at/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.8.1" />
+<link rel='shortlink' href='https://pks.or.at/?p=119' />
+<link rel="alternate" type="application/json+oembed" href="https://pks.or.at/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpks.or.at%2Fberechnungen%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://pks.or.at/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpks.or.at%2Fberechnungen%2F&#038;format=xml" />
+<style type='text/css'>img#wpstats{display:none}</style>
+<style type="text/css">
+.site-title,
+.site-description {
+position: absolute;
+clip: rect(1px, 1px, 1px, 1px);
+}
+</style>
+<style type="text/css">
+/* If html does not have either class, do not show lazy loaded images. */
+html:not( .jetpack-lazy-images-js-enabled ):not( .js ) .jetpack-lazy-image {
+display: none;
+}
+</style>
+<script>
+document.documentElement.classList.add(
+'jetpack-lazy-images-js-enabled'
+);
+</script>
+<link rel="icon" href="https://pks.or.at/wp-content/uploads/cropped-PKS_logo_white-1-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://pks.or.at/wp-content/uploads/cropped-PKS_logo_white-1-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://pks.or.at/wp-content/uploads/cropped-PKS_logo_white-1-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://pks.or.at/wp-content/uploads/cropped-PKS_logo_white-1-270x270.jpg" />
+</head>
+<body id="top" class="page-template-default page page-id-119 wp-custom-logo cookies-not-set">
+<div id="page" class="site">
+<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+<nav class="navbar navbar-default navbar-static-top navbar--isnotfixed">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" onclick="navmenucollapsed(this)">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="https://pks.or.at/">
+<!--<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.0" width="47.471741" height="47.471741" id="svg2"><defs id="defs55" /><path d="M 22.889471,25.607172 C 22.589713,24.605127 24.092318,24.708731 24.554936,25.108955 C 25.808602,26.193538 25.053398,28.14136 23.885905,28.938102 C 21.797533,30.363287 19.018523,29.16303 17.893076,27.101823 C 16.241437,24.076919 17.936475,20.36976 20.896603,18.945312 C 24.841988,17.046747 29.504523,19.25402 31.216796,23.116087 C 33.371517,27.976105 30.644503,33.605344 25.878773,35.599962 C 20.106834,38.015712 13.505062,34.765112 11.231216,29.094691 C 8.551568,22.412295 12.327973,14.834577 18.903736,12.283452 C 26.495714,9.3380778 35.051552,13.641683 37.878656,21.12322 C 41.09099,29.624218 36.259254,39.159651 27.87164,42.261821 C 18.462006,45.741988 7.9459296,40.381466 4.5693566,31.087558 C 0.82072068,20.769559 6.7105029,9.2720694 16.910868,5.6215926" transform="matrix(-1,0,0,1,44.89239,-0.7400139) rotate(-116 20 25)" style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#E4E4E4;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" id="path2171" /></svg>-->
+<span class="b brand navbar-brand-special">PKS</span>
+</a>
+</div>
+<div id="navbar" class="collapse navbar-collapse"><ul id="menu-primarymenude" class="nav navbar-nav navbar-right"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-30" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-30 dropdown"><a title="Über PKS" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Über PKS <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu" >
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-11" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11"><a title="Eine Einleitung" href="https://pks.or.at/einleitung/">Eine Einleitung</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-45" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45"><a title="PKS-Villa" href="https://pks.or.at/pks-villa/">PKS-Villa</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-76" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76"><a title="Die Villa als Veranstaltungsort" href="https://pks.or.at/villa-veranstaltungsort/">Die Villa als Veranstaltungsort</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-198" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-198"><a title="Medienberichte" href="https://pks.or.at/medienberichte/">Medienberichte</a></li>
+<li role="presentation" class="divider"></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80"><a title="Unterstützen" href="https://pks.or.at/unterstuetzen/">Unterstützen</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-242" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-242"><a title="Kontakt &#038; Lageplan" href="https://pks.or.at/kontakt-lageplan/">Kontakt &#038; Lageplan</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-83"><a title="Datenschutz" href="https://pks.or.at/datenschutz/">Datenschutz</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-55" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-55"><a title="Impressum" href="https://pks.or.at/impressum/">Impressum</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a title="Aktuelles" href="https://pks.or.at/aktuelles/">Aktuelles</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-72" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-72 dropdown"><a title="Veranstaltungen" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Veranstaltungen <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu" >
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-86" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-86"><a title="Überblick" href="https://pks.or.at/veranstaltungen/">Überblick</a></li>
+<li role="presentation" class="divider"></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-389" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-389"><a title="Öffnungstage" href="/veranstaltungen/?ec=oeffnungstage">Öffnungstage</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-390" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-390"><a title="Seminare &amp; Vorträge" href="/veranstaltungen/?ec=seminare-vortraege">Seminare &#038; Vorträge</a></li>
+<li role="presentation" class="divider"></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-391" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-391"><a title="Kulturelles / Zu Gast" href="/veranstaltungen/?ec=kulturelles-zugast">Kulturelles / Zu Gast</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-393" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-393"><a title="Auswärtig" href="/veranstaltungen/?ec=auswaertig">Auswärtig</a></li>
+<li role="presentation" class="divider"></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-394" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-394"><a title="Rückblick" href="/veranstaltungen/?u=r">Rückblick</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-73" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-73 dropdown"><a title="Forschung" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Forschung <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu" >
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105"><a title="Wasser" href="https://pks.or.at/wasser/">Wasser</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108"><a title="Land &#038; Forst" href="https://pks.or.at/land-forst/">Land &#038; Forst</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a title="Energie" href="https://pks.or.at/energie/">Energie</a></li>
+<li role="presentation" class="divider"></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-117" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-117"><a title="Publikationen" href="https://pks.or.at/publikationen/">Publikationen</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-120" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-119 current_page_item menu-item-120 active"><a title="Berechnungen" href="https://pks.or.at/berechnungen/">Berechnungen</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-114" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-114"><a title="Häufig gestellte Fragen" href="https://pks.or.at/haeufig-gestellte-fragen/">Häufig gestellte Fragen</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-123"><a title="Partner &#038; Links" href="https://pks.or.at/partner-links/">Partner &#038; Links</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-498" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-498 dropdown"><a title="Praxis" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Praxis <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu" >
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-422" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-422"><a title="Trink- &#038; Nutzwasser" href="https://pks.or.at/trink-nutzwasser/">Trink- &#038; Nutzwasser</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-421" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-421"><a title="Flussbau &#038; Hochwasserschutz" href="https://pks.or.at/flussbau-hochwasserschutz/">Flussbau &#038; Hochwasserschutz</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-419" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-419"><a title="Landwirtschaft" href="https://pks.or.at/landwirtschaft/">Landwirtschaft</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-420" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-420"><a title="Schnee &#038; Eis" href="https://pks.or.at/schnee-eis/">Schnee &#038; Eis</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-74" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-74 dropdown"><a title="Historisches" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Historisches <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu" >
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-126" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-126"><a title="Viktor Schauberger" href="https://pks.or.at/viktor-schauberger/">Viktor Schauberger</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-129" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-129"><a title="Walter Schauberger" href="https://pks.or.at/walter-schauberger/">Walter Schauberger</a></li>
+<li role="presentation" class="divider"></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-132"><a title="Patente" href="https://pks.or.at/patente/">Patente</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-137" class="pll-parent-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-137 dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAQlBMVEX+AADzAADrAAD/eXn4cHH3ZWX8Wlr6Tk75QUH4NDT1KCj9o6P9jY78hYX4fHzp6en8/Pz39/fw8PDi4uLhAADzDw99ibtVAAAATUlEQVR4AQXBMQ7CMAAAMV8SJFIGJP7/RdYOVCDsAAjJhCRyLSaR5GftEZGT9qdnQOQ7xgAEMIAArKsSJ7FnblPigff9qJVIxFEEL8AfSIwIeyUkkmsAAAAASUVORK5CYII=" alt="Deutsch" width="16" height="11" style="width: 16px; height: 11px;" /> <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu" >
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-137-en" class="lang-item lang-item-6 lang-item-en lang-item-first menu-item menu-item-type-custom menu-item-object-custom menu-item-137-en"><a href="https://pks.or.at/en/calculations/" hreflang="en-GB" lang="en-GB"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAt1BMVEWSmb66z+18msdig8La3u+tYX9IaLc7W7BagbmcUW+kqMr/q6n+//+hsNv/lIr/jIGMnNLJyOP9/fyQttT/wb3/////aWn+YWF5kNT0oqz0i4ueqtIZNJjhvt/8gn//WVr/6+rN1+o9RKZwgcMPJpX/VFT9UEn+RUX8Ozv2Ly+FGzdYZrfU1e/8LS/lQkG/mbVUX60AE231hHtcdMb0mp3qYFTFwNu3w9prcqSURGNDaaIUMX5FNW5wYt7AAAAAjklEQVR4AR3HNUJEMQCGwf+L8RR36ajR+1+CEuvRdd8kK9MNAiRQNgJmVDAt1yM6kSzYVJUsPNssAk5N7ZFKjVNFAY4co6TAOI+kyQm+LFUEBEKKzuWUNB7rSH/rSnvOulOGk+QlXTBqMIrfYX4tSe2nP3iRa/KNK7uTmWJ5a9+erZ3d+18od4ytiZdvZyuKWy8o3UpTVAAAAABJRU5ErkJggg==" alt="English" width="16" height="11" style="width: 16px; height: 11px;" /></a></li>
+</ul>
+</li>
+</ul></div>  </div>
+</nav><!-- #navbar -->
+<div id="content" class="site-content">
+<div id="primary" class="content-area">
+<main id="main" class="site-main">
+<section class="main" id="main">
+<div class="bgsection" style="background: url('/wp-content/uploads/schraube.jpg') no-repeat center center; background-size: cover;"></div>
+<div class="fadeout"></div>
+<div class="container">
+<center><h1 class="mainheading">Berechnungen</h1>				<div class="divider-small divider-small-white"></div>
+</center>
+</div>
+</section>
+<section>
+<div class="container">
+<!-- CONTENT-PAGE -->
+<div class="entry-content">
+<p><a href="http://pks.or.at/wp-content/uploads/Berechnung_Ei-Kurve.pdf" target="_blank" rel="noopener">Berechnung Ei-Kurve (PDF)</a></p>
+</div><!-- .entry-content -->
+</div>
+</section>
+</main><!-- #main -->
+</div><!-- #primary -->
+
+</div><!-- #content -->
+<footer id="colophon" class="site-footer">
+<section id="section-connect" class="tcb--background-secondary">
+<div class="container">
+<div class="row bs-grid">
+<div class="col-xs-6 col-sm-6 col-md-3 bs-grid-item" tabindex="96">
+<div class="bs-grid-head"><i class="fa fa-envelope-o"></i></div>
+<div class="bs-grid-body"><a href="javascript:mailcrypt('qempxs>wgleyfivkivDtow2sv2ex');"><p>schauberger<span style="display: none;">nope</span>(at)<span style="display: none;">nope</span>pks.or.at</p></a></div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-3 bs-grid-item" tabindex="97">
+<div class="bs-grid-head"><i class="fa fa-phone"></i></div>
+<div class="bs-grid-body"><p>+43-6132-24814</p></div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-3 bs-grid-item" tabindex="98">
+<div class="bs-grid-head"><i class="fa fa-facebook"></i></div>
+<div class="bs-grid-body"><a href="https://www.facebook.com/pks.schauberger" target="_blank"><p>Facebook</p></a></div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-3 bs-grid-item" tabindex="99">
+<div class="bs-grid-head"><i class="fa fa-instagram"></i></div>
+<div class="bs-grid-body"><a href="http://instagram.com/pks.schauberger" target="_blank"><p>Instagram</p></a></div>
+</div>
+</div>
+</div>
+</section>
+<div class="site-info">
+<!--<a href="">
+</a>
+<span class="sep"> | </span>
+-->
+<div class="container pos-rel"><a class="page-scroll up" href="#top"><i class="fa fa-angle-up"></i></a>
+<div class="row">
+<div class="col-xs-12 col-sm-4 marginbottom-small">
+<!--<h2 class="nomargintop"><span class="brand b">PKS</span></h2>
+<p>Pythagoras Kepler System nach Viktor und Walter Schauberger</p><p>Gesellschaft zur Förderung naturgemäßer Technik</p>-->
+<h2 class="brand"><span class="b">PKS</span> - Pythagoras Kepler System</h2>
+<p>nach Viktor und Walter Schauberger</p>
+<p>Gesellschaft zur Förderung naturgemäßer Technik</p>
+</div>
+<div class="col-xs-12 col-sm-4 marginbottom">
+<!--<ul>
+<li></li>
+<li><a href="" target="_blank"></a></li>
+<li><a href=""></a></li>
+<li><a data-toggle="tooltip" data-placement="top" title="Tel: +43-6132-24814" style="cursor: pointer;" tabindex="0"></a></li>
+</ul>-->
+</div>
+<div class="col-xs-12 col-sm-4 textalign-right">
+<p class="nomargintop">Copyright &copy; 2021 PKS</p>
+<p>
+<a href="https://pks.or.at/kontakt-lageplan/">Kontakt &#038; Lageplan</a><br><a href="https://pks.or.at/datenschutz/">Datenschutz</a>&nbsp;&middot;&nbsp;<a href="https://pks.or.at/impressum/">Impressum</a>            </p>
+</div>
+<div class="clearfix visible-sm"></div>
+</div>
+</div>
+</div><!-- .site-info -->
+</footer><!-- #colophon -->
+</div><!-- #page -->
+<script type='text/javascript' id='cookie-notice-front-js-extra'>
+/* <![CDATA[ */
+var cnArgs = {"ajaxUrl":"https:\/\/pks.or.at\/wp-admin\/admin-ajax.php","nonce":"14bac59d67","hideEffect":"fade","position":"bottom","onScroll":"0","onScrollOffset":"100","onClick":"0","cookieName":"cookie_notice_accepted","cookieTime":"31536000","cookieTimeRejected":"2592000","cookiePath":"\/","cookieDomain":"","redirection":"0","cache":"0","refuse":"0","revokeCookies":"0","revokeCookiesOpt":"automatic","secure":"1"};
+/* ]]> */
+</script>
+<script async type='text/javascript' src='https://pks.or.at/wp-content/plugins/cookie-notice/includes/../js/front.min.js?ver=2.1.3' id='cookie-notice-front-js'></script>
+<script type='text/javascript' src='https://pks.or.at/wp-content/plugins/jetpack/vendor/automattic/jetpack-lazy-images/src/../dist/intersection-observer.js?ver=1.1.3' id='jetpack-lazy-images-polyfill-intersectionobserver-js'></script>
+<script type='text/javascript' id='jetpack-lazy-images-js-extra'>
+/* <![CDATA[ */
+var jetpackLazyImagesL10n = {"loading_warning":"Images are still loading. Please cancel your print and try again."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://pks.or.at/wp-content/plugins/jetpack/vendor/automattic/jetpack-lazy-images/src/../dist/lazy-images.js?ver=1.1.3' id='jetpack-lazy-images-js'></script>
+<script type='text/javascript' src='https://pks.or.at/wp-includes/js/wp-embed.min.js?ver=5.8.1' id='wp-embed-js'></script>
+<script type='text/javascript'>
+(function() {
+var expirationDate = new Date();
+expirationDate.setTime( expirationDate.getTime() + 31536000 * 1000 );
+document.cookie = "pll_language=de; expires=" + expirationDate.toUTCString() + "; path=/; secure; SameSite=Lax";
+}());
+</script>
+<script src='https://stats.wp.com/e-202140.js' defer></script>
+<script>
+_stq = window._stq || [];
+_stq.push([ 'view', {v:'ext',j:'1:10.2',blog:'151467768',post:'119',tz:'2',srv:'pks.or.at'} ]);
+_stq.push([ 'clickTrackerInit', '151467768', '119' ]);
+</script>
+<!-- Cookie Notice plugin v2.1.3 by Hu-manity.co https://hu-manity.co/ -->
+<div id="cookie-notice" role="banner" class="cookie-notice-hidden cookie-revoke-hidden cn-position-bottom" aria-label="Cookie Notice" style="background-color: rgba(232,232,232,1);"><div class="cookie-notice-container" style="color: #1e1e1e;"><span id="cn-notice-text" class="cn-text-container">We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it.</span><span id="cn-notice-buttons" class="cn-buttons-container"><a href="#" id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button btn" aria-label="Ok">Ok</a><a href="https://pks.or.at/datenschutz/" target="_blank" id="cn-more-info" class="cn-more-info cn-button btn" aria-label="Privacy policy">Privacy policy</a></span><a href="javascript:void(0);" id="cn-close-notice" data-cookie-set="accept" class="cn-close-icon" aria-label="Ok"></a></div>
+</div>
+<!-- / Cookie Notice plugin -->
+</body>
+</html><!-- WP Fastest Cache file was created in 3.1129770278931 seconds, on 09-10-21 1:15:49 --><!-- via php -->

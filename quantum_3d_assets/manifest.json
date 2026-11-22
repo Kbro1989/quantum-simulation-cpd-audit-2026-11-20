@@ -1,0 +1,91 @@
+{
+  "generator": "cpd_quantum_3d_assets.py",
+  "repository": "C:\\Users\\krist\\Desktop\\quantum-simulation-main\\quantum-simulation-main",
+  "repository_head": "44f30e30654c064b75f760833741ab55b392ff20",
+  "case": {
+    "grid_N": 48,
+    "box": [
+      -6.0,
+      6.0
+    ],
+    "dt": 0.005,
+    "steps": 40,
+    "t_final": 0.2,
+    "hbar": 1.0,
+    "m": 1.0,
+    "trap_omega": 1.0,
+    "vortex_charge": 1,
+    "sigma": 1.0,
+    "solver": "SplitOperatorSolver(order=2, backend=numpy)",
+    "isosurface_levels_fraction_of_rho_max": [
+      0.5,
+      0.15,
+      0.03
+    ]
+  },
+  "measured": {
+    "rho_max": 0.0664838289443645,
+    "norm": 0.9999999999999709,
+    "vortex_charge_measured": null,
+    "vortex_positions_error": "TypeError: vortex_positions() got multiple values for argument 'min_density'"
+  },
+  "artifacts": [
+    {
+      "level_fraction": 0.5,
+      "level_value": 0.03324191447218225,
+      "vertices": 646,
+      "faces": 1292,
+      "ply": {
+        "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_assets\\vortex_line_rho_0p50.ply",
+        "bytes": 44092,
+        "sha256": "0edbed1e156e6927c62207acb6c419ff873fb9711a898dccde149a4c2d7d5b58",
+        "readback_vertices": 646,
+        "readback_faces": 1292,
+        "readback_matches": true
+      },
+      "obj": {
+        "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_assets\\vortex_line_rho_0p50.obj",
+        "bytes": 52607,
+        "sha256": "b5109d0e71c4c7a318c099ed34aa0718be09a1a1860bada5a269dbeef0c403c3"
+      }
+    },
+    {
+      "level_fraction": 0.15,
+      "level_value": 0.009972574341654675,
+      "vertices": 1516,
+      "faces": 3032,
+      "ply": {
+        "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_assets\\vortex_line_rho_0p15.ply",
+        "bytes": 107178,
+        "sha256": "1895036f1ea41a1e67805ba020f93f2a53698daf8c7f68cd7f9e541e606455c6",
+        "readback_vertices": 1516,
+        "readback_faces": 3032,
+        "readback_matches": true
+      },
+      "obj": {
+        "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_assets\\vortex_line_rho_0p15.obj",
+        "bytes": 127393,
+        "sha256": "dc6fcc02f43f82115f8239ff8021e3f9846e49737e28da7aa9a09918f6a94ed8"
+      }
+    },
+    {
+      "level_fraction": 0.03,
+      "level_value": 0.0019945148683309347,
+      "vertices": 2518,
+      "faces": 5036,
+      "ply": {
+        "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_assets\\vortex_line_rho_0p03.ply",
+        "bytes": 182330,
+        "sha256": "25e140960d8cebbe28c7cae720ca41ac835fe60d546b1bfa5e8a2d63cad5975b",
+        "readback_vertices": 2518,
+        "readback_faces": 5036,
+        "readback_matches": true
+      },
+      "obj": {
+        "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_assets\\vortex_line_rho_0p03.obj",
+        "bytes": 216032,
+        "sha256": "c5fd3bb85c9d9eb568d99314ea86b3d540182fae8c2c23111c8e925a9bd2b6c4"
+      }
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "summary": {
+    "physics_source_file": "domain27_zero_floor_physics.json",
+    "physics_sha256": "64c60e39ff1d9ef3028b2ea6924151e0116b52d333ae979aafd9cd1f2f2a93cd",
+    "experiments": 5,
+    "artifacts": 14,
+    "json_fields": 42,
+    "artifact_to_field_pairs": 14,
+    "verification_status": "pending_13_to_14_reconciliation"
+  },
+  "general": {
+    "physics_source_file": "domain27_zero_floor_physics.json",
+    "physics_sha256": "64c60e39ff1d9ef3028b2ea6924151e0116b52d333ae979aafd9cd1f2f2a93cd",
+    "estimated_artifact_total": 14,
+    "reported_correlation": 13
+  },
+  "experiments": {
+    "gaussian_tail_decay": {
+      "json_path": "tests.gaussian_tail_decay",
+      "field_count": 3,
+      "artifact_files": [
+        "gaussian_tail_abs_sq.png",
+        "tail_threshold_summary.png"
+      ],
+      "artifact_count": 2,
+      "reconciled": true
+    },
+    "vortex_core_density_floor": {
+      "json_path": "tests.vortex_core_density_floor",
+      "field_count": 4,
+      "artifact_files": [
+        "vortex_core_density.png",
+        "cpu_vs_gpu_density.png",
+        "vortex_evolution.gif"
+      ],
+      "artifact_count": 3,
+      "reconciled": true
+    },
+    "fft_numerical_zeros": {
+      "json_path": "tests.fft_numerical_zeros",
+      "field_count": 4,
+      "artifact_files": [
+        "fft_magnitude_spectrum.png",
+        "fft_zero_components.png",
+        "phase_agreement.png"
+      ],
+      "artifact_count": 3,
+      "reconciled": true
+    },
+    "gaussian_current_evolution": {
+      "json_path": "tests.gaussian_current_evolution",
+      "field_count": 6,
+      "artifact_files": [
+        "gaussian_center.png",
+        "gaussian_evolution.gif",
+        "gaussian_variance.png"
+      ],
+      "artifact_count": 3,
+      "reconciled": true
+    },
+    "energy_threshold_with_zero_floor": {
+      "json_path": "tests.energy_threshold_with_zero_floor",
+      "field_count": 7,
+      "artifact_files": [
+        "classification_breakdown.png",
+        "cpu_vs_gpu_energy.png",
+        "energy_distribution.png"
+      ],
+      "artifact_count": 3,
+      "reconciled": true
+    }
+  },
+  "artifact_registry": {
+    "gaussian_tail_decay": {
+      "gaussian_tail_abs_sq.png": {
+        "json_field_path": "tests.gaussian_tail_decay.tail_analysis",
+        "category": "import_from_gaussian_tail_decay",
+        "report_status": "traceable"
+      },
+      "tail_threshold_summary.png": {
+        "json_field_path": "tests.gaussian_tail_decay.tail_analysis",
+        "category": "import_from_gaussian_tail_decay",
+        "report_status": "traceable"
+      }
+    },
+    "vortex_core_density_floor": {
+      "vortex_core_density.png": {
+        "json_field_path": "tests.vortex_core_density_floor.core_density",
+        "category": "import_from_vortex_core_density_floor",
+        "report_status": "traceable"
+      },
+      "cpu_vs_gpu_density.png": {
+        "json_field_path": "tests.vortex_core_density_floor.core_density",
+        "category": "import_from_vortex_core_density_floor",
+        "report_status": "traceable"
+      },
+      "vortex_evolution.gif": {
+        "json_field_path": "tests.vortex_core_density_floor.core_density",
+        "category": "import_from_vortex_core_density_floor",
+        "report_status": "traceable"
+      }
+    },
+    "fft_numerical_zeros": {
+      "fft_magnitude_spectrum.png": {
+        "json_field_path": "tests.fft_numerical_zeros.fft_normalization",
+        "category": "import_from_fft_numerical_zeros",
+        "report_status": "traceable"
+      },
+      "fft_zero_components.png": {
+        "json_field_path": "tests.fft_numerical_zeros.fft_normalization",
+        "category": "import_from_fft_numerical_zeros",
+        "report_status": "traceable"
+      },
+      "phase_agreement.png": {
+        "json_field_path": "tests.fft_numerical_zeros.fft_normalization",
+        "category": "import_from_fft_numerical_zeros",
+        "report_status": "traceable"
+      }
+    },
+    "gaussian_current_evolution": {
+      "gaussian_center.png": {
+        "json_field_path": "tests.gaussian_current_evolution.cpu_center",
+        "category": "import_from_gaussian_current_evolution",
+        "report_status": "traceable"
+      },
+      "gaussian_evolution.gif": {
+        "json_field_path": "tests.gaussian_current_evolution.cpu_center",
+        "category": "import_from_gaussian_current_evolution",
+        "report_status": "traceable"
+      },
+      "gaussian_variance.png": {
+        "json_field_path": "tests.gaussian_current_evolution.cpu_center",
+        "category": "import_from_gaussian_current_evolution",
+        "report_status": "traceable"
+      }
+    },
+    "energy_threshold_with_zero_floor": {
+      "classification_breakdown.png": {
+        "json_field_path": "tests.energy_threshold_with_zero_floor.cpu_energy",
+        "category": "import_from_energy_threshold_with_zero_floor",
+        "report_status": "traceable"
+      },
+      "cpu_vs_gpu_energy.png": {
+        "json_field_path": "tests.energy_threshold_with_zero_floor.cpu_energy",
+        "category": "import_from_energy_threshold_with_zero_floor",
+        "report_status": "traceable"
+      },
+      "energy_distribution.png": {
+        "json_field_path": "tests.energy_threshold_with_zero_floor.cpu_energy",
+        "category": "import_from_energy_threshold_with_zero_floor",
+        "report_status": "traceable"
+      }
+    }
+  },
+  "field_registry": {},
+  "inconsistency_notes": [
+    {
+      "issue": "13-vs-14 traceability discrepancy",
+      "reported_correlation": 13,
+      "actual_artifact_count": 14,
+      "summary": "The reported traceability table contains 13 rows, but the directory contains 14 files.",
+      "affected_experiments": [
+        "gaussian_tail_decay"
+      ],
+      "resolution": "The missing 13th entry must be mapped to the correct JSON field source."
+    }
+  ]
+}

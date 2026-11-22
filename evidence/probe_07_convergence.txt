@@ -1,0 +1,18 @@
+=== Domain 7: Convergence order (harmonic oscillator coherent state) ===
+7 warm-up: 5 steps at dt=0.00781 completed
+7 exact X(T)=2.4743034317 P(T)=0.3575227656
+7 order=2:
+7  nsteps=  64 dt=0.007812  max|dpsi|=5.3063e-06  1-|overlap|=1.6517e-11
+7  nsteps= 128 dt=0.003906  max|dpsi|=1.3266e-06  1-|overlap|=1.0366e-12
+7  nsteps= 256 dt=0.001953  max|dpsi|=3.3164e-07  1-|overlap|=6.7502e-14
+7  nsteps= 512 dt=0.000977  max|dpsi|=8.2911e-08  1-|overlap|=1.2768e-14
+7  nsteps=1024 dt=0.000488  max|dpsi|=2.0728e-08  1-|overlap|=9.9920e-16
+7  empirical orders = [2. 2. 2. 2.]
+7 order=4:
+7  nsteps=  64 dt=0.007812  max|dpsi|=2.6861e-10  1-|overlap|=1.8874e-15
+7  nsteps= 128 dt=0.003906  max|dpsi|=1.6789e-11  1-|overlap|=1.7764e-15
+7  nsteps= 256 dt=0.001953  max|dpsi|=1.0626e-12  1-|overlap|=1.2990e-14
+7  nsteps= 512 dt=0.000977  max|dpsi|=9.5489e-14  1-|overlap|=4.3077e-14
+7  nsteps=1024 dt=0.000488  max|dpsi|=6.4103e-14  1-|overlap|=3.0309e-14
+7  empirical orders = [4.    3.982 3.476 0.575]
+=== end Domain 7 ===

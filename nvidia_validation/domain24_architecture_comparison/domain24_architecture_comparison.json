@@ -1,0 +1,218 @@
+{
+  "device": {
+    "name": "NVIDIA RTX A1000 6GB Laptop GPU",
+    "compute_capability": "8.6",
+    "total_memory_bytes": 6441926656,
+    "cupy_version": "14.2.0"
+  },
+  "system": {
+    "cpu": {
+      "model": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+      "cpu_count": 20,
+      "system": "Windows",
+      "release": "10"
+    },
+    "os": "Windows",
+    "platform": "Windows-10-10.0.26300-SP0"
+  },
+  "fft_throughput": {
+    "1D_64": {
+      "dimension": 1,
+      "grid_size": 64,
+      "precision": "<class 'numpy.complex128'>",
+      "avg_time_s": 7.683999938308261e-05,
+      "min_time_s": 6.38999990769662e-05,
+      "max_time_s": 0.00010599999950500205,
+      "std_time_s": 1.3553021100464126e-05,
+      "total_time_s": 0.0007683999938308261,
+      "iterations": 10
+    },
+    "1D_128": {
+      "dimension": 1,
+      "grid_size": 128,
+      "precision": "<class 'numpy.complex128'>",
+      "avg_time_s": 6.523999982164242e-05,
+      "min_time_s": 6.270000449148938e-05,
+      "max_time_s": 7.170000026235357e-05,
+      "std_time_s": 2.872699227099299e-06,
+      "total_time_s": 0.0006523999982164241,
+      "iterations": 10
+    },
+    "1D_256": {
+      "dimension": 1,
+      "grid_size": 256,
+      "precision": "<class 'numpy.complex128'>",
+      "avg_time_s": 7.92300001194235e-05,
+      "min_time_s": 5.2900002629030496e-05,
+      "max_time_s": 0.00020909999875584617,
+      "std_time_s": 4.39182655723874e-05,
+      "total_time_s": 0.0007923000011942349,
+      "iterations": 10
+    },
+    "1D_512": {
+      "dimension": 1,
+      "grid_size": 512,
+      "precision": "<class 'numpy.complex128'>",
+      "avg_time_s": 6.506999998237006e-05,
+      "min_time_s": 5.249999958323315e-05,
+      "max_time_s": 0.00012479999713832512,
+      "std_time_s": 2.1250036462835397e-05,
+      "total_time_s": 0.0006506999998237006,
+      "iterations": 10
+    },
+    "1D_1024": {
+      "dimension": 1,
+      "grid_size": 1024,
+      "precision": "<class 'numpy.complex128'>",
+      "avg_time_s": 0.0001323499993304722,
+      "min_time_s": 7.18000010238029e-05,
+      "max_time_s": 0.000661899997794535,
+      "std_time_s": 0.00017652803833171008,
+      "total_time_s": 0.001323499993304722,
+      "iterations": 10
+    },
+    "2D_32": {
+      "dimension": 2,
+      "grid_size": 32,
+      "precision": "<class 'numpy.complex128'>",
+      "avg_time_s": 0.001325979999091942,
+      "min_time_s": 0.00018120000459020957,
+      "max_time_s": 0.0022343000018736348,
+      "std_time_s": 0.0005493907219925166,
+      "total_time_s": 0.013259799990919419,
+      "iterations": 10
+    },
+    "2D_64": {
+      "dimension": 2,
+      "grid_size": 64,
+      "precision": "<class 'numpy.complex128'>",
+      "avg_time_s": 0.00010161999962292612,
+      "min_time_s": 9.889999637380242e-05,
+      "max_time_s": 0.00011200000153621659,
+      "std_time_s": 3.5863078976625835e-06,
+      "total_time_s": 0.0010161999962292612,
+      "iterations": 10
+    },
+    "2D_128": {
+      "dimension": 2,
+      "grid_size": 128,
+      "precision": "<class 'numpy.complex128'>",
+      "avg_time_s": 0.00019593000033637508,
+      "min_time_s": 0.00014250000094762072,
+      "max_time_s": 0.0005616999987978488,
+      "std_time_s": 0.00012265435172821118,
+      "total_time_s": 0.001959300003363751,
+      "iterations": 10
+    },
+    "2D_256": {
+      "dimension": 2,
+      "grid_size": 256,
+      "precision": "<class 'numpy.complex128'>",
+      "avg_time_s": 0.00033675000013317914,
+      "min_time_s": 0.00032309999369317666,
+      "max_time_s": 0.00039140000444604084,
+      "std_time_s": 1.9363072059038553e-05,
+      "total_time_s": 0.0033675000013317913,
+      "iterations": 10
+    },
+    "3D_16": {
+      "dimension": 3,
+      "grid_size": 16,
+      "precision": "<class 'numpy.complex128'>",
+      "avg_time_s": 0.00012301000097068027,
+      "min_time_s": 0.00010170000314246863,
+      "max_time_s": 0.000221800000872463,
+      "std_time_s": 3.38866474241676e-05,
+      "total_time_s": 0.0012301000097068027,
+      "iterations": 10
+    },
+    "3D_32": {
+      "dimension": 3,
+      "grid_size": 32,
+      "precision": "<class 'numpy.complex128'>",
+      "avg_time_s": 0.00018527999927755445,
+      "min_time_s": 0.00018199999612988904,
+      "max_time_s": 0.0001950999940163456,
+      "std_time_s": 3.9420287205914066e-06,
+      "total_time_s": 0.0018527999927755445,
+      "iterations": 10
+    },
+    "3D_64": {
+      "dimension": 3,
+      "grid_size": 64,
+      "precision": "<class 'numpy.complex128'>",
+      "avg_time_s": 0.002400499998475425,
+      "min_time_s": 0.0013055000017629936,
+      "max_time_s": 0.005276899995806161,
+      "std_time_s": 0.00151861812895939,
+      "total_time_s": 0.02400499998475425,
+      "iterations": 10
+    },
+    "3D_128": {
+      "dimension": 3,
+      "grid_size": 128,
+      "precision": "<class 'numpy.complex128'>",
+      "avg_time_s": 0.0167072400014149,
+      "min_time_s": 0.011560899998585228,
+      "max_time_s": 0.031127400005061645,
+      "std_time_s": 0.00784761853988734,
+      "total_time_s": 0.16707240001414903,
+      "iterations": 10
+    },
+    "memory_bandwidth": {
+      "grid_size": [
+        256,
+        256,
+        256
+      ],
+      "dtype": "<class 'numpy.complex128'>",
+      "total_bytes": 268435456,
+      "transfer_time_s": 0.04753820000041742,
+      "bandwidth_gbps": 10.51785721789234
+    }
+  },
+  "memory_bandwidth": {
+    "grid_size": [
+      256,
+      256,
+      256
+    ],
+    "dtype": "<class 'numpy.complex128'>",
+    "total_bytes": 268435456,
+    "transfer_time_s": 0.04753820000041742,
+    "bandwidth_gbps": 10.51785721789234
+  },
+  "gpu_occupancy": {},
+  "gpu_info": {
+    "gpus": [
+      {
+        "index": 0,
+        "name": "NVIDIA RTX A1000 6GB Laptop GPU",
+        "total_memory_mb": 6144.0,
+        "free_memory_mb": 5229.83984375,
+        "gpu_util_pct": 30,
+        "mem_util_pct": 9,
+        "sm_clock_mhz": 1297,
+        "mem_clock_mhz": 5501
+      }
+    ],
+    "cpu": {
+      "model": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+      "cpu_count": 20,
+      "system": "Windows",
+      "release": "10"
+    }
+  },
+  "measurement_framework": {
+    "ready": true,
+    "note": "Framework ready to accept measurements from additional GPUs (T4, A100, H100) when available. Pass gpu_id parameter to run_benchmark_with_telemetry to profile additional devices.",
+    "supported_measurements": [
+      "FFT throughput (1D/2D/3D)",
+      "Precision behavior (FP32/FP64)",
+      "Memory bandwidth utilization",
+      "GPU occupancy / SM utilization",
+      "Energy per simulated step",
+      "Scaling efficiency (weak/strong)"
+    ]
+  }
+}

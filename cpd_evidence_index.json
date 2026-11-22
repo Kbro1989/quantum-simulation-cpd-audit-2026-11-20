@@ -1,0 +1,100 @@
+{
+  "audit": "quantum-simulation CPD",
+  "date": "2026-11-20",
+  "entries": [
+    {
+      "path": "cpd_consumer_inventory.md",
+      "size_bytes": 57473,
+      "sha256": "45f7cb222d1e876504fab7ef98ec0953d09dd72d5d5ec7230d2c96a5e4e87233",
+      "format": ".md"
+    },
+    {
+      "path": "cpd_defect_register.json",
+      "size_bytes": 10546,
+      "sha256": "214721bf103b57f73486961b35c33b0e8d729e37bc1f3c670961f040071902e1",
+      "format": ".json"
+    },
+    {
+      "path": "cpd_detached_inventory.md",
+      "size_bytes": 5550,
+      "sha256": "42b8c93f91f551ebb8070fa5cbe53006ed4f18cdb75390590a2d9aeb0fe11a57",
+      "format": ".md"
+    },
+    {
+      "path": "cpd_final_audit.md",
+      "size_bytes": 8846,
+      "sha256": "0bc47c66d87c1631c737c93733bb2c29b263ac21f948c27ad3618e280f042e9c",
+      "format": ".md"
+    },
+    {
+      "path": "cpd_mathematical_validation_report.md",
+      "size_bytes": 6890,
+      "sha256": "a5282316fc1cdd0983412cea7bb9c6f3ae7b4a17c80a42de32df11c02f9bc8f1",
+      "format": ".md"
+    },
+    {
+      "path": "cpd_physics_validation_matrix.md",
+      "size_bytes": 28004,
+      "sha256": "eaa2db99413ba9296c1eb2fb7ac44c772020ed4120360fe0a34719a62464c05c",
+      "format": ".md"
+    },
+    {
+      "path": "cpd_producer_inventory.md",
+      "size_bytes": 165113,
+      "sha256": "7dd751e94b5122daa3d081542108aedcf8456f842a5c95601b0c3b0e36bf508a",
+      "format": ".md"
+    },
+    {
+      "path": "cpd_relationship_graph.json",
+      "size_bytes": 593696,
+      "sha256": "a89f99c467189575b065b653a2c3b05e664aa10b4235b37edd27f31b8e2775fe",
+      "format": ".json"
+    },
+    {
+      "path": "cpd_remediation_plan.md",
+      "size_bytes": 8097,
+      "sha256": "a036348cfb5424dd49751a512e657ae97a7d736cc57a36ee1cef609cdfc343e6",
+      "format": ".md"
+    },
+    {
+      "path": "final_payload.json",
+      "size_bytes": 3228,
+      "sha256": "0f8cc9aed545cfe8ec181c1fc98bdb0fde7387e6262517c98a3fe8c8e7dba0d3",
+      "format": ".json"
+    },
+    {
+      "path": "final_schema.json",
+      "size_bytes": 3241,
+      "sha256": "7c3f1b10b57ecca39e23dff0e9a1ba5280fefeaa55406a767a933e1e80d1028b",
+      "format": ".json"
+    },
+    {
+      "path": "cpd_solver_usage_audit.md",
+      "size_bytes": 3006,
+      "sha256": "2d82883cbe50e6a1ecb91124527defb8c25b932d06ced566fee53dcc577fac26",
+      "format": ".md",
+      "audit": "Audit \u2014 legacy solver fake time-dependent API usage"
+    },
+    {
+      "path": "cpd_solver_lifecycle_audit.md",
+      "size_bytes": 2304,
+      "sha256": "5a3479cf5e7ca71891fadf61ad109c903a590d8106d4f966fa63c2146f821827",
+      "format": ".md",
+      "audit": "Audit \u2014 lifecycle state management of cached V"
+    },
+    {
+      "path": "cpd_solver_api_contract.md",
+      "size_bytes": 3172,
+      "sha256": "27be74918bad655b25db62135aa916eaa071529b7b075eb22a8b46d1e643f215",
+      "format": ".md",
+      "audit": "Reference \u2014 API contract for time-dependent solver"
+    },
+    {
+      "path": "cpd_solver_fix_evidence.md",
+      "size_bytes": 3333,
+      "sha256": "cd3c8b9d644a734d6557eae00dcdf54c38474d82d6040e75ab62ed12c70f5b5f",
+      "format": ".md",
+      "evidence": "Evidence \u2014 legacy solver time-dependent API fix"
+    }
+  ]
+}

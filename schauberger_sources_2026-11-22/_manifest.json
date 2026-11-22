@@ -1,0 +1,183 @@
+{
+  "folder": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\schauberger_sources_2026-11-22",
+  "built": "2026-11-22",
+  "file_count": 35,
+  "total_bytes": 10034146,
+  "files": [
+    {
+      "path": "arxiv_2108.04013_abs.html",
+      "bytes": 37798,
+      "sha256": "f6aab593590764b76202b60dd44ce94e8c673a92754729d289b21a09bb723ff9"
+    },
+    {
+      "path": "arxiv_2108.04013_lyra.pdf",
+      "bytes": 191290,
+      "sha256": "4aafc1c8cec1e73e55110c7918173f0215086213cc58a9ef49e7d45a363f8bc4"
+    },
+    {
+      "path": "arxiv_2211.01560_abs.html",
+      "bytes": 43097,
+      "sha256": "3adf7f4c55f1b2f7bf64680c9fd7a01e22a3a0f16888dd96914f301eec12aec6"
+    },
+    {
+      "path": "arxiv_2211.01560_vortex_rings.pdf",
+      "bytes": 1249251,
+      "sha256": "5f0c01e7cebc6fee0ab628761c0044b51638ef4e7339206444e37b94cf485220"
+    },
+    {
+      "path": "arxiv_2607.22244_abs.html",
+      "bytes": 41874,
+      "sha256": "b22bf944f44b1eb90a36ceec28ae9d7ad49744beeb46afbef99293fb88c160a4"
+    },
+    {
+      "path": "arxiv_2607.22244_turbulence.pdf",
+      "bytes": 1823659,
+      "sha256": "35528d246c4d7937f66614941c732ec2a366f8a3f05e5d3b479951b2e35bdc31"
+    },
+    {
+      "path": "arxiv_cond-mat_0102003_abs.html",
+      "bytes": 41790,
+      "sha256": "8b81d8aeafaf0eea6b2f43ab27875754b861a8db0c93ad7d718c21efd589f120"
+    },
+    {
+      "path": "arxiv_cond-mat_0102003_fetter.pdf",
+      "bytes": 975902,
+      "sha256": "d8de900ebb0d59ed639eab5c34e857c6dfd742334e005e6b4b875a280f0fbca3"
+    },
+    {
+      "path": "donepudi_2024_physics_of_fluids.pdf",
+      "bytes": 3993275,
+      "sha256": "e9e46e483f10344d231b1528360162a0f818f574e2a2e0ac32a3942db10dac9c"
+    },
+    {
+      "path": "fetter_vortices_yale.pdf",
+      "bytes": 717890,
+      "sha256": "1d8758790b1c0aac6ebd6c97658616863f981a1ae9cc334c0d7fc7caa74ba608"
+    },
+    {
+      "path": "ia-knowledge-base/.eidetic-base.json",
+      "bytes": 104,
+      "sha256": "96d66169caca4a7cb123b76d91c17e4f3321637d60385f43665947dc0fcb3635"
+    },
+    {
+      "path": "ia-knowledge-base/bots_automated_access.md",
+      "bytes": 4441,
+      "sha256": "5e43f8a29af1d4b95c771e8b3644019f95201a06c8d3ff2ba993f0b1a476f191"
+    },
+    {
+      "path": "ia-knowledge-base/README.md",
+      "bytes": 4257,
+      "sha256": "c2d4ca880e5b643551b096ea171d84f1e34aedd1ad9e6c340324d5218cd6f9de"
+    },
+    {
+      "path": "ia-knowledge-base/save_page_now.md",
+      "bytes": 3276,
+      "sha256": "e5b47a3edd0a0d788f5d2278cd69a0e4aaf10575299df38ed22b6af797bc5d8f"
+    },
+    {
+      "path": "ia-knowledge-base/SKILL.md",
+      "bytes": 5537,
+      "sha256": "ea270c302850a0e88d468796236487b4a8b1683a4dcfdc7813f7e894b761c042"
+    },
+    {
+      "path": "ia-knowledge-base/USAGE_NOTE.md",
+      "bytes": 4774,
+      "sha256": "d7f3e40c9e04fd508989a9d6db1097d2e0386823bd8584a8bd580707e2180ff4"
+    },
+    {
+      "path": "ia-knowledge-base/wayback_availability.md",
+      "bytes": 2186,
+      "sha256": "0665b19c81a37949d8fb64172991b7f412bea322e30dc1a63f56683adb849468"
+    },
+    {
+      "path": "ia-knowledge-base/wayback_cdx.md",
+      "bytes": 19384,
+      "sha256": "03a6b79184f30789febda8155d5c4fa72e42c4325cbeccfd2a40eb1f942d3311"
+    },
+    {
+      "path": "patent_AT138296B.html",
+      "bytes": 50528,
+      "sha256": "a83aa08ef0cba7e41dfac6461e327ebc968ad8b692b225d872c841dbad3c5de4"
+    },
+    {
+      "path": "patent_GB1084286A.html",
+      "bytes": 45240,
+      "sha256": "a2f68b9827f85eaff41289ef6972f17dc323ad9a03652c511d7646dd07f9663a"
+    },
+    {
+      "path": "pks_ei-kurve_BLOCKED_js_challenge.html",
+      "bytes": 12185,
+      "sha256": "e1cbb240efdd1232562a97c788ed0d779340073f4cb0ac514f90aeaea5f8e6f6"
+    },
+    {
+      "path": "pks_ei-kurve_extracted_text.md",
+      "bytes": 13271,
+      "sha256": "ec6fc4d31a744bf34617d577aa65c3ded081b7103e64eeef5222824fef4ff324"
+    },
+    {
+      "path": "pks_ei-kurve_retry_BLOCKED_js_challenge.html",
+      "bytes": 12105,
+      "sha256": "2d11e719d4982f7e08b72dd14d606108d45f864f7ac888adb292055434f46f45"
+    },
+    {
+      "path": "pks_patent_inventory_extracted.md",
+      "bytes": 8781,
+      "sha256": "3f93ec52f26a4ea074892edd09ca7ec42acf683b31f60a75b6a6d83c02c47535"
+    },
+    {
+      "path": "pks_patents_BLOCKED_js_challenge.html",
+      "bytes": 12038,
+      "sha256": "fd3341b683efb58d27b37728eb2218da8561473b5c98ca3478cd0fc677ab7cda"
+    },
+    {
+      "path": "pks_viktor_biography_extracted.md",
+      "bytes": 8969,
+      "sha256": "0f3df0222ecfcc91ab267ec6d3fb105d6ec63e859f75d44a238dcbec518a8a49"
+    },
+    {
+      "path": "pks_viktor_BLOCKED_js_challenge.html",
+      "bytes": 12064,
+      "sha256": "911333032097b84ffded36b29b0c3a8e32eecf583ac68b6340c195746d232ceb"
+    },
+    {
+      "path": "pks_walter_biography_extracted.md",
+      "bytes": 9538,
+      "sha256": "7f8733575b461bdd93f8519c089b8d2bb6067ad78adaf790c11d19ff3b7cd814"
+    },
+    {
+      "path": "pks_walter_BLOCKED_js_challenge.html",
+      "bytes": 12185,
+      "sha256": "01fbe38b2f970002c9d20dfb28c180fb6ed74c68b1e7544fc480877ca910f800"
+    },
+    {
+      "path": "schaubergerfiles_vortex.html",
+      "bytes": 51945,
+      "sha256": "bdc277c3cb01660f86f03a61096d1f0066f8dedbec3890272624259bb5cdc077"
+    },
+    {
+      "path": "tudelft_thesis_record.html",
+      "bytes": 32564,
+      "sha256": "7e8ec5fc3c7faaac9fc2e7a7e8d1f939d916d5ecbd95ce5f27cf4a40f9c9e33d"
+    },
+    {
+      "path": "wayback_pks_captures_index.json",
+      "bytes": 2651,
+      "sha256": "90d9516d986d1682920a9c11ce60a4bdb200c4de6b0eb7dd68b88e831b364418"
+    },
+    {
+      "path": "wayback_pks_cdx.json",
+      "bytes": 118182,
+      "sha256": "c57b8c82495ffdcd074c3fbd5e0aae1623f49bc8b72f61e763b915b3b00b55dc"
+    },
+    {
+      "path": "wolfram_coordinate_systems.html",
+      "bytes": 164350,
+      "sha256": "97368f98b1d3c94f8e30935c95a442359a01007943b7b2f2becf1dafb8de25f4"
+    },
+    {
+      "path": "wolfram_vector_analysis.html",
+      "bytes": 307765,
+      "sha256": "4cef84c2248883c00d13e3d93ce0deaeb0874140c29bff737b707b7691e53c14"
+    }
+  ]
+}

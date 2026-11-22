@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>w.schauberger</title><meta name="GENERATOR" content="Freeway Pro 3.5.15"><style type="text/css">
+<!--
+p { margin-top:0px }
+.style6 { font-family: Verdana; }
+body {
+	background-repeat: no-repeat;
+	background-position:center;
+	background-position:top;
+	background-image: url(Resources/thema_walter_hg2.jpg);
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #333;
+}
+a:hover {
+	text-decoration: none;
+	color: #F00;
+}
+a:active {
+	text-decoration: none;
+	color: #333;
+}
+a {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #333;
+}
+-->
+</style>
+<meta name="MSSmartTagsPreventParsing" content="true">
+<script language="javascript" type="text/javascript"><!--
+
+var fwIsNetscape = navigator.appName == 'Netscape';
+
+fwLoad = new Object;
+function FWLoad(image)
+{
+	if (!document.images)
+		return null;
+	if (!fwLoad[image])
+	{
+		fwLoad[image]=new Image;
+		fwLoad[image].src=image;
+	}
+	return fwLoad[image].src;
+}
+
+fwRestore = new Object;
+function FWRestore(msg,chain) 
+{
+	if (document.images) 
+		for (var i in fwRestore)
+		{
+			var r = fwRestore[i];
+			if (r && (!chain || r.chain==chain) && r.msg==msg)
+			{
+				r.src = FWLoad(r.old);
+				fwRestore[i]=null;
+			}
+		}
+}
+
+function FWLSwap(name,msg,newImg,layer,chain,trigger) 
+{
+	var r = fwRestore[name];
+	if (document.images && (!r || r.msg < msg)) 
+	{
+		var uselayers = fwIsNetscape && document.layers && layer != '';
+		var hld = (uselayers) ? document.layers[layer].document : document;
+		var im = hld[name];
+		if (!im.old) im.old = im.src;
+		im.msg = msg;
+		im.chain = chain;
+		im.trigger = trigger;
+		if (newImg) im.src = FWLoad(newImg);
+		fwRestore[name] = im;
+	}
+}
+
+function FWCallHit(func,targNum,msg)
+{
+	if(func)
+		for (var i in func)
+			func[i](targNum,msg);
+}
+function FW_Hit(frameset,chain,targNum,msg)
+{
+	if (frameset && frameset.length)
+		for (var i=0 ; i <frameset.length ; i++)
+		{
+			FW_Hit(frameset[i].frames,chain,targNum,msg);
+			FWCallHit(top["FT_"+chain],targNum,msg);
+			FWCallHit(frameset[i].window["FT_"+chain],targNum,msg);
+		}
+	else
+		FWCallHit(window["FT_"+chain],targNum,msg);
+}
+
+fwHit = new Object;
+function FWSlave(frameset,chain,targNum,msg)
+{
+	if (msg==1) fwHit[chain]=targNum;
+	FW_Hit(frameset,chain,targNum,1);
+}
+
+function FWSRestore(frameset,chain)
+{
+	var hit=fwHit[chain];
+	if (hit)
+		FW_Hit(frameset,chain,hit,0);
+	fwHit[chain]=null;
+}
+function FWPreload(){FWLoad("Resources/objekt4bc.gif");FWLoad("Resources/objekt4bb.gif");FWLoad("Resources/objekt4b1ac.gif");FWLoad("Resources/objekt4b1ab.gif");FWLoad("Resources/objekt4b1a1c.gif");FWLoad("Resources/objekt4b1a1b.gif");FWLoad("Resources/objekt4b1a1a1c.gif");FWLoad("Resources/objekt4b1a1a1b.gif");FWLoad("Resources/objekt2i.gif");FWLoad("Resources/objekt2h.gif");}
+//-->
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body topmargin=0 leftmargin=0 marginheight=0 marginwidth=0 align="center" onload="FWPreload()"><div id="LayoutTable"><table border=0 cellspacing=0 cellpadding=0 align="center"  width=804><tr valign=top><td rowspan=3><a href="w.schauberger.html" target="main"><img src="Resources/transparent.gif" width="151" height="28" border="0"></a></td><td colspan=4></td><td height=9></td></tr><tr valign=top><td rowspan=2></td><td rowspan=2><p><span class="style6">Walter Schauberger</span></p></td><td colspan=2></td><td height=5></td></tr><tr valign=top><td></td><td></td><td height=14></td></tr><tr><td width=151><img src="Resources/_clear.gif" border=0 width=151 height=1 alt=""></td><td width=29><img src="Resources/_clear.gif" border=0 width=29 height=1 alt=""></td><td width=278><img src="Resources/_clear.gif" border=0 width=278 height=1 alt=""></td><td width=184><img src="Resources/_clear.gif" border=0 width=184 height=1 alt=""></td><td width=118><img src="Resources/_clear.gif" border=0 width=118 height=1 alt=""></td><td width=42 height=1><img src="Resources/_clear.gif" border=0 width=42 height=1 alt=""></td></tr></table><table border=0 cellspacing=0 cellpadding=0 align="center"  width=804><tr valign=top><td colspan=2></td><td height=26></td></tr><tr valign=top><td></td>
+<td><a href="w_biografie.html" target="main">&gt; Biografie</a></td><td height=13></td></tr><tr><td width=20><img src="Resources/_clear.gif" border=0 width=20 height=1 alt=""></td><td width=64><img src="Resources/_clear.gif" border=0 width=64 height=1 alt=""></td><td width=718 height=1><img src="Resources/_clear.gif" border=0 width=718 height=1 alt=""></td></tr></table><table border=0 cellspacing=0 cellpadding=0 align="center"  width=804><tr valign=top><td colspan=2></td><td height=4></td></tr><tr valign=top><td></td>
+<td><a href="walter_patente.html" target="main">&gt; Patente</a></td><td height=12></td></tr><tr><td width=20><img src="Resources/_clear.gif" border=0 width=20 height=1 alt=""></td><td width=64><img src="Resources/_clear.gif" border=0 width=64 height=1 alt=""></td><td width=718 height=1><img src="Resources/_clear.gif" border=0 width=718 height=1 alt=""></td></tr></table><table border=0 cellspacing=0 cellpadding=0 align="center"  width=804><tr valign=top><td colspan=2></td><td height=4></td></tr><tr valign=top><td></td>
+<td><a href="w_texte.html" target="main">&gt; Texte</a><a href="w_texte.html" target="MAIN"></a></td><td height=13></td></tr><tr><td width=20><img src="Resources/_clear.gif" border=0 width=20 height=1 alt=""></td><td width=77><img src="Resources/_clear.gif" border=0 width=77 height=1 alt=""></td><td width=705 height=1><img src="Resources/_clear.gif" border=0 width=705 height=1 alt=""></td></tr></table><table border=0 cellspacing=0 cellpadding=0 align="center"  width=804><tr valign=top><td colspan=2></td><td height=4></td></tr><tr valign=top><td></td>
+<td><a href="w_berechnungen.html" target="main">&gt; Berechnungen</a></td><td height=13></td></tr><tr><td width=20><img src="Resources/_clear.gif" border=0 width=20 height=1 alt=""></td><td width=124><img src="Resources/_clear.gif" border=0 width=124 height=1 alt=""></td><td width=658 height=1><img src="Resources/_clear.gif" border=0 width=658 height=1 alt=""></td></tr></table><table border=0 cellspacing=0 cellpadding=0 align="center"  width=804><tr valign=top><td colspan=2></td><td height=454></td></tr><tr valign=top><td></td><td></td><td height=24></td></tr><tr><td width=760><img src="Resources/_clear.gif" border=0 width=760 height=1 alt=""></td><td width=40><img src="Resources/_clear.gif" border=0 width=40 height=1 alt=""></td><td width=2 height=1><img src="Resources/_clear.gif" border=0 width=2 height=1 alt=""></td></tr></table>
+<table width="804" align="center">
+  <tr>
+    <th width="178" scope="col">&nbsp;</th>
+    <th width="63" scope="col"><img src="Resources/objekt2a2ad.gif" border=0 width=22 height=11 alt="" usemap="#map1Map" name="img6">
+      <map name="map1Map">
+        <area shape=polygon alt="" coords="0,11,11,0,22,11" href="#oben" onMouseOver="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo');FWLSwap('img6',1,'Resources/objekt2a2ac.gif','','Indigo')" onMouseOut="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo')">
+        <area shape=polygon alt="" coords="0,11,11,0,22,11" href="#v-patente" onMouseOver="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo');FWLSwap('img6',1,'Resources/objekt2a2ac.gif','','Indigo')" onMouseOut="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo')">
+      </map></th>
+    <th width="547" align="left" scope="col"><a href="mailto:schauberger@pks.or.at" onMouseOver="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo');FWLSwap('img5',1,'Resources/objekt5f.gif','','Indigo')" onMouseOut="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo')"><img src="Resources/pks_ende.png" border=0 width=200 height=15 alt="" name="img5"></a></th>
+  </tr>
+</table>
+</div></body></html>

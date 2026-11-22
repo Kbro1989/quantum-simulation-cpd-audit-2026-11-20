@@ -1,0 +1,26 @@
+output_dir: output/evidence_L5
+simulations:
+  s1:
+    dimension: 3
+    gpu: true
+    solver: split_operator
+    backend: numpy
+    grid:
+      N: 16
+      L: 8.0
+    wavefunction:
+      x0: 0.0
+      sigma: 1.0
+      k0_x: 0.0
+    potential:
+      type: gaussian_3d_barrier
+      params:
+        V0: 2.0
+        width: 1.0
+        x0: 0.0
+        y0: 0.0
+        z0: 0.0
+    dt: 0.005
+    num_steps: 1
+    snapshot_interval: 1
+    log_interval: 1

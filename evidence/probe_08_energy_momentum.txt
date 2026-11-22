@@ -1,0 +1,10 @@
+=== Domain 8: Energy and momentum behaviour ===
+8a HO <H>(0) = 2.1250000000   analytic = 2.1250000000   diff = 0.000e+00
+8a HO 400 steps: max|<H>(t)-<H>(0)| = 2.812e-05   final drift = 9.601e-06
+8b free particle (x0=-4, p0=2, m=1):
+8b t=0.50  <x>=-3.00000000 (expect -3.00000000, err 4.88e-15)  <p>=2.0000000000 (expect 2)
+8b t=1.00  <x>=-2.00000000 (expect -2.00000000, err 3.55e-15)  <p>=2.0000000000 (expect 2)
+8b t=2.00  <x>=0.00000000 (expect 0.00000000, err 6.66e-16)  <p>=2.0000000000 (expect 2)
+8b t=4.00  <x>=3.99991345 (expect 4.00000000, err 8.65e-05)  <p>=2.0000000000 (expect 2)
+8b d<x>/dt = 2.000000   <p>/m = 2.000000   diff = 1.33e-15
+=== end Domain 8 ===

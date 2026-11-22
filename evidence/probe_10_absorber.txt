@@ -1,0 +1,22 @@
+=== Domain 10: Absorbing-boundary behaviour ===
+10a mask properties (boundary_width=3):
+10a order=1  min=0.000000 max=1.000000  mask[0]=0.000000 mask[-1]=0.000725  interior all 1: True
+10a order=2  min=0.000000 max=1.000000  mask[0]=0.000000 mask[-1]=0.000725  interior all 1: True
+10a order=3  min=0.000000 max=1.000000  mask[0]=0.000000 mask[-1]=0.000725  interior all 1: True
+10a order=4  min=0.000000 max=1.000000  mask[0]=0.000000 mask[-1]=0.000037  interior all 1: True
+10a order=5  min=0.000000 max=1.000000  mask[0]=0.000000 mask[-1]=0.000000  interior all 1: True
+10a order=6  min=0.000000 max=1.000000  mask[0]=0.000000 mask[-1]=0.000000  interior all 1: True
+10a order1==order2==order3 masks: True ; order3!=order4: True
+10b norm: no absorber start=1.000000 end=1.000000 ; absorber start=1.000000 end=0.109164
+10b norm loss (absorbed fraction) = 0.890836
+10b max left-region density after t>4 (wraparound): no-absorber=9.8724e-02 absorber=2.0626e-03
+10b suppression factor = 2.09e-02
+10b instantaneous norm loss rate |dn/dt| at end = 1.1041e-02
+10c stability (300 steps, packet started inside the right layer):
+10c order=1 finite=True  norm_end=1.512934e-01  max|psi|=1.2761e-01
+10c order=2 finite=True  norm_end=1.512934e-01  max|psi|=1.2761e-01
+10c order=3 finite=True  norm_end=1.512934e-01  max|psi|=1.2761e-01
+10c order=4 finite=True  norm_end=2.122339e-01  max|psi|=1.5289e-01
+10c order=5 finite=True  norm_end=3.063673e-01  max|psi|=1.8618e-01
+10c order=6 finite=True  norm_end=3.420643e-01  max|psi|=1.9762e-01
+=== end Domain 10 ===

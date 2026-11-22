@@ -1,0 +1,20 @@
+=== Domain 12: Stability and resolution sensitivity ===
+12a N sweep at fixed dt=0.0020 (T=0.50, 250 steps):
+12a N=  64 dx=0.62500 k_max=5.03  max|dpsi|=3.1421e-05  stability param k_max^2*dt/2=0.025
+12a N= 128 dx=0.31250 k_max=10.05  max|dpsi|=3.4152e-07  stability param k_max^2*dt/2=0.101
+12a N= 256 dx=0.15625 k_max=20.11  max|dpsi|=3.4775e-07  stability param k_max^2*dt/2=0.404
+12a N= 512 dx=0.07812 k_max=40.21  max|dpsi|=3.4775e-07  stability param k_max^2*dt/2=1.617
+12a N=1024 dx=0.03906 k_max=80.42  max|dpsi|=3.4775e-07  stability param k_max^2*dt/2=6.468
+12b dt sweep at fixed N=512:
+12b dt=0.007812  max|dpsi|=5.3063e-06
+12b dt=0.003906  max|dpsi|=1.3266e-06
+12b dt=0.001953  max|dpsi|=3.3164e-07
+12b dt=0.000977  max|dpsi|=8.2911e-08
+12c stability condition hbar*k_max^2*|w|*dt/(2m) < pi (order 2, |w|=1):
+12c N= 64 dt=0.12434 (0.5*dt_crit)  max|psi|=7.1280e-01  max|dpsi| vs exact=6.4431e-02
+12c N= 64 dt=0.49736 (2.0*dt_crit)  max|psi|=7.5601e-01  max|dpsi| vs exact=8.0404e-01
+12c N=128 dt=0.03108 (0.5*dt_crit)  max|psi|=7.5095e-01  max|dpsi| vs exact=7.7087e-04
+12c N=128 dt=0.12434 (2.0*dt_crit)  max|psi|=7.5107e-01  max|dpsi| vs exact=4.7816e-02
+12c N=256 dt=0.00777 (0.5*dt_crit)  max|psi|=7.5079e-01  max|dpsi| vs exact=8.9165e-06
+12c N=256 dt=0.03108 (2.0*dt_crit)  max|psi|=7.5095e-01  max|dpsi| vs exact=7.7727e-04
+=== end Domain 12 ===

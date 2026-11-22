@@ -1,0 +1,11 @@
+{
+  "energy_threshold_with_zero_floor\\classification_breakdown.png": {
+    "error": "'Page' object is not subscriptable"
+  },
+  "energy_threshold_with_zero_floor\\cpu_vs_gpu_energy.png": {
+    "error": "'Page' object is not subscriptable"
+  },
+  "energy_threshold_with_zero_floor\\energy_distribution.png": {
+    "error": "'Page' object is not subscriptable"
+  }
+}

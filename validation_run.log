@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:\Users\krist\Desktop\quantum-simulation-cpd-audit-2026-11-20\validation_evidence_generator.py", line 29, in <module>
+    from quantumlab.core.absorbing_boundary import AbsorbingBoundaryLayer, apply
+ImportError: cannot import name 'apply' from 'quantumlab.core.absorbing_boundary' (C:\Users\krist\Desktop\quantum-simulation-main\quantum-simulation-main\quantumlab\core\absorbing_boundary.py)

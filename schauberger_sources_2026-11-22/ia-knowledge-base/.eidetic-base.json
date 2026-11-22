@@ -1,0 +1,8 @@
+{
+  "name": "archiveorg",
+  "corpus_dirs": [
+    "docs",
+    "notes"
+  ],
+  "db": "db/index.db"
+}

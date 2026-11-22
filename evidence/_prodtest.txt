@@ -1,0 +1,936 @@
+
+Grid1D [quantumlab/core/grid.py:3]
+  PROD: benchmarks/validation_suite.py:118, benchmarks/validation_suite.py:135, benchmarks/validation_suite.py:160, benchmarks/validation_suite.py:209, benchmarks/validation_suite.py:248, benchmarks/validation_suite.py:312, benchmarks/validation_suite.py:42, benchmarks/validation_suite.py:52, benchmarks/validation_suite.py:69, examples/01_gaussian_barrier.py:29, examples/02_harmonic_oscillator.py:27, examples/03_double_well.py:28, examples/04_multiple_barriers.py:30, examples/09_soliton_collision.py:46, examples/12_high_harmonic_generation.py:51, quantumlab/runner.py:54, testbench_interlock.py:97
+  TEST: tests/test_2d_solver.py:38, tests/test_2d_solver.py:57, tests/test_absorbing_boundary_validation.py:17, tests/test_absorbing_boundary_validation.py:79, tests/test_absorbing_boundary_validation.py:90, tests/test_absorbing_boundary_validation.py:99, tests/test_backends.py:110, tests/test_backends.py:76, tests/test_backends.py:77, tests/test_backends.py:78, tests/test_backends.py:79, tests/test_conjugate_gradient.py:14, tests/test_conjugate_gradient.py:15, tests/test_conjugate_gradient.py:16, tests/test_conjugate_gradient.py:42, tests/test_conjugate_gradient.py:64, tests/test_conjugate_gradient.py:68, tests/test_gross_pitaevskii.py:21, tests/test_gross_pitaevskii.py:34, tests/test_gross_pitaevskii.py:57, tests/test_multicomponent.py:131, tests/test_multicomponent.py:49, tests/test_new_potentials_and_observables.py:109, tests/test_new_potentials_and_observables.py:75, tests/test_new_potentials_and_observables.py:81, tests/test_new_potentials_and_observables.py:85, tests/test_observables.py:8, tests/test_potentials.py:13, tests/test_potentials.py:26, tests/test_potentials.py:37, tests/test_potentials.py:46, tests/test_rotation.py:116, tests/test_solvers.py:10, tests/test_solvers.py:21, tests/test_split_operator.py:105, tests/test_split_operator.py:115, tests/test_split_operator.py:125, tests/test_split_operator.py:135, tests/test_split_operator.py:145, tests/test_split_operator.py:28, tests/test_split_operator.py:51, tests/test_split_operator.py:66, tests/test_split_operator.py:81, tests/test_split_operator.py:94, tests/test_stationary.py:15, tests/test_stationary.py:55, tests/test_stationary.py:64, tests/test_strongfield.py:34, tests/test_strongfield.py:98
+
+Grid1D.__init__ [quantumlab/core/grid.py:5]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+Grid1D.shape [quantumlab/core/grid.py:16]
+  PROD: -
+  TEST: -
+
+Grid2D [quantumlab/core/grid.py:19]
+  PROD: benchmarks/validation_suite.py:111, benchmarks/validation_suite.py:179, benchmarks/validation_suite.py:189, benchmarks/validation_suite.py:283, benchmarks/validation_suite.py:296, examples/05_2d_gaussian_barrier.py:36, examples/10_quantum_chaos_stadium.py:34, examples/11_rotating_bec_vortex_lattice.py:174, examples/11_rotating_bec_vortex_lattice.py:65, examples/13_two_component_bec.py:108, examples/13_two_component_bec.py:193, examples/13_two_component_bec.py:67, quantumlab/runner.py:56
+  TEST: tests/test_2d_solver.py:13, tests/test_2d_solver.py:25, tests/test_2d_solver.py:48, tests/test_3d_observables.py:57, tests/test_absorbing_boundary_validation.py:18, tests/test_backends.py:124, tests/test_backends.py:137, tests/test_backends.py:170, tests/test_backends.py:80, tests/test_backends.py:82, tests/test_backends.py:84, tests/test_backends.py:86, tests/test_conjugate_gradient.py:50, tests/test_gross_pitaevskii.py:41, tests/test_gross_pitaevskii.py:59, tests/test_multicomponent.py:109, tests/test_multicomponent.py:123, tests/test_multicomponent.py:21, tests/test_multicomponent.py:34, tests/test_multicomponent.py:96, tests/test_new_potentials_and_observables.py:100, tests/test_new_potentials_and_observables.py:129, tests/test_new_potentials_and_observables.py:21, tests/test_new_potentials_and_observables.py:48, tests/test_rotation.py:100, tests/test_rotation.py:117, tests/test_rotation.py:127, tests/test_rotation.py:137, tests/test_rotation.py:24, tests/test_rotation.py:50, tests/test_rotation.py:63, tests/test_rotation.py:76, tests/test_rotation.py:90, tests/test_split_operator.py:32, tests/test_stationary.py:22, tests/test_stationary.py:39, tests/test_stationary.py:74, tests/test_strongfield.py:42, tests/test_volume_3d.py:78
+
+Grid2D.__init__ [quantumlab/core/grid.py:21]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+Grid2D.shape [quantumlab/core/grid.py:42]
+  PROD: -
+  TEST: -
+
+Grid3D [quantumlab/core/grid.py:45]
+  PROD: benchmarks/gpu_split_operator.py:45, benchmarks/perf_comparison.py:85, benchmarks/validation_suite.py:101, benchmarks/validation_suite.py:122, benchmarks/validation_suite.py:170, benchmarks/validation_suite.py:315, benchmarks/validation_suite.py:83, examples/06_3d_gaussian_barrier.py:32, examples/07_3d_double_slit.py:43, examples/08_3d_bec_time_of_flight.py:70, examples/11_rotating_bec_vortex_lattice.py:154, quantumlab/runner.py:60, quantumlab/visualization/volume_3d.py:343
+  TEST: tests/test_3d_gpu_solver.py:114, tests/test_3d_gpu_solver.py:20, tests/test_3d_observables.py:17, tests/test_3d_solver.py:17, tests/test_absorbing_boundary_validation.py:19, tests/test_backends.py:159, tests/test_backends.py:88, tests/test_backends.py:91, tests/test_conjugate_gradient.py:17, tests/test_conjugate_gradient.py:30, tests/test_gross_pitaevskii.py:61, tests/test_gross_pitaevskii.py:73, tests/test_new_potentials_and_observables.py:16, tests/test_new_potentials_and_observables.py:27, tests/test_new_potentials_and_observables.py:42, tests/test_new_potentials_and_observables.py:58, tests/test_new_potentials_and_observables.py:92, tests/test_rotation.py:37, tests/test_split_operator.py:36, tests/test_stationary.py:30, tests/test_stationary.py:47, tests/test_volume_3d.py:17
+
+Grid3D.__init__ [quantumlab/core/grid.py:47]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+Grid3D.shape [quantumlab/core/grid.py:83]
+  PROD: -
+  TEST: -
+
+WaveFunction1D [quantumlab/core/wavefunction.py:4]
+  PROD: benchmarks/validation_suite.py:163, benchmarks/validation_suite.py:252, benchmarks/validation_suite.py:253, examples/09_soliton_collision.py:30, quantumlab/solvers/split_step_1d.py:27
+  TEST: tests/test_gross_pitaevskii.py:23, tests/test_gross_pitaevskii.py:35, tests/test_multicomponent.py:53, tests/test_multicomponent.py:54
+
+WaveFunction1D.__init__ [quantumlab/core/wavefunction.py:6]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+WaveFunction1D.probability_density [quantumlab/core/wavefunction.py:16]
+  PROD: -
+  TEST: -
+
+WaveFunction1D.norm [quantumlab/core/wavefunction.py:19]
+  PROD: benchmarks/perf_comparison.py:134, benchmarks/perf_comparison.py:135, benchmarks/validation_suite.py:95, examples/01_gaussian_barrier.py:42, examples/04_multiple_barriers.py:43, examples/05_2d_gaussian_barrier.py:62, examples/06_3d_gaussian_barrier.py:52, examples/07_3d_double_slit.py:93, examples/08_3d_bec_time_of_flight.py:119, examples/09_soliton_collision.py:61, examples/12_high_harmonic_generation.py:102, examples/13_two_component_bec.py:119, examples/13_two_component_bec.py:165, examples/13_two_component_bec.py:166, quantumlab/stationary/eigensolver.py:88, quantumlab/visualization/volume_3d.py:106, quantumlab/visualization/volume_3d.py:50, testbench_interlock.py:102, testbench_interlock.py:108
+  TEST: tests/test_2d_solver.py:17, tests/test_2d_solver.py:21, tests/test_2d_solver.py:60, tests/test_2d_solver.py:62, tests/test_3d_gpu_solver.py:129, tests/test_3d_gpu_solver.py:145, tests/test_3d_gpu_solver.py:49, tests/test_3d_observables.py:67, tests/test_3d_observables.py:80, tests/test_3d_solver.py:143, tests/test_3d_solver.py:145, tests/test_3d_solver.py:57, tests/test_3d_solver.py:79, tests/test_3d_solver.py:83, tests/test_absorbing_boundary_validation.py:101, tests/test_absorbing_boundary_validation.py:103, tests/test_backends.py:117, tests/test_conjugate_gradient.py:24, tests/test_conjugate_gradient.py:45, tests/test_gross_pitaevskii.py:30, tests/test_gross_pitaevskii.py:50, tests/test_multicomponent.py:103, tests/test_multicomponent.py:104, tests/test_multicomponent.py:44, tests/test_rotation.py:33, tests/test_rotation.py:86, tests/test_rotation.py:95, tests/test_runner.py:60, tests/test_runner.py:72, tests/test_runner.py:81, tests/test_solvers.py:14, tests/test_solvers.py:18, tests/test_split_operator.py:129, tests/test_split_operator.py:131, tests/test_split_operator.py:57, tests/test_stationary.py:51, tests/test_volume_3d.py:23, tests/test_volume_3d.py:25
+
+WaveFunction1D.normalize [quantumlab/core/wavefunction.py:22]
+  PROD: benchmarks/validation_suite.py:112, benchmarks/validation_suite.py:201, examples/11_rotating_bec_vortex_lattice.py:158
+  TEST: tests/test_new_potentials_and_observables.py:103, tests/test_rotation.py:52
+
+WaveFunction1D.fourier_transform [quantumlab/core/wavefunction.py:28]
+  PROD: quantumlab/observables/expectation.py:106, quantumlab/observables/expectation.py:77, quantumlab/observables/momentum.py:5
+  TEST: -
+
+WaveFunction1D.copy [quantumlab/core/wavefunction.py:31]
+  PROD: benchmarks/perf_comparison.py:101, benchmarks/perf_comparison.py:123, benchmarks/perf_comparison.py:128, examples/07_3d_double_slit.py:88, examples/07_3d_double_slit.py:90, examples/08_3d_bec_time_of_flight.py:116, examples/11_rotating_bec_vortex_lattice.py:184, quantumlab/config.py:9, quantumlab/runner.py:156, quantumlab/runner.py:166, quantumlab/solvers/split_step_1d.py:21, quantumlab/solvers/split_step_2d.py:32, quantumlab/solvers/split_step_3d.py:56, quantumlab/solvers/split_step_3d_gpu.py:95
+  TEST: tests/test_3d_gpu_solver.py:82, tests/test_3d_gpu_solver.py:83
+
+WaveFunction1D.gaussian [quantumlab/core/wavefunction.py:35]
+  PROD: benchmarks/gpu_split_operator.py:24, benchmarks/perf_comparison.py:86, benchmarks/validation_suite.py:102, benchmarks/validation_suite.py:136, benchmarks/validation_suite.py:191, benchmarks/validation_suite.py:285, benchmarks/validation_suite.py:286, benchmarks/validation_suite.py:297, benchmarks/validation_suite.py:298, benchmarks/validation_suite.py:44, benchmarks/validation_suite.py:54, benchmarks/validation_suite.py:71, benchmarks/validation_suite.py:85, examples/01_gaussian_barrier.py:30, examples/02_harmonic_oscillator.py:28, examples/03_double_well.py:29, examples/04_multiple_barriers.py:31, examples/05_2d_gaussian_barrier.py:37, examples/06_3d_gaussian_barrier.py:33, examples/07_3d_double_slit.py:59, examples/13_two_component_bec.py:60, quantumlab/runner.py:70, quantumlab/runner.py:74, quantumlab/runner.py:84, testbench_interlock.py:98
+  TEST: tests/test_2d_solver.py:14, tests/test_2d_solver.py:26, tests/test_2d_solver.py:58, tests/test_3d_gpu_solver.py:115, tests/test_3d_gpu_solver.py:25, tests/test_3d_observables.py:20, tests/test_3d_observables.py:58, tests/test_3d_solver.py:137, tests/test_3d_solver.py:22, tests/test_3d_solver.py:89, tests/test_absorbing_boundary_validation.py:100, tests/test_backends.py:111, tests/test_backends.py:125, tests/test_backends.py:160, tests/test_backends.py:171, tests/test_backends.py:172, tests/test_backends.py:77, tests/test_backends.py:79, tests/test_backends.py:82, tests/test_backends.py:86, tests/test_backends.py:91, tests/test_multicomponent.py:140, tests/test_multicomponent.py:15, tests/test_new_potentials_and_observables.py:111, tests/test_new_potentials_and_observables.py:86, tests/test_new_potentials_and_observables.py:93, tests/test_observables.py:13, tests/test_rotation.py:15, tests/test_rotation.py:39, tests/test_rotation.py:65, tests/test_solvers.py:11, tests/test_solvers.py:22, tests/test_split_operator.py:106, tests/test_split_operator.py:117, tests/test_split_operator.py:126, tests/test_split_operator.py:146, tests/test_split_operator.py:29, tests/test_split_operator.py:33, tests/test_split_operator.py:37, tests/test_split_operator.py:53, tests/test_split_operator.py:68, tests/test_split_operator.py:83, tests/test_split_operator.py:95, tests/test_strongfield.py:99
+
+WaveFunction2D [quantumlab/core/wavefunction.py:41]
+  PROD: benchmarks/validation_suite.py:112, benchmarks/validation_suite.py:201, examples/11_rotating_bec_vortex_lattice.py:174, examples/11_rotating_bec_vortex_lattice.py:187, examples/13_two_component_bec.py:117, examples/13_two_component_bec.py:118, quantumlab/solvers/split_step_2d.py:41
+  TEST: tests/test_conjugate_gradient.py:53, tests/test_new_potentials_and_observables.py:103, tests/test_new_potentials_and_observables.py:135, tests/test_rotation.py:105, tests/test_rotation.py:52
+
+WaveFunction2D.__init__ [quantumlab/core/wavefunction.py:43]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+WaveFunction2D.probability_density [quantumlab/core/wavefunction.py:53]
+  PROD: -
+  TEST: -
+
+WaveFunction2D.norm [quantumlab/core/wavefunction.py:56]
+  PROD: benchmarks/perf_comparison.py:134, benchmarks/perf_comparison.py:135, benchmarks/validation_suite.py:95, examples/01_gaussian_barrier.py:42, examples/04_multiple_barriers.py:43, examples/05_2d_gaussian_barrier.py:62, examples/06_3d_gaussian_barrier.py:52, examples/07_3d_double_slit.py:93, examples/08_3d_bec_time_of_flight.py:119, examples/09_soliton_collision.py:61, examples/12_high_harmonic_generation.py:102, examples/13_two_component_bec.py:119, examples/13_two_component_bec.py:165, examples/13_two_component_bec.py:166, quantumlab/stationary/eigensolver.py:88, quantumlab/visualization/volume_3d.py:106, quantumlab/visualization/volume_3d.py:50, testbench_interlock.py:102, testbench_interlock.py:108
+  TEST: tests/test_2d_solver.py:17, tests/test_2d_solver.py:21, tests/test_2d_solver.py:60, tests/test_2d_solver.py:62, tests/test_3d_gpu_solver.py:129, tests/test_3d_gpu_solver.py:145, tests/test_3d_gpu_solver.py:49, tests/test_3d_observables.py:67, tests/test_3d_observables.py:80, tests/test_3d_solver.py:143, tests/test_3d_solver.py:145, tests/test_3d_solver.py:57, tests/test_3d_solver.py:79, tests/test_3d_solver.py:83, tests/test_absorbing_boundary_validation.py:101, tests/test_absorbing_boundary_validation.py:103, tests/test_backends.py:117, tests/test_conjugate_gradient.py:24, tests/test_conjugate_gradient.py:45, tests/test_gross_pitaevskii.py:30, tests/test_gross_pitaevskii.py:50, tests/test_multicomponent.py:103, tests/test_multicomponent.py:104, tests/test_multicomponent.py:44, tests/test_rotation.py:33, tests/test_rotation.py:86, tests/test_rotation.py:95, tests/test_runner.py:60, tests/test_runner.py:72, tests/test_runner.py:81, tests/test_solvers.py:14, tests/test_solvers.py:18, tests/test_split_operator.py:129, tests/test_split_operator.py:131, tests/test_split_operator.py:57, tests/test_stationary.py:51, tests/test_volume_3d.py:23, tests/test_volume_3d.py:25
+
+WaveFunction2D.normalize [quantumlab/core/wavefunction.py:59]
+  PROD: benchmarks/validation_suite.py:112, benchmarks/validation_suite.py:201, examples/11_rotating_bec_vortex_lattice.py:158
+  TEST: tests/test_new_potentials_and_observables.py:103, tests/test_rotation.py:52
+
+WaveFunction2D.fourier_transform [quantumlab/core/wavefunction.py:65]
+  PROD: quantumlab/observables/expectation.py:106, quantumlab/observables/expectation.py:77, quantumlab/observables/momentum.py:5
+  TEST: -
+
+WaveFunction2D.copy [quantumlab/core/wavefunction.py:68]
+  PROD: benchmarks/perf_comparison.py:101, benchmarks/perf_comparison.py:123, benchmarks/perf_comparison.py:128, examples/07_3d_double_slit.py:88, examples/07_3d_double_slit.py:90, examples/08_3d_bec_time_of_flight.py:116, examples/11_rotating_bec_vortex_lattice.py:184, quantumlab/config.py:9, quantumlab/runner.py:156, quantumlab/runner.py:166, quantumlab/solvers/split_step_1d.py:21, quantumlab/solvers/split_step_2d.py:32, quantumlab/solvers/split_step_3d.py:56, quantumlab/solvers/split_step_3d_gpu.py:95
+  TEST: tests/test_3d_gpu_solver.py:82, tests/test_3d_gpu_solver.py:83
+
+WaveFunction2D.gaussian [quantumlab/core/wavefunction.py:72]
+  PROD: benchmarks/gpu_split_operator.py:24, benchmarks/perf_comparison.py:86, benchmarks/validation_suite.py:102, benchmarks/validation_suite.py:136, benchmarks/validation_suite.py:191, benchmarks/validation_suite.py:285, benchmarks/validation_suite.py:286, benchmarks/validation_suite.py:297, benchmarks/validation_suite.py:298, benchmarks/validation_suite.py:44, benchmarks/validation_suite.py:54, benchmarks/validation_suite.py:71, benchmarks/validation_suite.py:85, examples/01_gaussian_barrier.py:30, examples/02_harmonic_oscillator.py:28, examples/03_double_well.py:29, examples/04_multiple_barriers.py:31, examples/05_2d_gaussian_barrier.py:37, examples/06_3d_gaussian_barrier.py:33, examples/07_3d_double_slit.py:59, examples/13_two_component_bec.py:60, quantumlab/runner.py:70, quantumlab/runner.py:74, quantumlab/runner.py:84, testbench_interlock.py:98
+  TEST: tests/test_2d_solver.py:14, tests/test_2d_solver.py:26, tests/test_2d_solver.py:58, tests/test_3d_gpu_solver.py:115, tests/test_3d_gpu_solver.py:25, tests/test_3d_observables.py:20, tests/test_3d_observables.py:58, tests/test_3d_solver.py:137, tests/test_3d_solver.py:22, tests/test_3d_solver.py:89, tests/test_absorbing_boundary_validation.py:100, tests/test_backends.py:111, tests/test_backends.py:125, tests/test_backends.py:160, tests/test_backends.py:171, tests/test_backends.py:172, tests/test_backends.py:77, tests/test_backends.py:79, tests/test_backends.py:82, tests/test_backends.py:86, tests/test_backends.py:91, tests/test_multicomponent.py:140, tests/test_multicomponent.py:15, tests/test_new_potentials_and_observables.py:111, tests/test_new_potentials_and_observables.py:86, tests/test_new_potentials_and_observables.py:93, tests/test_observables.py:13, tests/test_rotation.py:15, tests/test_rotation.py:39, tests/test_rotation.py:65, tests/test_solvers.py:11, tests/test_solvers.py:22, tests/test_split_operator.py:106, tests/test_split_operator.py:117, tests/test_split_operator.py:126, tests/test_split_operator.py:146, tests/test_split_operator.py:29, tests/test_split_operator.py:33, tests/test_split_operator.py:37, tests/test_split_operator.py:53, tests/test_split_operator.py:68, tests/test_split_operator.py:83, tests/test_split_operator.py:95, tests/test_strongfield.py:99
+
+WaveFunction3D [quantumlab/core/wavefunction.py:80]
+  PROD: examples/11_rotating_bec_vortex_lattice.py:157, quantumlab/solvers/split_step_3d.py:65, quantumlab/solvers/split_step_3d_gpu.py:105, quantumlab/solvers/split_step_3d_gpu.py:123, quantumlab/solvers/split_step_3d_gpu.py:93
+  TEST: -
+
+WaveFunction3D.__init__ [quantumlab/core/wavefunction.py:82]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+WaveFunction3D.probability_density [quantumlab/core/wavefunction.py:92]
+  PROD: -
+  TEST: -
+
+WaveFunction3D.norm [quantumlab/core/wavefunction.py:95]
+  PROD: benchmarks/perf_comparison.py:134, benchmarks/perf_comparison.py:135, benchmarks/validation_suite.py:95, examples/01_gaussian_barrier.py:42, examples/04_multiple_barriers.py:43, examples/05_2d_gaussian_barrier.py:62, examples/06_3d_gaussian_barrier.py:52, examples/07_3d_double_slit.py:93, examples/08_3d_bec_time_of_flight.py:119, examples/09_soliton_collision.py:61, examples/12_high_harmonic_generation.py:102, examples/13_two_component_bec.py:119, examples/13_two_component_bec.py:165, examples/13_two_component_bec.py:166, quantumlab/stationary/eigensolver.py:88, quantumlab/visualization/volume_3d.py:106, quantumlab/visualization/volume_3d.py:50, testbench_interlock.py:102, testbench_interlock.py:108
+  TEST: tests/test_2d_solver.py:17, tests/test_2d_solver.py:21, tests/test_2d_solver.py:60, tests/test_2d_solver.py:62, tests/test_3d_gpu_solver.py:129, tests/test_3d_gpu_solver.py:145, tests/test_3d_gpu_solver.py:49, tests/test_3d_observables.py:67, tests/test_3d_observables.py:80, tests/test_3d_solver.py:143, tests/test_3d_solver.py:145, tests/test_3d_solver.py:57, tests/test_3d_solver.py:79, tests/test_3d_solver.py:83, tests/test_absorbing_boundary_validation.py:101, tests/test_absorbing_boundary_validation.py:103, tests/test_backends.py:117, tests/test_conjugate_gradient.py:24, tests/test_conjugate_gradient.py:45, tests/test_gross_pitaevskii.py:30, tests/test_gross_pitaevskii.py:50, tests/test_multicomponent.py:103, tests/test_multicomponent.py:104, tests/test_multicomponent.py:44, tests/test_rotation.py:33, tests/test_rotation.py:86, tests/test_rotation.py:95, tests/test_runner.py:60, tests/test_runner.py:72, tests/test_runner.py:81, tests/test_solvers.py:14, tests/test_solvers.py:18, tests/test_split_operator.py:129, tests/test_split_operator.py:131, tests/test_split_operator.py:57, tests/test_stationary.py:51, tests/test_volume_3d.py:23, tests/test_volume_3d.py:25
+
+WaveFunction3D.normalize [quantumlab/core/wavefunction.py:98]
+  PROD: benchmarks/validation_suite.py:112, benchmarks/validation_suite.py:201, examples/11_rotating_bec_vortex_lattice.py:158
+  TEST: tests/test_new_potentials_and_observables.py:103, tests/test_rotation.py:52
+
+WaveFunction3D.fourier_transform [quantumlab/core/wavefunction.py:104]
+  PROD: quantumlab/observables/expectation.py:106, quantumlab/observables/expectation.py:77, quantumlab/observables/momentum.py:5
+  TEST: -
+
+WaveFunction3D.copy [quantumlab/core/wavefunction.py:107]
+  PROD: benchmarks/perf_comparison.py:101, benchmarks/perf_comparison.py:123, benchmarks/perf_comparison.py:128, examples/07_3d_double_slit.py:88, examples/07_3d_double_slit.py:90, examples/08_3d_bec_time_of_flight.py:116, examples/11_rotating_bec_vortex_lattice.py:184, quantumlab/config.py:9, quantumlab/runner.py:156, quantumlab/runner.py:166, quantumlab/solvers/split_step_1d.py:21, quantumlab/solvers/split_step_2d.py:32, quantumlab/solvers/split_step_3d.py:56, quantumlab/solvers/split_step_3d_gpu.py:95
+  TEST: tests/test_3d_gpu_solver.py:82, tests/test_3d_gpu_solver.py:83
+
+WaveFunction3D.slice_xy [quantumlab/core/wavefunction.py:110]
+  PROD: -
+  TEST: tests/test_3d_solver.py:63
+
+WaveFunction3D.slice_xz [quantumlab/core/wavefunction.py:116]
+  PROD: -
+  TEST: tests/test_3d_solver.py:64
+
+WaveFunction3D.slice_yz [quantumlab/core/wavefunction.py:122]
+  PROD: -
+  TEST: tests/test_3d_solver.py:65
+
+WaveFunction3D.gaussian [quantumlab/core/wavefunction.py:129]
+  PROD: benchmarks/gpu_split_operator.py:24, benchmarks/perf_comparison.py:86, benchmarks/validation_suite.py:102, benchmarks/validation_suite.py:136, benchmarks/validation_suite.py:191, benchmarks/validation_suite.py:285, benchmarks/validation_suite.py:286, benchmarks/validation_suite.py:297, benchmarks/validation_suite.py:298, benchmarks/validation_suite.py:44, benchmarks/validation_suite.py:54, benchmarks/validation_suite.py:71, benchmarks/validation_suite.py:85, examples/01_gaussian_barrier.py:30, examples/02_harmonic_oscillator.py:28, examples/03_double_well.py:29, examples/04_multiple_barriers.py:31, examples/05_2d_gaussian_barrier.py:37, examples/06_3d_gaussian_barrier.py:33, examples/07_3d_double_slit.py:59, examples/13_two_component_bec.py:60, quantumlab/runner.py:70, quantumlab/runner.py:74, quantumlab/runner.py:84, testbench_interlock.py:98
+  TEST: tests/test_2d_solver.py:14, tests/test_2d_solver.py:26, tests/test_2d_solver.py:58, tests/test_3d_gpu_solver.py:115, tests/test_3d_gpu_solver.py:25, tests/test_3d_observables.py:20, tests/test_3d_observables.py:58, tests/test_3d_solver.py:137, tests/test_3d_solver.py:22, tests/test_3d_solver.py:89, tests/test_absorbing_boundary_validation.py:100, tests/test_backends.py:111, tests/test_backends.py:125, tests/test_backends.py:160, tests/test_backends.py:171, tests/test_backends.py:172, tests/test_backends.py:77, tests/test_backends.py:79, tests/test_backends.py:82, tests/test_backends.py:86, tests/test_backends.py:91, tests/test_multicomponent.py:140, tests/test_multicomponent.py:15, tests/test_new_potentials_and_observables.py:111, tests/test_new_potentials_and_observables.py:86, tests/test_new_potentials_and_observables.py:93, tests/test_observables.py:13, tests/test_rotation.py:15, tests/test_rotation.py:39, tests/test_rotation.py:65, tests/test_solvers.py:11, tests/test_solvers.py:22, tests/test_split_operator.py:106, tests/test_split_operator.py:117, tests/test_split_operator.py:126, tests/test_split_operator.py:146, tests/test_split_operator.py:29, tests/test_split_operator.py:33, tests/test_split_operator.py:37, tests/test_split_operator.py:53, tests/test_split_operator.py:68, tests/test_split_operator.py:83, tests/test_split_operator.py:95, tests/test_strongfield.py:99
+
+AbsorbingBoundaryLayer [quantumlab/core/absorbing_boundary.py:6]
+  PROD: benchmarks/validation_suite.py:221, examples/05_2d_gaussian_barrier.py:42, examples/06_3d_gaussian_barrier.py:43, examples/07_3d_double_slit.py:60, examples/12_high_harmonic_generation.py:64, quantumlab/runner.py:148
+  TEST: tests/test_2d_solver.py:39, tests/test_2d_solver.py:49, tests/test_2d_solver.py:59, tests/test_3d_solver.py:111, tests/test_3d_solver.py:118, tests/test_3d_solver.py:126, tests/test_3d_solver.py:142, tests/test_absorbing_boundary_validation.py:102, tests/test_absorbing_boundary_validation.py:111, tests/test_absorbing_boundary_validation.py:31, tests/test_absorbing_boundary_validation.py:38, tests/test_absorbing_boundary_validation.py:44, tests/test_absorbing_boundary_validation.py:55, tests/test_absorbing_boundary_validation.py:61, tests/test_absorbing_boundary_validation.py:71, tests/test_absorbing_boundary_validation.py:80, tests/test_absorbing_boundary_validation.py:91, tests/test_backends.py:112, tests/test_split_operator.py:128
+
+AbsorbingBoundaryLayer.__init__ [quantumlab/core/absorbing_boundary.py:28]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+AbsorbingBoundaryLayer._polynomial_profile [quantumlab/core/absorbing_boundary.py:53]
+  PROD: -
+  TEST: -
+
+AbsorbingBoundaryLayer._binomial [quantumlab/core/absorbing_boundary.py:75]
+  PROD: -
+  TEST: -
+
+AbsorbingBoundaryLayer._build_mask [quantumlab/core/absorbing_boundary.py:79]
+  PROD: -
+  TEST: -
+
+AbsorbingBoundaryLayer._build_mask_1d [quantumlab/core/absorbing_boundary.py:90]
+  PROD: -
+  TEST: -
+
+AbsorbingBoundaryLayer._build_mask_2d [quantumlab/core/absorbing_boundary.py:106]
+  PROD: -
+  TEST: -
+
+AbsorbingBoundaryLayer._build_mask_3d [quantumlab/core/absorbing_boundary.py:127]
+  PROD: -
+  TEST: -
+
+AbsorbingBoundaryLayer.apply [quantumlab/core/absorbing_boundary.py:152]
+  PROD: examples/05_2d_gaussian_barrier.py:55, examples/06_3d_gaussian_barrier.py:49, quantumlab/runner.py:163
+  TEST: tests/test_2d_solver.py:61, tests/test_3d_solver.py:144, tests/test_absorbing_boundary_validation.py:102
+
+ndim [quantumlab/core/spectral.py:11]
+  PROD: quantumlab/solvers/split_operator.py:115, quantumlab/solvers/split_operator.py:173, quantumlab/stationary/imaginary_time.py:90
+  TEST: -
+
+wavefunction_class [quantumlab/core/spectral.py:21]
+  PROD: quantumlab/solvers/multicomponent.py:69, quantumlab/solvers/split_operator.py:132, quantumlab/stationary/conjugate_gradient.py:132, quantumlab/stationary/eigensolver.py:99, quantumlab/stationary/imaginary_time.py:104, quantumlab/stationary/imaginary_time.py:222
+  TEST: -
+
+volume_element [quantumlab/core/spectral.py:26]
+  PROD: quantumlab/observables/current.py:32, quantumlab/observables/current.py:37, quantumlab/observables/nonlinear.py:29, quantumlab/observables/nonlinear.py:8, quantumlab/solvers/multicomponent.py:68, quantumlab/solvers/split_operator.py:133, quantumlab/stationary/conjugate_gradient.py:50, quantumlab/stationary/eigensolver.py:98, quantumlab/stationary/imaginary_time.py:103, quantumlab/stationary/imaginary_time.py:221, quantumlab/strongfield.py:132
+  TEST: tests/test_stationary.py:10
+
+coordinates [quantumlab/core/spectral.py:35]
+  PROD: quantumlab/potentials/coulomb.py:24, quantumlab/potentials/time_dependent.py:73, quantumlab/potentials/time_dependent.py:96, quantumlab/potentials/traps.py:28, quantumlab/stationary/imaginary_time.py:41
+  TEST: -
+
+wavevectors [quantumlab/core/spectral.py:45]
+  PROD: quantumlab/observables/current.py:14
+  TEST: -
+
+k_squared [quantumlab/core/spectral.py:55]
+  PROD: quantumlab/solvers/split_operator.py:137, quantumlab/stationary/conjugate_gradient.py:52, quantumlab/stationary/eigensolver.py:48, quantumlab/stationary/hamiltonian.py:13
+  TEST: -
+
+k_volume_element [quantumlab/core/spectral.py:59]
+  PROD: -
+  TEST: -
+
+Potential [quantumlab/potentials/base.py:4]
+  PROD: -
+  TEST: -
+
+Potential.evaluate [quantumlab/potentials/base.py:7]
+  PROD: examples/08_3d_bec_time_of_flight.py:48, quantumlab/observables/expectation.py:143, quantumlab/potentials/time_dependent.py:77, quantumlab/solvers/multicomponent.py:71, quantumlab/solvers/split_operator.py:143, quantumlab/solvers/split_step_1d.py:10, quantumlab/solvers/split_step_2d.py:19, quantumlab/solvers/split_step_3d.py:41, quantumlab/solvers/split_step_3d_gpu.py:60, quantumlab/solvers/split_step_3d_gpu.py:68, quantumlab/stationary/conjugate_gradient.py:51, quantumlab/stationary/eigensolver.py:47, quantumlab/stationary/imaginary_time.py:223, quantumlab/strongfield.py:130, quantumlab/visualization/animation.py:62, quantumlab/visualization/plots_1d.py:14, quantumlab/visualization/plots_2d.py:113, quantumlab/visualization/plots_2d.py:51, quantumlab/visualization/volume_3d.py:112
+  TEST: tests/test_3d_solver.py:156, tests/test_3d_solver.py:167, tests/test_new_potentials_and_observables.py:17, tests/test_new_potentials_and_observables.py:22, tests/test_new_potentials_and_observables.py:30, tests/test_new_potentials_and_observables.py:43, tests/test_new_potentials_and_observables.py:49, tests/test_new_potentials_and_observables.py:59, tests/test_potentials.py:18, tests/test_potentials.py:31, tests/test_potentials.py:41, tests/test_potentials.py:49, tests/test_rotation.py:131, tests/test_stationary.py:34, tests/test_strongfield.py:44
+
+_smooth_step [quantumlab/potentials/apertures.py:6]
+  PROD: -
+  TEST: -
+
+ApertureScreen [quantumlab/potentials/apertures.py:11]
+  PROD: examples/07_3d_double_slit.py:50
+  TEST: tests/test_new_potentials_and_observables.py:28, tests/test_new_potentials_and_observables.py:43, tests/test_volume_3d.py:44
+
+ApertureScreen.__init__ [quantumlab/potentials/apertures.py:40]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+ApertureScreen.aperture_centers [quantumlab/potentials/apertures.py:55]
+  PROD: -
+  TEST: -
+
+ApertureScreen.evaluate [quantumlab/potentials/apertures.py:59]
+  PROD: examples/08_3d_bec_time_of_flight.py:48, quantumlab/observables/expectation.py:143, quantumlab/potentials/time_dependent.py:77, quantumlab/solvers/multicomponent.py:71, quantumlab/solvers/split_operator.py:143, quantumlab/solvers/split_step_1d.py:10, quantumlab/solvers/split_step_2d.py:19, quantumlab/solvers/split_step_3d.py:41, quantumlab/solvers/split_step_3d_gpu.py:60, quantumlab/solvers/split_step_3d_gpu.py:68, quantumlab/stationary/conjugate_gradient.py:51, quantumlab/stationary/eigensolver.py:47, quantumlab/stationary/imaginary_time.py:223, quantumlab/strongfield.py:130, quantumlab/visualization/animation.py:62, quantumlab/visualization/plots_1d.py:14, quantumlab/visualization/plots_2d.py:113, quantumlab/visualization/plots_2d.py:51, quantumlab/visualization/volume_3d.py:112
+  TEST: tests/test_3d_solver.py:156, tests/test_3d_solver.py:167, tests/test_new_potentials_and_observables.py:17, tests/test_new_potentials_and_observables.py:22, tests/test_new_potentials_and_observables.py:30, tests/test_new_potentials_and_observables.py:43, tests/test_new_potentials_and_observables.py:49, tests/test_new_potentials_and_observables.py:59, tests/test_potentials.py:18, tests/test_potentials.py:31, tests/test_potentials.py:41, tests/test_potentials.py:49, tests/test_rotation.py:131, tests/test_stationary.py:34, tests/test_strongfield.py:44
+
+StadiumBilliard [quantumlab/potentials/apertures.py:79]
+  PROD: examples/10_quantum_chaos_stadium.py:35
+  TEST: tests/test_new_potentials_and_observables.py:49, tests/test_stationary.py:40
+
+StadiumBilliard.__init__ [quantumlab/potentials/apertures.py:90]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+StadiumBilliard.evaluate [quantumlab/potentials/apertures.py:96]
+  PROD: examples/08_3d_bec_time_of_flight.py:48, quantumlab/observables/expectation.py:143, quantumlab/potentials/time_dependent.py:77, quantumlab/solvers/multicomponent.py:71, quantumlab/solvers/split_operator.py:143, quantumlab/solvers/split_step_1d.py:10, quantumlab/solvers/split_step_2d.py:19, quantumlab/solvers/split_step_3d.py:41, quantumlab/solvers/split_step_3d_gpu.py:60, quantumlab/solvers/split_step_3d_gpu.py:68, quantumlab/stationary/conjugate_gradient.py:51, quantumlab/stationary/eigensolver.py:47, quantumlab/stationary/imaginary_time.py:223, quantumlab/strongfield.py:130, quantumlab/visualization/animation.py:62, quantumlab/visualization/plots_1d.py:14, quantumlab/visualization/plots_2d.py:113, quantumlab/visualization/plots_2d.py:51, quantumlab/visualization/volume_3d.py:112
+  TEST: tests/test_3d_solver.py:156, tests/test_3d_solver.py:167, tests/test_new_potentials_and_observables.py:17, tests/test_new_potentials_and_observables.py:22, tests/test_new_potentials_and_observables.py:30, tests/test_new_potentials_and_observables.py:43, tests/test_new_potentials_and_observables.py:49, tests/test_new_potentials_and_observables.py:59, tests/test_potentials.py:18, tests/test_potentials.py:31, tests/test_potentials.py:41, tests/test_potentials.py:49, tests/test_rotation.py:131, tests/test_stationary.py:34, tests/test_strongfield.py:44
+
+GaussianBarrier [quantumlab/potentials/barriers.py:5]
+  PROD: examples/01_gaussian_barrier.py:32, testbench_interlock.py:99
+  TEST: tests/test_2d_solver.py:15, tests/test_backends.py:76, tests/test_potentials.py:17, tests/test_solvers.py:12, tests/test_solvers.py:23, tests/test_split_operator.py:30, tests/test_split_operator.py:52
+
+GaussianBarrier.__init__ [quantumlab/potentials/barriers.py:7]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+GaussianBarrier.evaluate [quantumlab/potentials/barriers.py:12]
+  PROD: examples/08_3d_bec_time_of_flight.py:48, quantumlab/observables/expectation.py:143, quantumlab/potentials/time_dependent.py:77, quantumlab/solvers/multicomponent.py:71, quantumlab/solvers/split_operator.py:143, quantumlab/solvers/split_step_1d.py:10, quantumlab/solvers/split_step_2d.py:19, quantumlab/solvers/split_step_3d.py:41, quantumlab/solvers/split_step_3d_gpu.py:60, quantumlab/solvers/split_step_3d_gpu.py:68, quantumlab/stationary/conjugate_gradient.py:51, quantumlab/stationary/eigensolver.py:47, quantumlab/stationary/imaginary_time.py:223, quantumlab/strongfield.py:130, quantumlab/visualization/animation.py:62, quantumlab/visualization/plots_1d.py:14, quantumlab/visualization/plots_2d.py:113, quantumlab/visualization/plots_2d.py:51, quantumlab/visualization/volume_3d.py:112
+  TEST: tests/test_3d_solver.py:156, tests/test_3d_solver.py:167, tests/test_new_potentials_and_observables.py:17, tests/test_new_potentials_and_observables.py:22, tests/test_new_potentials_and_observables.py:30, tests/test_new_potentials_and_observables.py:43, tests/test_new_potentials_and_observables.py:49, tests/test_new_potentials_and_observables.py:59, tests/test_potentials.py:18, tests/test_potentials.py:31, tests/test_potentials.py:41, tests/test_potentials.py:49, tests/test_rotation.py:131, tests/test_stationary.py:34, tests/test_strongfield.py:44
+
+RectangularBarrier [quantumlab/potentials/barriers.py:20]
+  PROD: -
+  TEST: tests/test_potentials.py:30
+
+RectangularBarrier.__init__ [quantumlab/potentials/barriers.py:22]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+RectangularBarrier.evaluate [quantumlab/potentials/barriers.py:27]
+  PROD: examples/08_3d_bec_time_of_flight.py:48, quantumlab/observables/expectation.py:143, quantumlab/potentials/time_dependent.py:77, quantumlab/solvers/multicomponent.py:71, quantumlab/solvers/split_operator.py:143, quantumlab/solvers/split_step_1d.py:10, quantumlab/solvers/split_step_2d.py:19, quantumlab/solvers/split_step_3d.py:41, quantumlab/solvers/split_step_3d_gpu.py:60, quantumlab/solvers/split_step_3d_gpu.py:68, quantumlab/stationary/conjugate_gradient.py:51, quantumlab/stationary/eigensolver.py:47, quantumlab/stationary/imaginary_time.py:223, quantumlab/strongfield.py:130, quantumlab/visualization/animation.py:62, quantumlab/visualization/plots_1d.py:14, quantumlab/visualization/plots_2d.py:113, quantumlab/visualization/plots_2d.py:51, quantumlab/visualization/volume_3d.py:112
+  TEST: tests/test_3d_solver.py:156, tests/test_3d_solver.py:167, tests/test_new_potentials_and_observables.py:17, tests/test_new_potentials_and_observables.py:22, tests/test_new_potentials_and_observables.py:30, tests/test_new_potentials_and_observables.py:43, tests/test_new_potentials_and_observables.py:49, tests/test_new_potentials_and_observables.py:59, tests/test_potentials.py:18, tests/test_potentials.py:31, tests/test_potentials.py:41, tests/test_potentials.py:49, tests/test_rotation.py:131, tests/test_stationary.py:34, tests/test_strongfield.py:44
+
+PotentialStep [quantumlab/potentials/barriers.py:35]
+  PROD: -
+  TEST: -
+
+PotentialStep.__init__ [quantumlab/potentials/barriers.py:37]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+PotentialStep.evaluate [quantumlab/potentials/barriers.py:41]
+  PROD: examples/08_3d_bec_time_of_flight.py:48, quantumlab/observables/expectation.py:143, quantumlab/potentials/time_dependent.py:77, quantumlab/solvers/multicomponent.py:71, quantumlab/solvers/split_operator.py:143, quantumlab/solvers/split_step_1d.py:10, quantumlab/solvers/split_step_2d.py:19, quantumlab/solvers/split_step_3d.py:41, quantumlab/solvers/split_step_3d_gpu.py:60, quantumlab/solvers/split_step_3d_gpu.py:68, quantumlab/stationary/conjugate_gradient.py:51, quantumlab/stationary/eigensolver.py:47, quantumlab/stationary/imaginary_time.py:223, quantumlab/strongfield.py:130, quantumlab/visualization/animation.py:62, quantumlab/visualization/plots_1d.py:14, quantumlab/visualization/plots_2d.py:113, quantumlab/visualization/plots_2d.py:51, quantumlab/visualization/volume_3d.py:112
+  TEST: tests/test_3d_solver.py:156, tests/test_3d_solver.py:167, tests/test_new_potentials_and_observables.py:17, tests/test_new_potentials_and_observables.py:22, tests/test_new_potentials_and_observables.py:30, tests/test_new_potentials_and_observables.py:43, tests/test_new_potentials_and_observables.py:49, tests/test_new_potentials_and_observables.py:59, tests/test_potentials.py:18, tests/test_potentials.py:31, tests/test_potentials.py:41, tests/test_potentials.py:49, tests/test_rotation.py:131, tests/test_stationary.py:34, tests/test_strongfield.py:44
+
+MultipleBarriers [quantumlab/potentials/barriers.py:47]
+  PROD: examples/04_multiple_barriers.py:33
+  TEST: -
+
+MultipleBarriers.__init__ [quantumlab/potentials/barriers.py:49]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+MultipleBarriers.evaluate [quantumlab/potentials/barriers.py:54]
+  PROD: examples/08_3d_bec_time_of_flight.py:48, quantumlab/observables/expectation.py:143, quantumlab/potentials/time_dependent.py:77, quantumlab/solvers/multicomponent.py:71, quantumlab/solvers/split_operator.py:143, quantumlab/solvers/split_step_1d.py:10, quantumlab/solvers/split_step_2d.py:19, quantumlab/solvers/split_step_3d.py:41, quantumlab/solvers/split_step_3d_gpu.py:60, quantumlab/solvers/split_step_3d_gpu.py:68, quantumlab/stationary/conjugate_gradient.py:51, quantumlab/stationary/eigensolver.py:47, quantumlab/stationary/imaginary_time.py:223, quantumlab/strongfield.py:130, quantumlab/visualization/animation.py:62, quantumlab/visualization/plots_1d.py:14, quantumlab/visualization/plots_2d.py:113, quantumlab/visualization/plots_2d.py:51, quantumlab/visualization/volume_3d.py:112
+  TEST: tests/test_3d_solver.py:156, tests/test_3d_solver.py:167, tests/test_new_potentials_and_observables.py:17, tests/test_new_potentials_and_observables.py:22, tests/test_new_potentials_and_observables.py:30, tests/test_new_potentials_and_observables.py:43, tests/test_new_potentials_and_observables.py:49, tests/test_new_potentials_and_observables.py:59, tests/test_potentials.py:18, tests/test_potentials.py:31, tests/test_potentials.py:41, tests/test_potentials.py:49, tests/test_rotation.py:131, tests/test_stationary.py:34, tests/test_strongfield.py:44
+
+ResonantTunnelingDiode [quantumlab/potentials/barriers.py:68]
+  PROD: -
+  TEST: -
+
+ResonantTunnelingDiode.__init__ [quantumlab/potentials/barriers.py:70]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+ResonantTunnelingDiode.evaluate [quantumlab/potentials/barriers.py:76]
+  PROD: examples/08_3d_bec_time_of_flight.py:48, quantumlab/observables/expectation.py:143, quantumlab/potentials/time_dependent.py:77, quantumlab/solvers/multicomponent.py:71, quantumlab/solvers/split_operator.py:143, quantumlab/solvers/split_step_1d.py:10, quantumlab/solvers/split_step_2d.py:19, quantumlab/solvers/split_step_3d.py:41, quantumlab/solvers/split_step_3d_gpu.py:60, quantumlab/solvers/split_step_3d_gpu.py:68, quantumlab/stationary/conjugate_gradient.py:51, quantumlab/stationary/eigensolver.py:47, quantumlab/stationary/imaginary_time.py:223, quantumlab/strongfield.py:130, quantumlab/visualization/animation.py:62, quantumlab/visualization/plots_1d.py:14, quantumlab/visualization/plots_2d.py:113, quantumlab/visualization/plots_2d.py:51, quantumlab/visualization/volume_3d.py:112
+  TEST: tests/test_3d_solver.py:156, tests/test_3d_solver.py:167, tests/test_new_potentials_and_observables.py:17, tests/test_new_potentials_and_observables.py:22, tests/test_new_potentials_and_observables.py:30, tests/test_new_potentials_and_observables.py:43, tests/test_new_potentials_and_observables.py:49, tests/test_new_potentials_and_observables.py:59, tests/test_potentials.py:18, tests/test_potentials.py:31, tests/test_potentials.py:41, tests/test_potentials.py:49, tests/test_rotation.py:131, tests/test_stationary.py:34, tests/test_strongfield.py:44
+
+Gaussian2DBarrier [quantumlab/potentials/barriers.py:96]
+  PROD: examples/05_2d_gaussian_barrier.py:40
+  TEST: tests/test_split_operator.py:34
+
+Gaussian2DBarrier.__init__ [quantumlab/potentials/barriers.py:117]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+Gaussian2DBarrier.evaluate [quantumlab/potentials/barriers.py:123]
+  PROD: examples/08_3d_bec_time_of_flight.py:48, quantumlab/observables/expectation.py:143, quantumlab/potentials/time_dependent.py:77, quantumlab/solvers/multicomponent.py:71, quantumlab/solvers/split_operator.py:143, quantumlab/solvers/split_step_1d.py:10, quantumlab/solvers/split_step_2d.py:19, quantumlab/solvers/split_step_3d.py:41, quantumlab/solvers/split_step_3d_gpu.py:60, quantumlab/solvers/split_step_3d_gpu.py:68, quantumlab/stationary/conjugate_gradient.py:51, quantumlab/stationary/eigensolver.py:47, quantumlab/stationary/imaginary_time.py:223, quantumlab/strongfield.py:130, quantumlab/visualization/animation.py:62, quantumlab/visualization/plots_1d.py:14, quantumlab/visualization/plots_2d.py:113, quantumlab/visualization/plots_2d.py:51, quantumlab/visualization/volume_3d.py:112
+  TEST: tests/test_3d_solver.py:156, tests/test_3d_solver.py:167, tests/test_new_potentials_and_observables.py:17, tests/test_new_potentials_and_observables.py:22, tests/test_new_potentials_and_observables.py:30, tests/test_new_potentials_and_observables.py:43, tests/test_new_potentials_and_observables.py:49, tests/test_new_potentials_and_observables.py:59, tests/test_potentials.py:18, tests/test_potentials.py:31, tests/test_potentials.py:41, tests/test_potentials.py:49, tests/test_rotation.py:131, tests/test_stationary.py:34, tests/test_strongfield.py:44
+
+Gaussian3DBarrier [quantumlab/potentials/barriers.py:133]
+  PROD: benchmarks/perf_comparison.py:91, examples/06_3d_gaussian_barrier.py:41
+  TEST: tests/test_3d_gpu_solver.py:120, tests/test_3d_gpu_solver.py:139, tests/test_3d_gpu_solver.py:34, tests/test_3d_solver.py:155, tests/test_3d_solver.py:166, tests/test_3d_solver.py:76, tests/test_split_operator.py:38
+
+Gaussian3DBarrier.__init__ [quantumlab/potentials/barriers.py:149]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+Gaussian3DBarrier.evaluate [quantumlab/potentials/barriers.py:157]
+  PROD: examples/08_3d_bec_time_of_flight.py:48, quantumlab/observables/expectation.py:143, quantumlab/potentials/time_dependent.py:77, quantumlab/solvers/multicomponent.py:71, quantumlab/solvers/split_operator.py:143, quantumlab/solvers/split_step_1d.py:10, quantumlab/solvers/split_step_2d.py:19, quantumlab/solvers/split_step_3d.py:41, quantumlab/solvers/split_step_3d_gpu.py:60, quantumlab/solvers/split_step_3d_gpu.py:68, quantumlab/stationary/conjugate_gradient.py:51, quantumlab/stationary/eigensolver.py:47, quantumlab/stationary/imaginary_time.py:223, quantumlab/strongfield.py:130, quantumlab/visualization/animation.py:62, quantumlab/visualization/plots_1d.py:14, quantumlab/visualization/plots_2d.py:113, quantumlab/visualization/plots_2d.py:51, quantumlab/visualization/volume_3d.py:112
+  TEST: tests/test_3d_solver.py:156, tests/test_3d_solver.py:167, tests/test_new_potentials_and_observables.py:17, tests/test_new_potentials_and_observables.py:22, tests/test_new_potentials_and_observables.py:30, tests/test_new_potentials_and_observables.py:43, tests/test_new_potentials_and_observables.py:49, tests/test_new_potentials_and_observables.py:59, tests/test_potentials.py:18, tests/test_potentials.py:31, tests/test_potentials.py:41, tests/test_potentials.py:49, tests/test_rotation.py:131, tests/test_stationary.py:34, tests/test_strongfield.py:44
+
+SoftCoulomb [quantumlab/potentials/coulomb.py:6]
+  PROD: benchmarks/validation_suite.py:210, benchmarks/validation_suite.py:312, examples/12_high_harmonic_generation.py:86
+  TEST: tests/test_conjugate_gradient.py:15, tests/test_strongfield.py:34, tests/test_strongfield.py:43
+
+SoftCoulomb.__init__ [quantumlab/potentials/coulomb.py:18]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+SoftCoulomb._displacements [quantumlab/potentials/coulomb.py:23]
+  PROD: -
+  TEST: -
+
+SoftCoulomb.evaluate [quantumlab/potentials/coulomb.py:29]
+  PROD: examples/08_3d_bec_time_of_flight.py:48, quantumlab/observables/expectation.py:143, quantumlab/potentials/time_dependent.py:77, quantumlab/solvers/multicomponent.py:71, quantumlab/solvers/split_operator.py:143, quantumlab/solvers/split_step_1d.py:10, quantumlab/solvers/split_step_2d.py:19, quantumlab/solvers/split_step_3d.py:41, quantumlab/solvers/split_step_3d_gpu.py:60, quantumlab/solvers/split_step_3d_gpu.py:68, quantumlab/stationary/conjugate_gradient.py:51, quantumlab/stationary/eigensolver.py:47, quantumlab/stationary/imaginary_time.py:223, quantumlab/strongfield.py:130, quantumlab/visualization/animation.py:62, quantumlab/visualization/plots_1d.py:14, quantumlab/visualization/plots_2d.py:113, quantumlab/visualization/plots_2d.py:51, quantumlab/visualization/volume_3d.py:112
+  TEST: tests/test_3d_solver.py:156, tests/test_3d_solver.py:167, tests/test_new_potentials_and_observables.py:17, tests/test_new_potentials_and_observables.py:22, tests/test_new_potentials_and_observables.py:30, tests/test_new_potentials_and_observables.py:43, tests/test_new_potentials_and_observables.py:49, tests/test_new_potentials_and_observables.py:59, tests/test_potentials.py:18, tests/test_potentials.py:31, tests/test_potentials.py:41, tests/test_potentials.py:49, tests/test_rotation.py:131, tests/test_stationary.py:34, tests/test_strongfield.py:44
+
+SoftCoulomb.gradient [quantumlab/potentials/coulomb.py:33]
+  PROD: quantumlab/observables/current.py:23, quantumlab/observables/current.py:30, quantumlab/strongfield.py:127, quantumlab/strongfield.py:130
+  TEST: tests/test_strongfield.py:45
+
+CustomPotential [quantumlab/potentials/custom.py:5]
+  PROD: benchmarks/validation_suite.py:53
+  TEST: tests/test_new_potentials_and_observables.py:59, tests/test_potentials.py:48, tests/test_split_operator.py:67, tests/test_split_operator.py:82
+
+CustomPotential.__init__ [quantumlab/potentials/custom.py:7]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+CustomPotential.evaluate [quantumlab/potentials/custom.py:12]
+  PROD: examples/08_3d_bec_time_of_flight.py:48, quantumlab/observables/expectation.py:143, quantumlab/potentials/time_dependent.py:77, quantumlab/solvers/multicomponent.py:71, quantumlab/solvers/split_operator.py:143, quantumlab/solvers/split_step_1d.py:10, quantumlab/solvers/split_step_2d.py:19, quantumlab/solvers/split_step_3d.py:41, quantumlab/solvers/split_step_3d_gpu.py:60, quantumlab/solvers/split_step_3d_gpu.py:68, quantumlab/stationary/conjugate_gradient.py:51, quantumlab/stationary/eigensolver.py:47, quantumlab/stationary/imaginary_time.py:223, quantumlab/strongfield.py:130, quantumlab/visualization/animation.py:62, quantumlab/visualization/plots_1d.py:14, quantumlab/visualization/plots_2d.py:113, quantumlab/visualization/plots_2d.py:51, quantumlab/visualization/volume_3d.py:112
+  TEST: tests/test_3d_solver.py:156, tests/test_3d_solver.py:167, tests/test_new_potentials_and_observables.py:17, tests/test_new_potentials_and_observables.py:22, tests/test_new_potentials_and_observables.py:30, tests/test_new_potentials_and_observables.py:43, tests/test_new_potentials_and_observables.py:49, tests/test_new_potentials_and_observables.py:59, tests/test_potentials.py:18, tests/test_potentials.py:31, tests/test_potentials.py:41, tests/test_potentials.py:49, tests/test_rotation.py:131, tests/test_stationary.py:34, tests/test_strongfield.py:44
+
+RandomDisorder [quantumlab/potentials/disorder.py:5]
+  PROD: -
+  TEST: -
+
+RandomDisorder.__init__ [quantumlab/potentials/disorder.py:7]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+RandomDisorder.evaluate [quantumlab/potentials/disorder.py:12]
+  PROD: examples/08_3d_bec_time_of_flight.py:48, quantumlab/observables/expectation.py:143, quantumlab/potentials/time_dependent.py:77, quantumlab/solvers/multicomponent.py:71, quantumlab/solvers/split_operator.py:143, quantumlab/solvers/split_step_1d.py:10, quantumlab/solvers/split_step_2d.py:19, quantumlab/solvers/split_step_3d.py:41, quantumlab/solvers/split_step_3d_gpu.py:60, quantumlab/solvers/split_step_3d_gpu.py:68, quantumlab/stationary/conjugate_gradient.py:51, quantumlab/stationary/eigensolver.py:47, quantumlab/stationary/imaginary_time.py:223, quantumlab/strongfield.py:130, quantumlab/visualization/animation.py:62, quantumlab/visualization/plots_1d.py:14, quantumlab/visualization/plots_2d.py:113, quantumlab/visualization/plots_2d.py:51, quantumlab/visualization/volume_3d.py:112
+  TEST: tests/test_3d_solver.py:156, tests/test_3d_solver.py:167, tests/test_new_potentials_and_observables.py:17, tests/test_new_potentials_and_observables.py:22, tests/test_new_potentials_and_observables.py:30, tests/test_new_potentials_and_observables.py:43, tests/test_new_potentials_and_observables.py:49, tests/test_new_potentials_and_observables.py:59, tests/test_potentials.py:18, tests/test_potentials.py:31, tests/test_potentials.py:41, tests/test_potentials.py:49, tests/test_rotation.py:131, tests/test_stationary.py:34, tests/test_strongfield.py:44
+
+HarmonicOscillator [quantumlab/potentials/oscillator.py:5]
+  PROD: examples/02_harmonic_oscillator.py:30
+  TEST: tests/test_2d_solver.py:27, tests/test_3d_solver.py:94, tests/test_new_potentials_and_observables.py:17, tests/test_potentials.py:40
+
+HarmonicOscillator.__init__ [quantumlab/potentials/oscillator.py:7]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+HarmonicOscillator.evaluate [quantumlab/potentials/oscillator.py:12]
+  PROD: examples/08_3d_bec_time_of_flight.py:48, quantumlab/observables/expectation.py:143, quantumlab/potentials/time_dependent.py:77, quantumlab/solvers/multicomponent.py:71, quantumlab/solvers/split_operator.py:143, quantumlab/solvers/split_step_1d.py:10, quantumlab/solvers/split_step_2d.py:19, quantumlab/solvers/split_step_3d.py:41, quantumlab/solvers/split_step_3d_gpu.py:60, quantumlab/solvers/split_step_3d_gpu.py:68, quantumlab/stationary/conjugate_gradient.py:51, quantumlab/stationary/eigensolver.py:47, quantumlab/stationary/imaginary_time.py:223, quantumlab/strongfield.py:130, quantumlab/visualization/animation.py:62, quantumlab/visualization/plots_1d.py:14, quantumlab/visualization/plots_2d.py:113, quantumlab/visualization/plots_2d.py:51, quantumlab/visualization/volume_3d.py:112
+  TEST: tests/test_3d_solver.py:156, tests/test_3d_solver.py:167, tests/test_new_potentials_and_observables.py:17, tests/test_new_potentials_and_observables.py:22, tests/test_new_potentials_and_observables.py:30, tests/test_new_potentials_and_observables.py:43, tests/test_new_potentials_and_observables.py:49, tests/test_new_potentials_and_observables.py:59, tests/test_potentials.py:18, tests/test_potentials.py:31, tests/test_potentials.py:41, tests/test_potentials.py:49, tests/test_rotation.py:131, tests/test_stationary.py:34, tests/test_strongfield.py:44
+
+CrystalPotential [quantumlab/potentials/periodic.py:5]
+  PROD: -
+  TEST: -
+
+CrystalPotential.__init__ [quantumlab/potentials/periodic.py:7]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+CrystalPotential.evaluate [quantumlab/potentials/periodic.py:12]
+  PROD: examples/08_3d_bec_time_of_flight.py:48, quantumlab/observables/expectation.py:143, quantumlab/potentials/time_dependent.py:77, quantumlab/solvers/multicomponent.py:71, quantumlab/solvers/split_operator.py:143, quantumlab/solvers/split_step_1d.py:10, quantumlab/solvers/split_step_2d.py:19, quantumlab/solvers/split_step_3d.py:41, quantumlab/solvers/split_step_3d_gpu.py:60, quantumlab/solvers/split_step_3d_gpu.py:68, quantumlab/stationary/conjugate_gradient.py:51, quantumlab/stationary/eigensolver.py:47, quantumlab/stationary/imaginary_time.py:223, quantumlab/strongfield.py:130, quantumlab/visualization/animation.py:62, quantumlab/visualization/plots_1d.py:14, quantumlab/visualization/plots_2d.py:113, quantumlab/visualization/plots_2d.py:51, quantumlab/visualization/volume_3d.py:112
+  TEST: tests/test_3d_solver.py:156, tests/test_3d_solver.py:167, tests/test_new_potentials_and_observables.py:17, tests/test_new_potentials_and_observables.py:22, tests/test_new_potentials_and_observables.py:30, tests/test_new_potentials_and_observables.py:43, tests/test_new_potentials_and_observables.py:49, tests/test_new_potentials_and_observables.py:59, tests/test_potentials.py:18, tests/test_potentials.py:31, tests/test_potentials.py:41, tests/test_potentials.py:49, tests/test_rotation.py:131, tests/test_stationary.py:34, tests/test_strongfield.py:44
+
+TimeDependentPotential [quantumlab/potentials/time_dependent.py:16]
+  PROD: -
+  TEST: -
+
+TimeDependentPotential.evaluate_at [quantumlab/potentials/time_dependent.py:20]
+  PROD: quantumlab/solvers/split_operator.py:191
+  TEST: tests/test_new_potentials_and_observables.py:76, tests/test_new_potentials_and_observables.py:81
+
+TimeDependentPotential.evaluate [quantumlab/potentials/time_dependent.py:23]
+  PROD: examples/08_3d_bec_time_of_flight.py:48, quantumlab/observables/expectation.py:143, quantumlab/solvers/multicomponent.py:71, quantumlab/solvers/split_operator.py:143, quantumlab/solvers/split_step_1d.py:10, quantumlab/solvers/split_step_2d.py:19, quantumlab/solvers/split_step_3d.py:41, quantumlab/solvers/split_step_3d_gpu.py:60, quantumlab/solvers/split_step_3d_gpu.py:68, quantumlab/stationary/conjugate_gradient.py:51, quantumlab/stationary/eigensolver.py:47, quantumlab/stationary/imaginary_time.py:223, quantumlab/strongfield.py:130, quantumlab/visualization/animation.py:62, quantumlab/visualization/plots_1d.py:14, quantumlab/visualization/plots_2d.py:113, quantumlab/visualization/plots_2d.py:51, quantumlab/visualization/volume_3d.py:112
+  TEST: tests/test_3d_solver.py:156, tests/test_3d_solver.py:167, tests/test_new_potentials_and_observables.py:17, tests/test_new_potentials_and_observables.py:22, tests/test_new_potentials_and_observables.py:30, tests/test_new_potentials_and_observables.py:43, tests/test_new_potentials_and_observables.py:49, tests/test_new_potentials_and_observables.py:59, tests/test_potentials.py:18, tests/test_potentials.py:31, tests/test_potentials.py:41, tests/test_potentials.py:49, tests/test_rotation.py:131, tests/test_stationary.py:34, tests/test_strongfield.py:44
+
+DipoleDrive [quantumlab/potentials/time_dependent.py:27]
+  PROD: benchmarks/validation_suite.py:219, benchmarks/validation_suite.py:70, examples/12_high_harmonic_generation.py:63
+  TEST: tests/test_backends.py:78, tests/test_conjugate_gradient.py:68, tests/test_multicomponent.py:137, tests/test_new_potentials_and_observables.py:73, tests/test_new_potentials_and_observables.py:81, tests/test_split_operator.py:107, tests/test_split_operator.py:141, tests/test_split_operator.py:93
+
+DipoleDrive.__init__ [quantumlab/potentials/time_dependent.py:53]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+DipoleDrive.force [quantumlab/potentials/time_dependent.py:67]
+  PROD: benchmarks/validation_suite.py:224, examples/12_high_harmonic_generation.py:198, examples/12_high_harmonic_generation.py:218, examples/12_high_harmonic_generation.py:233, examples/12_high_harmonic_generation.py:245, examples/12_high_harmonic_generation.py:68
+  TEST: tests/test_new_potentials_and_observables.py:74, tests/test_new_potentials_and_observables.py:76
+
+DipoleDrive._static_parts [quantumlab/potentials/time_dependent.py:71]
+  PROD: -
+  TEST: -
+
+DipoleDrive.evaluate_at [quantumlab/potentials/time_dependent.py:82]
+  PROD: quantumlab/solvers/split_operator.py:191
+  TEST: tests/test_new_potentials_and_observables.py:76, tests/test_new_potentials_and_observables.py:81
+
+TimeDependentCustomPotential [quantumlab/potentials/time_dependent.py:87]
+  PROD: -
+  TEST: tests/test_split_operator.py:108
+
+TimeDependentCustomPotential.__init__ [quantumlab/potentials/time_dependent.py:90]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+TimeDependentCustomPotential.evaluate_at [quantumlab/potentials/time_dependent.py:95]
+  PROD: quantumlab/solvers/split_operator.py:191
+  TEST: tests/test_new_potentials_and_observables.py:76, tests/test_new_potentials_and_observables.py:81
+
+sin2_envelope [quantumlab/potentials/time_dependent.py:99]
+  PROD: -
+  TEST: tests/test_new_potentials_and_observables.py:70
+
+flat_top_envelope [quantumlab/potentials/time_dependent.py:108]
+  PROD: benchmarks/validation_suite.py:220, examples/12_high_harmonic_generation.py:63
+  TEST: tests/test_strongfield.py:51, tests/test_strongfield.py:57
+
+HarmonicTrap [quantumlab/potentials/traps.py:6]
+  PROD: benchmarks/gpu_split_operator.py:25, benchmarks/validation_suite.py:119, benchmarks/validation_suite.py:124, benchmarks/validation_suite.py:129, benchmarks/validation_suite.py:137, benchmarks/validation_suite.py:171, benchmarks/validation_suite.py:180, benchmarks/validation_suite.py:192, benchmarks/validation_suite.py:202, benchmarks/validation_suite.py:284, benchmarks/validation_suite.py:301, benchmarks/validation_suite.py:303, benchmarks/validation_suite.py:316, benchmarks/validation_suite.py:70, benchmarks/validation_suite.py:84, examples/08_3d_bec_time_of_flight.py:48, examples/08_3d_bec_time_of_flight.py:74, examples/11_rotating_bec_vortex_lattice.py:155, examples/11_rotating_bec_vortex_lattice.py:68, examples/11_rotating_bec_vortex_lattice.py:71, examples/13_two_component_bec.py:197, examples/13_two_component_bec.py:198, examples/13_two_component_bec.py:68
+  TEST: tests/test_backends.py:127, tests/test_backends.py:128, tests/test_backends.py:139, tests/test_backends.py:140, tests/test_backends.py:161, tests/test_backends.py:162, tests/test_backends.py:176, tests/test_backends.py:177, tests/test_backends.py:78, tests/test_backends.py:80, tests/test_backends.py:84, tests/test_backends.py:89, tests/test_conjugate_gradient.py:14, tests/test_conjugate_gradient.py:16, tests/test_conjugate_gradient.py:17, tests/test_conjugate_gradient.py:31, tests/test_conjugate_gradient.py:44, tests/test_conjugate_gradient.py:51, tests/test_conjugate_gradient.py:64, tests/test_gross_pitaevskii.py:42, tests/test_gross_pitaevskii.py:46, tests/test_gross_pitaevskii.py:62, tests/test_gross_pitaevskii.py:74, tests/test_multicomponent.py:110, tests/test_multicomponent.py:22, tests/test_multicomponent.py:35, tests/test_multicomponent.py:97, tests/test_new_potentials_and_observables.py:110, tests/test_new_potentials_and_observables.py:17, tests/test_new_potentials_and_observables.py:22, tests/test_rotation.py:101, tests/test_rotation.py:131, tests/test_rotation.py:138, tests/test_rotation.py:27, tests/test_rotation.py:40, tests/test_rotation.py:53, tests/test_rotation.py:64, tests/test_rotation.py:77, tests/test_rotation.py:93, tests/test_split_operator.py:107, tests/test_split_operator.py:139, tests/test_split_operator.py:93, tests/test_stationary.py:16, tests/test_stationary.py:24, tests/test_stationary.py:31, tests/test_stationary.py:34, tests/test_stationary.py:48, tests/test_stationary.py:56, tests/test_stationary.py:65, tests/test_stationary.py:75, tests/test_strongfield.py:100
+
+HarmonicTrap.__init__ [quantumlab/potentials/traps.py:22]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+HarmonicTrap.evaluate [quantumlab/potentials/traps.py:27]
+  PROD: examples/08_3d_bec_time_of_flight.py:48, quantumlab/observables/expectation.py:143, quantumlab/potentials/time_dependent.py:77, quantumlab/solvers/multicomponent.py:71, quantumlab/solvers/split_operator.py:143, quantumlab/solvers/split_step_1d.py:10, quantumlab/solvers/split_step_2d.py:19, quantumlab/solvers/split_step_3d.py:41, quantumlab/solvers/split_step_3d_gpu.py:60, quantumlab/solvers/split_step_3d_gpu.py:68, quantumlab/stationary/conjugate_gradient.py:51, quantumlab/stationary/eigensolver.py:47, quantumlab/stationary/imaginary_time.py:223, quantumlab/strongfield.py:130, quantumlab/visualization/animation.py:62, quantumlab/visualization/plots_1d.py:14, quantumlab/visualization/plots_2d.py:113, quantumlab/visualization/plots_2d.py:51, quantumlab/visualization/volume_3d.py:112
+  TEST: tests/test_3d_solver.py:156, tests/test_3d_solver.py:167, tests/test_new_potentials_and_observables.py:17, tests/test_new_potentials_and_observables.py:22, tests/test_new_potentials_and_observables.py:30, tests/test_new_potentials_and_observables.py:43, tests/test_new_potentials_and_observables.py:49, tests/test_new_potentials_and_observables.py:59, tests/test_potentials.py:18, tests/test_potentials.py:31, tests/test_potentials.py:41, tests/test_potentials.py:49, tests/test_rotation.py:131, tests/test_stationary.py:34, tests/test_strongfield.py:44
+
+InfiniteSquareWell [quantumlab/potentials/wells.py:5]
+  PROD: -
+  TEST: -
+
+InfiniteSquareWell.__init__ [quantumlab/potentials/wells.py:7]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+InfiniteSquareWell.evaluate [quantumlab/potentials/wells.py:12]
+  PROD: examples/08_3d_bec_time_of_flight.py:48, quantumlab/observables/expectation.py:143, quantumlab/potentials/time_dependent.py:77, quantumlab/solvers/multicomponent.py:71, quantumlab/solvers/split_operator.py:143, quantumlab/solvers/split_step_1d.py:10, quantumlab/solvers/split_step_2d.py:19, quantumlab/solvers/split_step_3d.py:41, quantumlab/solvers/split_step_3d_gpu.py:60, quantumlab/solvers/split_step_3d_gpu.py:68, quantumlab/stationary/conjugate_gradient.py:51, quantumlab/stationary/eigensolver.py:47, quantumlab/stationary/imaginary_time.py:223, quantumlab/strongfield.py:130, quantumlab/visualization/animation.py:62, quantumlab/visualization/plots_1d.py:14, quantumlab/visualization/plots_2d.py:113, quantumlab/visualization/plots_2d.py:51, quantumlab/visualization/volume_3d.py:112
+  TEST: tests/test_3d_solver.py:156, tests/test_3d_solver.py:167, tests/test_new_potentials_and_observables.py:17, tests/test_new_potentials_and_observables.py:22, tests/test_new_potentials_and_observables.py:30, tests/test_new_potentials_and_observables.py:43, tests/test_new_potentials_and_observables.py:49, tests/test_new_potentials_and_observables.py:59, tests/test_potentials.py:18, tests/test_potentials.py:31, tests/test_potentials.py:41, tests/test_potentials.py:49, tests/test_rotation.py:131, tests/test_stationary.py:34, tests/test_strongfield.py:44
+
+FiniteSquareWell [quantumlab/potentials/wells.py:20]
+  PROD: -
+  TEST: -
+
+FiniteSquareWell.__init__ [quantumlab/potentials/wells.py:22]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+FiniteSquareWell.evaluate [quantumlab/potentials/wells.py:27]
+  PROD: examples/08_3d_bec_time_of_flight.py:48, quantumlab/observables/expectation.py:143, quantumlab/potentials/time_dependent.py:77, quantumlab/solvers/multicomponent.py:71, quantumlab/solvers/split_operator.py:143, quantumlab/solvers/split_step_1d.py:10, quantumlab/solvers/split_step_2d.py:19, quantumlab/solvers/split_step_3d.py:41, quantumlab/solvers/split_step_3d_gpu.py:60, quantumlab/solvers/split_step_3d_gpu.py:68, quantumlab/stationary/conjugate_gradient.py:51, quantumlab/stationary/eigensolver.py:47, quantumlab/stationary/imaginary_time.py:223, quantumlab/strongfield.py:130, quantumlab/visualization/animation.py:62, quantumlab/visualization/plots_1d.py:14, quantumlab/visualization/plots_2d.py:113, quantumlab/visualization/plots_2d.py:51, quantumlab/visualization/volume_3d.py:112
+  TEST: tests/test_3d_solver.py:156, tests/test_3d_solver.py:167, tests/test_new_potentials_and_observables.py:17, tests/test_new_potentials_and_observables.py:22, tests/test_new_potentials_and_observables.py:30, tests/test_new_potentials_and_observables.py:43, tests/test_new_potentials_and_observables.py:49, tests/test_new_potentials_and_observables.py:59, tests/test_potentials.py:18, tests/test_potentials.py:31, tests/test_potentials.py:41, tests/test_potentials.py:49, tests/test_rotation.py:131, tests/test_stationary.py:34, tests/test_strongfield.py:44
+
+DoubleWell [quantumlab/potentials/wells.py:35]
+  PROD: examples/03_double_well.py:31
+  TEST: -
+
+DoubleWell.__init__ [quantumlab/potentials/wells.py:37]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+DoubleWell.evaluate [quantumlab/potentials/wells.py:42]
+  PROD: examples/08_3d_bec_time_of_flight.py:48, quantumlab/observables/expectation.py:143, quantumlab/potentials/time_dependent.py:77, quantumlab/solvers/multicomponent.py:71, quantumlab/solvers/split_operator.py:143, quantumlab/solvers/split_step_1d.py:10, quantumlab/solvers/split_step_2d.py:19, quantumlab/solvers/split_step_3d.py:41, quantumlab/solvers/split_step_3d_gpu.py:60, quantumlab/solvers/split_step_3d_gpu.py:68, quantumlab/stationary/conjugate_gradient.py:51, quantumlab/stationary/eigensolver.py:47, quantumlab/stationary/imaginary_time.py:223, quantumlab/strongfield.py:130, quantumlab/visualization/animation.py:62, quantumlab/visualization/plots_1d.py:14, quantumlab/visualization/plots_2d.py:113, quantumlab/visualization/plots_2d.py:51, quantumlab/visualization/volume_3d.py:112
+  TEST: tests/test_3d_solver.py:156, tests/test_3d_solver.py:167, tests/test_new_potentials_and_observables.py:17, tests/test_new_potentials_and_observables.py:22, tests/test_new_potentials_and_observables.py:30, tests/test_new_potentials_and_observables.py:43, tests/test_new_potentials_and_observables.py:49, tests/test_new_potentials_and_observables.py:59, tests/test_potentials.py:18, tests/test_potentials.py:31, tests/test_potentials.py:41, tests/test_potentials.py:49, tests/test_rotation.py:131, tests/test_stationary.py:34, tests/test_strongfield.py:44
+
+create_potential [quantumlab/potentials/__init__.py:41]
+  PROD: quantumlab/runner.py:141
+  TEST: tests/test_new_potentials_and_observables.py:64, tests/test_new_potentials_and_observables.py:65, tests/test_new_potentials_and_observables.py:66, tests/test_potentials.py:53, tests/test_potentials.py:58, tests/test_strongfield.py:37
+
+Solver [quantumlab/solvers/base.py:3]
+  PROD: -
+  TEST: -
+
+Solver.__init__ [quantumlab/solvers/base.py:5]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+Solver.step [quantumlab/solvers/base.py:13]
+  PROD: benchmarks/perf_comparison.py:104, benchmarks/perf_comparison.py:122, benchmarks/perf_comparison.py:97, benchmarks/validation_suite.py:143, examples/01_gaussian_barrier.py:39, examples/02_harmonic_oscillator.py:40, examples/03_double_well.py:40, examples/04_multiple_barriers.py:40, examples/05_2d_gaussian_barrier.py:54, examples/06_3d_gaussian_barrier.py:48, examples/07_3d_double_slit.py:83, examples/08_3d_bec_time_of_flight.py:110, examples/10_quantum_chaos_stadium.py:76, examples/11_rotating_bec_vortex_lattice.py:99, quantumlab/runner.py:161, quantumlab/solvers/split_step_3d_gpu.py:115, quantumlab/stationary/imaginary_time.py:126, testbench_interlock.py:106
+  TEST: tests/test_2d_solver.py:20, tests/test_2d_solver.py:32, tests/test_3d_gpu_solver.py:104, tests/test_3d_gpu_solver.py:127, tests/test_3d_gpu_solver.py:144, tests/test_3d_gpu_solver.py:48, tests/test_3d_gpu_solver.py:62, tests/test_3d_gpu_solver.py:85, tests/test_3d_gpu_solver.py:86, tests/test_3d_solver.py:100, tests/test_3d_solver.py:82, tests/test_backends.py:131, tests/test_benchmark_failure_handling.py:204, tests/test_benchmark_failure_handling.py:209, tests/test_benchmark_failure_handling.py:273, tests/test_multicomponent.py:140, tests/test_new_potentials_and_observables.py:118, tests/test_solvers.py:17, tests/test_solvers.py:28, tests/test_split_operator.py:43, tests/test_split_operator.py:44
+
+Solver.backend [quantumlab/solvers/base.py:17]
+  PROD: -
+  TEST: -
+
+ArrayBackend [quantumlab/solvers/backends.py:13]
+  PROD: -
+  TEST: tests/test_backends.py:57
+
+cupy_available [quantumlab/solvers/backends.py:22]
+  PROD: benchmarks/gpu_split_operator.py:40
+  TEST: tests/test_backends.py:149, tests/test_backends.py:155
+
+numpy_backend [quantumlab/solvers/backends.py:31]
+  PROD: -
+  TEST: -
+
+cupy_backend [quantumlab/solvers/backends.py:43]
+  PROD: -
+  TEST: -
+
+get_backend [quantumlab/solvers/backends.py:60]
+  PROD: quantumlab/solvers/split_operator.py:129
+  TEST: tests/test_backends.py:146, tests/test_backends.py:148, tests/test_backends.py:150, tests/test_backends.py:152
+
+CoupledGPESolver [quantumlab/solvers/multicomponent.py:21]
+  PROD: benchmarks/validation_suite.py:261, benchmarks/validation_suite.py:272, examples/13_two_component_bec.py:120, examples/13_two_component_bec.py:201, quantumlab/stationary/imaginary_time.py:219
+  TEST: tests/test_backends.py:176, tests/test_backends.py:177, tests/test_multicomponent.py:101, tests/test_multicomponent.py:133, tests/test_multicomponent.py:135, tests/test_multicomponent.py:137, tests/test_multicomponent.py:138, tests/test_multicomponent.py:25, tests/test_multicomponent.py:69, tests/test_multicomponent.py:83
+
+CoupledGPESolver.__init__ [quantumlab/solvers/multicomponent.py:38]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+CoupledGPESolver.t [quantumlab/solvers/multicomponent.py:74]
+  PROD: -
+  TEST: -
+
+CoupledGPESolver.backend [quantumlab/solvers/multicomponent.py:78]
+  PROD: -
+  TEST: -
+
+CoupledGPESolver._densities [quantumlab/solvers/multicomponent.py:81]
+  PROD: -
+  TEST: -
+
+CoupledGPESolver._effective_potentials [quantumlab/solvers/multicomponent.py:88]
+  PROD: -
+  TEST: -
+
+CoupledGPESolver._potential_half_step [quantumlab/solvers/multicomponent.py:93]
+  PROD: quantumlab/solvers/split_operator.py:239, quantumlab/solvers/split_operator.py:241
+  TEST: -
+
+CoupledGPESolver._norm [quantumlab/solvers/multicomponent.py:104]
+  PROD: quantumlab/solvers/split_operator.py:250, quantumlab/solvers/split_operator.py:256
+  TEST: -
+
+CoupledGPESolver._advance [quantumlab/solvers/multicomponent.py:107]
+  PROD: quantumlab/solvers/split_operator.py:271, quantumlab/solvers/split_operator.py:281
+  TEST: -
+
+CoupledGPESolver._upload [quantumlab/solvers/multicomponent.py:123]
+  PROD: quantumlab/solvers/split_operator.py:271, quantumlab/solvers/split_operator.py:279
+  TEST: -
+
+CoupledGPESolver._download [quantumlab/solvers/multicomponent.py:128]
+  PROD: quantumlab/solvers/split_operator.py:271, quantumlab/solvers/split_operator.py:283, quantumlab/solvers/split_operator.py:284
+  TEST: -
+
+CoupledGPESolver.step [quantumlab/solvers/multicomponent.py:131]
+  PROD: benchmarks/perf_comparison.py:104, benchmarks/perf_comparison.py:122, benchmarks/perf_comparison.py:97, benchmarks/validation_suite.py:143, examples/01_gaussian_barrier.py:39, examples/02_harmonic_oscillator.py:40, examples/03_double_well.py:40, examples/04_multiple_barriers.py:40, examples/05_2d_gaussian_barrier.py:54, examples/06_3d_gaussian_barrier.py:48, examples/07_3d_double_slit.py:83, examples/08_3d_bec_time_of_flight.py:110, examples/10_quantum_chaos_stadium.py:76, examples/11_rotating_bec_vortex_lattice.py:99, quantumlab/runner.py:161, quantumlab/solvers/split_step_3d_gpu.py:115, quantumlab/stationary/imaginary_time.py:126, testbench_interlock.py:106
+  TEST: tests/test_2d_solver.py:20, tests/test_2d_solver.py:32, tests/test_3d_gpu_solver.py:104, tests/test_3d_gpu_solver.py:127, tests/test_3d_gpu_solver.py:144, tests/test_3d_gpu_solver.py:48, tests/test_3d_gpu_solver.py:62, tests/test_3d_gpu_solver.py:85, tests/test_3d_gpu_solver.py:86, tests/test_3d_solver.py:100, tests/test_3d_solver.py:82, tests/test_backends.py:131, tests/test_benchmark_failure_handling.py:204, tests/test_benchmark_failure_handling.py:209, tests/test_benchmark_failure_handling.py:273, tests/test_multicomponent.py:140, tests/test_new_potentials_and_observables.py:118, tests/test_solvers.py:17, tests/test_solvers.py:28, tests/test_split_operator.py:43, tests/test_split_operator.py:44
+
+CoupledGPESolver.evolve [quantumlab/solvers/multicomponent.py:134]
+  PROD: benchmarks/gpu_split_operator.py:26, benchmarks/gpu_split_operator.py:28, benchmarks/validation_suite.py:163, benchmarks/validation_suite.py:195, benchmarks/validation_suite.py:203, benchmarks/validation_suite.py:223, benchmarks/validation_suite.py:264, benchmarks/validation_suite.py:275, benchmarks/validation_suite.py:44, benchmarks/validation_suite.py:57, benchmarks/validation_suite.py:74, benchmarks/validation_suite.py:88, examples/09_soliton_collision.py:37, examples/12_high_harmonic_generation.py:72, examples/13_two_component_bec.py:142, examples/13_two_component_bec.py:217, quantumlab/stationary/imaginary_time.py:130, quantumlab/stationary/imaginary_time.py:229
+  TEST: tests/test_backends.py:100, tests/test_backends.py:102, tests/test_backends.py:115, tests/test_backends.py:116, tests/test_backends.py:161, tests/test_backends.py:163, tests/test_backends.py:176, tests/test_backends.py:177, tests/test_conjugate_gradient.py:54, tests/test_gross_pitaevskii.py:25, tests/test_gross_pitaevskii.py:36, tests/test_gross_pitaevskii.py:48, tests/test_multicomponent.py:101, tests/test_multicomponent.py:25, tests/test_multicomponent.py:26, tests/test_multicomponent.py:27, tests/test_multicomponent.py:72, tests/test_multicomponent.py:87, tests/test_rotation.py:105, tests/test_rotation.py:29, tests/test_rotation.py:41, tests/test_rotation.py:54, tests/test_rotation.py:71, tests/test_rotation.py:82, tests/test_rotation.py:94, tests/test_split_operator.py:109, tests/test_split_operator.py:110, tests/test_split_operator.py:118, tests/test_split_operator.py:127, tests/test_split_operator.py:128, tests/test_split_operator.py:148, tests/test_split_operator.py:56, tests/test_split_operator.py:72, tests/test_split_operator.py:84, tests/test_split_operator.py:85, tests/test_split_operator.py:86, tests/test_split_operator.py:98
+
+SplitOperatorSolver [quantumlab/solvers/split_operator.py:42]
+  PROD: benchmarks/gpu_split_operator.py:25, benchmarks/validation_suite.py:137, benchmarks/validation_suite.py:162, benchmarks/validation_suite.py:192, benchmarks/validation_suite.py:202, benchmarks/validation_suite.py:221, benchmarks/validation_suite.py:44, benchmarks/validation_suite.py:57, benchmarks/validation_suite.py:70, benchmarks/validation_suite.py:88, examples/07_3d_double_slit.py:60, examples/08_3d_bec_time_of_flight.py:99, examples/09_soliton_collision.py:34, examples/11_rotating_bec_vortex_lattice.py:76, examples/12_high_harmonic_generation.py:64, quantumlab/runner.py:106, quantumlab/solvers/multicomponent.py:60, quantumlab/stationary/imaginary_time.py:100
+  TEST: tests/test_backends.py:100, tests/test_backends.py:101, tests/test_backends.py:115, tests/test_backends.py:116, tests/test_backends.py:127, tests/test_backends.py:128, tests/test_backends.py:161, tests/test_backends.py:162, tests/test_conjugate_gradient.py:54, tests/test_gross_pitaevskii.py:24, tests/test_gross_pitaevskii.py:36, tests/test_gross_pitaevskii.py:48, tests/test_multicomponent.py:26, tests/test_multicomponent.py:27, tests/test_new_potentials_and_observables.py:112, tests/test_rotation.py:104, tests/test_rotation.py:116, tests/test_rotation.py:119, tests/test_rotation.py:121, tests/test_rotation.py:123, tests/test_rotation.py:27, tests/test_rotation.py:40, tests/test_rotation.py:53, tests/test_rotation.py:71, tests/test_rotation.py:79, tests/test_rotation.py:93, tests/test_split_operator.py:109, tests/test_split_operator.py:110, tests/test_split_operator.py:118, tests/test_split_operator.py:127, tests/test_split_operator.py:128, tests/test_split_operator.py:137, tests/test_split_operator.py:139, tests/test_split_operator.py:141, tests/test_split_operator.py:148, tests/test_split_operator.py:40, tests/test_split_operator.py:54, tests/test_split_operator.py:72, tests/test_split_operator.py:84, tests/test_split_operator.py:85, tests/test_split_operator.py:86, tests/test_split_operator.py:96
+
+SplitOperatorSolver.__init__ [quantumlab/solvers/split_operator.py:98]
+  PROD: quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+SplitOperatorSolver.update_operators [quantumlab/solvers/split_operator.py:148]
+  PROD: quantumlab/solvers/split_step_1d.py:14, quantumlab/solvers/split_step_2d.py:23, quantumlab/solvers/split_step_3d.py:47, quantumlab/solvers/split_step_3d_gpu.py:76
+  TEST: -
+
+SplitOperatorSolver._rotating_kinetic_parts [quantumlab/solvers/split_operator.py:166]
+  PROD: -
+  TEST: -
+
+SplitOperatorSolver.t [quantumlab/solvers/split_operator.py:179]
+  PROD: -
+  TEST: -
+
+SplitOperatorSolver.backend [quantumlab/solvers/split_operator.py:184]
+  PROD: -
+  TEST: -
+
+SplitOperatorSolver.potential_at [quantumlab/solvers/split_operator.py:187]
+  PROD: quantumlab/stationary/imaginary_time.py:105
+  TEST: -
+
+SplitOperatorSolver._potential_on_device [quantumlab/solvers/split_operator.py:193]
+  PROD: -
+  TEST: -
+
+SplitOperatorSolver._potential_half_step [quantumlab/solvers/split_operator.py:198]
+  PROD: quantumlab/solvers/multicomponent.py:111, quantumlab/solvers/multicomponent.py:113
+  TEST: -
+
+SplitOperatorSolver._kinetic_step [quantumlab/solvers/split_operator.py:225]
+  PROD: quantumlab/solvers/multicomponent.py:112
+  TEST: -
+
+SplitOperatorSolver._strang [quantumlab/solvers/split_operator.py:238]
+  PROD: -
+  TEST: -
+
+SplitOperatorSolver._norm [quantumlab/solvers/split_operator.py:243]
+  PROD: quantumlab/solvers/multicomponent.py:109, quantumlab/solvers/multicomponent.py:117
+  TEST: -
+
+SplitOperatorSolver._advance [quantumlab/solvers/split_operator.py:246]
+  PROD: quantumlab/solvers/multicomponent.py:132, quantumlab/solvers/multicomponent.py:141
+  TEST: -
+
+SplitOperatorSolver._upload [quantumlab/solvers/split_operator.py:264]
+  PROD: quantumlab/solvers/multicomponent.py:132, quantumlab/solvers/multicomponent.py:139
+  TEST: -
+
+SplitOperatorSolver._download [quantumlab/solvers/split_operator.py:267]
+  PROD: quantumlab/solvers/multicomponent.py:132, quantumlab/solvers/multicomponent.py:143, quantumlab/solvers/multicomponent.py:144
+  TEST: -
+
+SplitOperatorSolver.step [quantumlab/solvers/split_operator.py:270]
+  PROD: benchmarks/perf_comparison.py:104, benchmarks/perf_comparison.py:122, benchmarks/perf_comparison.py:97, benchmarks/validation_suite.py:143, examples/01_gaussian_barrier.py:39, examples/02_harmonic_oscillator.py:40, examples/03_double_well.py:40, examples/04_multiple_barriers.py:40, examples/05_2d_gaussian_barrier.py:54, examples/06_3d_gaussian_barrier.py:48, examples/07_3d_double_slit.py:83, examples/08_3d_bec_time_of_flight.py:110, examples/10_quantum_chaos_stadium.py:76, examples/11_rotating_bec_vortex_lattice.py:99, quantumlab/runner.py:161, quantumlab/solvers/split_step_3d_gpu.py:115, quantumlab/stationary/imaginary_time.py:126, testbench_interlock.py:106
+  TEST: tests/test_2d_solver.py:20, tests/test_2d_solver.py:32, tests/test_3d_gpu_solver.py:104, tests/test_3d_gpu_solver.py:127, tests/test_3d_gpu_solver.py:144, tests/test_3d_gpu_solver.py:48, tests/test_3d_gpu_solver.py:62, tests/test_3d_gpu_solver.py:85, tests/test_3d_gpu_solver.py:86, tests/test_3d_solver.py:100, tests/test_3d_solver.py:82, tests/test_backends.py:131, tests/test_benchmark_failure_handling.py:204, tests/test_benchmark_failure_handling.py:209, tests/test_benchmark_failure_handling.py:273, tests/test_multicomponent.py:140, tests/test_new_potentials_and_observables.py:118, tests/test_solvers.py:17, tests/test_solvers.py:28, tests/test_split_operator.py:43, tests/test_split_operator.py:44
+
+SplitOperatorSolver.evolve [quantumlab/solvers/split_operator.py:273]
+  PROD: benchmarks/gpu_split_operator.py:26, benchmarks/gpu_split_operator.py:28, benchmarks/validation_suite.py:163, benchmarks/validation_suite.py:195, benchmarks/validation_suite.py:203, benchmarks/validation_suite.py:223, benchmarks/validation_suite.py:264, benchmarks/validation_suite.py:275, benchmarks/validation_suite.py:44, benchmarks/validation_suite.py:57, benchmarks/validation_suite.py:74, benchmarks/validation_suite.py:88, examples/09_soliton_collision.py:37, examples/12_high_harmonic_generation.py:72, examples/13_two_component_bec.py:142, examples/13_two_component_bec.py:217, quantumlab/stationary/imaginary_time.py:130, quantumlab/stationary/imaginary_time.py:229
+  TEST: tests/test_backends.py:100, tests/test_backends.py:102, tests/test_backends.py:115, tests/test_backends.py:116, tests/test_backends.py:161, tests/test_backends.py:163, tests/test_backends.py:176, tests/test_backends.py:177, tests/test_conjugate_gradient.py:54, tests/test_gross_pitaevskii.py:25, tests/test_gross_pitaevskii.py:36, tests/test_gross_pitaevskii.py:48, tests/test_multicomponent.py:101, tests/test_multicomponent.py:25, tests/test_multicomponent.py:26, tests/test_multicomponent.py:27, tests/test_multicomponent.py:72, tests/test_multicomponent.py:87, tests/test_rotation.py:105, tests/test_rotation.py:29, tests/test_rotation.py:41, tests/test_rotation.py:54, tests/test_rotation.py:71, tests/test_rotation.py:82, tests/test_rotation.py:94, tests/test_split_operator.py:109, tests/test_split_operator.py:110, tests/test_split_operator.py:118, tests/test_split_operator.py:127, tests/test_split_operator.py:128, tests/test_split_operator.py:148, tests/test_split_operator.py:56, tests/test_split_operator.py:72, tests/test_split_operator.py:84, tests/test_split_operator.py:85, tests/test_split_operator.py:86, tests/test_split_operator.py:98
+
+SplitStep1DSolver [quantumlab/solvers/split_step_1d.py:6]
+  PROD: examples/01_gaussian_barrier.py:33, examples/02_harmonic_oscillator.py:31, examples/03_double_well.py:32, examples/04_multiple_barriers.py:34, quantumlab/runner.py:115, testbench_interlock.py:100
+  TEST: tests/test_solvers.py:13, tests/test_solvers.py:24
+
+SplitStep1DSolver.__init__ [quantumlab/solvers/split_step_1d.py:8]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+SplitStep1DSolver.update_operators [quantumlab/solvers/split_step_1d.py:16]
+  PROD: quantumlab/solvers/split_operator.py:146, quantumlab/solvers/split_step_2d.py:23, quantumlab/solvers/split_step_3d.py:47, quantumlab/solvers/split_step_3d_gpu.py:76
+  TEST: -
+
+SplitStep1DSolver.step [quantumlab/solvers/split_step_1d.py:20]
+  PROD: benchmarks/perf_comparison.py:104, benchmarks/perf_comparison.py:122, benchmarks/perf_comparison.py:97, benchmarks/validation_suite.py:143, examples/01_gaussian_barrier.py:39, examples/02_harmonic_oscillator.py:40, examples/03_double_well.py:40, examples/04_multiple_barriers.py:40, examples/05_2d_gaussian_barrier.py:54, examples/06_3d_gaussian_barrier.py:48, examples/07_3d_double_slit.py:83, examples/08_3d_bec_time_of_flight.py:110, examples/10_quantum_chaos_stadium.py:76, examples/11_rotating_bec_vortex_lattice.py:99, quantumlab/runner.py:161, quantumlab/solvers/split_step_3d_gpu.py:115, quantumlab/stationary/imaginary_time.py:126, testbench_interlock.py:106
+  TEST: tests/test_2d_solver.py:20, tests/test_2d_solver.py:32, tests/test_3d_gpu_solver.py:104, tests/test_3d_gpu_solver.py:127, tests/test_3d_gpu_solver.py:144, tests/test_3d_gpu_solver.py:48, tests/test_3d_gpu_solver.py:62, tests/test_3d_gpu_solver.py:85, tests/test_3d_gpu_solver.py:86, tests/test_3d_solver.py:100, tests/test_3d_solver.py:82, tests/test_backends.py:131, tests/test_benchmark_failure_handling.py:204, tests/test_benchmark_failure_handling.py:209, tests/test_benchmark_failure_handling.py:273, tests/test_multicomponent.py:140, tests/test_new_potentials_and_observables.py:118, tests/test_solvers.py:17, tests/test_solvers.py:28, tests/test_split_operator.py:43, tests/test_split_operator.py:44
+
+SplitStep2DSolver [quantumlab/solvers/split_step_2d.py:6]
+  PROD: examples/05_2d_gaussian_barrier.py:41, quantumlab/runner.py:117
+  TEST: tests/test_2d_solver.py:16, tests/test_2d_solver.py:28
+
+SplitStep2DSolver.__init__ [quantumlab/solvers/split_step_2d.py:17]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_3d.py:39, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+SplitStep2DSolver.update_operators [quantumlab/solvers/split_step_2d.py:25]
+  PROD: quantumlab/solvers/split_operator.py:146, quantumlab/solvers/split_step_1d.py:14, quantumlab/solvers/split_step_3d.py:47, quantumlab/solvers/split_step_3d_gpu.py:76
+  TEST: -
+
+SplitStep2DSolver.step [quantumlab/solvers/split_step_2d.py:30]
+  PROD: benchmarks/perf_comparison.py:104, benchmarks/perf_comparison.py:122, benchmarks/perf_comparison.py:97, benchmarks/validation_suite.py:143, examples/01_gaussian_barrier.py:39, examples/02_harmonic_oscillator.py:40, examples/03_double_well.py:40, examples/04_multiple_barriers.py:40, examples/05_2d_gaussian_barrier.py:54, examples/06_3d_gaussian_barrier.py:48, examples/07_3d_double_slit.py:83, examples/08_3d_bec_time_of_flight.py:110, examples/10_quantum_chaos_stadium.py:76, examples/11_rotating_bec_vortex_lattice.py:99, quantumlab/runner.py:161, quantumlab/solvers/split_step_3d_gpu.py:115, quantumlab/stationary/imaginary_time.py:126, testbench_interlock.py:106
+  TEST: tests/test_2d_solver.py:20, tests/test_2d_solver.py:32, tests/test_3d_gpu_solver.py:104, tests/test_3d_gpu_solver.py:127, tests/test_3d_gpu_solver.py:144, tests/test_3d_gpu_solver.py:48, tests/test_3d_gpu_solver.py:62, tests/test_3d_gpu_solver.py:85, tests/test_3d_gpu_solver.py:86, tests/test_3d_solver.py:100, tests/test_3d_solver.py:82, tests/test_backends.py:131, tests/test_benchmark_failure_handling.py:204, tests/test_benchmark_failure_handling.py:209, tests/test_benchmark_failure_handling.py:273, tests/test_multicomponent.py:140, tests/test_new_potentials_and_observables.py:118, tests/test_solvers.py:17, tests/test_solvers.py:28, tests/test_split_operator.py:43, tests/test_split_operator.py:44
+
+SplitStep3DSolver [quantumlab/solvers/split_step_3d.py:7]
+  PROD: benchmarks/perf_comparison.py:94, examples/06_3d_gaussian_barrier.py:42, quantumlab/runner.py:121
+  TEST: tests/test_3d_gpu_solver.py:80, tests/test_3d_solver.py:77, tests/test_3d_solver.py:95, tests/test_benchmark_failure_handling.py:200
+
+SplitStep3DSolver.__init__ [quantumlab/solvers/split_step_3d.py:37]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d_gpu.py:41
+  TEST: -
+
+SplitStep3DSolver.update_operators [quantumlab/solvers/split_step_3d.py:49]
+  PROD: quantumlab/solvers/split_operator.py:146, quantumlab/solvers/split_step_1d.py:14, quantumlab/solvers/split_step_2d.py:23, quantumlab/solvers/split_step_3d_gpu.py:76
+  TEST: -
+
+SplitStep3DSolver.step [quantumlab/solvers/split_step_3d.py:54]
+  PROD: benchmarks/perf_comparison.py:104, benchmarks/perf_comparison.py:122, benchmarks/perf_comparison.py:97, benchmarks/validation_suite.py:143, examples/01_gaussian_barrier.py:39, examples/02_harmonic_oscillator.py:40, examples/03_double_well.py:40, examples/04_multiple_barriers.py:40, examples/05_2d_gaussian_barrier.py:54, examples/06_3d_gaussian_barrier.py:48, examples/07_3d_double_slit.py:83, examples/08_3d_bec_time_of_flight.py:110, examples/10_quantum_chaos_stadium.py:76, examples/11_rotating_bec_vortex_lattice.py:99, quantumlab/runner.py:161, quantumlab/solvers/split_step_3d_gpu.py:115, quantumlab/stationary/imaginary_time.py:126, testbench_interlock.py:106
+  TEST: tests/test_2d_solver.py:20, tests/test_2d_solver.py:32, tests/test_3d_gpu_solver.py:104, tests/test_3d_gpu_solver.py:127, tests/test_3d_gpu_solver.py:144, tests/test_3d_gpu_solver.py:48, tests/test_3d_gpu_solver.py:62, tests/test_3d_gpu_solver.py:85, tests/test_3d_gpu_solver.py:86, tests/test_3d_solver.py:100, tests/test_3d_solver.py:82, tests/test_backends.py:131, tests/test_benchmark_failure_handling.py:204, tests/test_benchmark_failure_handling.py:209, tests/test_benchmark_failure_handling.py:273, tests/test_multicomponent.py:140, tests/test_new_potentials_and_observables.py:118, tests/test_solvers.py:17, tests/test_solvers.py:28, tests/test_split_operator.py:43, tests/test_split_operator.py:44
+
+SplitStep3DGPU [quantumlab/solvers/split_step_3d_gpu.py:25]
+  PROD: benchmarks/perf_comparison.py:117, quantumlab/runner.py:120
+  TEST: tests/test_3d_gpu_solver.py:123, tests/test_3d_gpu_solver.py:140, tests/test_3d_gpu_solver.py:152, tests/test_3d_gpu_solver.py:43, tests/test_3d_gpu_solver.py:57, tests/test_3d_gpu_solver.py:79, tests/test_3d_gpu_solver.py:97, tests/test_3d_gpu_solver.py:98
+
+SplitStep3DGPU.__init__ [quantumlab/solvers/split_step_3d_gpu.py:31]
+  PROD: quantumlab/solvers/split_operator.py:103, quantumlab/solvers/split_step_1d.py:9, quantumlab/solvers/split_step_2d.py:18, quantumlab/solvers/split_step_3d.py:39
+  TEST: -
+
+SplitStep3DGPU.update_operators [quantumlab/solvers/split_step_3d_gpu.py:78]
+  PROD: quantumlab/solvers/split_operator.py:146, quantumlab/solvers/split_step_1d.py:14, quantumlab/solvers/split_step_2d.py:23, quantumlab/solvers/split_step_3d.py:47
+  TEST: -
+
+SplitStep3DGPU.step [quantumlab/solvers/split_step_3d_gpu.py:87]
+  PROD: benchmarks/perf_comparison.py:104, benchmarks/perf_comparison.py:122, benchmarks/perf_comparison.py:97, benchmarks/validation_suite.py:143, examples/01_gaussian_barrier.py:39, examples/02_harmonic_oscillator.py:40, examples/03_double_well.py:40, examples/04_multiple_barriers.py:40, examples/05_2d_gaussian_barrier.py:54, examples/06_3d_gaussian_barrier.py:48, examples/07_3d_double_slit.py:83, examples/08_3d_bec_time_of_flight.py:110, examples/10_quantum_chaos_stadium.py:76, examples/11_rotating_bec_vortex_lattice.py:99, quantumlab/runner.py:161, quantumlab/stationary/imaginary_time.py:126, testbench_interlock.py:106
+  TEST: tests/test_2d_solver.py:20, tests/test_2d_solver.py:32, tests/test_3d_gpu_solver.py:104, tests/test_3d_gpu_solver.py:127, tests/test_3d_gpu_solver.py:144, tests/test_3d_gpu_solver.py:48, tests/test_3d_gpu_solver.py:62, tests/test_3d_gpu_solver.py:85, tests/test_3d_gpu_solver.py:86, tests/test_3d_solver.py:100, tests/test_3d_solver.py:82, tests/test_backends.py:131, tests/test_benchmark_failure_handling.py:204, tests/test_benchmark_failure_handling.py:209, tests/test_benchmark_failure_handling.py:273, tests/test_multicomponent.py:140, tests/test_new_potentials_and_observables.py:118, tests/test_solvers.py:17, tests/test_solvers.py:28, tests/test_split_operator.py:43, tests/test_split_operator.py:44
+
+SplitStep3DGPU.step_sequence [quantumlab/solvers/split_step_3d_gpu.py:107]
+  PROD: benchmarks/perf_comparison.py:123, benchmarks/perf_comparison.py:128
+  TEST: tests/test_3d_gpu_solver.py:100, tests/test_benchmark_failure_handling.py:277, tests/test_benchmark_failure_handling.py:304
+
+SplitStep3DGPU._step_gpu_internal [quantumlab/solvers/split_step_3d_gpu.py:125]
+  PROD: -
+  TEST: -
+
+SplitStep3DGPU.backend [quantumlab/solvers/split_step_3d_gpu.py:140]
+  PROD: -
+  TEST: -
+
+ground_state_pcg [quantumlab/stationary/conjugate_gradient.py:24]
+  PROD: benchmarks/validation_suite.py:312, benchmarks/validation_suite.py:317, examples/11_rotating_bec_vortex_lattice.py:169
+  TEST: tests/test_conjugate_gradient.py:20, tests/test_conjugate_gradient.py:32, tests/test_conjugate_gradient.py:44, tests/test_conjugate_gradient.py:56, tests/test_conjugate_gradient.py:64, tests/test_conjugate_gradient.py:68
+
+eigenstates [quantumlab/stationary/eigensolver.py:17]
+  PROD: benchmarks/validation_suite.py:119, benchmarks/validation_suite.py:124, benchmarks/validation_suite.py:211, examples/10_quantum_chaos_stadium.py:41, examples/12_high_harmonic_generation.py:94
+  TEST: tests/test_stationary.py:16, tests/test_stationary.py:24, tests/test_stationary.py:31, tests/test_stationary.py:41, tests/test_stationary.py:42, tests/test_strongfield.py:34
+
+apply_hamiltonian [quantumlab/stationary/hamiltonian.py:6]
+  PROD: quantumlab/stationary/conjugate_gradient.py:63, quantumlab/stationary/imaginary_time.py:184, quantumlab/stationary/imaginary_time.py:31
+  TEST: tests/test_rotation.py:131, tests/test_stationary.py:34
+
+ConvergenceInfo [quantumlab/stationary/imaginary_time.py:18]
+  PROD: quantumlab/stationary/conjugate_gradient.py:132
+  TEST: -
+
+_inner [quantumlab/stationary/imaginary_time.py:26]
+  PROD: -
+  TEST: -
+
+_energy_and_mu [quantumlab/stationary/imaginary_time.py:30]
+  PROD: -
+  TEST: -
+
+_default_guess [quantumlab/stationary/imaginary_time.py:40]
+  PROD: quantumlab/stationary/conjugate_gradient.py:54
+  TEST: -
+
+ground_state [quantumlab/stationary/imaginary_time.py:47]
+  PROD: benchmarks/validation_suite.py:129, benchmarks/validation_suite.py:172, benchmarks/validation_suite.py:181, benchmarks/validation_suite.py:182, benchmarks/validation_suite.py:290, examples/08_3d_bec_time_of_flight.py:83, examples/11_rotating_bec_vortex_lattice.py:162, examples/11_rotating_bec_vortex_lattice.py:71
+  TEST: tests/test_backends.py:139, tests/test_backends.py:140, tests/test_conjugate_gradient.py:36, tests/test_conjugate_gradient.py:52, tests/test_conjugate_gradient.py:55, tests/test_gross_pitaevskii.py:44, tests/test_gross_pitaevskii.py:63, tests/test_gross_pitaevskii.py:75, tests/test_gross_pitaevskii.py:76, tests/test_multicomponent.py:39, tests/test_rotation.py:102, tests/test_rotation.py:138, tests/test_stationary.py:48, tests/test_stationary.py:66, tests/test_stationary.py:67, tests/test_stationary.py:76, tests/test_stationary.py:77
+
+excited_states [quantumlab/stationary/imaginary_time.py:142]
+  PROD: examples/10_quantum_chaos_stadium.py:44
+  TEST: tests/test_stationary.py:57
+
+CoupledConvergenceInfo [quantumlab/stationary/imaginary_time.py:171]
+  PROD: -
+  TEST: -
+
+_coupled_energy_mu [quantumlab/stationary/imaginary_time.py:179]
+  PROD: -
+  TEST: -
+
+coupled_ground_state [quantumlab/stationary/imaginary_time.py:195]
+  PROD: benchmarks/validation_suite.py:289, benchmarks/validation_suite.py:301, examples/13_two_component_bec.py:198, examples/13_two_component_bec.py:73
+  TEST: tests/test_multicomponent.py:112, tests/test_multicomponent.py:36
+
+transmission_coefficient [quantumlab/observables/coefficients.py:4]
+  PROD: examples/01_gaussian_barrier.py:48, examples/04_multiple_barriers.py:49
+  TEST: tests/test_3d_observables.py:65
+
+reflection_coefficient [quantumlab/observables/coefficients.py:18]
+  PROD: examples/01_gaussian_barrier.py:47, examples/04_multiple_barriers.py:48
+  TEST: tests/test_3d_observables.py:66
+
+gradient [quantumlab/observables/current.py:11]
+  PROD: quantumlab/strongfield.py:127, quantumlab/strongfield.py:130
+  TEST: tests/test_strongfield.py:45
+
+probability_current [quantumlab/observables/current.py:17]
+  PROD: -
+  TEST: tests/test_new_potentials_and_observables.py:87, tests/test_new_potentials_and_observables.py:95
+
+angular_momentum_z_expectation [quantumlab/observables/current.py:26]
+  PROD: benchmarks/validation_suite.py:114, examples/11_rotating_bec_vortex_lattice.py:104, examples/13_two_component_bec.py:225
+  TEST: tests/test_conjugate_gradient.py:59, tests/test_new_potentials_and_observables.py:104, tests/test_rotation.py:108, tests/test_rotation.py:110, tests/test_rotation.py:140, tests/test_rotation.py:58, tests/test_rotation.py:68
+
+autocorrelation [quantumlab/observables/current.py:35]
+  PROD: benchmarks/validation_suite.py:142, benchmarks/validation_suite.py:203
+  TEST: tests/test_new_potentials_and_observables.py:117, tests/test_rotation.py:55
+
+vortex_positions [quantumlab/observables/current.py:40]
+  PROD: examples/11_rotating_bec_vortex_lattice.py:101, examples/11_rotating_bec_vortex_lattice.py:114, examples/11_rotating_bec_vortex_lattice.py:175, examples/11_rotating_bec_vortex_lattice.py:187, examples/13_two_component_bec.py:222, examples/13_two_component_bec.py:223, examples/13_two_component_bec.py:229, examples/13_two_component_bec.py:230
+  TEST: tests/test_new_potentials_and_observables.py:135
+
+position_expectation [quantumlab/observables/expectation.py:4]
+  PROD: benchmarks/validation_suite.py:197, benchmarks/validation_suite.py:77, examples/01_gaussian_barrier.py:43, examples/02_harmonic_oscillator.py:35, examples/02_harmonic_oscillator.py:43, examples/03_double_well.py:36, examples/03_double_well.py:43, examples/04_multiple_barriers.py:44, examples/05_2d_gaussian_barrier.py:63, quantumlab/runner.py:171, testbench_interlock.py:110
+  TEST: tests/test_3d_observables.py:26, tests/test_observables.py:14, tests/test_rotation.py:31, tests/test_rotation.py:43, tests/test_split_operator.py:101, tests/test_strongfield.py:101
+
+position_squared_expectation [quantumlab/observables/expectation.py:15]
+  PROD: -
+  TEST: -
+
+position_uncertainty [quantumlab/observables/expectation.py:26]
+  PROD: benchmarks/validation_suite.py:103, examples/01_gaussian_barrier.py:44, examples/05_2d_gaussian_barrier.py:65, examples/08_3d_bec_time_of_flight.py:61
+  TEST: tests/test_3d_observables.py:29, tests/test_3d_observables.py:38, tests/test_observables.py:15, tests/test_observables.py:19
+
+y_expectation [quantumlab/observables/expectation.py:32]
+  PROD: benchmarks/validation_suite.py:198, examples/05_2d_gaussian_barrier.py:64
+  TEST: tests/test_3d_observables.py:27, tests/test_rotation.py:32, tests/test_rotation.py:44
+
+y_squared_expectation [quantumlab/observables/expectation.py:41]
+  PROD: -
+  TEST: -
+
+y_uncertainty [quantumlab/observables/expectation.py:50]
+  PROD: benchmarks/validation_suite.py:104, examples/05_2d_gaussian_barrier.py:66, examples/08_3d_bec_time_of_flight.py:61
+  TEST: tests/test_3d_observables.py:30, tests/test_3d_observables.py:39
+
+z_expectation [quantumlab/observables/expectation.py:56]
+  PROD: -
+  TEST: tests/test_3d_observables.py:28, tests/test_3d_observables.py:60, tests/test_rotation.py:45
+
+z_squared_expectation [quantumlab/observables/expectation.py:63]
+  PROD: -
+  TEST: -
+
+z_uncertainty [quantumlab/observables/expectation.py:70]
+  PROD: benchmarks/validation_suite.py:105, examples/08_3d_bec_time_of_flight.py:61
+  TEST: tests/test_3d_observables.py:31, tests/test_3d_observables.py:40
+
+momentum_expectation [quantumlab/observables/expectation.py:76]
+  PROD: testbench_interlock.py:111
+  TEST: tests/test_3d_observables.py:42, tests/test_3d_observables.py:51, tests/test_new_potentials_and_observables.py:96, tests/test_observables.py:16
+
+momentum_squared_expectation [quantumlab/observables/expectation.py:105]
+  PROD: -
+  TEST: -
+
+momentum_uncertainty [quantumlab/observables/expectation.py:134]
+  PROD: benchmarks/validation_suite.py:103, benchmarks/validation_suite.py:104, benchmarks/validation_suite.py:105
+  TEST: tests/test_3d_observables.py:43, tests/test_observables.py:18, tests/test_observables.py:20
+
+potential_energy_expectation [quantumlab/observables/expectation.py:140]
+  PROD: benchmarks/validation_suite.py:173, benchmarks/validation_suite.py:303, benchmarks/validation_suite.py:318, examples/08_3d_bec_time_of_flight.py:85, quantumlab/observables/nonlinear.py:13, quantumlab/observables/nonlinear.py:19, quantumlab/observables/nonlinear.py:30
+  TEST: tests/test_conjugate_gradient.py:33, tests/test_gross_pitaevskii.py:65, tests/test_multicomponent.py:115
+
+kinetic_energy_expectation [quantumlab/observables/expectation.py:154]
+  PROD: benchmarks/validation_suite.py:173, benchmarks/validation_suite.py:302, benchmarks/validation_suite.py:318, examples/08_3d_bec_time_of_flight.py:84, quantumlab/observables/nonlinear.py:13, quantumlab/observables/nonlinear.py:19, quantumlab/observables/nonlinear.py:30
+  TEST: tests/test_conjugate_gradient.py:33, tests/test_gross_pitaevskii.py:64, tests/test_multicomponent.py:114
+
+total_energy_expectation [quantumlab/observables/expectation.py:170]
+  PROD: benchmarks/validation_suite.py:86, benchmarks/validation_suite.py:97, examples/02_harmonic_oscillator.py:36, examples/02_harmonic_oscillator.py:44, examples/03_double_well.py:47, quantumlab/runner.py:170, testbench_interlock.py:103, testbench_interlock.py:109
+  TEST: tests/test_2d_solver.py:29, tests/test_2d_solver.py:33, tests/test_3d_gpu_solver.py:58, tests/test_3d_gpu_solver.py:64, tests/test_3d_solver.py:101, tests/test_3d_solver.py:97, tests/test_rotation.py:68, tests/test_rotation.py:83, tests/test_solvers.py:25, tests/test_solvers.py:29, tests/test_split_operator.py:55, tests/test_split_operator.py:59
+
+get_momentum_wavefunction [quantumlab/observables/momentum.py:4]
+  PROD: -
+  TEST: -
+
+get_momentum_probability_density [quantumlab/observables/momentum.py:22]
+  PROD: quantumlab/visualization/plots_1d.py:52
+  TEST: tests/test_3d_observables.py:74
+
+interaction_energy [quantumlab/observables/nonlinear.py:6]
+  PROD: benchmarks/validation_suite.py:173, benchmarks/validation_suite.py:318, examples/08_3d_bec_time_of_flight.py:86
+  TEST: tests/test_conjugate_gradient.py:33, tests/test_gross_pitaevskii.py:66
+
+gross_pitaevskii_energy [quantumlab/observables/nonlinear.py:11]
+  PROD: examples/09_soliton_collision.py:55, examples/09_soliton_collision.py:57
+  TEST: tests/test_gross_pitaevskii.py:47, tests/test_gross_pitaevskii.py:49, tests/test_rotation.py:108
+
+chemical_potential [quantumlab/observables/nonlinear.py:17]
+  PROD: -
+  TEST: tests/test_gross_pitaevskii.py:69
+
+coupled_gp_energy [quantumlab/observables/nonlinear.py:23]
+  PROD: -
+  TEST: tests/test_multicomponent.py:100, tests/test_multicomponent.py:102
+
+miscibility_overlap [quantumlab/observables/nonlinear.py:38]
+  PROD: examples/13_two_component_bec.py:200, examples/13_two_component_bec.py:76
+  TEST: tests/test_multicomponent.py:125, tests/test_multicomponent.py:127
+
+wavelength_to_omega [quantumlab/strongfield.py:17]
+  PROD: benchmarks/validation_suite.py:217, examples/12_high_harmonic_generation.py:59, examples/12_high_harmonic_generation.py:87
+  TEST: tests/test_strongfield.py:15, tests/test_strongfield.py:16
+
+intensity_to_field [quantumlab/strongfield.py:22]
+  PROD: benchmarks/validation_suite.py:219, examples/12_high_harmonic_generation.py:260, examples/12_high_harmonic_generation.py:61, examples/12_high_harmonic_generation.py:90
+  TEST: tests/test_strongfield.py:17, tests/test_strongfield.py:18
+
+ponderomotive_energy [quantumlab/strongfield.py:27]
+  PROD: examples/12_high_harmonic_generation.py:260, examples/12_high_harmonic_generation.py:91
+  TEST: tests/test_strongfield.py:19
+
+classical_returns [quantumlab/strongfield.py:32]
+  PROD: benchmarks/validation_suite.py:214, examples/12_high_harmonic_generation.py:137
+  TEST: tests/test_strongfield.py:24
+
+classical_cutoff [quantumlab/strongfield.py:65]
+  PROD: -
+  TEST: tests/test_strongfield.py:30
+
+harmonic_spectrum [quantumlab/strongfield.py:70]
+  PROD: benchmarks/validation_suite.py:226, examples/12_high_harmonic_generation.py:106, examples/12_high_harmonic_generation.py:77
+  TEST: tests/test_strongfield.py:64
+
+gabor_transform [quantumlab/strongfield.py:83]
+  PROD: examples/12_high_harmonic_generation.py:136, examples/12_high_harmonic_generation.py:170
+  TEST: tests/test_strongfield.py:76
+
+attosecond_pulses [quantumlab/strongfield.py:107]
+  PROD: benchmarks/validation_suite.py:235, examples/12_high_harmonic_generation.py:188
+  TEST: tests/test_strongfield.py:88
+
+dipole_acceleration [quantumlab/strongfield.py:119]
+  PROD: benchmarks/validation_suite.py:224, examples/12_high_harmonic_generation.py:68
+  TEST: tests/test_strongfield.py:100

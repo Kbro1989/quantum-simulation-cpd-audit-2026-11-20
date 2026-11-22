@@ -1,0 +1,57 @@
+{
+  "generated": "2026-11-22",
+  "geometries": [
+    {
+      "id": "GEO-A",
+      "name": "Walter Schauberger egg curve",
+      "construction": "rotate xy=1 about the y-axis -> hyperbolic cone; project a hyperbolic spiral; intersect with an inclined plane",
+      "parameters": {
+        "z0": "height where the cutting plane meets the vertical axis",
+        "alpha": "inclination of the cutting plane to the horizontal",
+        "z1,z2": "heights of the sharp and blunt principal vertices"
+      },
+      "source": "pks_ei-kurve_extracted_text.md",
+      "confidence": "construction high; explicit/parametric equations partial"
+    },
+    {
+      "id": "GEO-B",
+      "name": "Donepudi hyperbolic funnel",
+      "profile": "z = 0.079 / r^2",
+      "regimes": [
+        "Straight",
+        "Twisted Schauberger"
+      ],
+      "source": "donepudi_2024_physics_of_fluids.pdf (Physics of Fluids 36, 095171)",
+      "confidence": "high"
+    },
+    {
+      "id": "GEO-C",
+      "name": "Elliptic-coordinate vortex",
+      "construction": "closed elliptic streamlines; exact nonlinear solution of the compressible Euler equation",
+      "source": "arxiv_2108.04013_lyra.pdf (arXiv:2108.04013)",
+      "confidence": "high"
+    }
+  ],
+  "open_discrepancy": {
+    "statement": "GEO-A's generating relation xy=1 rotated about the y-axis is not demonstrably the same surface as GEO-B's z = 0.079/r^2.",
+    "unresolved": [
+      "coordinate mapping",
+      "exponent",
+      "dimensional scaling",
+      "surface definition"
+    ],
+    "possible_explanations": [
+      "different hyperbolic geometry",
+      "later engineering adaptation",
+      "coordinate transformation",
+      "shared description only"
+    ],
+    "status": "OPEN"
+  },
+  "comparison_plan": [
+    "geometry-only analytical comparison",
+    "classical Navier-Stokes simulation",
+    "Gross-Pitaevskii quantum simulation"
+  ],
+  "separation_rule": "New Schauberger hypotheses must not be merged into the existing quantum-solver evidence; the comparison is a separate branch."
+}

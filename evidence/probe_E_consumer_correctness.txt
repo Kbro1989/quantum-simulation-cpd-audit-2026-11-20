@@ -1,0 +1,15 @@
+
+=== L1 hbar/m defaults in runner energy log ===
+E(hbar=2.0,m=3.0)  [explicit]        = 2.779383
+E(hbar=1,m=1 defaults) [runner-style] = 2.613827
+
+=== L2 norm loss after absorbing boundary, energy not divided by norm ===
+norm before=1.595208 after=1.479765
+E_after (no norm division)   = 0.803536
+E_after / norm_after         = 0.543016
+
+=== L3/L4 vortex grid-alignment and min_density ===
+vortex_positions(min_density=0.0) -> 0 vortex(es) pos=[] charges=[]
+vortex_positions(min_density=0.2) -> 0 vortex(es) pos=[] charges=[]
+
+=== L5 gpu flag ignored for split_operator backend ===

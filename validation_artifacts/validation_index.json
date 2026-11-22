@@ -1,0 +1,84 @@
+{
+  "repo": "C:/Users/krist/Desktop/quantum-simulation-main/quantum-simulation-main",
+  "audit_dir": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20",
+  "generated": "2026-11-21",
+  "domains": {
+    "domain10": {
+      "files": [
+        "domain10_absorber_masks.png",
+        "domain10_absorber_norm.png"
+      ]
+    },
+    "domain11": {
+      "files": [
+        "domain11_cpu_gpu.png"
+      ]
+    },
+    "domain12": {
+      "files": [
+        "domain12_stability.png"
+      ]
+    },
+    "domain1": {
+      "files": [
+        "domain1_strang_1d.png",
+        "domain1_strang_1d_after.png",
+        "domain1_strang_2d.png",
+        "domain1_strang_2d_after.png"
+      ]
+    },
+    "domain2": {
+      "files": [
+        "domain2_hermiticity_1d.png"
+      ]
+    },
+    "domain3": {
+      "files": [
+        "domain3_norm_1d.png",
+        "domain3_norm_1d_after.png",
+        "domain3_norm_2d.png",
+        "domain3_norm_2d_after.png",
+        "domain3_norm_3d_slice.png",
+        "domain3_norm_3d_slice_after.png"
+      ]
+    },
+    "domain4": {
+      "files": [
+        "domain4_fourier_1d.png"
+      ]
+    },
+    "domain5": {
+      "files": [
+        "domain5_barrier_3d.png",
+        "domain5_potential_1d.png",
+        "domain5_potential_2d.png",
+        "domain5_potential_3d_slice.png"
+      ]
+    },
+    "domain6": {
+      "files": [
+        "domain6_td_step0.png",
+        "domain6_td_step1.png",
+        "domain6_td_step10.png",
+        "domain6_td_step5.png"
+      ]
+    },
+    "domain7": {
+      "files": [
+        "domain7_convergence.png"
+      ]
+    },
+    "domain8": {
+      "files": [
+        "domain8_energy_momentum.png"
+      ]
+    },
+    "domain9": {
+      "files": [
+        "domain9_vortex_1.png",
+        "domain9_vortex_gaussian.png",
+        "domain9_vortex_pair.png"
+      ]
+    }
+  }
+}

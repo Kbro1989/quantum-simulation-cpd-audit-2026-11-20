@@ -1,0 +1,147 @@
+{
+  "audit": "quantum-simulation CPD",
+  "date": "2026-11-21",
+  "verdict_schema": "R1-R6 classification per domain",
+  "domains": {
+    "D1": {
+      "classification": "R1",
+      "status": "Verified through execution records",
+      "note": "Strang splitting probes passed"
+    },
+    "D2": {
+      "classification": "R1",
+      "status": "Verified through execution records",
+      "note": "Hermiticity probes passed"
+    },
+    "D3": {
+      "classification": "R1",
+      "status": "Verified through execution records",
+      "note": "Normalization probes passed"
+    },
+    "D4": {
+      "classification": "R1",
+      "status": "Verified through execution records",
+      "note": "Fourier probes passed"
+    },
+    "D5": {
+      "classification": "R1",
+      "status": "Verified through execution records",
+      "note": "Potential probes passed"
+    },
+    "D6": {
+      "classification": "R1",
+      "status": "Verified through execution records",
+      "note": "Time-dependent probes passed (V(x,t) evaluated at multiple t)"
+    },
+    "D7": {
+      "classification": "R1",
+      "status": "Verified through execution records",
+      "note": "Convergence probes passed"
+    },
+    "D8": {
+      "classification": "R1",
+      "status": "Verified through execution records",
+      "note": "Energy/momentum probes passed"
+    },
+    "D9": {
+      "classification": "R1",
+      "status": "Verified through execution records",
+      "note": "Vortex probes passed"
+    },
+    "D10": {
+      "classification": "R1",
+      "status": "Verified through execution records",
+      "note": "Absorber probes passed"
+    },
+    "D11": {
+      "classification": "R1",
+      "status": "Verified through execution records",
+      "note": "CPU/GPU probes passed (max|dpsi| ~3.4e-15)"
+    },
+    "D12": {
+      "classification": "R1",
+      "status": "Verified through execution records",
+      "note": "Resolution probes passed"
+    },
+    "D13": {
+      "classification": "R6",
+      "status": "No probe scripts found in evidence/",
+      "note": "Domain not independently verified"
+    },
+    "D14": {
+      "classification": "R6",
+      "status": "No probe scripts found in evidence/",
+      "note": "Domain not independently verified"
+    },
+    "D15": {
+      "classification": "R6",
+      "status": "No probe scripts found in evidence/",
+      "note": "Domain not independently verified (visualization exists, no execution record)"
+    },
+    "D16": {
+      "classification": "R6",
+      "status": "No probe scripts found in evidence/",
+      "note": "Domain not independently verified"
+    },
+    "D17": {
+      "classification": "R6",
+      "status": "No probe scripts found in evidence/",
+      "note": "Domain not independently verified"
+    },
+    "D18": {
+      "classification": "R6",
+      "status": "No probe scripts found in evidence/",
+      "note": "Domain not independently verified"
+    },
+    "D19": {
+      "classification": "R1",
+      "status": "Verified through execution records + run log",
+      "note": "Execution record exists"
+    },
+    "D20": {
+      "classification": "R1",
+      "status": "Verified through execution records + run log",
+      "note": "Execution record exists"
+    },
+    "D21": {
+      "classification": "R1",
+      "status": "Script exists, JSON results present. No run log.",
+      "note": "Execution status unverified"
+    },
+    "D22": {
+      "classification": "R1",
+      "status": "Verified through execution records + run log",
+      "note": "Execution record exists"
+    },
+    "D23": {
+      "classification": "R2",
+      "status": "Execution record exists (nvml_available unknown)",
+      "note": "nvml_available must be verified"
+    },
+    "D24": {
+      "classification": "R1",
+      "status": "Verified through execution records + run log",
+      "note": "Execution record exists"
+    },
+    "D27.3 (physics)": {
+      "classification": "R1",
+      "status": "Verified through JSON records (scalar physics values)",
+      "note": "Storage values: cpu_energy=0.7499948325323975, gpu_energy=0.7499948325323964"
+    },
+    "D27.3 (visualization)": {
+      "classification": "R4",
+      "status": "Pix2Text extraction failed",
+      "note": "12 PNG files invalid. Cannot support evidence."
+    },
+    "D25": {
+      "classification": "R6",
+      "status": "Not found",
+      "note": "Domain not present in workspace"
+    },
+    "D26": {
+      "classification": "R6",
+      "status": "Not found",
+      "note": "Domain not present in workspace"
+    }
+  }
+}

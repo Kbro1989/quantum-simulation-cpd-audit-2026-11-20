@@ -1,0 +1,882 @@
+{
+  "gate": "G0 + Domain 19",
+  "date": "2026-11-21",
+  "device_identity": {
+    "available": true,
+    "device_id": 0,
+    "name": "NVIDIA RTX A1000 6GB Laptop GPU",
+    "compute_capability": "8.6",
+    "total_memory": 6441926656,
+    "uuid": null
+  },
+  "repo": "C:\\Users\\krist\\Desktop\\quantum-simulation-main\\quantum-simulation-main",
+  "audit_dir": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20",
+  "results": [
+    {
+      "name": "SplitOperator_1D_cupy_explicit",
+      "config": {
+        "dimension": 1,
+        "dt": 0.01,
+        "hbar": 1.0,
+        "m": 1.0,
+        "solver": "split_operator",
+        "backend": "cupy",
+        "gpu": false,
+        "device_id": 0,
+        "order": 2,
+        "nonlinearity": 0.0,
+        "rotation": 0.0,
+        "damping": 0.0,
+        "num_steps": 5,
+        "grid": {
+          "N": 64,
+          "L": 8.0
+        },
+        "wavefunction": {
+          "x0": 0.0,
+          "k0": 1.0,
+          "sigma": 1.0
+        },
+        "potential": {
+          "type": "harmonic_oscillator",
+          "omega": 1.0
+        }
+      },
+      "expected_backend": "cupy",
+      "expected_device_id": 0,
+      "should_fail": false,
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "device_identity": {
+        "available": true,
+        "device_id": 0,
+        "name": "NVIDIA RTX A1000 6GB Laptop GPU",
+        "compute_capability": "8.6",
+        "total_memory": 6441926656,
+        "uuid": null
+      },
+      "backend_resolved": "ArrayBackend(name='cupy', xp=<module 'cupy' from 'C:\\\\Users\\\\krist\\\\AppData\\\\Local\\\\hermes\\\\hermes-agent\\\\venv\\\\Lib\\\\site-packages\\\\cupy\\\\__init__.py'>, fftn=functools.partial(<function fftn at 0x000001B37FFA79C0>, overwrite_x=True), ifftn=functools.partial(<function ifftn at 0x000001B37FFA7A60>, overwrite_x=True), to_device=<function track_asarray at 0x000001B34FD5F380>, to_host=<function track_asnumpy at 0x000001B323014040>)",
+      "backend_name": "cupy",
+      "device_id_used": 0,
+      "tracker": {
+        "h2d_count": 1,
+        "h2d_bytes": 1024,
+        "d2h_count": 1,
+        "d2h_bytes": 1024,
+        "sync_count": 0,
+        "array_creations": [
+          {
+            "name": "initial_wavefunction",
+            "shape": [
+              64
+            ],
+            "dtype": "complex128",
+            "device_id": -1,
+            "is_cupy": false
+          }
+        ],
+        "transfer_events": [
+          {
+            "direction": "h2d",
+            "bytes": 1024,
+            "location": "cupy.asarray"
+          },
+          {
+            "direction": "d2h",
+            "bytes": 1024,
+            "location": "cupy.asnumpy"
+          }
+        ]
+      },
+      "residency_checks": [
+        {
+          "phase": "_upload",
+          "ok": true,
+          "msg": "_upload output: OK on device 0"
+        },
+        {
+          "phase": "_advance_input",
+          "ok": true,
+          "msg": "_advance input: OK on device 0"
+        },
+        {
+          "phase": "_advance_output",
+          "ok": true,
+          "msg": "_advance output: OK on device 0"
+        },
+        {
+          "phase": "_advance_input",
+          "ok": true,
+          "msg": "_advance input: OK on device 0"
+        },
+        {
+          "phase": "_advance_output",
+          "ok": true,
+          "msg": "_advance output: OK on device 0"
+        },
+        {
+          "phase": "_advance_input",
+          "ok": true,
+          "msg": "_advance input: OK on device 0"
+        },
+        {
+          "phase": "_advance_output",
+          "ok": true,
+          "msg": "_advance output: OK on device 0"
+        },
+        {
+          "phase": "_advance_input",
+          "ok": true,
+          "msg": "_advance input: OK on device 0"
+        },
+        {
+          "phase": "_advance_output",
+          "ok": true,
+          "msg": "_advance output: OK on device 0"
+        },
+        {
+          "phase": "_advance_input",
+          "ok": true,
+          "msg": "_advance input: OK on device 0"
+        },
+        {
+          "phase": "_advance_output",
+          "ok": true,
+          "msg": "_advance output: OK on device 0"
+        },
+        {
+          "phase": "_download_input",
+          "ok": true,
+          "msg": "_download input (should be device): OK on device 0"
+        },
+        {
+          "phase": "_download_output",
+          "ok": true,
+          "msg": "_download output (should be host): NOT a cupy.ndarray (type=ndarray)"
+        },
+        {
+          "phase": "final_result",
+          "ok": true,
+          "msg": "final result (should be host): NOT a cupy.ndarray (type=ndarray)"
+        }
+      ]
+    },
+    {
+      "name": "SplitOperator_1D_auto",
+      "config": {
+        "dimension": 1,
+        "dt": 0.01,
+        "hbar": 1.0,
+        "m": 1.0,
+        "solver": "split_operator",
+        "backend": "auto",
+        "gpu": false,
+        "device_id": 0,
+        "order": 2,
+        "nonlinearity": 0.0,
+        "rotation": 0.0,
+        "damping": 0.0,
+        "num_steps": 5,
+        "grid": {
+          "N": 64,
+          "L": 8.0
+        },
+        "wavefunction": {
+          "x0": 0.0,
+          "k0": 1.0,
+          "sigma": 1.0
+        },
+        "potential": {
+          "type": "harmonic_oscillator",
+          "omega": 1.0
+        }
+      },
+      "expected_backend": "cupy",
+      "expected_device_id": 0,
+      "should_fail": false,
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "device_identity": {
+        "available": true,
+        "device_id": 0,
+        "name": "NVIDIA RTX A1000 6GB Laptop GPU",
+        "compute_capability": "8.6",
+        "total_memory": 6441926656,
+        "uuid": null
+      },
+      "backend_resolved": "ArrayBackend(name='cupy', xp=<module 'cupy' from 'C:\\\\Users\\\\krist\\\\AppData\\\\Local\\\\hermes\\\\hermes-agent\\\\venv\\\\Lib\\\\site-packages\\\\cupy\\\\__init__.py'>, fftn=functools.partial(<function fftn at 0x000001B37FFA79C0>, overwrite_x=True), ifftn=functools.partial(<function ifftn at 0x000001B37FFA7A60>, overwrite_x=True), to_device=<function track_asarray at 0x000001B34FD5F380>, to_host=<function track_asnumpy at 0x000001B323014040>)",
+      "backend_name": "cupy",
+      "device_id_used": 0,
+      "tracker": {
+        "h2d_count": 1,
+        "h2d_bytes": 1024,
+        "d2h_count": 1,
+        "d2h_bytes": 1024,
+        "sync_count": 0,
+        "array_creations": [
+          {
+            "name": "initial_wavefunction",
+            "shape": [
+              64
+            ],
+            "dtype": "complex128",
+            "device_id": -1,
+            "is_cupy": false
+          }
+        ],
+        "transfer_events": [
+          {
+            "direction": "h2d",
+            "bytes": 1024,
+            "location": "cupy.asarray"
+          },
+          {
+            "direction": "d2h",
+            "bytes": 1024,
+            "location": "cupy.asnumpy"
+          }
+        ]
+      },
+      "residency_checks": [
+        {
+          "phase": "_upload",
+          "ok": true,
+          "msg": "_upload output: OK on device 0"
+        },
+        {
+          "phase": "_advance_input",
+          "ok": true,
+          "msg": "_advance input: OK on device 0"
+        },
+        {
+          "phase": "_advance_output",
+          "ok": true,
+          "msg": "_advance output: OK on device 0"
+        },
+        {
+          "phase": "_advance_input",
+          "ok": true,
+          "msg": "_advance input: OK on device 0"
+        },
+        {
+          "phase": "_advance_output",
+          "ok": true,
+          "msg": "_advance output: OK on device 0"
+        },
+        {
+          "phase": "_advance_input",
+          "ok": true,
+          "msg": "_advance input: OK on device 0"
+        },
+        {
+          "phase": "_advance_output",
+          "ok": true,
+          "msg": "_advance output: OK on device 0"
+        },
+        {
+          "phase": "_advance_input",
+          "ok": true,
+          "msg": "_advance input: OK on device 0"
+        },
+        {
+          "phase": "_advance_output",
+          "ok": true,
+          "msg": "_advance output: OK on device 0"
+        },
+        {
+          "phase": "_advance_input",
+          "ok": true,
+          "msg": "_advance input: OK on device 0"
+        },
+        {
+          "phase": "_advance_output",
+          "ok": true,
+          "msg": "_advance output: OK on device 0"
+        },
+        {
+          "phase": "_download_input",
+          "ok": true,
+          "msg": "_download input (should be device): OK on device 0"
+        },
+        {
+          "phase": "_download_output",
+          "ok": true,
+          "msg": "_download output (should be host): NOT a cupy.ndarray (type=ndarray)"
+        },
+        {
+          "phase": "final_result",
+          "ok": true,
+          "msg": "final result (should be host): NOT a cupy.ndarray (type=ndarray)"
+        }
+      ]
+    },
+    {
+      "name": "SplitOperator_1D_gpu_true",
+      "config": {
+        "dimension": 1,
+        "dt": 0.01,
+        "hbar": 1.0,
+        "m": 1.0,
+        "solver": "split_operator",
+        "backend": "numpy",
+        "gpu": true,
+        "device_id": 0,
+        "order": 2,
+        "nonlinearity": 0.0,
+        "rotation": 0.0,
+        "damping": 0.0,
+        "num_steps": 5,
+        "grid": {
+          "N": 64,
+          "L": 8.0
+        },
+        "wavefunction": {
+          "x0": 0.0,
+          "k0": 1.0,
+          "sigma": 1.0
+        },
+        "potential": {
+          "type": "harmonic_oscillator",
+          "omega": 1.0
+        }
+      },
+      "expected_backend": "scipy-cpu",
+      "expected_device_id": null,
+      "should_fail": false,
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "device_identity": {
+        "available": true,
+        "device_id": 0,
+        "name": "NVIDIA RTX A1000 6GB Laptop GPU",
+        "compute_capability": "8.6",
+        "total_memory": 6441926656,
+        "uuid": null
+      },
+      "backend_resolved": "ArrayBackend(name='scipy-cpu', xp=<module 'numpy' from 'C:\\\\Users\\\\krist\\\\AppData\\\\Local\\\\hermes\\\\hermes-agent\\\\venv\\\\Lib\\\\site-packages\\\\numpy\\\\__init__.py'>, fftn=functools.partial(<uarray multimethod 'fftn'>, workers=-1, overwrite_x=True), ifftn=functools.partial(<uarray multimethod 'ifftn'>, workers=-1, overwrite_x=True), to_device=<built-in function asarray>, to_host=<built-in function asarray>)",
+      "backend_name": "scipy-cpu",
+      "device_id_used": 0,
+      "tracker": {
+        "h2d_count": 0,
+        "h2d_bytes": 0,
+        "d2h_count": 0,
+        "d2h_bytes": 0,
+        "sync_count": 0,
+        "array_creations": [
+          {
+            "name": "initial_wavefunction",
+            "shape": [
+              64
+            ],
+            "dtype": "complex128",
+            "device_id": -1,
+            "is_cupy": false
+          }
+        ],
+        "transfer_events": []
+      },
+      "residency_checks": []
+    },
+    {
+      "name": "SplitOperator_2D_cupy",
+      "config": {
+        "dimension": 2,
+        "dt": 0.01,
+        "hbar": 1.0,
+        "m": 1.0,
+        "solver": "split_operator",
+        "backend": "cupy",
+        "gpu": false,
+        "device_id": 0,
+        "order": 2,
+        "nonlinearity": 0.0,
+        "rotation": 0.0,
+        "damping": 0.0,
+        "num_steps": 5,
+        "grid": {
+          "N": 64,
+          "L": 8.0
+        },
+        "wavefunction": {
+          "x0": 0.0,
+          "k0": 1.0,
+          "sigma": 1.0
+        },
+        "potential": {
+          "type": "harmonic_oscillator",
+          "omega": 1.0
+        }
+      },
+      "expected_backend": "cupy",
+      "expected_device_id": 0,
+      "should_fail": false,
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "device_identity": {
+        "available": true,
+        "device_id": 0,
+        "name": "NVIDIA RTX A1000 6GB Laptop GPU",
+        "compute_capability": "8.6",
+        "total_memory": 6441926656,
+        "uuid": null
+      },
+      "backend_resolved": "ArrayBackend(name='cupy', xp=<module 'cupy' from 'C:\\\\Users\\\\krist\\\\AppData\\\\Local\\\\hermes\\\\hermes-agent\\\\venv\\\\Lib\\\\site-packages\\\\cupy\\\\__init__.py'>, fftn=functools.partial(<function fftn at 0x000001B37FFA79C0>, overwrite_x=True), ifftn=functools.partial(<function ifftn at 0x000001B37FFA7A60>, overwrite_x=True), to_device=<function track_asarray at 0x000001B34FD5F380>, to_host=<function track_asnumpy at 0x000001B323014040>)",
+      "backend_name": "cupy",
+      "device_id_used": 0,
+      "tracker": {
+        "h2d_count": 1,
+        "h2d_bytes": 65536,
+        "d2h_count": 1,
+        "d2h_bytes": 65536,
+        "sync_count": 0,
+        "array_creations": [
+          {
+            "name": "initial_wavefunction",
+            "shape": [
+              64,
+              64
+            ],
+            "dtype": "complex128",
+            "device_id": -1,
+            "is_cupy": false
+          }
+        ],
+        "transfer_events": [
+          {
+            "direction": "h2d",
+            "bytes": 65536,
+            "location": "cupy.asarray"
+          },
+          {
+            "direction": "d2h",
+            "bytes": 65536,
+            "location": "cupy.asnumpy"
+          }
+        ]
+      },
+      "residency_checks": [
+        {
+          "phase": "_upload",
+          "ok": true,
+          "msg": "_upload output: OK on device 0"
+        },
+        {
+          "phase": "_advance_input",
+          "ok": true,
+          "msg": "_advance input: OK on device 0"
+        },
+        {
+          "phase": "_advance_output",
+          "ok": true,
+          "msg": "_advance output: OK on device 0"
+        },
+        {
+          "phase": "_advance_input",
+          "ok": true,
+          "msg": "_advance input: OK on device 0"
+        },
+        {
+          "phase": "_advance_output",
+          "ok": true,
+          "msg": "_advance output: OK on device 0"
+        },
+        {
+          "phase": "_advance_input",
+          "ok": true,
+          "msg": "_advance input: OK on device 0"
+        },
+        {
+          "phase": "_advance_output",
+          "ok": true,
+          "msg": "_advance output: OK on device 0"
+        },
+        {
+          "phase": "_advance_input",
+          "ok": true,
+          "msg": "_advance input: OK on device 0"
+        },
+        {
+          "phase": "_advance_output",
+          "ok": true,
+          "msg": "_advance output: OK on device 0"
+        },
+        {
+          "phase": "_advance_input",
+          "ok": true,
+          "msg": "_advance input: OK on device 0"
+        },
+        {
+          "phase": "_advance_output",
+          "ok": true,
+          "msg": "_advance output: OK on device 0"
+        },
+        {
+          "phase": "_download_input",
+          "ok": true,
+          "msg": "_download input (should be device): OK on device 0"
+        },
+        {
+          "phase": "_download_output",
+          "ok": true,
+          "msg": "_download output (should be host): NOT a cupy.ndarray (type=ndarray)"
+        },
+        {
+          "phase": "final_result",
+          "ok": true,
+          "msg": "final result (should be host): NOT a cupy.ndarray (type=ndarray)"
+        }
+      ]
+    },
+    {
+      "name": "SplitOperator_3D_cupy",
+      "config": {
+        "dimension": 3,
+        "dt": 0.01,
+        "hbar": 1.0,
+        "m": 1.0,
+        "solver": "split_operator",
+        "backend": "cupy",
+        "gpu": false,
+        "device_id": 0,
+        "order": 2,
+        "nonlinearity": 0.0,
+        "rotation": 0.0,
+        "damping": 0.0,
+        "num_steps": 3,
+        "grid": {
+          "N": 64,
+          "L": 8.0
+        },
+        "wavefunction": {
+          "x0": 0.0,
+          "k0": 1.0,
+          "sigma": 1.0
+        },
+        "potential": {
+          "type": "harmonic_oscillator",
+          "omega": 1.0
+        }
+      },
+      "expected_backend": "cupy",
+      "expected_device_id": 0,
+      "should_fail": false,
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "device_identity": {
+        "available": true,
+        "device_id": 0,
+        "name": "NVIDIA RTX A1000 6GB Laptop GPU",
+        "compute_capability": "8.6",
+        "total_memory": 6441926656,
+        "uuid": null
+      },
+      "backend_resolved": "ArrayBackend(name='cupy', xp=<module 'cupy' from 'C:\\\\Users\\\\krist\\\\AppData\\\\Local\\\\hermes\\\\hermes-agent\\\\venv\\\\Lib\\\\site-packages\\\\cupy\\\\__init__.py'>, fftn=functools.partial(<function fftn at 0x000001B37FFA79C0>, overwrite_x=True), ifftn=functools.partial(<function ifftn at 0x000001B37FFA7A60>, overwrite_x=True), to_device=<function track_asarray at 0x000001B34FD5F380>, to_host=<function track_asnumpy at 0x000001B323014040>)",
+      "backend_name": "cupy",
+      "device_id_used": 0,
+      "tracker": {
+        "h2d_count": 1,
+        "h2d_bytes": 4194304,
+        "d2h_count": 1,
+        "d2h_bytes": 4194304,
+        "sync_count": 0,
+        "array_creations": [
+          {
+            "name": "initial_wavefunction",
+            "shape": [
+              64,
+              64,
+              64
+            ],
+            "dtype": "complex128",
+            "device_id": -1,
+            "is_cupy": false
+          }
+        ],
+        "transfer_events": [
+          {
+            "direction": "h2d",
+            "bytes": 4194304,
+            "location": "cupy.asarray"
+          },
+          {
+            "direction": "d2h",
+            "bytes": 4194304,
+            "location": "cupy.asnumpy"
+          }
+        ]
+      },
+      "residency_checks": [
+        {
+          "phase": "_upload",
+          "ok": true,
+          "msg": "_upload output: OK on device 0"
+        },
+        {
+          "phase": "_advance_input",
+          "ok": true,
+          "msg": "_advance input: OK on device 0"
+        },
+        {
+          "phase": "_advance_output",
+          "ok": true,
+          "msg": "_advance output: OK on device 0"
+        },
+        {
+          "phase": "_advance_input",
+          "ok": true,
+          "msg": "_advance input: OK on device 0"
+        },
+        {
+          "phase": "_advance_output",
+          "ok": true,
+          "msg": "_advance output: OK on device 0"
+        },
+        {
+          "phase": "_advance_input",
+          "ok": true,
+          "msg": "_advance input: OK on device 0"
+        },
+        {
+          "phase": "_advance_output",
+          "ok": true,
+          "msg": "_advance output: OK on device 0"
+        },
+        {
+          "phase": "_download_input",
+          "ok": true,
+          "msg": "_download input (should be device): OK on device 0"
+        },
+        {
+          "phase": "_download_output",
+          "ok": true,
+          "msg": "_download output (should be host): NOT a cupy.ndarray (type=ndarray)"
+        },
+        {
+          "phase": "final_result",
+          "ok": true,
+          "msg": "final result (should be host): NOT a cupy.ndarray (type=ndarray)"
+        }
+      ]
+    },
+    {
+      "name": "SplitStep3DGPU",
+      "config": {
+        "dimension": 3,
+        "dt": 0.01,
+        "hbar": 1.0,
+        "m": 1.0,
+        "solver": "split_step_3d_gpu",
+        "backend": "cupy",
+        "gpu": false,
+        "device_id": 0,
+        "order": 2,
+        "nonlinearity": 0.0,
+        "rotation": 0.0,
+        "damping": 0.0,
+        "num_steps": 3,
+        "grid": {
+          "N": 64,
+          "L": 8.0
+        },
+        "wavefunction": {
+          "x0": 0.0,
+          "k0": 1.0,
+          "sigma": 1.0
+        },
+        "potential": {
+          "type": "harmonic_oscillator",
+          "omega": 1.0
+        }
+      },
+      "expected_backend": "cupy",
+      "expected_device_id": 0,
+      "should_fail": false,
+      "passed": false,
+      "errors": [
+        "Backend mismatch: got unknown, expected cupy",
+        "Exception: AttributeError: 'SplitStep3DSolver' object has no attribute '_advance'"
+      ],
+      "warnings": [],
+      "device_identity": {
+        "available": true,
+        "device_id": 0,
+        "name": "NVIDIA RTX A1000 6GB Laptop GPU",
+        "compute_capability": "8.6",
+        "total_memory": 6441926656,
+        "uuid": null
+      },
+      "backend_resolved": "unknown",
+      "backend_name": "unknown",
+      "device_id_used": 0,
+      "tracker": {
+        "h2d_count": 0,
+        "h2d_bytes": 0,
+        "d2h_count": 0,
+        "d2h_bytes": 0,
+        "sync_count": 0,
+        "array_creations": [
+          {
+            "name": "initial_wavefunction",
+            "shape": [
+              64,
+              64,
+              64
+            ],
+            "dtype": "complex128",
+            "device_id": -1,
+            "is_cupy": false
+          }
+        ],
+        "transfer_events": []
+      },
+      "residency_checks": []
+    },
+    {
+      "name": "SplitOperator_invalid_device",
+      "config": {
+        "dimension": 1,
+        "dt": 0.01,
+        "hbar": 1.0,
+        "m": 1.0,
+        "solver": "split_operator",
+        "backend": "cupy",
+        "gpu": false,
+        "device_id": 1,
+        "order": 2,
+        "nonlinearity": 0.0,
+        "rotation": 0.0,
+        "damping": 0.0,
+        "num_steps": 1,
+        "grid": {
+          "N": 64,
+          "L": 8.0
+        },
+        "wavefunction": {
+          "x0": 0.0,
+          "k0": 1.0,
+          "sigma": 1.0
+        },
+        "potential": {
+          "type": "harmonic_oscillator",
+          "omega": 1.0
+        }
+      },
+      "expected_backend": "cupy",
+      "expected_device_id": null,
+      "should_fail": true,
+      "passed": true,
+      "errors": [
+        "Exception: ValueError: Invalid CUDA device_id 1; 1 device(s) available"
+      ],
+      "warnings": [],
+      "device_identity": {
+        "available": true,
+        "device_id": 0,
+        "name": "NVIDIA RTX A1000 6GB Laptop GPU",
+        "compute_capability": "8.6",
+        "total_memory": 6441926656,
+        "uuid": null
+      },
+      "backend_resolved": null,
+      "backend_name": null,
+      "device_id_used": null,
+      "tracker": {
+        "h2d_count": 0,
+        "h2d_bytes": 0,
+        "d2h_count": 0,
+        "d2h_bytes": 0,
+        "sync_count": 0,
+        "array_creations": [
+          {
+            "name": "initial_wavefunction",
+            "shape": [
+              64
+            ],
+            "dtype": "complex128",
+            "device_id": -1,
+            "is_cupy": false
+          }
+        ],
+        "transfer_events": []
+      },
+      "residency_checks": []
+    },
+    {
+      "name": "SplitOperator_1D_numpy",
+      "config": {
+        "dimension": 1,
+        "dt": 0.01,
+        "hbar": 1.0,
+        "m": 1.0,
+        "solver": "split_operator",
+        "backend": "numpy",
+        "gpu": false,
+        "device_id": 0,
+        "order": 2,
+        "nonlinearity": 0.0,
+        "rotation": 0.0,
+        "damping": 0.0,
+        "num_steps": 3,
+        "grid": {
+          "N": 64,
+          "L": 8.0
+        },
+        "wavefunction": {
+          "x0": 0.0,
+          "k0": 1.0,
+          "sigma": 1.0
+        },
+        "potential": {
+          "type": "harmonic_oscillator",
+          "omega": 1.0
+        }
+      },
+      "expected_backend": "scipy-cpu",
+      "expected_device_id": null,
+      "should_fail": false,
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "device_identity": {
+        "available": true,
+        "device_id": 0,
+        "name": "NVIDIA RTX A1000 6GB Laptop GPU",
+        "compute_capability": "8.6",
+        "total_memory": 6441926656,
+        "uuid": null
+      },
+      "backend_resolved": "ArrayBackend(name='scipy-cpu', xp=<module 'numpy' from 'C:\\\\Users\\\\krist\\\\AppData\\\\Local\\\\hermes\\\\hermes-agent\\\\venv\\\\Lib\\\\site-packages\\\\numpy\\\\__init__.py'>, fftn=functools.partial(<uarray multimethod 'fftn'>, workers=-1, overwrite_x=True), ifftn=functools.partial(<uarray multimethod 'ifftn'>, workers=-1, overwrite_x=True), to_device=<built-in function asarray>, to_host=<built-in function asarray>)",
+      "backend_name": "scipy-cpu",
+      "device_id_used": 0,
+      "tracker": {
+        "h2d_count": 0,
+        "h2d_bytes": 0,
+        "d2h_count": 0,
+        "d2h_bytes": 0,
+        "sync_count": 0,
+        "array_creations": [
+          {
+            "name": "initial_wavefunction",
+            "shape": [
+              64
+            ],
+            "dtype": "complex128",
+            "device_id": -1,
+            "is_cupy": false
+          }
+        ],
+        "transfer_events": []
+      },
+      "residency_checks": []
+    }
+  ],
+  "summary": {
+    "passed": 7,
+    "total": 8
+  }
+}

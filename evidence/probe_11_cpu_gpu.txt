@@ -1,0 +1,6 @@
+=== Domain 11: CPU/GPU numerical equivalence ===
+11 GPU warm-up step completed
+11a 1D 50 steps: max|dpsi| = 3.423e-15   (norm cpu=1.000000000000000 gpu=1.000000000000004)
+11b 2D 30 steps: max|dpsi| = 2.733e-15
+11c 3D 20 steps: max|dpsi| = 8.391e-16  (gpu backend=cupy)
+=== end Domain 11 ===

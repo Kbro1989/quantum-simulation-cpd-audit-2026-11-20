@@ -1,0 +1,196 @@
+======================================================================
+DOMAIN 22: GPU Memory Scaling
+======================================================================
+Device: {
+  "available": true,
+  "device_id": 0,
+  "name": "NVIDIA RTX A1000 6GB Laptop GPU",
+  "compute_capability": "8.6",
+  "total_memory": 6441926656
+}
+
+VRAM Baseline: {
+  "nvml": {
+    "total_bytes": 6442450944,
+    "free_bytes": 5444825088,
+    "used_bytes": 997625856
+  },
+  "cupy_pool": {
+    "used_bytes": 0,
+    "total_bytes": 0,
+    "free_bytes": 0
+  }
+}
+
+=== Theoretical Wavefunction Storage (complex128) ===
+  1D 64^1: 0.0 MiB
+  2D 64^2: 0.1 MiB
+  3D 64^3: 4.0 MiB
+  1D 128^1: 0.0 MiB
+  2D 128^2: 0.2 MiB
+  3D 128^3: 32.0 MiB
+  1D 256^1: 0.0 MiB
+  2D 256^2: 1.0 MiB
+  3D 256^3: 256.0 MiB
+  1D 512^1: 0.0 MiB
+  2D 512^2: 4.0 MiB
+  3D 512^3: 2048.0 MiB
+  1D 1024^1: 0.0 MiB
+  2D 1024^2: 16.0 MiB
+  3D 1024^3: 16384.0 MiB
+
+=== Scaling: 1D ===
+  1D 64^1...
+    Theoretical psi: 0.00 MiB
+    Upload overhead: 0.00 MiB
+    Evolution overhead: 0.00 MiB
+    Workspace: -0.00 MiB
+    Peak pool: 0.00 MiB
+  1D 128^1...
+    Theoretical psi: 0.00 MiB
+    Upload overhead: 0.00 MiB
+    Evolution overhead: 0.00 MiB
+    Workspace: -0.00 MiB
+    Peak pool: 0.01 MiB
+  1D 256^1...
+    Theoretical psi: 0.00 MiB
+    Upload overhead: 0.00 MiB
+    Evolution overhead: 0.00 MiB
+    Workspace: -0.00 MiB
+    Peak pool: 0.01 MiB
+  1D 512^1...
+    Theoretical psi: 0.01 MiB
+    Upload overhead: 0.01 MiB
+    Evolution overhead: 0.00 MiB
+    Workspace: -0.01 MiB
+    Peak pool: 0.03 MiB
+  1D 1024^1...
+    Theoretical psi: 0.02 MiB
+    Upload overhead: 0.02 MiB
+    Evolution overhead: 0.00 MiB
+    Workspace: -0.02 MiB
+    Peak pool: 0.05 MiB
+  1D 2048^1...
+    Theoretical psi: 0.03 MiB
+    Upload overhead: 0.03 MiB
+    Evolution overhead: 0.00 MiB
+    Workspace: -0.03 MiB
+    Peak pool: 0.11 MiB
+  1D 4096^1...
+    Theoretical psi: 0.06 MiB
+    Upload overhead: 0.06 MiB
+    Evolution overhead: 0.00 MiB
+    Workspace: -0.06 MiB
+    Peak pool: 0.22 MiB
+  1D 8192^1...
+    Theoretical psi: 0.12 MiB
+    Upload overhead: 0.12 MiB
+    Evolution overhead: 0.00 MiB
+    Workspace: -0.12 MiB
+    Peak pool: 0.44 MiB
+  1D 16384^1...
+    Theoretical psi: 0.25 MiB
+    Upload overhead: 0.25 MiB
+    Evolution overhead: 0.25 MiB
+    Workspace: 0.00 MiB
+    Peak pool: 1.12 MiB
+  1D 32768^1...
+    Theoretical psi: 0.50 MiB
+    Upload overhead: 0.50 MiB
+    Evolution overhead: 0.50 MiB
+    Workspace: 0.00 MiB
+    Peak pool: 2.50 MiB
+
+=== Scaling: 2D ===
+  2D 32^2...
+    Theoretical psi: 0.02 MiB
+    Upload overhead: 0.02 MiB
+    Evolution overhead: 0.00 MiB
+    Workspace: -0.02 MiB
+    Peak pool: 0.80 MiB
+  2D 64^2...
+    Theoretical psi: 0.06 MiB
+    Upload overhead: 0.06 MiB
+    Evolution overhead: 0.00 MiB
+    Workspace: -0.06 MiB
+    Peak pool: 0.97 MiB
+  2D 128^2...
+    Theoretical psi: 0.25 MiB
+    Upload overhead: 0.25 MiB
+    Evolution overhead: 0.00 MiB
+    Workspace: -0.25 MiB
+    Peak pool: 1.62 MiB
+  2D 256^2...
+    Theoretical psi: 1.00 MiB
+    Upload overhead: 1.00 MiB
+    Evolution overhead: 0.00 MiB
+    Workspace: -1.00 MiB
+    Peak pool: 4.25 MiB
+  2D 512^2...
+    Theoretical psi: 4.00 MiB
+    Upload overhead: 4.00 MiB
+    Evolution overhead: 0.00 MiB
+    Workspace: -4.00 MiB
+    Peak pool: 14.75 MiB
+  2D 1024^2...
+    Theoretical psi: 16.00 MiB
+    Upload overhead: 16.00 MiB
+    Evolution overhead: 0.00 MiB
+    Workspace: -16.00 MiB
+    Peak pool: 56.75 MiB
+
+=== Scaling: 3D ===
+  3D 16^3...
+    Theoretical psi: 0.06 MiB
+    Upload overhead: 0.06 MiB
+    Evolution overhead: 0.00 MiB
+    Workspace: -0.06 MiB
+    Peak pool: 0.97 MiB
+  3D 32^3...
+    Theoretical psi: 0.50 MiB
+    Upload overhead: 0.50 MiB
+    Evolution overhead: 0.00 MiB
+    Workspace: -0.50 MiB
+    Peak pool: 2.50 MiB
+  3D 64^3...
+    Theoretical psi: 4.00 MiB
+    Upload overhead: 4.00 MiB
+    Evolution overhead: 0.00 MiB
+    Workspace: -4.00 MiB
+    Peak pool: 14.75 MiB
+  3D 128^3...
+    Theoretical psi: 32.00 MiB
+    Upload overhead: 32.00 MiB
+    Evolution overhead: 0.00 MiB
+    Workspace: -32.00 MiB
+    Peak pool: 112.75 MiB
+  3D 256^3...
+    Theoretical psi: 256.00 MiB
+    Upload overhead: 256.00 MiB
+    Evolution overhead: 0.00 MiB
+    Workspace: -256.00 MiB
+    Peak pool: 896.75 MiB
+
+=== Fragmentation ===
+  1D 256^1 fragmentation...
+    Pool range: 0.8 - 0.8 MiB
+    Fragmentation: 0.00 MiB
+  2D 128^2 fragmentation...
+    Pool range: 1.6 - 1.6 MiB
+    Fragmentation: 0.00 MiB
+  3D 64^3 fragmentation...
+    Pool range: 14.8 - 14.8 MiB
+    Fragmentation: 0.00 MiB
+
+=== Complex64 vs Complex128 ===
+  1D 256^1 complex64...
+    c128 peak: 0.8 MiB
+    c64 peak: 0.8 MiB
+    Ratio: 1.00
+  2D 128^2 complex64...
+    c128 peak: 1.6 MiB
+    c64 peak: 1.6 MiB
+    Ratio: 1.00
+
+Results saved: C:\Users\krist\Desktop\quantum-simulation-cpd-audit-2026-11-20\nvidia_validation\domain22_memory_scaling\domain22_memory_scaling.json
+Done.

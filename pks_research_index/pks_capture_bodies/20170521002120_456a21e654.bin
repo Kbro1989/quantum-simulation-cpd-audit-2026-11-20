@@ -1,0 +1,152 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>w_berechnungen</title><meta name="GENERATOR" content="Freeway Pro 3.5.15"><style type="text/css">
+<!--
+p { margin-top:0px }
+.style6 { font-family: Verdana; }
+.flieklein { font-family: Verdana; }
+body,td,th {
+	font-family: Verdana, Geneva, sans-serif;
+}
+body {
+	background-image: url(Resources/thema_walter-3.jpg);
+	background-position:center;
+	background-position:top;
+	background-repeat: no-repeat;
+}
+a {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #333;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #333;
+}
+a:hover {
+	text-decoration: none;
+	color: #F00;
+}
+a:active {
+	text-decoration: none;
+	color: #333;
+}
+#LayoutTable table tr td table tr td {
+	font-size: 10px;
+}
+-->
+</style>
+<meta name="MSSmartTagsPreventParsing" content="true">
+<script language="javascript" type="text/javascript"><!--
+
+var fwIsNetscape = navigator.appName == 'Netscape';
+
+fwLoad = new Object;
+function FWLoad(image)
+{
+	if (!document.images)
+		return null;
+	if (!fwLoad[image])
+	{
+		fwLoad[image]=new Image;
+		fwLoad[image].src=image;
+	}
+	return fwLoad[image].src;
+}
+
+fwRestore = new Object;
+function FWRestore(msg,chain) 
+{
+	if (document.images) 
+		for (var i in fwRestore)
+		{
+			var r = fwRestore[i];
+			if (r && (!chain || r.chain==chain) && r.msg==msg)
+			{
+				r.src = FWLoad(r.old);
+				fwRestore[i]=null;
+			}
+		}
+}
+
+function FWLSwap(name,msg,newImg,layer,chain,trigger) 
+{
+	var r = fwRestore[name];
+	if (document.images && (!r || r.msg < msg)) 
+	{
+		var uselayers = fwIsNetscape && document.layers && layer != '';
+		var hld = (uselayers) ? document.layers[layer].document : document;
+		var im = hld[name];
+		if (!im.old) im.old = im.src;
+		im.msg = msg;
+		im.chain = chain;
+		im.trigger = trigger;
+		if (newImg) im.src = FWLoad(newImg);
+		fwRestore[name] = im;
+	}
+}
+
+function FWCallHit(func,targNum,msg)
+{
+	if(func)
+		for (var i in func)
+			func[i](targNum,msg);
+}
+function FW_Hit(frameset,chain,targNum,msg)
+{
+	if (frameset && frameset.length)
+		for (var i=0 ; i <frameset.length ; i++)
+		{
+			FW_Hit(frameset[i].frames,chain,targNum,msg);
+			FWCallHit(top["FT_"+chain],targNum,msg);
+			FWCallHit(frameset[i].window["FT_"+chain],targNum,msg);
+		}
+	else
+		FWCallHit(window["FT_"+chain],targNum,msg);
+}
+
+fwHit = new Object;
+function FWSlave(frameset,chain,targNum,msg)
+{
+	if (msg==1) fwHit[chain]=targNum;
+	FW_Hit(frameset,chain,targNum,1);
+}
+
+function FWSRestore(frameset,chain)
+{
+	var hit=fwHit[chain];
+	if (hit)
+		FW_Hit(frameset,chain,hit,0);
+	fwHit[chain]=null;
+}
+function FWPreload(){FWLoad("Resources/objekt4bc.gif");FWLoad("Resources/objekt4bb.gif");FWLoad("Resources/objekt4b1ac.gif");FWLoad("Resources/objekt4b1ab.gif");FWLoad("Resources/objekt4b1a1c.gif");FWLoad("Resources/objekt4b1a1b.gif");FWLoad("Resources/objekt4b1a1a1c.gif");FWLoad("Resources/objekt4b1a1a1b.gif");FWLoad("Resources/objekt5ag.gif");FWLoad("Resources/objekt5af.gif");FWLoad("Resources/objekt5e.gif");FWLoad("Resources/objekt5b.gif");FWLoad("Resources/objekt4b1be.gif");FWLoad("Resources/objekt4b1bd.gif");}
+//-->
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body topmargin=0 leftmargin=0 marginheight=0 marginwidth=0 onload="FWPreload()"><div id="LayoutTable"><table border=0 cellspacing=0 cellpadding=0 align="center" width=804><tr valign=top><td rowspan=2><a href="w.schauberger.html" target="main"><img src="Resources/transparent.gif" width="151" height="28" border="0"></a></td><td colspan=2></td><td height=9></td></tr><tr valign=top><td></td><td><p><span class="style6">Walter Schauberger | Berechnungen</span></p></td><td height=19></td></tr><tr><td width=151><img src="Resources/_clear.gif" border=0 width=151 height=1 alt=""></td><td width=29><img src="Resources/_clear.gif" border=0 width=29 height=1 alt=""></td><td width=414><img src="Resources/_clear.gif" border=0 width=414 height=1 alt=""></td><td width=208 height=1><img src="Resources/_clear.gif" border=0 width=208 height=1 alt=""></td></tr></table><table border=0 cellspacing=0 cellpadding=0 align="center" width=804><tr valign=top><td colspan=4></td><td height=26></td></tr><tr valign=top><td rowspan=2></td><td rowspan=2><table border=0 cellspacing=0 cellpadding=0 width=473><tr valign=top>
+<td rowspan=2><a href="w.schauberger.html" target="main">>  Biografie</a></td><td colspan=6></td><td height=3></td></tr><tr valign=top><td colspan=5></td><td rowspan=8><a href="Resources/Ei_-Kurve_plus.pdf" target="_blank"><img src="Resources/pdficonwalter.gif" border=0 width=49 height=63 alt=""></a></td><td height=10></td></tr><tr valign=top><td colspan=6></td><td height=5></td></tr><tr valign=top><td><a href="walter_patente.html" target="main">> Patente</a></td><td colspan=5></td><td height=12></td></tr><tr valign=top><td colspan=6></td><td height=5></td></tr><tr valign=top>
+  <td colspan=2><a href="w_texte.html" target="main">> Texte</a></td><td colspan=4></td><td height=13></td></tr><tr valign=top><td colspan=6></td><td height=5></td></tr><tr valign=top>
+    <td colspan=3><a href="w_berechnungen.html" target="main">> Berechnungen</a></td><td></td>
+    <td>Download Eikurve Volumsformel <a href="Resources/Ei_-Kurve_plus.pdf" target="-blank">>></a></td><td></td><td height=13></td></tr><tr valign=top><td colspan=6></td><td height=1></td></tr><tr><td width=64><img src="Resources/_clear.gif" border=0 width=64 height=1 alt=""></td><td width=13><img src="Resources/_clear.gif" border=0 width=13 height=1 alt=""></td><td width=47><img src="Resources/_clear.gif" border=0 width=47 height=1 alt=""></td><td width=66><img src="Resources/_clear.gif" border=0 width=66 height=1 alt=""></td><td width=229><img src="Resources/_clear.gif" border=0 width=229 height=1 alt=""></td><td width=3><img src="Resources/_clear.gif" border=0 width=3 height=1 alt=""></td><td width=50><img src="Resources/_clear.gif" border=0 width=50 height=1 alt=""></td><td width=1 height=1><img src="Resources/_clear.gif" border=0 width=1 height=1 alt=""></td></tr></table></td><td colspan=2></td><td height=53></td></tr><tr valign=top><td></td><td rowspan=2><p><font size="-2"><span class="flieklein">10 Seiten, 156 KB</span></font></p></td><td height=15></td></tr><tr valign=top><td colspan=3></td><td height=1></td></tr><tr><td width=20><img src="Resources/_clear.gif" border=0 width=20 height=1 alt=""></td><td width=473><img src="Resources/_clear.gif" border=0 width=473 height=1 alt=""></td><td width=6><img src="Resources/_clear.gif" border=0 width=6 height=1 alt=""></td><td width=149><img src="Resources/_clear.gif" border=0 width=149 height=1 alt=""></td><td width=154 height=1><img src="Resources/_clear.gif" border=0 width=154 height=1 alt=""></td></tr></table><table border=0 cellspacing=0 cellpadding=0 align="center" width=804><tr valign=top><td width="308"></td><td width="355" height=431></td></tr></table><table border=0 cellspacing=0 cellpadding=0 align="center"width=845><tr valign=top><td colspan=2></td><td height=4></td></tr><tr valign=top><td><table border=0 cellspacing=0 cellpadding=0 align="center" width=804>
+      <tr valign=top>
+        <td colspan=2></td>
+        <td height=10></td>
+      </tr>
+      <tr valign=top>
+        <td></td>
+        <td valign="middle"><img src="Resources/objekt2a2ak.gif" border=0 width=22 height=11 alt="" usemap="#map1" name="img7"></td>
+        <td height=11><table width="250">
+          <tr>
+            <th width="12" scope="col">&nbsp;</th>
+            <th width="226" align="left" scope="col"><a href="mailto:schauberger@pks.or.at" onMouseOver="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo');FWLSwap('img5',1,'Resources/objekt5f.gif','','Indigo')" onMouseOut="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo')"><img src="Resources/pks_ende.png" border=0 width=200 height=15 alt="" name="img5"></a></th>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td width=210><img src="Resources/_clear.gif" border=0 width=210 height=1 alt=""></td>
+        <td width=22><img src="Resources/_clear.gif" border=0 width=22 height=1 alt=""></td>
+        <td width=570 height=1><img src="Resources/_clear.gif" border=0 width=570 height=1 alt=""></td>
+      </tr>
+    </table></td><td></td><td height=24></td></tr><tr><td width=804><img src="Resources/_clear.gif" border=0 width=760 height=1 alt=""></td><td width=40><img src="Resources/_clear.gif" border=0 width=40 height=1 alt=""></td><td width=10 height=1><img src="Resources/_clear.gif" border=0 width=2 height=1 alt=""></td></tr></table></div></body></html>

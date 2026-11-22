@@ -1,0 +1,315 @@
+{
+  "retrieved": "2026-11-22",
+  "replay_modifier": "id_ (raw archived response)",
+  "attempted": 36,
+  "succeeded": 34,
+  "failed": 2,
+  "captures": [
+    {
+      "file": "20201029223404_46ab54e425.bin",
+      "original_url": "http://pks.or.at/wp-content/uploads/Berechnung_Ei-Kurve.pdf",
+      "capture_timestamp": "20201029223404",
+      "bytes": 157656,
+      "sha256": "ec4358df4aabe6f5c5885664873af82c8004a262b879aeeacef62aa1c40471a9",
+      "content_type": "application/pdf",
+      "http_status": "200"
+    },
+    {
+      "file": "20240415004754_46ab54e425.bin",
+      "original_url": "http://pks.or.at/wp-content/uploads/Berechnung_Ei-Kurve.pdf",
+      "capture_timestamp": "20240415004754",
+      "bytes": 157656,
+      "sha256": "ec4358df4aabe6f5c5885664873af82c8004a262b879aeeacef62aa1c40471a9",
+      "content_type": "application/pdf",
+      "http_status": "200"
+    },
+    {
+      "file": "20260711234929_46ab54e425.bin",
+      "original_url": "http://pks.or.at/wp-content/uploads/Berechnung_Ei-Kurve.pdf",
+      "capture_timestamp": "20260711234929",
+      "bytes": 157656,
+      "sha256": "ec4358df4aabe6f5c5885664873af82c8004a262b879aeeacef62aa1c40471a9",
+      "content_type": "application/pdf",
+      "http_status": "200"
+    },
+    {
+      "file": "20070820181455_456a21e654.bin",
+      "original_url": "http://www.pks.or.at/w_berechnungen.html",
+      "capture_timestamp": "20070820181455",
+      "bytes": 10073,
+      "sha256": "b47678f154f5e6942227b5af8fc572e188e6bcff8e97d05b02dfb36b65953934",
+      "content_type": "text/html",
+      "http_status": "200"
+    },
+    {
+      "file": "20100828145201_456a21e654.bin",
+      "original_url": "http://www.pks.or.at/w_berechnungen.html",
+      "capture_timestamp": "20100828145201",
+      "bytes": 10073,
+      "sha256": "b47678f154f5e6942227b5af8fc572e188e6bcff8e97d05b02dfb36b65953934",
+      "content_type": "text/html",
+      "http_status": "200"
+    },
+    {
+      "file": "20170521002120_456a21e654.bin",
+      "original_url": "http://www.pks.or.at/w_berechnungen.html",
+      "capture_timestamp": "20170521002120",
+      "bytes": 8741,
+      "sha256": "dca1d461e37f4c803d1dc4fa41b450caffa381e9e7ece83c574732f9878c2352",
+      "content_type": "text/html",
+      "http_status": "200"
+    },
+    {
+      "file": "20190824093147_667aad42ae.bin",
+      "original_url": "https://pks.or.at/berechnungen/",
+      "capture_timestamp": "20190824093147",
+      "bytes": 32163,
+      "sha256": "44a1dd396be5f14ea51d2cd89bb447dbbda5186c82845d91a8fe9d0b6eb1f3a6",
+      "content_type": "text/html; charset=UTF-8",
+      "http_status": "200"
+    },
+    {
+      "file": "20211128230130_667aad42ae.bin",
+      "original_url": "https://pks.or.at/berechnungen/",
+      "capture_timestamp": "20211128230130",
+      "bytes": 32613,
+      "sha256": "93ef6603a15dc44f35e610a453dd9b7356d0664fbde7bcb65d4829cbf7976149",
+      "content_type": "text/html; charset=UTF-8",
+      "http_status": "200"
+    },
+    {
+      "file": "20260711231444_667aad42ae.bin",
+      "original_url": "https://pks.or.at/berechnungen/",
+      "capture_timestamp": "20260711231444",
+      "bytes": 38079,
+      "sha256": "b3ca6bd12cade229c0358ae24a23f0bdb800e14abd22f6faebc1e2d24eca5e07",
+      "content_type": "text/html; charset=UTF-8",
+      "http_status": "200"
+    },
+    {
+      "file": "20080915103925_29570614a4.bin",
+      "original_url": "http://www.pks.or.at:80/w_patents.html",
+      "capture_timestamp": "20080915103925",
+      "bytes": 7287,
+      "sha256": "385c3e9900ebf911e2381704642ef81c245f03e94b9800679e02aa57d298f241",
+      "content_type": "text/html",
+      "http_status": "200"
+    },
+    {
+      "file": "20100727111443_29570614a4.bin",
+      "original_url": "http://www.pks.or.at:80/w_patents.html",
+      "capture_timestamp": "20100727111443",
+      "bytes": 7287,
+      "sha256": "385c3e9900ebf911e2381704642ef81c245f03e94b9800679e02aa57d298f241",
+      "content_type": "text/html",
+      "http_status": "200"
+    },
+    {
+      "file": "20161001000105_29570614a4.bin",
+      "original_url": "http://www.pks.or.at:80/w_patents.html",
+      "capture_timestamp": "20161001000105",
+      "bytes": 19137,
+      "sha256": "afc8dad36483cc67a9144160d1f7b40fb3022e8ee7b0c4cd6c7ea27bee0c5174",
+      "content_type": "text/html",
+      "http_status": "200"
+    },
+    {
+      "file": "20080417032553_ad001f5397.bin",
+      "original_url": "http://www.pks.or.at:80/viktor_patente.html",
+      "capture_timestamp": "20080417032553",
+      "bytes": 29278,
+      "sha256": "18cc7fb8d75fa36fb3126ae4ea3e92437dacecb26df07a14361648e5ba2d9958",
+      "content_type": "text/html",
+      "http_status": "200"
+    },
+    {
+      "file": "20100423201840_ad001f5397.bin",
+      "original_url": "http://www.pks.or.at:80/viktor_patente.html",
+      "capture_timestamp": "20100423201840",
+      "bytes": 29278,
+      "sha256": "18cc7fb8d75fa36fb3126ae4ea3e92437dacecb26df07a14361648e5ba2d9958",
+      "content_type": "text/html",
+      "http_status": "200"
+    },
+    {
+      "file": "20150120154226_ad001f5397.bin",
+      "original_url": "http://www.pks.or.at:80/viktor_patente.html",
+      "capture_timestamp": "20150120154226",
+      "bytes": 36014,
+      "sha256": "ba684e55fa85074577938df75b82760d5dca5669ac2277fd9bd547abcac3d333",
+      "content_type": "text/html",
+      "http_status": "200"
+    },
+    {
+      "file": "20091117122533_ad421afec0.bin",
+      "original_url": "http://www.pks.or.at:80/v_patents.html",
+      "capture_timestamp": "20091117122533",
+      "bytes": 6286,
+      "sha256": "ec9f54be21262297e78a83fdd4b7135d2b741a0f7dac83aaef6ee2fedc240dbf",
+      "content_type": "text/html",
+      "http_status": "200"
+    },
+    {
+      "file": "20100424060806_ad421afec0.bin",
+      "original_url": "http://www.pks.or.at:80/v_patents.html",
+      "capture_timestamp": "20100424060806",
+      "bytes": 6286,
+      "sha256": "ec9f54be21262297e78a83fdd4b7135d2b741a0f7dac83aaef6ee2fedc240dbf",
+      "content_type": "text/html",
+      "http_status": "200"
+    },
+    {
+      "file": "20110722220350_ad421afec0.bin",
+      "original_url": "http://www.pks.or.at:80/v_patents.html",
+      "capture_timestamp": "20110722220350",
+      "bytes": 6286,
+      "sha256": "ec9f54be21262297e78a83fdd4b7135d2b741a0f7dac83aaef6ee2fedc240dbf",
+      "content_type": "text/html",
+      "http_status": "200"
+    },
+    {
+      "file": "20080915103925_29570614a4.bin",
+      "original_url": "http://www.pks.or.at:80/w_patents.html",
+      "capture_timestamp": "20080915103925",
+      "bytes": 7287,
+      "sha256": "385c3e9900ebf911e2381704642ef81c245f03e94b9800679e02aa57d298f241",
+      "content_type": "text/html",
+      "http_status": "200"
+    },
+    {
+      "file": "20100727111443_29570614a4.bin",
+      "original_url": "http://www.pks.or.at:80/w_patents.html",
+      "capture_timestamp": "20100727111443",
+      "bytes": 7287,
+      "sha256": "385c3e9900ebf911e2381704642ef81c245f03e94b9800679e02aa57d298f241",
+      "content_type": "text/html",
+      "http_status": "200"
+    },
+    {
+      "file": "20100324235812_c6a8f4c65d.bin",
+      "original_url": "http://www.pks.or.at/w.schauberger_e.html",
+      "capture_timestamp": "20100324235812",
+      "bytes": 7619,
+      "sha256": "7047b7eb90cdf58ff30136badde8ef1365e79b56cf43368cd3efd7039b20c9d6",
+      "content_type": "text/html",
+      "http_status": "200"
+    },
+    {
+      "file": "20130718095426_c6a8f4c65d.bin",
+      "original_url": "http://www.pks.or.at/w.schauberger_e.html",
+      "capture_timestamp": "20130718095426",
+      "bytes": 8094,
+      "sha256": "07c191811476c4cc66472f0436a4c56191071ce3f15383c5bcea303f5a027d8b",
+      "content_type": "text/html",
+      "http_status": "200"
+    },
+    {
+      "file": "20070730235440_08934dd2cd.bin",
+      "original_url": "http://www.pks.or.at/w.schauberger.html",
+      "capture_timestamp": "20070730235440",
+      "bytes": 7674,
+      "sha256": "d2450863b1ae3b464ca8ceb6af113b8d66ee8886f831dc3e8b2c891a8315bb20",
+      "content_type": "text/html",
+      "http_status": "200"
+    },
+    {
+      "file": "20100424071401_08934dd2cd.bin",
+      "original_url": "http://www.pks.or.at/w.schauberger.html",
+      "capture_timestamp": "20100424071401",
+      "bytes": 7674,
+      "sha256": "d2450863b1ae3b464ca8ceb6af113b8d66ee8886f831dc3e8b2c891a8315bb20",
+      "content_type": "text/html",
+      "http_status": "200"
+    },
+    {
+      "file": "20120821183739_08934dd2cd.bin",
+      "original_url": "http://www.pks.or.at/w.schauberger.html",
+      "capture_timestamp": "20120821183739",
+      "bytes": 7988,
+      "sha256": "1410a7b1ec69ecfe936bd64a0efb8fa35d8da0b8b47114909a009ba15ca09a13",
+      "content_type": "text/html",
+      "http_status": "200"
+    },
+    {
+      "file": "20070820181052_a209c26d9c.bin",
+      "original_url": "http://www.pks.or.at/v.schauberger_e.html",
+      "capture_timestamp": "20070820181052",
+      "bytes": 6616,
+      "sha256": "a983f4af47c37672e7f1bcbd1e02ac2442c17c24ff176dc2a5f3c6641a913860",
+      "content_type": "text/html",
+      "http_status": "200"
+    },
+    {
+      "file": "20100323124321_a209c26d9c.bin",
+      "original_url": "http://www.pks.or.at/v.schauberger_e.html",
+      "capture_timestamp": "20100323124321",
+      "bytes": 6616,
+      "sha256": "a983f4af47c37672e7f1bcbd1e02ac2442c17c24ff176dc2a5f3c6641a913860",
+      "content_type": "text/html",
+      "http_status": "200"
+    },
+    {
+      "file": "20110821031856_a209c26d9c.bin",
+      "original_url": "http://www.pks.or.at/v.schauberger_e.html",
+      "capture_timestamp": "20110821031856",
+      "bytes": 6616,
+      "sha256": "a983f4af47c37672e7f1bcbd1e02ac2442c17c24ff176dc2a5f3c6641a913860",
+      "content_type": "text/html",
+      "http_status": "200"
+    },
+    {
+      "file": "20070820181030_8960ab9db4.bin",
+      "original_url": "http://www.pks.or.at/v.schauberger.html",
+      "capture_timestamp": "20070820181030",
+      "bytes": 6568,
+      "sha256": "62fa91238755c22112b36c798887fc4b9fa13ec1f522e7828b767164fd8dea2c",
+      "content_type": "text/html",
+      "http_status": "200"
+    },
+    {
+      "file": "20100324193313_8960ab9db4.bin",
+      "original_url": "http://www.pks.or.at/v.schauberger.html",
+      "capture_timestamp": "20100324193313",
+      "bytes": 6568,
+      "sha256": "62fa91238755c22112b36c798887fc4b9fa13ec1f522e7828b767164fd8dea2c",
+      "content_type": "text/html",
+      "http_status": "200"
+    },
+    {
+      "file": "20141230035942_8960ab9db4.bin",
+      "original_url": "http://www.pks.or.at/v.schauberger.html",
+      "capture_timestamp": "20141230035942",
+      "bytes": 7339,
+      "sha256": "0058ccc04144de3b7f14906d053bb2dd9b80f9e17c792cf3d463780351efc751",
+      "content_type": "text/html",
+      "http_status": "200"
+    },
+    {
+      "file": "20070820181620_d0c815fcb7.bin",
+      "original_url": "http://www.pks.or.at/forschung_wasser.html",
+      "capture_timestamp": "20070820181620",
+      "bytes": 38606,
+      "sha256": "fdd12a5beb74ef0e44e5c6d7215a0233e5546d4e1a39a11bf149453c4e714c4f",
+      "content_type": "text/html",
+      "http_status": "200"
+    },
+    {
+      "file": "20120826222319_d0c815fcb7.bin",
+      "original_url": "http://www.pks.or.at/forschung_wasser.html",
+      "capture_timestamp": "20120826222319",
+      "bytes": 38874,
+      "sha256": "1ec47ebc6dce957f384afd512e4331e331d56dd3e9835fdf7144c80c417fb8f6",
+      "content_type": "text/html",
+      "http_status": "200"
+    },
+    {
+      "file": "20171003054101_d0c815fcb7.bin",
+      "original_url": "http://www.pks.or.at/forschung_wasser.html",
+      "capture_timestamp": "20171003054101",
+      "bytes": 39034,
+      "sha256": "adf6707e873d05c08fe34f72d0502fe30b6dd368defbf0dfe2f530d7766063b9",
+      "content_type": "text/html",
+      "http_status": "200"
+    }
+  ]
+}

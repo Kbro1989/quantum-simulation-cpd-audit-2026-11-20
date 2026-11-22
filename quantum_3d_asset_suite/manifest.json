@@ -1,0 +1,270 @@
+{
+  "suite": "cpd_quantum_3d_asset_suite",
+  "purpose": "Real geometry (PLY/OBJ) from quantumlab physics, plus PNG/GIF evidence per tested output, plus measured GPU/CPU parity. Replaces the PNG-over-time-only 3D claim.",
+  "repository": "C:\\Users\\krist\\Desktop\\quantum-simulation-main\\quantum-simulation-main",
+  "repository_head": "44f30e30654c064b75f760833741ab55b392ff20",
+  "isosurface_levels_fraction_of_rho_max": [
+    0.5,
+    0.15,
+    0.03
+  ],
+  "cases": [
+    {
+      "case": "A_vortex_line",
+      "grid_N": 48,
+      "box": [
+        -6,
+        6
+      ],
+      "dt": 0.005,
+      "steps": 40,
+      "trap": "HarmonicTrap(omegas=1.0, m=1.0)",
+      "vortex_charge": 1,
+      "final_norm": 0.9999999999999709,
+      "mesh_artifacts": [
+        {
+          "level_fraction": 0.5,
+          "level_value": 0.03324191447218225,
+          "vertices": 646,
+          "faces": 1292,
+          "ply": {
+            "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_asset_suite\\A_vortex_line\\vortex_line_rho_0p5.ply",
+            "bytes": 44092,
+            "sha256": "0edbed1e156e6927c62207acb6c419ff873fb9711a898dccde149a4c2d7d5b58",
+            "readback_ok": true
+          },
+          "obj": {
+            "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_asset_suite\\A_vortex_line\\vortex_line_rho_0p5.obj",
+            "bytes": 52606,
+            "sha256": "34447dc4242a45cf5e5fd3bc70429654dd2d08b82fc2d87669bfe0f11cbf053a"
+          }
+        },
+        {
+          "level_fraction": 0.15,
+          "level_value": 0.009972574341654675,
+          "vertices": 1516,
+          "faces": 3032,
+          "ply": {
+            "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_asset_suite\\A_vortex_line\\vortex_line_rho_0p15.ply",
+            "bytes": 107178,
+            "sha256": "1895036f1ea41a1e67805ba020f93f2a53698daf8c7f68cd7f9e541e606455c6",
+            "readback_ok": true
+          },
+          "obj": {
+            "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_asset_suite\\A_vortex_line\\vortex_line_rho_0p15.obj",
+            "bytes": 127392,
+            "sha256": "01f5a2845adb7cf186f1eb1ffd4a8df011ee267ca0dffe475612be3af24d8639"
+          }
+        },
+        {
+          "level_fraction": 0.03,
+          "level_value": 0.0019945148683309347,
+          "vertices": 2518,
+          "faces": 5036,
+          "ply": {
+            "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_asset_suite\\A_vortex_line\\vortex_line_rho_0p03.ply",
+            "bytes": 182330,
+            "sha256": "25e140960d8cebbe28c7cae720ca41ac835fe60d546b1bfa5e8a2d63cad5975b",
+            "readback_ok": true
+          },
+          "obj": {
+            "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_asset_suite\\A_vortex_line\\vortex_line_rho_0p03.obj",
+            "bytes": 216031,
+            "sha256": "3cd96f79047aa1a3c72cc4c10aa2ac9d792319bedef77356d0028a0dd7556a92"
+          }
+        }
+      ],
+      "frame_evidence": {
+        "pngs": [
+          {
+            "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_asset_suite\\A_vortex_line\\vortex_line_frame_000.png",
+            "bytes": 205202,
+            "sha256": "897ea25fa5af864c92f845fa5491dc8680c1012075c064353b84b80974d00d33"
+          },
+          {
+            "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_asset_suite\\A_vortex_line\\vortex_line_frame_010.png",
+            "bytes": 197301,
+            "sha256": "edadabeb85640e6d5fb95a126c4e292befbaed6b583c678e7735e90b0ee2971e"
+          },
+          {
+            "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_asset_suite\\A_vortex_line\\vortex_line_frame_020.png",
+            "bytes": 200571,
+            "sha256": "6497fe7b09417ca7bf634a7c9378c19913522bc18251ef0885d788a0156e3b56"
+          },
+          {
+            "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_asset_suite\\A_vortex_line\\vortex_line_frame_030.png",
+            "bytes": 209655,
+            "sha256": "c3863f1a44ae9d1c646142f69921dfa279db7148fd84fff3f077fc824ece6442"
+          },
+          {
+            "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_asset_suite\\A_vortex_line\\vortex_line_frame_040.png",
+            "bytes": 213526,
+            "sha256": "0fefea2510de583e226a6370419d9026d0251b9a24e3826ecbd3d635b580ef32"
+          }
+        ],
+        "gif": {
+          "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_asset_suite\\A_vortex_line\\vortex_line_evolution.gif",
+          "bytes": 230971,
+          "sha256": "3658a0557164727b8266104ce1f01a4f05592acfb4339bf177da2e9a5a0ed9d7"
+        },
+        "png_count": 5
+      }
+    },
+    {
+      "case": "B_bec_ground_state",
+      "grid_N": 32,
+      "box": [
+        -6,
+        6
+      ],
+      "dtau": 0.005,
+      "steps": 300,
+      "trap": "HarmonicTrap(omegas=(0.7,2.5,2.5))",
+      "g": 600.0,
+      "imaginary_time": true,
+      "final_norm": 1.0,
+      "mesh_artifacts": [
+        {
+          "level_fraction": 0.5,
+          "level_value": 0.01057682708100323,
+          "vertices": 686,
+          "faces": 1368,
+          "ply": {
+            "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_asset_suite\\B_bec_ground_state\\bec_ground_state_rho_0p5.ply",
+            "bytes": 45743,
+            "sha256": "3694bf8510ce7e9b03d6ccb565fb4092712d6c814a3376f143765e615733e8fa",
+            "readback_ok": true
+          },
+          "obj": {
+            "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_asset_suite\\B_bec_ground_state\\bec_ground_state_rho_0p5.obj",
+            "bytes": 55876,
+            "sha256": "38160c2de95d2ef4b2aaf91976f76d99fb19eb824301825f697c28943ff4c921"
+          }
+        },
+        {
+          "level_fraction": 0.15,
+          "level_value": 0.003173048124300969,
+          "vertices": 1112,
+          "faces": 2184,
+          "ply": {
+            "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_asset_suite\\B_bec_ground_state\\bec_ground_state_rho_0p15.ply",
+            "bytes": 74636,
+            "sha256": "cf51038381d93e873430628aecc3a497380664d15d3c566835552785c5ec216e",
+            "readback_ok": true
+          },
+          "obj": {
+            "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_asset_suite\\B_bec_ground_state\\bec_ground_state_rho_0p15.obj",
+            "bytes": 91161,
+            "sha256": "47c6f328e3471d207f83e1af5a316760dc517254b94f1fe1ce8ddc1d24b11bb8"
+          }
+        },
+        {
+          "level_fraction": 0.03,
+          "level_value": 0.0006346096248601938,
+          "vertices": 1384,
+          "faces": 2712,
+          "ply": {
+            "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_asset_suite\\B_bec_ground_state\\bec_ground_state_rho_0p03.ply",
+            "bytes": 94389,
+            "sha256": "828bfe0b09187b7a728b75f792e1621ed4b395fba5c229386e989938fbf8b638",
+            "readback_ok": true
+          },
+          "obj": {
+            "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_asset_suite\\B_bec_ground_state\\bec_ground_state_rho_0p03.obj",
+            "bytes": 114994,
+            "sha256": "c245aa071ead7806847405baded3b6ee9bd82db72bbebe3527aa5d55227eb0ce"
+          }
+        }
+      ],
+      "frame_evidence": {
+        "pngs": [
+          {
+            "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_asset_suite\\B_bec_ground_state\\bec_ground_state_frame_100.png",
+            "bytes": 225160,
+            "sha256": "e274ea9b26cf5148a8d3ea8a9c817763b05ea595d673279b1f95ebe0bd4929d1"
+          },
+          {
+            "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_asset_suite\\B_bec_ground_state\\bec_ground_state_frame_200.png",
+            "bytes": 230039,
+            "sha256": "8383b3a28b4b7b9f8b6e849a583bb4695c41f88d20b1ddaacf8beb75accb1e5a"
+          },
+          {
+            "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_asset_suite\\B_bec_ground_state\\bec_ground_state_frame_300.png",
+            "bytes": 230307,
+            "sha256": "0bc07b236f17157d469f690de950137f4ad2c9073b8531acfad4f18e188499c8"
+          }
+        ],
+        "gif": {
+          "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_asset_suite\\B_bec_ground_state\\bec_ground_state_evolution.gif",
+          "bytes": 102549,
+          "sha256": "3793f4305a1d0af1af4ebea8b891580dbe64a47a155b1df6f06580a602efeb40"
+        },
+        "png_count": 3
+      }
+    },
+    {
+      "case": "C_gpu_parity",
+      "grid_N": 48,
+      "steps": 40,
+      "cpu_backend": "scipy-cpu",
+      "cpu_norm": 7.999999999999884,
+      "gpu_backend": "cupy",
+      "gpu_norm": 7.999999999999911,
+      "max_abs_diff": 2.2497430728529107e-15,
+      "parity_ok": true,
+      "mesh_artifacts": [
+        {
+          "level_fraction": 0.5,
+          "level_value": 0.03324191447218255,
+          "vertices": 646,
+          "faces": 1292,
+          "ply": {
+            "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_asset_suite\\C_gpu_parity\\gpu_parity_rho_0p5.ply",
+            "bytes": 44092,
+            "sha256": "0edbed1e156e6927c62207acb6c419ff873fb9711a898dccde149a4c2d7d5b58",
+            "readback_ok": true
+          },
+          "obj": {
+            "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_asset_suite\\C_gpu_parity\\gpu_parity_rho_0p5.obj",
+            "bytes": 52606,
+            "sha256": "34447dc4242a45cf5e5fd3bc70429654dd2d08b82fc2d87669bfe0f11cbf053a"
+          }
+        },
+        {
+          "level_fraction": 0.15,
+          "level_value": 0.009972574341654763,
+          "vertices": 1516,
+          "faces": 3032,
+          "ply": {
+            "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_asset_suite\\C_gpu_parity\\gpu_parity_rho_0p15.ply",
+            "bytes": 107178,
+            "sha256": "1895036f1ea41a1e67805ba020f93f2a53698daf8c7f68cd7f9e541e606455c6",
+            "readback_ok": true
+          },
+          "obj": {
+            "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_asset_suite\\C_gpu_parity\\gpu_parity_rho_0p15.obj",
+            "bytes": 127392,
+            "sha256": "01f5a2845adb7cf186f1eb1ffd4a8df011ee267ca0dffe475612be3af24d8639"
+          }
+        },
+        {
+          "level_fraction": 0.03,
+          "level_value": 0.001994514868330953,
+          "vertices": 2518,
+          "faces": 5036,
+          "ply": {
+            "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_asset_suite\\C_gpu_parity\\gpu_parity_rho_0p03.ply",
+            "bytes": 182330,
+            "sha256": "25e140960d8cebbe28c7cae720ca41ac835fe60d546b1bfa5e8a2d63cad5975b",
+            "readback_ok": true
+          },
+          "obj": {
+            "path": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_asset_suite\\C_gpu_parity\\gpu_parity_rho_0p03.obj",
+            "bytes": 216031,
+            "sha256": "3cd96f79047aa1a3c72cc4c10aa2ac9d792319bedef77356d0028a0dd7556a92"
+          }
+        }
+      ]
+    }
+  ]
+}

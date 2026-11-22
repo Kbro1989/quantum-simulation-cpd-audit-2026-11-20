@@ -1,0 +1,106 @@
+{
+  "generated": "2026-11-22",
+  "primary_source": "pks_ei-kurve_extracted_text.md",
+  "primary_source_sha256": "ec6fc4d31a744bf34617d577aa65c3ded081b7103e64eeef5222824fef4ff324",
+  "transcription_note": "Equations PKS-EQ-04..EQ-10 were transcribed from the PDF text layer, which fragments fractions, radicals and subscripts. Treat 'partial' and 'low' confidence entries as leads to be confirmed against the printed PDF, not as established forms.",
+  "equations": [
+    {
+      "id": "PKS-EQ-01",
+      "form": "l * f = 1",
+      "role": "monochord string-length/frequency relation",
+      "confidence": "high",
+      "language": "de",
+      "verified_against_source_document": true
+    },
+    {
+      "id": "PKS-EQ-02",
+      "form": "1/n * n = 1",
+      "role": "Walter Schauberger 'Tongesetz', generalised; raised to 'Urgesetz des Universums' in the source",
+      "confidence": "high",
+      "language": "de",
+      "verified_against_source_document": true
+    },
+    {
+      "id": "PKS-EQ-03",
+      "form": "x * y = 1",
+      "role": "equilateral hyperbola in asymptote form (Bild 1); the cone-generating curve",
+      "confidence": "high",
+      "language": "de",
+      "verified_against_source_document": true
+    },
+    {
+      "id": "PKS-EQ-04",
+      "form": "x = +/- sqrt( 1/(z0 - y*sin(alpha))^2 - (y*cos(alpha))^2 )",
+      "role": "hyperbolic egg curve, explicit form (Schnitthoehe z0, Schnittwinkel alpha)",
+      "confidence": "partial - the extracted text layer mangles the radical and the fraction; verify against Bild 3 / the printed equation",
+      "language": "de",
+      "verified_against_source_document": true
+    },
+    {
+      "id": "PKS-EQ-05",
+      "form": "parametric form in (r, phi), sign before the root selects cone-tube vs 'mountain' cut",
+      "role": "hyperbolic egg curve, parameter form",
+      "confidence": "low - rendered as fragmented glyphs in the text layer",
+      "language": "de",
+      "verified_against_source_document": true
+    },
+    {
+      "id": "PKS-EQ-06",
+      "form": "z1 = 1/y1 ; z2 = 1/y2",
+      "role": "two-point form: the two principal vertices lie on the hyperbola branches",
+      "confidence": "high",
+      "language": "de",
+      "verified_against_source_document": true
+    },
+    {
+      "id": "PKS-EQ-07",
+      "form": "z0 = z1*z2*(z1+z2) / (z1^2 + z1*z2 + z2^2)",
+      "role": "cutting height from the two given vertices",
+      "confidence": "partial - equation is glyph-fragmented",
+      "language": "de",
+      "verified_against_source_document": true
+    },
+    {
+      "id": "PKS-EQ-08",
+      "form": "z0 = z1 * (1 - tan(alpha))",
+      "role": "point-slope form A (sharp vertex + cut angle)",
+      "confidence": "partial",
+      "language": "de",
+      "verified_against_source_document": true
+    },
+    {
+      "id": "PKS-EQ-09",
+      "form": "z0 = z2 * (1 + tan(alpha))",
+      "role": "point-slope form B (blunt vertex + cut angle)",
+      "confidence": "partial",
+      "language": "de",
+      "verified_against_source_document": true
+    },
+    {
+      "id": "PKS-EQ-10",
+      "form": "V = (pi/3) * (1/z1 - 1/z2) * (1/z1^2 + 1/z1*1/z2 + 1/z2^2) * tan(alpha) * (tan(alpha) - cos(alpha))",
+      "role": "volume of the egg solid of revolution; source reports V = 0.4045 for the 'Oktav-Ei' (z1=1, z2=2)",
+      "confidence": "partial - glyph-fragmented; the numeric result 0.4045 is legible",
+      "language": "de",
+      "verified_against_source_document": true
+    },
+    {
+      "id": "EXT-EQ-01",
+      "form": "z = 0.079 / r^2",
+      "role": "Donepudi et al. 2024 hyperbolic funnel profile (Physics of Fluids 36, 095171)",
+      "confidence": "high",
+      "language": "en",
+      "source": "donepudi_2024_physics_of_fluids.pdf",
+      "verified_against_source_document": false
+    },
+    {
+      "id": "EXT-EQ-02",
+      "form": "vorticity constant; streamlines closed and elliptic (mu_dot=0, nu_dot=const)",
+      "role": "Lyra 2021 elliptic-coordinate vortex, exact compressible-Euler solution",
+      "confidence": "high",
+      "language": "en",
+      "source": "arxiv_2108.04013_lyra.pdf",
+      "verified_against_source_document": false
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+======================================================================
+DOMAIN 23: GPU Power & Thermal Efficiency
+======================================================================
+Device: {
+  "available": true,
+  "device_id": 0,
+  "name": "NVIDIA RTX A1000 6GB Laptop GPU",
+  "compute_capability": "8.6",
+  "total_memory": 6441926656
+}
+NVML initialized successfully
+
+>>> 1D 8192^1, 100 steps
+  Steps: 100, Time: 0.08s
+  Energy: 2.938 J
+  Steps/J: 34.0
+  Avg Power: 17.3 W
+  Avg Temp: 66.0 °C
+  GPU Util: 15.0%
+
+>>> 2D 512^2, 50 steps
+  Steps: 50, Time: 0.09s
+  Energy: 0.000 J
+  Steps/J: N/A
+  Avg Power: 17.5 W
+  Avg Temp: 66.4 °C
+  GPU Util: 31.0%
+
+>>> 3D 128^3, 20 steps
+  Steps: 20, Time: 0.25s
+  Energy: 9.527 J
+  Steps/J: 2.1
+  Avg Power: 20.7 W
+  Avg Temp: 67.0 °C
+  GPU Util: 18.0%
+
+>>> 3D 256^3, 10 steps
+  Steps: 10, Time: 1.02s
+  Energy: 50.679 J
+  Steps/J: 0.2
+  Avg Power: 19.8 W
+  Avg Temp: 68.0 °C
+  GPU Util: 100.0%
+
+>>> Sustained load test (30s)
+  Throttling: True
+  Temp range: {'min': 65, 'max': 69, 'avg': np.float64(66.08713692946058)}
+  Power range: {'min': 12.566, 'max': 43.984, 'avg': np.float64(19.214315352697096)}
+  Clock drop: 24.8%
+
+Results saved: C:\Users\krist\Desktop\quantum-simulation-cpd-audit-2026-11-20\nvidia_validation\domain23_power_thermal\domain23_power_thermal.json
+Done.

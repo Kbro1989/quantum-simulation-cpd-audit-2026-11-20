@@ -1,0 +1,10 @@
+=== Domain 9: Vortex winding and topological charge ===
+9a single vortex: detected 1 vortex(es)
+9a  pos=(-1.3875, +0.8625)  q_reported=+1  q_contour=+1.0000  (true core at -1.37, +0.83)
+9a  position error = 0.0369
+9b pair: detected 2 vortex(es), charges [1, -1], sum = +0
+9b  pos=(-2.1375, +0.1875)  q_reported=+1  q_contour=+1.0000
+9b  pos=(+2.0625, -0.1125)  q_reported=-1  q_contour=-1.0000
+9c Gaussian (no vortex): detected 0 vortex(es) (expect 0)
+9d 3D input: TypeError: vortex_positions requires a 2D wavefunction (use a slice for 3D)
+=== end Domain 9 ===

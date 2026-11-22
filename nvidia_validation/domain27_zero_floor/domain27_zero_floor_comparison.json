@@ -1,0 +1,117 @@
+{
+  "device": {
+    "available": true,
+    "device_id": 0,
+    "name": "NVIDIA RTX A1000 6GB Laptop GPU",
+    "compute_capability": "8.6"
+  },
+  "tests": {
+    "precision_modes": {
+      "complex64": {
+        "gpu_norm": 0.9999999913947932,
+        "cpu_norm": 0.9999999913947908,
+        "gpu_factor": 1.0000000000000024,
+        "dtype": "complex128",
+        "gpu_dtype": "complex128"
+      },
+      "complex128": {
+        "gpu_norm": 1.0000000000000018,
+        "cpu_norm": 0.9999999999999982,
+        "gpu_factor": 1.0000000000000036,
+        "dtype": "complex128",
+        "gpu_dtype": "complex128"
+      }
+    },
+    "subnormal_handling": {
+      "subnormal": {
+        "cpu": {
+          "f64_x2": 1e-323,
+          "f32_x2": 2.802596928649634e-45,
+          "f64_is_zero": false,
+          "f32_is_zero": false,
+          "f64_classification": "SUBNORMAL",
+          "f32_classification": "SUBNORMAL"
+        },
+        "gpu": {
+          "f64_x2": 1e-323,
+          "f32_x2": 0.0,
+          "f64_is_zero": false,
+          "f32_is_zero": true,
+          "f64_classification": "SUBNORMAL",
+          "f32_classification": "EXACT_ZERO"
+        },
+        "match": {
+          "f64": true,
+          "f32": true
+        }
+      },
+      "underflow": {
+        "cpu_squared_f64": 0.0,
+        "cpu_squared_f32": 0.0,
+        "cpu_f64_is_zero": true,
+        "cpu_f32_is_zero": true,
+        "gpu_squared_f64": 0.0,
+        "gpu_squared_f32": 0.0,
+        "gpu_f64_is_zero": true,
+        "gpu_f32_is_zero": true,
+        "gpu_f64_classification": "EXACT_ZERO",
+        "gpu_f32_classification": "EXACT_ZERO"
+      }
+    },
+    "nan_inf_propagation": {
+      "nan_propagation": "NaN",
+      "inf_propagation": Infinity,
+      "neginf_propagation": -Infinity,
+      "inf_minus_inf": "NaN",
+      "zero_times_inf": "NaN"
+    },
+    "vortex_core_precision": {
+      "cpu": {
+        "vortices_found": 1,
+        "charges": [
+          1
+        ],
+        "core_density": 0.017941425762889082
+      },
+      "gpu": {
+        "vortices_found": 1,
+        "charges": [
+          1
+        ],
+        "core_density": 0.017941425762889186
+      },
+      "agreement": {
+        "vortices_match": true,
+        "charges_match": true,
+        "core_density_rel_error": 5.801289704294272e-15
+      }
+    },
+    "norm_energy_conservation": {
+      "cpu": {
+        "norm": 1.00000000000001,
+        "energy": 7.124982537720143
+      },
+      "gpu": {
+        "norm": 1.0000000000000062,
+        "energy": 7.124982537720149
+      },
+      "agreement": {
+        "norm_rel_error": 3.774758283725494e-15,
+        "energy_rel_error": 7.479415549425264e-16
+      }
+    },
+    "ftz_presence": {
+      "input_value": 1e-300,
+      "cpu_multiplied": 2e-300,
+      "gpu_multiplied": 2e-300,
+      "gpu_multiplied_zero": false,
+      "cpu_exponentiated": 1.0,
+      "gpu_exponentiated": 1.0,
+      "gpu_exp_zero": false,
+      "cpu_divided": 5e-301,
+      "gpu_divided": 5e-301,
+      "gpu_div_zero": false,
+      "ftz_detected": false
+    }
+  }
+}

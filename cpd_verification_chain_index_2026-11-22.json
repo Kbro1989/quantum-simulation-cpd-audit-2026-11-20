@@ -1,0 +1,1642 @@
+{
+  "index": "cpd_verification_chain_index_2026-11-22",
+  "generated": "2026-11-22",
+  "audit_dir": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20",
+  "roots": [
+    "probes",
+    "evidence",
+    "validation_artifacts",
+    "validation_artifacts_ext",
+    "nvidia_validation"
+  ],
+  "file_count": 181,
+  "total_bytes": 20643346,
+  "domains_present": [
+    "D-?",
+    "D-probe-E",
+    "D-probe-L5",
+    "D1",
+    "D10",
+    "D11",
+    "D12",
+    "D13",
+    "D14",
+    "D15",
+    "D16",
+    "D17",
+    "D18",
+    "D19",
+    "D2",
+    "D20",
+    "D21",
+    "D22",
+    "D23",
+    "D24",
+    "D27",
+    "D3",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "D8",
+    "D9"
+  ],
+  "files": [
+    {
+      "path": "CUSTOM-INSTRUCTIONS.md",
+      "domain": "D-?",
+      "kind": "report",
+      "bytes": 22091,
+      "sha256": "e4c3013adca37ebfdac520292e78f1a28191d1f391f72595a32268571fcd7fc5"
+    },
+    {
+      "path": "cpd_backend_independence_audit.md",
+      "domain": "D-?",
+      "kind": "report",
+      "bytes": 1536,
+      "sha256": "f17a22d4de970d82bbad760f3eed68575d5ac62e97f0bfb042a89d1502853d4f"
+    },
+    {
+      "path": "cpd_certification_manifest.json",
+      "domain": "D-?",
+      "kind": "json_record",
+      "bytes": 10381,
+      "sha256": "fdd2beaf274790dc6bb72ede69145027d5c73c20c5e179839734c52400f57ec5"
+    },
+    {
+      "path": "cpd_chain_index_2026-11-22.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 9844,
+      "sha256": "2d004300adcca885fbe0d492ecdcd270a5eedb084198d4e2112740c0fbcb27a6"
+    },
+    {
+      "path": "cpd_consumer_inventory.md",
+      "domain": "D-?",
+      "kind": "report",
+      "bytes": 57818,
+      "sha256": "f7f6b032892049aa41bd11066bcf48bacb29adefb6482f6975313d526745a991"
+    },
+    {
+      "path": "cpd_defect_register.json",
+      "domain": "D-?",
+      "kind": "json_record",
+      "bytes": 10546,
+      "sha256": "214721bf103b57f73486961b35c33b0e8d729e37bc1f3c670961f040071902e1"
+    },
+    {
+      "path": "cpd_detached_inventory.md",
+      "domain": "D-?",
+      "kind": "report",
+      "bytes": 5550,
+      "sha256": "42b8c93f91f551ebb8070fa5cbe53006ed4f18cdb75390590a2d9aeb0fe11a57"
+    },
+    {
+      "path": "cpd_domain_variable_evidence_matrix.md",
+      "domain": "D-?",
+      "kind": "report",
+      "bytes": 7329,
+      "sha256": "d694798b0236a21c97b9b722d967920c44a7d896d697fd1f23eb2d0d1587efcf"
+    },
+    {
+      "path": "cpd_domain_verdict_register.json",
+      "domain": "D-?",
+      "kind": "json_record",
+      "bytes": 4652,
+      "sha256": "3219d906e8b52a867f3da760001808cb492b8c699e7d1a23e39280415179a8bb"
+    },
+    {
+      "path": "cpd_evidence_freeze_2026-11-21.json",
+      "domain": "D-?",
+      "kind": "json_record",
+      "bytes": 32264,
+      "sha256": "79aad421415893ab85c5262df5ac3cc51981bdb4abadd581c7ba83f01c9f6c50"
+    },
+    {
+      "path": "cpd_evidence_index.json",
+      "domain": "D-?",
+      "kind": "json_record",
+      "bytes": 3311,
+      "sha256": "697531d7d41f96c5480ef4c41f75c89f5824aa89284cfe63c00de87a03b9969e"
+    },
+    {
+      "path": "cpd_evidence_lineage_graph.json",
+      "domain": "D-?",
+      "kind": "json_record",
+      "bytes": 3157,
+      "sha256": "5ed27c3064952ab92a66ab8f14e250bdf4ec5b24948f5b03c9e59004cbecab62"
+    },
+    {
+      "path": "cpd_final_audit.md",
+      "domain": "D-?",
+      "kind": "report",
+      "bytes": 8846,
+      "sha256": "0bc47c66d87c1631c737c93733bb2c29b263ac21f948c27ad3618e280f042e9c"
+    },
+    {
+      "path": "cpd_independent_physics_validation.md",
+      "domain": "D-?",
+      "kind": "report",
+      "bytes": 1996,
+      "sha256": "677bca270ee997e0ac5ab679d6be87cbb3f5f606382c272b5efe71b2812fa55c"
+    },
+    {
+      "path": "cpd_independent_recomputation.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 11555,
+      "sha256": "e27db9050ca46bc4b484242524318125355d33f36b6e20b2055c922b045ff9bc"
+    },
+    {
+      "path": "cpd_legacy_td_probe_2026-11-21.json",
+      "domain": "D-?",
+      "kind": "json_record",
+      "bytes": 2241,
+      "sha256": "97f43014f1a7d3c44290614333587ee2ba34f24dbe99934b0c8ccfa6888af9ac"
+    },
+    {
+      "path": "cpd_legacy_td_probe_2026-11-21.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 4154,
+      "sha256": "a1113d67d7e5428888a3cec4338c7ade48904640df3db05e27d062cdda2016b5"
+    },
+    {
+      "path": "cpd_legacy_td_verdict_2026-11-21.json",
+      "domain": "D-?",
+      "kind": "json_record",
+      "bytes": 2382,
+      "sha256": "af5f07507f4c5f72c7c4bc099b3b83df3c345c1dcaaf3cc15db0ec3a85fc4f71"
+    },
+    {
+      "path": "cpd_legacy_td_verdict_2026-11-21.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 5277,
+      "sha256": "8b612c832e0e19f850f1763ac66a0a1580118ad7753ce4f69c16ef4abbfa813f"
+    },
+    {
+      "path": "cpd_mathematical_validation_report.md",
+      "domain": "D-?",
+      "kind": "report",
+      "bytes": 6890,
+      "sha256": "a5282316fc1cdd0983412cea7bb9c6f3ae7b4a17c80a42de32df11c02f9bc8f1"
+    },
+    {
+      "path": "cpd_mock_and_fixture_register.json",
+      "domain": "D-?",
+      "kind": "json_record",
+      "bytes": 1738,
+      "sha256": "f4fdea9c01651ea468274d452cb877f92bf8492a4e030fa8802dd8c58db86456"
+    },
+    {
+      "path": "cpd_mock_fixture_forensics.md",
+      "domain": "D-?",
+      "kind": "report",
+      "bytes": 2998,
+      "sha256": "8e59aaa20527d093cae221a8386adb5f5db4a80cae0124377a63c7fe50d1602f"
+    },
+    {
+      "path": "cpd_physics_validation_matrix.md",
+      "domain": "D-?",
+      "kind": "report",
+      "bytes": 28004,
+      "sha256": "eaa2db99413ba9296c1eb2fb7ac44c772020ed4120360fe0a34719a62464c05c"
+    },
+    {
+      "path": "cpd_producer_authenticity_audit.md",
+      "domain": "D-?",
+      "kind": "report",
+      "bytes": 5175,
+      "sha256": "7821f3c385e1df62e3a617661197d12a1b52b6da3ece5c445028aa3870b3b19c"
+    },
+    {
+      "path": "cpd_producer_inventory.md",
+      "domain": "D-?",
+      "kind": "report",
+      "bytes": 165113,
+      "sha256": "7dd751e94b5122daa3d081542108aedcf8456f842a5c95601b0c3b0e36bf508a"
+    },
+    {
+      "path": "cpd_quantum_3d_asset_suite.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 10765,
+      "sha256": "c7f2d13c01af8d080a4ab4525bd7d70471cdf69fd13d3939c96b0ab3faaa94c9"
+    },
+    {
+      "path": "cpd_quantum_3d_assets.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 7969,
+      "sha256": "e887b158dcc3a87e264dd874211a532cf3a63e53551bcfee32de98fbeee56df1"
+    },
+    {
+      "path": "cpd_rasidi_kingwen_lineage_2026-11-22.md",
+      "domain": "D-?",
+      "kind": "report",
+      "bytes": 9487,
+      "sha256": "1ce14dd4146581210299e88b577db9bbf44c7c83251e39e44ef87aab87aa54da"
+    },
+    {
+      "path": "cpd_relationship_graph.json",
+      "domain": "D-?",
+      "kind": "json_record",
+      "bytes": 593696,
+      "sha256": "a89f99c467189575b065b653a2c3b05e664aa10b4235b37edd27f31b8e2775fe"
+    },
+    {
+      "path": "cpd_remediation_plan.md",
+      "domain": "D-?",
+      "kind": "report",
+      "bytes": 8097,
+      "sha256": "a036348cfb5424dd49751a512e657ae97a7d736cc57a36ee1cef609cdfc343e6"
+    },
+    {
+      "path": "cpd_solver_api_contract.md",
+      "domain": "D-?",
+      "kind": "report",
+      "bytes": 3172,
+      "sha256": "27be74918bad655b25db62135aa916eaa071529b7b075eb22a8b46d1e643f215"
+    },
+    {
+      "path": "cpd_solver_fix_evidence.md",
+      "domain": "D-?",
+      "kind": "report",
+      "bytes": 3333,
+      "sha256": "cd3c8b9d644a734d6557eae00dcdf54c38474d82d6040e75ab62ed12c70f5b5f"
+    },
+    {
+      "path": "cpd_solver_lifecycle_audit.md",
+      "domain": "D-?",
+      "kind": "report",
+      "bytes": 2304,
+      "sha256": "5a3479cf5e7ca71891fadf61ad109c903a590d8106d4f966fa63c2146f821827"
+    },
+    {
+      "path": "cpd_solver_usage_audit.md",
+      "domain": "D-?",
+      "kind": "report",
+      "bytes": 3006,
+      "sha256": "2d82883cbe50e6a1ecb91124527defb8c25b932d06ced566fee53dcc577fac26"
+    },
+    {
+      "path": "cpd_traceability_27plus.json",
+      "domain": "D-?",
+      "kind": "json_record",
+      "bytes": 5991,
+      "sha256": "1c9678d61fcc90456e85a5839243a2f3c6f69730013a976f40ebc85e98b91c45"
+    },
+    {
+      "path": "cpd_variable_provenance_register.json",
+      "domain": "D-?",
+      "kind": "json_record",
+      "bytes": 16079,
+      "sha256": "b3a5a59934356f26585339833741c17d339d1bc0a1f7ac913043d7ef8a864356"
+    },
+    {
+      "path": "cpd_verification_chain_index_2026-11-22.json",
+      "domain": "D-?",
+      "kind": "json_record",
+      "bytes": 52707,
+      "sha256": "8c548a41d2cfeee4af9fc304a4a372d6a51d4795764669567ae6c4fff91282a9"
+    },
+    {
+      "path": "evidence/L5_config.yaml",
+      "domain": "D-?",
+      "kind": "other",
+      "bytes": 473,
+      "sha256": "da263ada98020c46d886ed37b46854b043d37bbbd7e923c6dc9b289ae9187610"
+    },
+    {
+      "path": "evidence/_compact.txt",
+      "domain": "D-?",
+      "kind": "execution_record",
+      "bytes": 26594,
+      "sha256": "e84925ee9e12d3c694ee2bcaf5b412a7722c8aadbf3c7bca417312cd5bcefb2c"
+    },
+    {
+      "path": "evidence/_fix.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 3315,
+      "sha256": "7b431ede601818bddceac81ba8c7db7eeafc5d28e6e4ebc3d1b0b3c3ec60868c"
+    },
+    {
+      "path": "evidence/_fix2.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 4313,
+      "sha256": "5910f4a83da69abd6c9e981bcdd6f0e2f7af5ff5e6089c6f7d7741fd365cd491"
+    },
+    {
+      "path": "evidence/_gen.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 93979,
+      "sha256": "6cf8123612ab1c6633f920f422b5f12791a937af24a6df4af2d7fe8361042656"
+    },
+    {
+      "path": "evidence/_l5_launcher.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 272,
+      "sha256": "f38c541a6aa5111b4c8697e625a69786133ecf27c652590dcbc2611bf8c965fb"
+    },
+    {
+      "path": "evidence/_lists.json",
+      "domain": "D-?",
+      "kind": "json_record",
+      "bytes": 2992,
+      "sha256": "fdd752be74c9ae4ec77f197a6ab7fc6ae5672e69539d8c11e37eb92be51aa408"
+    },
+    {
+      "path": "evidence/_probe.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 2610,
+      "sha256": "3e653c7301209f8596a93444c4077fe8644151993f0233b6c1316641389a96e3"
+    },
+    {
+      "path": "evidence/_prodtest.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 514,
+      "sha256": "f0cbee172392a63780520be6760be16fd80ccda1ff7b86f52cc44f9e5a91dfb7"
+    },
+    {
+      "path": "evidence/_prodtest.txt",
+      "domain": "D-?",
+      "kind": "execution_record",
+      "bytes": 110465,
+      "sha256": "65c5b0780a3ca5977b5f47a7562279791a7f88e701437006bba96dcec76cd22a"
+    },
+    {
+      "path": "evidence/_query.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 813,
+      "sha256": "b2a36652ecb2daf340debc94ced73b0f2278f1ebebab814c938cb9668e56e618"
+    },
+    {
+      "path": "evidence/_refs.json",
+      "domain": "D-?",
+      "kind": "json_record",
+      "bytes": 954494,
+      "sha256": "db2fc9ccaadd8eb32d7599106142e6e4fd6a6925999ef3fa30b74d0d07e20b20"
+    },
+    {
+      "path": "evidence/_refs.md",
+      "domain": "D-?",
+      "kind": "report",
+      "bytes": 688541,
+      "sha256": "e471603f23d467451e553b8e3082dcc1c200ed7112fd14b6d0219c400b3c1512"
+    },
+    {
+      "path": "evidence/_refs.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 2613,
+      "sha256": "039c4c174c09b01d20a5925af45efd16a77812c095054b0e3c8f23da80e02bb5"
+    },
+    {
+      "path": "evidence/_scan.json",
+      "domain": "D-?",
+      "kind": "json_record",
+      "bytes": 3764208,
+      "sha256": "4041460be3454d36c9aa21c46f07aa84a7f49786e5d39f5eceb320c1cb7e7163"
+    },
+    {
+      "path": "evidence/_scan.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 6424,
+      "sha256": "c26925fc570355b82159217a43aee9ea9b1f5f5e3c70a943287677cfa96ddd72"
+    },
+    {
+      "path": "evidence/build_relationship_graph.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 8162,
+      "sha256": "827d183904173f623ec9d9f64572d4cdabbf8a4b4d7bcd6d6f91f49d3e783a2e"
+    },
+    {
+      "path": "evidence/compare_all_files_md.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 1528,
+      "sha256": "4449cff269f4d890aec6ad4f06421e7c6dd5d3fe44d020646cad051fb91f30ad"
+    },
+    {
+      "path": "evidence/graph_query_out.txt",
+      "domain": "D-?",
+      "kind": "execution_record",
+      "bytes": 44613,
+      "sha256": "ce9aeb35f787fbd8a589f3ad252f48bd079d09dcf901e7395fe4156cf7d2c3d1"
+    },
+    {
+      "path": "evidence/make_evidence_index.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 2088,
+      "sha256": "4cb6cc85d533325790995d39d842f5cb6a75d119075f41bcd0d21542825c2185"
+    },
+    {
+      "path": "evidence/probe_01_strang_ordering.txt",
+      "domain": "D-?",
+      "kind": "execution_record",
+      "bytes": 844,
+      "sha256": "17938760f8f39063593803a668443baae8d7c01f8fbf20f3ed8976ac6e7702ba"
+    },
+    {
+      "path": "evidence/probe_02_hermiticity.txt",
+      "domain": "D-?",
+      "kind": "execution_record",
+      "bytes": 645,
+      "sha256": "8dcadca92abc26974d4e42141fd4b0326b2a6f36d01a482d2eb1b360c3bb7fa8"
+    },
+    {
+      "path": "evidence/probe_03_normalization.txt",
+      "domain": "D-?",
+      "kind": "execution_record",
+      "bytes": 591,
+      "sha256": "131f216b7421047facc95c862054eae03ffb48f7297affa25fda811bbc3de011"
+    },
+    {
+      "path": "evidence/probe_04_fourier.txt",
+      "domain": "D-?",
+      "kind": "execution_record",
+      "bytes": 867,
+      "sha256": "ad5193816a561124e43e9e9ec2ae1df273d4e2548702396d89119b7d647a9119"
+    },
+    {
+      "path": "evidence/probe_05_potentials.txt",
+      "domain": "D-?",
+      "kind": "execution_record",
+      "bytes": 5417,
+      "sha256": "45fd8d86cb374ed04c4baa29df625b4e56071e15aa3bea9be05ffc99c8084af3"
+    },
+    {
+      "path": "evidence/probe_06_time_dependent.txt",
+      "domain": "D-?",
+      "kind": "execution_record",
+      "bytes": 1079,
+      "sha256": "72029efbc957c6d909d5626025a7ee3a30dbe165ab73d03e359efeeffff191e3"
+    },
+    {
+      "path": "evidence/probe_07_convergence.txt",
+      "domain": "D-?",
+      "kind": "execution_record",
+      "bytes": 1035,
+      "sha256": "a67a0ab0ae4d36a2a4d74e56651ba356558fd1aec6c4f7c97ec8bbe6f672aec4"
+    },
+    {
+      "path": "evidence/probe_08_energy_momentum.txt",
+      "domain": "D-?",
+      "kind": "execution_record",
+      "bytes": 682,
+      "sha256": "b4f5fe817144a8bc81444300084a27a97a9abc1f21e0dc015e06248f2d372182"
+    },
+    {
+      "path": "evidence/probe_09_vortex.txt",
+      "domain": "D-?",
+      "kind": "execution_record",
+      "bytes": 572,
+      "sha256": "1ba8fb2c54b013f58526a30e47e821cc5eaa2c83280bf10ac60c32405a6a7b6c"
+    },
+    {
+      "path": "evidence/probe_10_absorber.txt",
+      "domain": "D-?",
+      "kind": "execution_record",
+      "bytes": 1574,
+      "sha256": "fbd6ccf8f02164fc015f30a488e4272d048277e4e2236fc43f94c76e0f6fb7e0"
+    },
+    {
+      "path": "evidence/probe_11_cpu_gpu.txt",
+      "domain": "D-?",
+      "kind": "execution_record",
+      "bytes": 297,
+      "sha256": "1b9fdfa2facaa695a76f9b3c6fb530a7780f93ad58f97822ef5b86aea3d26843"
+    },
+    {
+      "path": "evidence/probe_12_resolution.txt",
+      "domain": "D-?",
+      "kind": "execution_record",
+      "bytes": 1384,
+      "sha256": "d2a727229734110b2d516bc2a65d7644dbe299d13c986cd20757a97b307022b7"
+    },
+    {
+      "path": "evidence/query_graph.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 2003,
+      "sha256": "e5ceae9c977d4eae98fcc669c6b73e8fb90c636c3c253e29190298a3bb7972fc"
+    },
+    {
+      "path": "final_payload.json",
+      "domain": "D-?",
+      "kind": "json_record",
+      "bytes": 3228,
+      "sha256": "0f8cc9aed545cfe8ec181c1fc98bdb0fde7387e6262517c98a3fe8c8e7dba0d3"
+    },
+    {
+      "path": "final_schema.json",
+      "domain": "D-?",
+      "kind": "json_record",
+      "bytes": 3241,
+      "sha256": "7c3f1b10b57ecca39e23dff0e9a1ba5280fefeaa55406a767a933e1e80d1028b"
+    },
+    {
+      "path": "nvidia_validation/nvml_diagnostic.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 1827,
+      "sha256": "ba34d50eddbd95c7ae7ea7cfe49547ba1fe30b3e907f361600ea17df49376b15"
+    },
+    {
+      "path": "probes/debug_vortex.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 1578,
+      "sha256": "f58faeff108095c380c9062361338480517f628821baf98d9d1e915c639863b1"
+    },
+    {
+      "path": "probes/probe_01_strang_ordering.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 4083,
+      "sha256": "3a28238b01227dc71169ec6e44c56cfe9de1fb1441c3ac044d00e86b6c5e73bc"
+    },
+    {
+      "path": "probes/probe_02_hermiticity.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 2955,
+      "sha256": "773048e42666cdcce01843581ccd6871379b478a7e7dd97e501bcc548cd4c2d4"
+    },
+    {
+      "path": "probes/probe_03_normalization.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 2467,
+      "sha256": "267b256e7e1a5eeed8330b32a2afd66f27fb95f8d13585030335e10bba47a549"
+    },
+    {
+      "path": "probes/probe_04_fourier.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 2267,
+      "sha256": "7aeac62a1327e72d5f27416c68dd100e9fc4732445238c5282ab8c54678a15bc"
+    },
+    {
+      "path": "probes/probe_05_potentials.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 7289,
+      "sha256": "95738ebfac20ecf4d9b62f18070078c2aeaa399d14f5b3fa06a276046bbeeb5d"
+    },
+    {
+      "path": "probes/probe_06_time_dependent.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 3327,
+      "sha256": "6bc32a8745ee18680aab058bb4bfce1fe6accbb3381b870656c3dc442add24f7"
+    },
+    {
+      "path": "probes/probe_07_convergence.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 2390,
+      "sha256": "9f30108e1acff1822f32622c06351d469dadab39f13db4ca5bcd6424224250aa"
+    },
+    {
+      "path": "probes/probe_08_energy_momentum.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 2474,
+      "sha256": "aba906ac11e8a09015d47a4b849784a72117c4373516e3cd800991e562a04733"
+    },
+    {
+      "path": "probes/probe_09_vortex.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 3395,
+      "sha256": "5620f12f6acc2fb76d147697a6e042d719fa0102a0151bff720687eeac932150"
+    },
+    {
+      "path": "probes/probe_10_absorber.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 3378,
+      "sha256": "bcdd493aaf41646ecac0e3d6307f4ec1c6bd0b26a48fb6ef6bbe7bb6a10bcc7c"
+    },
+    {
+      "path": "probes/probe_11_cpu_gpu.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 2563,
+      "sha256": "4a20c0dfe5a2f35417b4f44f38d1593cea308cd7221a1b1d04431c134a5f8274"
+    },
+    {
+      "path": "probes/probe_12_resolution.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 2841,
+      "sha256": "1d7e436611c1f597e57aab9d75c36705591979842300f9bc3ad16cd1f027b82c"
+    },
+    {
+      "path": "validation_artifacts/validation_index.json",
+      "domain": "D-?",
+      "kind": "json_record",
+      "bytes": 1913,
+      "sha256": "e207b3505f3c8f7c858bf0c465a26a4ba2c8836d7a963827451f0da7c33b3a0a"
+    },
+    {
+      "path": "validation_artifacts_ext/validation_index_ext.json",
+      "domain": "D-?",
+      "kind": "json_record",
+      "bytes": 1364,
+      "sha256": "5026c5828234782dc6b37b4e873a083b8b8f669d5d1676f6eac72afb8800b91f"
+    },
+    {
+      "path": "validation_ext_generator.py",
+      "domain": "D-?",
+      "kind": "script",
+      "bytes": 27589,
+      "sha256": "8b8748098477b45b8102ddb3fe7d805d9bb3d6e013dbbd3b876eedadb515b97c"
+    },
+    {
+      "path": "evidence/probe_E_consumer_correctness.txt",
+      "domain": "D-probe-E",
+      "kind": "execution_record",
+      "bytes": 597,
+      "sha256": "0fe4a4359472ebee96e2da083a5c1e81de7063f72aca3cfa97b8261d31c84f96"
+    },
+    {
+      "path": "evidence/probe_E_consumer_correctness_run.txt",
+      "domain": "D-probe-E",
+      "kind": "execution_record",
+      "bytes": 1021,
+      "sha256": "e958e1f8ff927c34a2d62497e51cdc4e374fb4a75c39569fb7ffda953b90bb15"
+    },
+    {
+      "path": "probes/probe_E_consumer_correctness.py",
+      "domain": "D-probe-E",
+      "kind": "script",
+      "bytes": 4557,
+      "sha256": "e539b4be721fe22999e7d9a8657b6534fa0aec0f3ad452f5ee70772043a6558c"
+    },
+    {
+      "path": "probes/probe_L5_runtime.py",
+      "domain": "D-probe-L5",
+      "kind": "script",
+      "bytes": 1669,
+      "sha256": "987b4fcf35ee189e8f5a17f49f4f68a28cbf31872da6a5a70013c1ebdbf3c6ab"
+    },
+    {
+      "path": "validation_artifacts/domain1_strang_1d.png",
+      "domain": "D1",
+      "kind": "visual_artifact",
+      "bytes": 258386,
+      "sha256": "86100b73cc96de5792b7df254e3e40c2c64f9d4e15c771164e479292fc322c72"
+    },
+    {
+      "path": "validation_artifacts/domain1_strang_1d_after.png",
+      "domain": "D1",
+      "kind": "visual_artifact",
+      "bytes": 259346,
+      "sha256": "a0827bdabda4429575bbc11a6e78d7e200b03aadb7ac41e4c296b11d452497d4"
+    },
+    {
+      "path": "validation_artifacts/domain1_strang_2d.png",
+      "domain": "D1",
+      "kind": "visual_artifact",
+      "bytes": 311904,
+      "sha256": "5b2214633c1ea9ed4b51d5b250f9a6e3ccb4066a9d6114b5b24835a0133706ba"
+    },
+    {
+      "path": "validation_artifacts/domain1_strang_2d_after.png",
+      "domain": "D1",
+      "kind": "visual_artifact",
+      "bytes": 316478,
+      "sha256": "882b03a1a2fc31fb8126a37a5991d257b5e9bc18dd7c2b3f0f57a96a6673a543"
+    },
+    {
+      "path": "validation_artifacts/domain10_absorber_masks.png",
+      "domain": "D10",
+      "kind": "visual_artifact",
+      "bytes": 191857,
+      "sha256": "c84161acd81d1b3cf3dde0f05ee1105a99e3af8e5de6586adf38e2445b8dd296"
+    },
+    {
+      "path": "validation_artifacts/domain10_absorber_norm.png",
+      "domain": "D10",
+      "kind": "visual_artifact",
+      "bytes": 174827,
+      "sha256": "d0affa91e677e640691c685b8473ccd124875d49815efddbf39efb3b04ecec03"
+    },
+    {
+      "path": "validation_artifacts/domain11_cpu_gpu.png",
+      "domain": "D11",
+      "kind": "visual_artifact",
+      "bytes": 147435,
+      "sha256": "636248d98c763c9fce82072a7f5f54aa1c109b74b86c8994f5cced059ab120d6"
+    },
+    {
+      "path": "validation_artifacts/domain12_stability.png",
+      "domain": "D12",
+      "kind": "visual_artifact",
+      "bytes": 363175,
+      "sha256": "b8ed07c9171f5d6884a8c37f45f75cb07d7667901ddcc0681e8bf1697d2af474"
+    },
+    {
+      "path": "validation_artifacts_ext/domain13_gaussian_1d_width.png",
+      "domain": "D13",
+      "kind": "visual_artifact",
+      "bytes": 293723,
+      "sha256": "4d5b4713bf3f304b89cef458750a739717241a637e31509135f1bdd77f973cec"
+    },
+    {
+      "path": "validation_artifacts_ext/domain13_gaussian_2d_aniso.png",
+      "domain": "D13",
+      "kind": "visual_artifact",
+      "bytes": 265404,
+      "sha256": "2a5bdaa176c1664956adfaf40a66abe0871f1b1122d2dd2cc9dd8c8b7511b97e"
+    },
+    {
+      "path": "validation_artifacts_ext/domain13_gaussian_2d_aniso_after.png",
+      "domain": "D13",
+      "kind": "visual_artifact",
+      "bytes": 267931,
+      "sha256": "e92bfcf8cfa6ff909d6fd5f2027d52f3c82fca0204f3f9693c1828091236a3fe"
+    },
+    {
+      "path": "validation_artifacts_ext/domain13_gaussian_3d_slice.png",
+      "domain": "D13",
+      "kind": "visual_artifact",
+      "bytes": 280648,
+      "sha256": "3928e4c069eb8836d8648ce899cac4832e9f6e14ffaf8052e45aabea67d64e26"
+    },
+    {
+      "path": "validation_artifacts_ext/domain13_parseval.png",
+      "domain": "D13",
+      "kind": "visual_artifact",
+      "bytes": 80401,
+      "sha256": "dab258b4ee637c5226e032f83de63d4128d9f34c8c664940b88ecdcb33e0a44f"
+    },
+    {
+      "path": "validation_artifacts_ext/domain14_gaussian_vortex_superposition.png",
+      "domain": "D14",
+      "kind": "visual_artifact",
+      "bytes": 226088,
+      "sha256": "b56f2e7bd0e9495b4412851e4175907f87060ba9581c297a1ac74592b9466dc4"
+    },
+    {
+      "path": "validation_artifacts_ext/domain14_superposition_1d.png",
+      "domain": "D14",
+      "kind": "visual_artifact",
+      "bytes": 248642,
+      "sha256": "5a4832597d73921ca828adc3dd10492b6b13956ace697740429db28756cc8940"
+    },
+    {
+      "path": "validation_artifacts_ext/domain14_superposition_1d_after.png",
+      "domain": "D14",
+      "kind": "visual_artifact",
+      "bytes": 245453,
+      "sha256": "ddf9561ad86e8a7ed2d4ae1169211af4970935ea2cd5a6ba77bde8d175f2f8e9"
+    },
+    {
+      "path": "validation_artifacts_ext/domain14_superposition_2d.png",
+      "domain": "D14",
+      "kind": "visual_artifact",
+      "bytes": 274976,
+      "sha256": "044ac20015c6b6d4a6a6f0d4f340d14325b1a8ece20c8932e2a50fca57cf561e"
+    },
+    {
+      "path": "validation_artifacts_ext/domain14_superposition_vortices.png",
+      "domain": "D14",
+      "kind": "visual_artifact",
+      "bytes": 106128,
+      "sha256": "1c8d2540438811332a019fe40650e1ef5fae155c84aeaf86c137f9acf3dccac7"
+    },
+    {
+      "path": "validation_artifacts_ext/domain15_grid_translation.png",
+      "domain": "D15",
+      "kind": "visual_artifact",
+      "bytes": 614967,
+      "sha256": "a343ddebee69365642155ce00b23a8b412b003b0a68bdf632466ca904b02be80"
+    },
+    {
+      "path": "validation_artifacts_ext/domain15_threshold_sensitivity.png",
+      "domain": "D15",
+      "kind": "visual_artifact",
+      "bytes": 158234,
+      "sha256": "8c68b9621ff53f39a906600a78258e21a6676f1237738d0a5b1c8c39441f29b5"
+    },
+    {
+      "path": "validation_artifacts_ext/domain15_vortex_charges.png",
+      "domain": "D15",
+      "kind": "visual_artifact",
+      "bytes": 487510,
+      "sha256": "a8f448d2cf8df0e34f6359e99721e663eae6694315298d502f94a5bc80495341"
+    },
+    {
+      "path": "validation_artifacts_ext/domain16_straight_vortex.png",
+      "domain": "D16",
+      "kind": "visual_artifact",
+      "bytes": 392768,
+      "sha256": "690d9639d80e19c933b69b4d9b861bb47caa1a55632a7c07fd2ec657bf3ab2f0"
+    },
+    {
+      "path": "validation_artifacts_ext/domain16_vortex_ring.png",
+      "domain": "D16",
+      "kind": "visual_artifact",
+      "bytes": 265653,
+      "sha256": "07a412e87cae37ee7d839dab462bd7d8005b1cce04b6f6966aa9a0210b119292"
+    },
+    {
+      "path": "validation_artifacts_ext/domain17_threshold_map.png",
+      "domain": "D17",
+      "kind": "visual_artifact",
+      "bytes": 229494,
+      "sha256": "f45e00c6be00da3a0e1cc55800dea3ed87d443880205faacb7ece81ad3925e51"
+    },
+    {
+      "path": "validation_artifacts_ext/domain17_underflow.png",
+      "domain": "D17",
+      "kind": "visual_artifact",
+      "bytes": 323239,
+      "sha256": "739039b0ad6f44b488059d112b4a3d499315b0bf95659db5a21fd8fc4201ed1b"
+    },
+    {
+      "path": "validation_artifacts_ext/domain17_zero_taxonomy.png",
+      "domain": "D17",
+      "kind": "visual_artifact",
+      "bytes": 128851,
+      "sha256": "410dd9ad9c148b0f4e32075bb88ba7fc2ec85b0bea1638ade2f85f21b9ea8cdb"
+    },
+    {
+      "path": "validation_artifacts_ext/domain18_cpu_gpu_precision.png",
+      "domain": "D18",
+      "kind": "visual_artifact",
+      "bytes": 251354,
+      "sha256": "1cb697b8d6885c576695b3ea57f93ae19ea5a891f7ef4be34e708248fe63798b"
+    },
+    {
+      "path": "validation_artifacts_ext/domain18_resolution_crosscheck.png",
+      "domain": "D18",
+      "kind": "visual_artifact",
+      "bytes": 124293,
+      "sha256": "a6a0276af2ea2f6faf095089d9fa7b9f298857261501e49a47f7758e731c673b"
+    },
+    {
+      "path": "nvidia_validation/domain19_cuda_residency/g0_domain19_probe.py",
+      "domain": "D19",
+      "kind": "script",
+      "bytes": 23613,
+      "sha256": "2dab44bd8abe0c11e17892cbd4cd0bbff0405a8b3479e07c0e95365988113583"
+    },
+    {
+      "path": "nvidia_validation/domain19_cuda_residency/g0_domain19_results.json",
+      "domain": "D19",
+      "kind": "json_record",
+      "bytes": 25443,
+      "sha256": "1b6f9c5fcb347b424d3c7364e8be8c84774d8a72d123bc3b8b8f5378bbb51801"
+    },
+    {
+      "path": "nvidia_validation/domain19_cuda_residency/g0_domain19_run.log",
+      "domain": "D19",
+      "kind": "execution_record",
+      "bytes": 4162,
+      "sha256": "204968d8ae5bc2089102ab210bc7f9d97711b17824eb9b994da65e7cbd9f2a9c"
+    },
+    {
+      "path": "validation_artifacts/domain2_hermiticity_1d.png",
+      "domain": "D2",
+      "kind": "visual_artifact",
+      "bytes": 168470,
+      "sha256": "365b2104f1dae86cda62da08cd984f111f91f4c621ae0f296750ebe57bcf79c0"
+    },
+    {
+      "path": "nvidia_validation/domain20_fft_performance/domain20_fft_performance.json",
+      "domain": "D20",
+      "kind": "json_record",
+      "bytes": 13524,
+      "sha256": "b1665efeb9060fa6005b801c51a42566b0ba175e130af1088f6bbdaf8756e411"
+    },
+    {
+      "path": "nvidia_validation/domain20_fft_performance/domain20_fft_performance.py",
+      "domain": "D20",
+      "kind": "script",
+      "bytes": 10642,
+      "sha256": "ee79dedaf039373971eb6166ae25a9fa456d8fbbd0f2ab82c1ab0628885950a6"
+    },
+    {
+      "path": "nvidia_validation/domain20_fft_performance/domain20_run.log",
+      "domain": "D20",
+      "kind": "execution_record",
+      "bytes": 2754,
+      "sha256": "376859dd934d964207c3c77868774a74f537f4221ff74955f8e3f70281009ebb"
+    },
+    {
+      "path": "nvidia_validation/domain21_precision_zero_floor/domain21_precision_zero_floor.json",
+      "domain": "D21",
+      "kind": "json_record",
+      "bytes": 3032,
+      "sha256": "7f180d2db2e198bff673a6c3f257f6ea0f7f70ca9614092a6806e3593a701580"
+    },
+    {
+      "path": "nvidia_validation/domain21_precision_zero_floor/domain21_precision_zero_floor.py",
+      "domain": "D21",
+      "kind": "script",
+      "bytes": 12457,
+      "sha256": "8c9e6f493c2405a3c5bda351090f8d4c81105843500509159ed689c09982cd73"
+    },
+    {
+      "path": "nvidia_validation/domain21_precision_zero_floor/domain21_run.log",
+      "domain": "D21",
+      "kind": "execution_record",
+      "bytes": 732,
+      "sha256": "f9423c801b937894a8cb4bd0b003130539f0b71856976323786b6a59689cd071"
+    },
+    {
+      "path": "nvidia_validation/domain22_memory_scaling/domain22_memory_scaling.json",
+      "domain": "D22",
+      "kind": "json_record",
+      "bytes": 15551,
+      "sha256": "48b036a151e5886300bc00ada439b78178f5e5cb5eee9905df4bcd7e17eaf67a"
+    },
+    {
+      "path": "nvidia_validation/domain22_memory_scaling/domain22_memory_scaling.py",
+      "domain": "D22",
+      "kind": "script",
+      "bytes": 12052,
+      "sha256": "408ae210326d4b8d78c7d301a3d325bf3e5ba79bf1a850ae731234350bfac20b"
+    },
+    {
+      "path": "nvidia_validation/domain22_memory_scaling/domain22_run.log",
+      "domain": "D22",
+      "kind": "execution_record",
+      "bytes": 5100,
+      "sha256": "3800c78a5d44b3746813675656c0933695e0b9308eafed06507890c9eb99ec79"
+    },
+    {
+      "path": "nvidia_validation/domain23_power_thermal/domain23_power_thermal.json",
+      "domain": "D23",
+      "kind": "json_record",
+      "bytes": 123409,
+      "sha256": "456df72479d86cd51d1fda48bab7526a9ad097c95de44aca31047b290867690c"
+    },
+    {
+      "path": "nvidia_validation/domain23_power_thermal/domain23_power_thermal.py",
+      "domain": "D23",
+      "kind": "script",
+      "bytes": 14686,
+      "sha256": "b4526be3dc98c6ef8650c9bfc9f2b345a8ad8c7a46eae192d9c0c4b61a8efe26"
+    },
+    {
+      "path": "nvidia_validation/domain23_power_thermal/domain23_run.log",
+      "domain": "D23",
+      "kind": "execution_record",
+      "bytes": 1376,
+      "sha256": "8a657f0c50381cfb972b9ca316b4aaa256cf212478f8c8f39c17505b68d4e0c5"
+    },
+    {
+      "path": "nvidia_validation/domain24_architecture_comparison/domain24_architecture_comparison.json",
+      "domain": "D24",
+      "kind": "json_record",
+      "bytes": 6825,
+      "sha256": "8c615ee599e2ea82aa5ac917930484be278946462f8fab46942fa4a8f2e3b305"
+    },
+    {
+      "path": "nvidia_validation/domain24_architecture_comparison/domain24_architecture_comparison.py",
+      "domain": "D24",
+      "kind": "script",
+      "bytes": 15020,
+      "sha256": "cb5d50fe53d34629258fce918474a6ed70a0f31c68b78f5072ff438272c23004"
+    },
+    {
+      "path": "nvidia_validation/domain24_architecture_comparison/domain24_run.log",
+      "domain": "D24",
+      "kind": "execution_record",
+      "bytes": 1603,
+      "sha256": "c20a25dcf461dfe5b015f7887960f7187d9e27a7285fea34c41dde18db2a4ef3"
+    },
+    {
+      "path": "nvidia_validation/domain27_zero_floor/domain27_zero_floor_comparison.json",
+      "domain": "D27",
+      "kind": "json_record",
+      "bytes": 3148,
+      "sha256": "54cc83b25dc97ade91aa08aed8a42dc02cb00acacb2b299bfecd1c5b35353f02"
+    },
+    {
+      "path": "nvidia_validation/domain27_zero_floor/domain27_zero_floor_physics.json",
+      "domain": "D27",
+      "kind": "json_record",
+      "bytes": 9083,
+      "sha256": "64c60e39ff1d9ef3028b2ea6924151e0116b52d333ae979aafd9cd1f2f2a93cd"
+    },
+    {
+      "path": "nvidia_validation/domain27_zero_floor/energy_threshold_with_zero_floor/classification_breakdown.png",
+      "domain": "D27",
+      "kind": "visual_artifact",
+      "bytes": 31485,
+      "sha256": "849474e7bbb5a6382fcb9d7e3167f8599c9b43f14169f516d7e7c49936092d18"
+    },
+    {
+      "path": "nvidia_validation/domain27_zero_floor/energy_threshold_with_zero_floor/cpu_vs_gpu_energy.png",
+      "domain": "D27",
+      "kind": "visual_artifact",
+      "bytes": 36044,
+      "sha256": "6b2d76815ed2f1d0f5d634113131cee0258486091388c630d3697b3f914eabc2"
+    },
+    {
+      "path": "nvidia_validation/domain27_zero_floor/energy_threshold_with_zero_floor/energy_distribution.png",
+      "domain": "D27",
+      "kind": "visual_artifact",
+      "bytes": 35163,
+      "sha256": "2d65d83d8052d67cc83da72fe250a96e429cc568493f84011e6f00cad804f162"
+    },
+    {
+      "path": "nvidia_validation/domain27_zero_floor/fft_numerical_zeros/fft_magnitude_spectrum.png",
+      "domain": "D27",
+      "kind": "visual_artifact",
+      "bytes": 33504,
+      "sha256": "7903782b442add4ae065031f6f8bef85e7e7501b683a331b147e2c3aeceed363"
+    },
+    {
+      "path": "nvidia_validation/domain27_zero_floor/fft_numerical_zeros/fft_zero_components.png",
+      "domain": "D27",
+      "kind": "visual_artifact",
+      "bytes": 34869,
+      "sha256": "c47e1344e1249b44dd552ca357e4dfbaf97e780ce0cdff15d19c4d11f4b6d453"
+    },
+    {
+      "path": "nvidia_validation/domain27_zero_floor/fft_numerical_zeros/phase_agreement.png",
+      "domain": "D27",
+      "kind": "visual_artifact",
+      "bytes": 31095,
+      "sha256": "83bd13eb313493fd805775249aa8b18ddaf1d07a2de88665f26f9fa98cad7a42"
+    },
+    {
+      "path": "nvidia_validation/domain27_zero_floor/gaussian_current_evolution/gaussian_center.png",
+      "domain": "D27",
+      "kind": "visual_artifact",
+      "bytes": 32924,
+      "sha256": "c31c0f666e324651a9bde3c08096457680a2263883c1439f728d52de45c5194d"
+    },
+    {
+      "path": "nvidia_validation/domain27_zero_floor/gaussian_current_evolution/gaussian_evolution.gif",
+      "domain": "D27",
+      "kind": "visual_artifact",
+      "bytes": 32875,
+      "sha256": "d3ff0f8f2747410272edbddf697c7c74f65b6f9c00c8ffb261afe8d0bab25efe"
+    },
+    {
+      "path": "nvidia_validation/domain27_zero_floor/gaussian_current_evolution/gaussian_variance.png",
+      "domain": "D27",
+      "kind": "visual_artifact",
+      "bytes": 35667,
+      "sha256": "41c2b9cac409afdc02415eab1bc14efb91fc25125ba102a7e3a87d6d74a7a5a2"
+    },
+    {
+      "path": "nvidia_validation/domain27_zero_floor/gaussian_tail_decay/gaussian_tail_abs_sq.png",
+      "domain": "D27",
+      "kind": "visual_artifact",
+      "bytes": 57864,
+      "sha256": "eabf7af2c82f903e8b0945ec7f3bc68c31f9fd341e95ea1d35d00a2d2ccc240a"
+    },
+    {
+      "path": "nvidia_validation/domain27_zero_floor/gaussian_tail_decay/tail_threshold_summary.png",
+      "domain": "D27",
+      "kind": "visual_artifact",
+      "bytes": 44862,
+      "sha256": "d790de4bb5f5d99ad681be02645b705eece4ae7f3b647891f513474dac70a69d"
+    },
+    {
+      "path": "nvidia_validation/domain27_zero_floor/generate_validation_artifacts.py",
+      "domain": "D27",
+      "kind": "script",
+      "bytes": 15062,
+      "sha256": "34ae68146e92cd2de0cfc3cc2bd4716bc5f917555f805bc2fdf89f35fa8c3e5b"
+    },
+    {
+      "path": "nvidia_validation/domain27_zero_floor/physics_integration.py",
+      "domain": "D27",
+      "kind": "script",
+      "bytes": 17726,
+      "sha256": "7d5147f3b805a95d787c3f2a5cca80e5fa8f7f05def39e3dac3568293dc1b0f8"
+    },
+    {
+      "path": "nvidia_validation/domain27_zero_floor/pix2text_extraction_report.json",
+      "domain": "D27",
+      "kind": "json_record",
+      "bytes": 375,
+      "sha256": "43b797cbf242229f1e30755aefec9a813528eab621c245356b50f54e43529979"
+    },
+    {
+      "path": "nvidia_validation/domain27_zero_floor/validation_index.html",
+      "domain": "D27",
+      "kind": "viewer",
+      "bytes": 3504,
+      "sha256": "76aa785a7b114d127991c257e6909a3264be9f1e63e8726c8c27eb391fb659c8"
+    },
+    {
+      "path": "nvidia_validation/domain27_zero_floor/vortex_core_density_floor/cpu_vs_gpu_density.png",
+      "domain": "D27",
+      "kind": "visual_artifact",
+      "bytes": 36511,
+      "sha256": "c1a595b4762aab9dd83e4593226ce709d029aa80444b6b65aa985afce04c59f7"
+    },
+    {
+      "path": "nvidia_validation/domain27_zero_floor/vortex_core_density_floor/vortex_core_density.png",
+      "domain": "D27",
+      "kind": "visual_artifact",
+      "bytes": 32459,
+      "sha256": "15fc12e5456163d53deb5809bc0f7dddc1a676fbfd1c1aa9a60f6f28515b48ce"
+    },
+    {
+      "path": "nvidia_validation/domain27_zero_floor/vortex_core_density_floor/vortex_evolution.gif",
+      "domain": "D27",
+      "kind": "visual_artifact",
+      "bytes": 78356,
+      "sha256": "fa7ae8ca21ecb5cbc6a2a258732e4e47c27bb16c7d0be0db44e49808a5c44487"
+    },
+    {
+      "path": "nvidia_validation/domain27_zero_floor/zero_floor_classification.py",
+      "domain": "D27",
+      "kind": "script",
+      "bytes": 15208,
+      "sha256": "02800178c3675b5e008409a557bf52f6123ed6a2d2bfb50b8480513dec4bab3b"
+    },
+    {
+      "path": "validation_artifacts/domain3_norm_1d.png",
+      "domain": "D3",
+      "kind": "visual_artifact",
+      "bytes": 238455,
+      "sha256": "d54fd90fc923fae67a5219e57cd555c8cf0c4bfb2b4970b5706f5063d0791d30"
+    },
+    {
+      "path": "validation_artifacts/domain3_norm_1d_after.png",
+      "domain": "D3",
+      "kind": "visual_artifact",
+      "bytes": 248605,
+      "sha256": "8b3d255e277a8b893d017368609b5fc1b1a5221203ecedbeab92c8703c1fe136"
+    },
+    {
+      "path": "validation_artifacts/domain3_norm_2d.png",
+      "domain": "D3",
+      "kind": "visual_artifact",
+      "bytes": 396989,
+      "sha256": "ddbe9d0eb25001df026cea26ce4ae2bd7c69db7fb8c92c09db07c9bc5a8112d6"
+    },
+    {
+      "path": "validation_artifacts/domain3_norm_2d_after.png",
+      "domain": "D3",
+      "kind": "visual_artifact",
+      "bytes": 397017,
+      "sha256": "d20026d9ac8c24c9d5b8c8959e5c95131e771b4167fe1c7c364889197c0f4fc8"
+    },
+    {
+      "path": "validation_artifacts/domain3_norm_3d_slice.png",
+      "domain": "D3",
+      "kind": "visual_artifact",
+      "bytes": 310518,
+      "sha256": "31cbfe13e3431a772a57de8459c75b76d39e355f171b6c33ac1cd44f8de44083"
+    },
+    {
+      "path": "validation_artifacts/domain3_norm_3d_slice_after.png",
+      "domain": "D3",
+      "kind": "visual_artifact",
+      "bytes": 338255,
+      "sha256": "692dac788bb62fcd636103ab7b10b5062908f21e78d49c0ae589568186b83415"
+    },
+    {
+      "path": "validation_artifacts/domain4_fourier_1d.png",
+      "domain": "D4",
+      "kind": "visual_artifact",
+      "bytes": 471485,
+      "sha256": "5e8fe67858e12bb7b5ff8d0d7b572f3fd02b11c1feff52cca7400a848527992b"
+    },
+    {
+      "path": "validation_artifacts/domain5_barrier_3d.png",
+      "domain": "D5",
+      "kind": "visual_artifact",
+      "bytes": 269353,
+      "sha256": "fdf88c8aa5a296a73a121f90d25363a5333aca9657a6b385ef65059e273bd412"
+    },
+    {
+      "path": "validation_artifacts/domain5_potential_1d.png",
+      "domain": "D5",
+      "kind": "visual_artifact",
+      "bytes": 275647,
+      "sha256": "0334003afc08d4dffc0ab1b3f6f20aeba240a34199965bcd811a539fedee0eaf"
+    },
+    {
+      "path": "validation_artifacts/domain5_potential_2d.png",
+      "domain": "D5",
+      "kind": "visual_artifact",
+      "bytes": 359421,
+      "sha256": "018b00972789d53ef02b4ffd78a013bb732f4caad13c8d82254c93bb54ebf5a9"
+    },
+    {
+      "path": "validation_artifacts/domain5_potential_3d_slice.png",
+      "domain": "D5",
+      "kind": "visual_artifact",
+      "bytes": 235646,
+      "sha256": "fb99d93eda4d045e5a4dc67cea5762ed855ae286ef0adad33c19de63c20ee4c3"
+    },
+    {
+      "path": "validation_artifacts/domain6_td_step0.png",
+      "domain": "D6",
+      "kind": "visual_artifact",
+      "bytes": 135618,
+      "sha256": "b1bf33828eeeebf56bc78aafdac279c7344bca6c8e5f58f91d5b9106586792ca"
+    },
+    {
+      "path": "validation_artifacts/domain6_td_step1.png",
+      "domain": "D6",
+      "kind": "visual_artifact",
+      "bytes": 182042,
+      "sha256": "ef80e906ad9d157859b4ba4107541236daa3337ab295bc13369c520607259e2b"
+    },
+    {
+      "path": "validation_artifacts/domain6_td_step10.png",
+      "domain": "D6",
+      "kind": "visual_artifact",
+      "bytes": 184649,
+      "sha256": "7ca58fdb3ca61d4aad5839fce532609d94a60f3cbd741f829c2f90f874bccca8"
+    },
+    {
+      "path": "validation_artifacts/domain6_td_step5.png",
+      "domain": "D6",
+      "kind": "visual_artifact",
+      "bytes": 176750,
+      "sha256": "9be23706543d845c37b26a7e7630d55e756a51aa4e1f56fa63fe91e32dca749a"
+    },
+    {
+      "path": "validation_artifacts/domain7_convergence.png",
+      "domain": "D7",
+      "kind": "visual_artifact",
+      "bytes": 363205,
+      "sha256": "f2157facfc7f31fb21326704c8385bd7e18338f79db7be7443e96a1c23360f84"
+    },
+    {
+      "path": "validation_artifacts/domain8_energy_momentum.png",
+      "domain": "D8",
+      "kind": "visual_artifact",
+      "bytes": 399621,
+      "sha256": "7ed1b6681ebfdafdee3b8eed0e901c7dfc4a86b3ac3e780c28985a9d24e6ca18"
+    },
+    {
+      "path": "validation_artifacts/domain9_vortex_1.png",
+      "domain": "D9",
+      "kind": "visual_artifact",
+      "bytes": 154415,
+      "sha256": "e016d614433677eee57460fb592d7233c7d62daef3e2de46710161db6f45cd62"
+    },
+    {
+      "path": "validation_artifacts/domain9_vortex_gaussian.png",
+      "domain": "D9",
+      "kind": "visual_artifact",
+      "bytes": 91248,
+      "sha256": "c741ca855ff55f3af41a43eee9d8bb92bb5bff554b088b0a782f8f1c4aadc7d5"
+    },
+    {
+      "path": "validation_artifacts/domain9_vortex_pair.png",
+      "domain": "D9",
+      "kind": "visual_artifact",
+      "bytes": 91539,
+      "sha256": "5b2dc4798a0f0522f96d732adbeb6b2b6540d6cbccbc5b14fc7412e1ca8aac5c"
+    }
+  ],
+  "manifest_comparison": {
+    "manifest_coverage_claim": "72 files, 1,051,846 bytes",
+    "actual_file_count": 181,
+    "actual_total_bytes": 20643346,
+    "false_absent_count": 32,
+    "findings": [
+      {
+        "manifest_path": "domain27_zero_floor_physics.json",
+        "manifest_claim": "absent",
+        "actual_path": "nvidia_validation/domain27_zero_floor/domain27_zero_floor_physics.json",
+        "actual_bytes": 9083,
+        "fault": "wrong prefix (nvidia_validation/ missing)"
+      },
+      {
+        "manifest_path": "domain27_zero_floor_comparison.json",
+        "manifest_claim": "absent",
+        "actual_path": "nvidia_validation/domain27_zero_floor/domain27_zero_floor_comparison.json",
+        "actual_bytes": 3148,
+        "fault": "wrong prefix (nvidia_validation/ missing)"
+      },
+      {
+        "manifest_path": "pix2text_extraction_report.json",
+        "manifest_claim": "absent",
+        "actual_path": "nvidia_validation/domain27_zero_floor/pix2text_extraction_report.json",
+        "actual_bytes": 375,
+        "fault": "wrong directory (probe records live in evidence/)"
+      },
+      {
+        "manifest_path": "domain19_cuda_residency/g0_domain19_results.json",
+        "manifest_claim": "absent",
+        "actual_path": "nvidia_validation/domain19_cuda_residency/g0_domain19_results.json",
+        "actual_bytes": 25443,
+        "fault": "wrong prefix (nvidia_validation/ missing)"
+      },
+      {
+        "manifest_path": "domain19_cuda_residency/g0_domain19_probe.py",
+        "manifest_claim": "absent",
+        "actual_path": "nvidia_validation/domain19_cuda_residency/g0_domain19_probe.py",
+        "actual_bytes": 23613,
+        "fault": "wrong prefix (nvidia_validation/ missing)"
+      },
+      {
+        "manifest_path": "domain19_cuda_residency/g0_domain19_run.log",
+        "manifest_claim": "absent",
+        "actual_path": "nvidia_validation/domain19_cuda_residency/g0_domain19_run.log",
+        "actual_bytes": 4162,
+        "fault": "wrong prefix (nvidia_validation/ missing)"
+      },
+      {
+        "manifest_path": "domain20_fft_performance/domain20_fft_performance.json",
+        "manifest_claim": "absent",
+        "actual_path": "nvidia_validation/domain20_fft_performance/domain20_fft_performance.json",
+        "actual_bytes": 13524,
+        "fault": "wrong prefix (nvidia_validation/ missing)"
+      },
+      {
+        "manifest_path": "domain20_fft_performance/domain20_fft_performance.py",
+        "manifest_claim": "absent",
+        "actual_path": "nvidia_validation/domain20_fft_performance/domain20_fft_performance.py",
+        "actual_bytes": 10642,
+        "fault": "wrong prefix (nvidia_validation/ missing)"
+      },
+      {
+        "manifest_path": "domain20_run.log",
+        "manifest_claim": "absent",
+        "actual_path": "nvidia_validation/domain20_fft_performance/domain20_run.log",
+        "actual_bytes": 2754,
+        "fault": "wrong prefix (nvidia_validation/ missing)"
+      },
+      {
+        "manifest_path": "domain21_precision_zero_floor/domain21_precision_zero_floor.json",
+        "manifest_claim": "absent",
+        "actual_path": "nvidia_validation/domain21_precision_zero_floor/domain21_precision_zero_floor.json",
+        "actual_bytes": 3032,
+        "fault": "wrong prefix (nvidia_validation/ missing)"
+      },
+      {
+        "manifest_path": "domain21_precision_zero_floor/domain21_precision_zero_floor.py",
+        "manifest_claim": "absent",
+        "actual_path": "nvidia_validation/domain21_precision_zero_floor/domain21_precision_zero_floor.py",
+        "actual_bytes": 12457,
+        "fault": "wrong prefix (nvidia_validation/ missing)"
+      },
+      {
+        "manifest_path": "domain22_memory_scaling/domain22_memory_scaling.json",
+        "manifest_claim": "absent",
+        "actual_path": "nvidia_validation/domain22_memory_scaling/domain22_memory_scaling.json",
+        "actual_bytes": 15551,
+        "fault": "wrong prefix (nvidia_validation/ missing)"
+      },
+      {
+        "manifest_path": "domain22_memory_scaling/domain22_memory_scaling.py",
+        "manifest_claim": "absent",
+        "actual_path": "nvidia_validation/domain22_memory_scaling/domain22_memory_scaling.py",
+        "actual_bytes": 12052,
+        "fault": "wrong prefix (nvidia_validation/ missing)"
+      },
+      {
+        "manifest_path": "domain22_run.log",
+        "manifest_claim": "absent",
+        "actual_path": "nvidia_validation/domain22_memory_scaling/domain22_run.log",
+        "actual_bytes": 5100,
+        "fault": "wrong prefix (nvidia_validation/ missing)"
+      },
+      {
+        "manifest_path": "domain23_power_thermal/domain23_power_thermal.json",
+        "manifest_claim": "absent",
+        "actual_path": "nvidia_validation/domain23_power_thermal/domain23_power_thermal.json",
+        "actual_bytes": 123409,
+        "fault": "wrong prefix (nvidia_validation/ missing)"
+      },
+      {
+        "manifest_path": "domain23_power_thermal/domain23_power_thermal.py",
+        "manifest_claim": "absent",
+        "actual_path": "nvidia_validation/domain23_power_thermal/domain23_power_thermal.py",
+        "actual_bytes": 14686,
+        "fault": "wrong prefix (nvidia_validation/ missing)"
+      },
+      {
+        "manifest_path": "domain23_run.log",
+        "manifest_claim": "absent",
+        "actual_path": "nvidia_validation/domain23_power_thermal/domain23_run.log",
+        "actual_bytes": 1376,
+        "fault": "wrong prefix (nvidia_validation/ missing)"
+      },
+      {
+        "manifest_path": "domain24_architecture_comparison/domain24_architecture_comparison.json",
+        "manifest_claim": "absent",
+        "actual_path": "nvidia_validation/domain24_architecture_comparison/domain24_architecture_comparison.json",
+        "actual_bytes": 6825,
+        "fault": "wrong prefix (nvidia_validation/ missing)"
+      },
+      {
+        "manifest_path": "domain24_architecture_comparison/domain24_architecture_comparison.py",
+        "manifest_claim": "absent",
+        "actual_path": "nvidia_validation/domain24_architecture_comparison/domain24_architecture_comparison.py",
+        "actual_bytes": 15020,
+        "fault": "wrong prefix (nvidia_validation/ missing)"
+      },
+      {
+        "manifest_path": "domain24_run.log",
+        "manifest_claim": "absent",
+        "actual_path": "nvidia_validation/domain24_architecture_comparison/domain24_run.log",
+        "actual_bytes": 1603,
+        "fault": "wrong prefix (nvidia_validation/ missing)"
+      },
+      {
+        "manifest_path": "probes/probe_01_strang_ordering.txt",
+        "manifest_claim": "absent",
+        "actual_path": "evidence/probe_01_strang_ordering.txt",
+        "actual_bytes": 844,
+        "fault": "wrong directory (probe records live in evidence/)"
+      },
+      {
+        "manifest_path": "probes/probe_02_hermiticity.txt",
+        "manifest_claim": "absent",
+        "actual_path": "evidence/probe_02_hermiticity.txt",
+        "actual_bytes": 645,
+        "fault": "wrong directory (probe records live in evidence/)"
+      },
+      {
+        "manifest_path": "probes/probe_03_normalization.txt",
+        "manifest_claim": "absent",
+        "actual_path": "evidence/probe_03_normalization.txt",
+        "actual_bytes": 591,
+        "fault": "wrong directory (probe records live in evidence/)"
+      },
+      {
+        "manifest_path": "probes/probe_04_fourier.txt",
+        "manifest_claim": "absent",
+        "actual_path": "evidence/probe_04_fourier.txt",
+        "actual_bytes": 867,
+        "fault": "wrong directory (probe records live in evidence/)"
+      },
+      {
+        "manifest_path": "probes/probe_05_potentials.txt",
+        "manifest_claim": "absent",
+        "actual_path": "evidence/probe_05_potentials.txt",
+        "actual_bytes": 5417,
+        "fault": "wrong directory (probe records live in evidence/)"
+      },
+      {
+        "manifest_path": "probes/probe_06_time_dependent.txt",
+        "manifest_claim": "absent",
+        "actual_path": "evidence/probe_06_time_dependent.txt",
+        "actual_bytes": 1079,
+        "fault": "wrong directory (probe records live in evidence/)"
+      },
+      {
+        "manifest_path": "probes/probe_07_convergence.txt",
+        "manifest_claim": "absent",
+        "actual_path": "evidence/probe_07_convergence.txt",
+        "actual_bytes": 1035,
+        "fault": "wrong directory (probe records live in evidence/)"
+      },
+      {
+        "manifest_path": "probes/probe_08_energy_momentum.txt",
+        "manifest_claim": "absent",
+        "actual_path": "evidence/probe_08_energy_momentum.txt",
+        "actual_bytes": 682,
+        "fault": "wrong directory (probe records live in evidence/)"
+      },
+      {
+        "manifest_path": "probes/probe_09_vortex.txt",
+        "manifest_claim": "absent",
+        "actual_path": "evidence/probe_09_vortex.txt",
+        "actual_bytes": 572,
+        "fault": "wrong directory (probe records live in evidence/)"
+      },
+      {
+        "manifest_path": "probes/probe_10_absorber.txt",
+        "manifest_claim": "absent",
+        "actual_path": "evidence/probe_10_absorber.txt",
+        "actual_bytes": 1574,
+        "fault": "wrong directory (probe records live in evidence/)"
+      },
+      {
+        "manifest_path": "probes/probe_11_cpu_gpu.txt",
+        "manifest_claim": "absent",
+        "actual_path": "evidence/probe_11_cpu_gpu.txt",
+        "actual_bytes": 297,
+        "fault": "wrong directory (probe records live in evidence/)"
+      },
+      {
+        "manifest_path": "probes/probe_12_resolution.txt",
+        "manifest_claim": "absent",
+        "actual_path": "evidence/probe_12_resolution.txt",
+        "actual_bytes": 1384,
+        "fault": "wrong directory (probe records live in evidence/)"
+      }
+    ]
+  },
+  "domain27_contract": {
+    "producer": "nvidia_validation/domain27_zero_floor/physics_integration.py",
+    "consumer": "nvidia_validation/domain27_zero_floor/generate_validation_artifacts.py",
+    "consumer_quantumlab_imports": [],
+    "consumer_in_usage_chain": false,
+    "field_contract": [
+      {
+        "test": "gaussian_tail_decay",
+        "field": "tail_analysis",
+        "present_in_json": true,
+        "actual_type": "object",
+        "consumer_read": "tail.get(\"tail_analysis\", {})",
+        "violation": ""
+      },
+      {
+        "test": "vortex_core_density_floor",
+        "field": "core_density.cpu",
+        "present_in_json": true,
+        "actual_type": "scalar",
+        "consumer_read": "vor.get(\"core_density\", {}).get(\"cpu\")",
+        "violation": ""
+      },
+      {
+        "test": "fft_numerical_zeros",
+        "field": "fft_normalization",
+        "present_in_json": true,
+        "actual_type": "scalar",
+        "consumer_read": "fft.get(\"fft_normalization\", [])",
+        "violation": "consumer defaults to array, producer wrote scalar"
+      },
+      {
+        "test": "fft_numerical_zeros",
+        "field": "relative_l2_error",
+        "present_in_json": true,
+        "actual_type": "scalar",
+        "consumer_read": "fft.get(\"relative_l2_error\", [])",
+        "violation": "consumer defaults to array, producer wrote scalar"
+      },
+      {
+        "test": "gaussian_current_evolution",
+        "field": "cpu_center_variance",
+        "present_in_json": true,
+        "actual_type": "scalar",
+        "consumer_read": "gauss.get(\"cpu_center_variance\", [])",
+        "violation": "consumer defaults to array, producer wrote scalar"
+      },
+      {
+        "test": "gaussian_current_evolution",
+        "field": "gpu_center_variance",
+        "present_in_json": true,
+        "actual_type": "scalar",
+        "consumer_read": "gauss.get(\"gpu_center_variance\", [])",
+        "violation": "consumer defaults to array, producer wrote scalar"
+      },
+      {
+        "test": "gaussian_current_evolution",
+        "field": "cpu_center",
+        "present_in_json": true,
+        "actual_type": "scalar",
+        "consumer_read": "gauss.get(\"cpu_center\", [])",
+        "violation": "consumer defaults to array, producer wrote scalar"
+      },
+      {
+        "test": "gaussian_current_evolution",
+        "field": "gpu_center",
+        "present_in_json": true,
+        "actual_type": "scalar",
+        "consumer_read": "gauss.get(\"gpu_center\", [])",
+        "violation": "consumer defaults to array, producer wrote scalar"
+      },
+      {
+        "test": "energy_threshold_with_zero_floor",
+        "field": "cpu_energy",
+        "present_in_json": true,
+        "actual_type": "scalar",
+        "consumer_read": "energy.get(\"cpu_energy\", [])",
+        "violation": "consumer defaults to array, producer wrote scalar"
+      },
+      {
+        "test": "energy_threshold_with_zero_floor",
+        "field": "gpu_energy",
+        "present_in_json": true,
+        "actual_type": "scalar",
+        "consumer_read": "energy.get(\"gpu_energy\", [])",
+        "violation": "consumer defaults to array, producer wrote scalar"
+      },
+      {
+        "test": "energy_threshold_with_zero_floor",
+        "field": "classification_counts",
+        "present_in_json": true,
+        "actual_type": null,
+        "consumer_read": "energy.get(\"classification_counts\", {})",
+        "violation": "field absent from producer output"
+      }
+    ],
+    "violation_count": 9
+  }
+}

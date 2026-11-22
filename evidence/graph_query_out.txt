@@ -1,0 +1,374 @@
+==============================================================================
+RESOLVED CALL EDGES ON THE SCIENTIFIC CHAIN
+==============================================================================
+
+### config
+  quantumlab.config.load_config                  -> quantumlab.core.wavefunction.copy              [name] quantumlab\config.py:9
+
+### core
+  quantumlab.core.absorbing_boundary.AbsorbingBoundaryLayer.__init__ -> quantumlab.core.absorbing_boundary._build_mask [exact] quantumlab\core\absorbing_boundary.py:51
+  quantumlab.core.absorbing_boundary.AbsorbingBoundaryLayer._build_mask -> quantumlab.core.absorbing_boundary._build_mask_1d [exact] quantumlab\core\absorbing_boundary.py:82
+  quantumlab.core.absorbing_boundary.AbsorbingBoundaryLayer._build_mask -> quantumlab.core.absorbing_boundary._build_mask_2d [exact] quantumlab\core\absorbing_boundary.py:84
+  quantumlab.core.absorbing_boundary.AbsorbingBoundaryLayer._build_mask -> quantumlab.core.absorbing_boundary._build_mask_3d [exact] quantumlab\core\absorbing_boundary.py:86
+  quantumlab.core.absorbing_boundary.AbsorbingBoundaryLayer._build_mask_1d -> quantumlab.core.absorbing_boundary._polynomial_profile [exact] quantumlab\core\absorbing_boundary.py:98; quantumlab\core\absorbing_boundary.py:102
+  quantumlab.core.absorbing_boundary.AbsorbingBoundaryLayer._build_mask_2d -> quantumlab.core.absorbing_boundary._polynomial_profile [exact] quantumlab\core\absorbing_boundary.py:117; quantumlab\core\absorbing_boundary.py:118; quantumlab\core\absorbing_boundary.py:121; quantumlab\core\absorbing_boundary.py:122
+  quantumlab.core.absorbing_boundary.AbsorbingBoundaryLayer._build_mask_3d -> quantumlab.core.absorbing_boundary._polynomial_profile [exact] quantumlab\core\absorbing_boundary.py:137; quantumlab\core\absorbing_boundary.py:138; quantumlab\core\absorbing_boundary.py:141; quantumlab\core\absorbing_boundary.py:142
+  quantumlab.core.absorbing_boundary.AbsorbingBoundaryLayer._polynomial_profile -> quantumlab.core.absorbing_boundary._binomial   [exact] quantumlab\core\absorbing_boundary.py:69; quantumlab\core\absorbing_boundary.py:70
+  quantumlab.core.spectral.wavefunction_class    -> quantumlab.core.spectral.ndim                  [exact] quantumlab\core\spectral.py:23
+  quantumlab.core.wavefunction.WaveFunction1D.copy -> quantumlab.core.wavefunction.WaveFunction1D    [exact] quantumlab\core\wavefunction.py:32
+  quantumlab.core.wavefunction.WaveFunction1D.copy -> quantumlab.core.wavefunction.copy              [name] quantumlab\core\wavefunction.py:32
+  quantumlab.core.wavefunction.WaveFunction1D.gaussian -> quantumlab.core.wavefunction.normalize         [name] quantumlab\core\wavefunction.py:38
+  quantumlab.core.wavefunction.WaveFunction1D.normalize -> quantumlab.core.wavefunction.norm              [name] quantumlab\core\wavefunction.py:23
+  quantumlab.core.wavefunction.WaveFunction2D.copy -> quantumlab.core.wavefunction.WaveFunction2D    [exact] quantumlab\core\wavefunction.py:69
+  quantumlab.core.wavefunction.WaveFunction2D.copy -> quantumlab.core.wavefunction.copy              [name] quantumlab\core\wavefunction.py:69
+  quantumlab.core.wavefunction.WaveFunction2D.gaussian -> quantumlab.core.wavefunction.normalize         [name] quantumlab\core\wavefunction.py:77
+  quantumlab.core.wavefunction.WaveFunction2D.normalize -> quantumlab.core.wavefunction.norm              [name] quantumlab\core\wavefunction.py:60
+  quantumlab.core.wavefunction.WaveFunction3D.copy -> quantumlab.core.wavefunction.WaveFunction3D    [exact] quantumlab\core\wavefunction.py:108
+  quantumlab.core.wavefunction.WaveFunction3D.copy -> quantumlab.core.wavefunction.copy              [name] quantumlab\core\wavefunction.py:108
+  quantumlab.core.wavefunction.WaveFunction3D.gaussian -> quantumlab.core.wavefunction.normalize         [name] quantumlab\core\wavefunction.py:137
+  quantumlab.core.wavefunction.WaveFunction3D.normalize -> quantumlab.core.wavefunction.norm              [name] quantumlab\core\wavefunction.py:99
+
+### observables
+  quantumlab.observables.current.angular_momentum_z_expectation -> quantumlab.core.spectral.volume_element        [exact] quantumlab\observables\current.py:32
+  quantumlab.observables.current.angular_momentum_z_expectation -> quantumlab.observables.current.gradient        [exact] quantumlab\observables\current.py:30
+  quantumlab.observables.current.autocorrelation -> quantumlab.core.spectral.volume_element        [exact] quantumlab\observables\current.py:37
+  quantumlab.observables.current.gradient        -> quantumlab.core.spectral.wavevectors           [exact] quantumlab\observables\current.py:14
+  quantumlab.observables.current.probability_current -> quantumlab.observables.current.gradient        [exact] quantumlab\observables\current.py:23
+  quantumlab.observables.current.vortex_positions -> quantumlab.observables.current.wrapped         [exact] quantumlab\observables\current.py:71; quantumlab\observables\current.py:71; quantumlab\observables\current.py:72; quantumlab\observables\current.py:72
+  quantumlab.observables.expectation.kinetic_energy_expectation -> quantumlab.observables.expectation.momentum_squared_expectation [exact] quantumlab\observables\expectation.py:156; quantumlab\observables\expectation.py:159; quantumlab\observables\expectation.py:160; quantumlab\observables\expectation.py:163
+  quantumlab.observables.expectation.momentum_expectation -> quantumlab.core.wavefunction.fourier_transform [name] quantumlab\observables\expectation.py:77
+  quantumlab.observables.expectation.momentum_squared_expectation -> quantumlab.core.wavefunction.fourier_transform [name] quantumlab\observables\expectation.py:106
+  quantumlab.observables.expectation.momentum_uncertainty -> quantumlab.observables.expectation.momentum_expectation [exact] quantumlab\observables\expectation.py:135
+  quantumlab.observables.expectation.momentum_uncertainty -> quantumlab.observables.expectation.momentum_squared_expectation [exact] quantumlab\observables\expectation.py:136
+  quantumlab.observables.expectation.position_uncertainty -> quantumlab.observables.expectation.position_expectation [exact] quantumlab\observables\expectation.py:27
+  quantumlab.observables.expectation.position_uncertainty -> quantumlab.observables.expectation.position_squared_expectation [exact] quantumlab\observables\expectation.py:28
+  quantumlab.observables.expectation.potential_energy_expectation -> quantumlab.potentials.apertures.evaluate       [name] quantumlab\observables\expectation.py:143
+  quantumlab.observables.expectation.total_energy_expectation -> quantumlab.observables.expectation.kinetic_energy_expectation [exact] quantumlab\observables\expectation.py:171
+  quantumlab.observables.expectation.total_energy_expectation -> quantumlab.observables.expectation.potential_energy_expectation [exact] quantumlab\observables\expectation.py:172
+  quantumlab.observables.expectation.y_uncertainty -> quantumlab.observables.expectation.y_expectation [exact] quantumlab\observables\expectation.py:51
+  quantumlab.observables.expectation.y_uncertainty -> quantumlab.observables.expectation.y_squared_expectation [exact] quantumlab\observables\expectation.py:52
+  quantumlab.observables.expectation.z_uncertainty -> quantumlab.observables.expectation.z_expectation [exact] quantumlab\observables\expectation.py:71
+  quantumlab.observables.expectation.z_uncertainty -> quantumlab.observables.expectation.z_squared_expectation [exact] quantumlab\observables\expectation.py:72
+  quantumlab.observables.momentum.get_momentum_probability_density -> quantumlab.observables.momentum.get_momentum_wavefunction [exact] quantumlab\observables\momentum.py:24; quantumlab\observables\momentum.py:27; quantumlab\observables\momentum.py:30
+  quantumlab.observables.momentum.get_momentum_wavefunction -> quantumlab.core.wavefunction.fourier_transform [name] quantumlab\observables\momentum.py:5
+  quantumlab.observables.nonlinear.chemical_potential -> quantumlab.observables.expectation.kinetic_energy_expectation [exact] quantumlab\observables\nonlinear.py:19
+  quantumlab.observables.nonlinear.chemical_potential -> quantumlab.observables.expectation.potential_energy_expectation [exact] quantumlab\observables\nonlinear.py:19
+  quantumlab.observables.nonlinear.chemical_potential -> quantumlab.observables.nonlinear.interaction_energy [exact] quantumlab\observables\nonlinear.py:20
+  quantumlab.observables.nonlinear.coupled_gp_energy -> quantumlab.core.spectral.volume_element        [exact] quantumlab\observables\nonlinear.py:29
+  quantumlab.observables.nonlinear.coupled_gp_energy -> quantumlab.observables.expectation.kinetic_energy_expectation [exact] quantumlab\observables\nonlinear.py:30
+  quantumlab.observables.nonlinear.coupled_gp_energy -> quantumlab.observables.expectation.potential_energy_expectation [exact] quantumlab\observables\nonlinear.py:30
+  quantumlab.observables.nonlinear.gross_pitaevskii_energy -> quantumlab.observables.expectation.kinetic_energy_expectation [exact] quantumlab\observables\nonlinear.py:13
+  quantumlab.observables.nonlinear.gross_pitaevskii_energy -> quantumlab.observables.expectation.potential_energy_expectation [exact] quantumlab\observables\nonlinear.py:13
+  quantumlab.observables.nonlinear.gross_pitaevskii_energy -> quantumlab.observables.nonlinear.interaction_energy [exact] quantumlab\observables\nonlinear.py:14
+  quantumlab.observables.nonlinear.interaction_energy -> quantumlab.core.spectral.volume_element        [exact] quantumlab\observables\nonlinear.py:8
+
+### potentials
+  quantumlab.potentials.apertures.ApertureScreen.evaluate -> quantumlab.potentials.apertures._smooth_step   [exact] quantumlab\potentials\apertures.py:65; quantumlab\potentials\apertures.py:65; quantumlab\potentials\apertures.py:74
+  quantumlab.potentials.apertures.StadiumBilliard.evaluate -> quantumlab.potentials.apertures._smooth_step   [exact] quantumlab\potentials\apertures.py:102
+  quantumlab.potentials.coulomb.SoftCoulomb._displacements -> quantumlab.core.spectral.coordinates           [exact] quantumlab\potentials\coulomb.py:24
+  quantumlab.potentials.coulomb.SoftCoulomb.evaluate -> quantumlab.potentials.coulomb._displacements   [exact] quantumlab\potentials\coulomb.py:30
+  quantumlab.potentials.coulomb.SoftCoulomb.gradient -> quantumlab.potentials.coulomb._displacements   [exact] quantumlab\potentials\coulomb.py:35
+  quantumlab.potentials.time_dependent.DipoleDrive._static_parts -> quantumlab.core.spectral.coordinates           [exact] quantumlab\potentials\time_dependent.py:73
+  quantumlab.potentials.time_dependent.DipoleDrive._static_parts -> quantumlab.potentials.time_dependent.evaluate  [exact] quantumlab\potentials\time_dependent.py:77
+  quantumlab.potentials.time_dependent.DipoleDrive.evaluate_at -> quantumlab.potentials.time_dependent._static_parts [exact] quantumlab\potentials\time_dependent.py:83
+  quantumlab.potentials.time_dependent.DipoleDrive.evaluate_at -> quantumlab.potentials.time_dependent.force     [exact] quantumlab\potentials\time_dependent.py:84
+  quantumlab.potentials.time_dependent.DipoleDrive.force -> quantumlab.potentials.time_dependent.envelope  [name] quantumlab\potentials\time_dependent.py:68
+  quantumlab.potentials.time_dependent.TimeDependentCustomPotential.evaluate_at -> quantumlab.core.spectral.coordinates           [exact] quantumlab\potentials\time_dependent.py:96
+  quantumlab.potentials.time_dependent.TimeDependentPotential.evaluate -> quantumlab.potentials.time_dependent.evaluate_at [name] quantumlab\potentials\time_dependent.py:24
+  quantumlab.potentials.traps.HarmonicTrap.evaluate -> quantumlab.core.spectral.coordinates           [exact] quantumlab\potentials\traps.py:28
+
+### runner
+  quantumlab.runner.SimulationRunner._build_grid -> quantumlab.core.grid.Grid1D                    [exact] quantumlab\runner.py:54
+  quantumlab.runner.SimulationRunner._build_grid -> quantumlab.core.grid.Grid2D                    [exact] quantumlab\runner.py:56
+  quantumlab.runner.SimulationRunner._build_grid -> quantumlab.core.grid.Grid3D                    [exact] quantumlab\runner.py:60
+  quantumlab.runner.SimulationRunner._build_solver -> quantumlab.solvers.split_operator.SplitOperatorSolver [exact] quantumlab\runner.py:106
+  quantumlab.runner.SimulationRunner._build_solver -> quantumlab.solvers.split_step_1d.SplitStep1DSolver [exact] quantumlab\runner.py:115
+  quantumlab.runner.SimulationRunner._build_solver -> quantumlab.solvers.split_step_2d.SplitStep2DSolver [exact] quantumlab\runner.py:117
+  quantumlab.runner.SimulationRunner._build_solver -> quantumlab.solvers.split_step_3d.SplitStep3DSolver [exact] quantumlab\runner.py:121
+  quantumlab.runner.SimulationRunner._build_solver -> quantumlab.solvers.split_step_3d_gpu.SplitStep3DGPU [exact] quantumlab\runner.py:120
+  quantumlab.runner.SimulationRunner._build_wavefunction -> quantumlab.core.wavefunction.gaussian          [name] quantumlab\runner.py:70; quantumlab\runner.py:74; quantumlab\runner.py:84
+  quantumlab.runner.SimulationRunner.run         -> quantumlab.core.absorbing_boundary.AbsorbingBoundaryLayer [exact] quantumlab\runner.py:148
+  quantumlab.runner.SimulationRunner.run         -> quantumlab.core.absorbing_boundary.apply       [exact] quantumlab\runner.py:163
+  quantumlab.runner.SimulationRunner.run         -> quantumlab.core.wavefunction.copy              [name] quantumlab\runner.py:156; quantumlab\runner.py:166
+  quantumlab.runner.SimulationRunner.run         -> quantumlab.observables.expectation.position_expectation [exact] quantumlab\runner.py:171
+  quantumlab.runner.SimulationRunner.run         -> quantumlab.observables.expectation.total_energy_expectation [exact] quantumlab\runner.py:170
+  quantumlab.runner.SimulationRunner.run         -> quantumlab.potentials.create_potential         [exact] quantumlab\runner.py:141
+  quantumlab.runner.SimulationRunner.run         -> quantumlab.runner._build_grid                  [exact] quantumlab\runner.py:140
+  quantumlab.runner.SimulationRunner.run         -> quantumlab.runner._build_solver                [exact] quantumlab\runner.py:143
+  quantumlab.runner.SimulationRunner.run         -> quantumlab.runner._build_wavefunction          [exact] quantumlab\runner.py:142
+  quantumlab.runner.SimulationRunner.run         -> quantumlab.runner._validate_config             [exact] quantumlab\runner.py:136
+  quantumlab.runner.SimulationRunner.run         -> quantumlab.solvers.base.step                   [name] quantumlab\runner.py:161
+  quantumlab.runner.SimulationRunner.run         -> quantumlab.visualization.animation.WavePacketAnimator [exact] quantumlab\runner.py:187
+  quantumlab.runner.SimulationRunner.run         -> quantumlab.visualization.animation.render      [exact] quantumlab\runner.py:195
+
+### solvers
+  quantumlab.solvers.backends.cupy_backend       -> quantumlab.solvers.backends.ArrayBackend       [exact] quantumlab\solvers\backends.py:50
+  quantumlab.solvers.backends.get_backend        -> quantumlab.solvers.backends.cupy_available     [exact] quantumlab\solvers\backends.py:74; quantumlab\solvers\backends.py:78
+  quantumlab.solvers.backends.get_backend        -> quantumlab.solvers.backends.cupy_backend       [exact] quantumlab\solvers\backends.py:76; quantumlab\solvers\backends.py:78
+  quantumlab.solvers.backends.get_backend        -> quantumlab.solvers.backends.numpy_backend      [exact] quantumlab\solvers\backends.py:72; quantumlab\solvers\backends.py:78
+  quantumlab.solvers.backends.numpy_backend      -> quantumlab.solvers.backends.ArrayBackend       [exact] quantumlab\solvers\backends.py:33
+  quantumlab.solvers.multicomponent.CoupledGPESolver.__init__ -> quantumlab.core.spectral.volume_element        [exact] quantumlab\solvers\multicomponent.py:68
+  quantumlab.solvers.multicomponent.CoupledGPESolver.__init__ -> quantumlab.core.spectral.wavefunction_class    [exact] quantumlab\solvers\multicomponent.py:69
+  quantumlab.solvers.multicomponent.CoupledGPESolver.__init__ -> quantumlab.potentials.apertures.evaluate       [name] quantumlab\solvers\multicomponent.py:71
+  quantumlab.solvers.multicomponent.CoupledGPESolver.__init__ -> quantumlab.solvers.split_operator.SplitOperatorSolver [exact] quantumlab\solvers\multicomponent.py:60
+  quantumlab.solvers.multicomponent.CoupledGPESolver._advance -> quantumlab.solvers.multicomponent._norm        [exact] quantumlab\solvers\multicomponent.py:109; quantumlab\solvers\multicomponent.py:117
+  quantumlab.solvers.multicomponent.CoupledGPESolver._advance -> quantumlab.solvers.multicomponent._potential_half_step [exact] quantumlab\solvers\multicomponent.py:111; quantumlab\solvers\multicomponent.py:113
+  quantumlab.solvers.multicomponent.CoupledGPESolver._advance -> quantumlab.solvers.split_operator._kinetic_step [exact] quantumlab\solvers\multicomponent.py:112
+  quantumlab.solvers.multicomponent.CoupledGPESolver._potential_half_step -> quantumlab.solvers.multicomponent._densities   [exact] quantumlab\solvers\multicomponent.py:97; quantumlab\solvers\multicomponent.py:99; quantumlab\solvers\multicomponent.py:101
+  quantumlab.solvers.multicomponent.CoupledGPESolver._potential_half_step -> quantumlab.solvers.multicomponent._effective_potentials [exact] quantumlab\solvers\multicomponent.py:97; quantumlab\solvers\multicomponent.py:99; quantumlab\solvers\multicomponent.py:101
+  quantumlab.solvers.multicomponent.CoupledGPESolver.evolve -> quantumlab.solvers.multicomponent._advance     [exact] quantumlab\solvers\multicomponent.py:141
+  quantumlab.solvers.multicomponent.CoupledGPESolver.evolve -> quantumlab.solvers.multicomponent._download    [exact] quantumlab\solvers\multicomponent.py:143; quantumlab\solvers\multicomponent.py:144
+  quantumlab.solvers.multicomponent.CoupledGPESolver.evolve -> quantumlab.solvers.multicomponent._upload      [exact] quantumlab\solvers\multicomponent.py:139
+  quantumlab.solvers.multicomponent.CoupledGPESolver.step -> quantumlab.solvers.multicomponent._advance     [exact] quantumlab\solvers\multicomponent.py:132
+  quantumlab.solvers.multicomponent.CoupledGPESolver.step -> quantumlab.solvers.multicomponent._download    [exact] quantumlab\solvers\multicomponent.py:132
+  quantumlab.solvers.multicomponent.CoupledGPESolver.step -> quantumlab.solvers.multicomponent._upload      [exact] quantumlab\solvers\multicomponent.py:132
+  quantumlab.solvers.split_operator.SplitOperatorSolver.__init__ -> quantumlab.core.spectral.k_squared             [exact] quantumlab\solvers\split_operator.py:137
+  quantumlab.solvers.split_operator.SplitOperatorSolver.__init__ -> quantumlab.core.spectral.ndim                  [exact] quantumlab\solvers\split_operator.py:115
+  quantumlab.solvers.split_operator.SplitOperatorSolver.__init__ -> quantumlab.core.spectral.volume_element        [exact] quantumlab\solvers\split_operator.py:133
+  quantumlab.solvers.split_operator.SplitOperatorSolver.__init__ -> quantumlab.core.spectral.wavefunction_class    [exact] quantumlab\solvers\split_operator.py:132
+  quantumlab.solvers.split_operator.SplitOperatorSolver.__init__ -> quantumlab.potentials.apertures.evaluate       [name] quantumlab\solvers\split_operator.py:143
+  quantumlab.solvers.split_operator.SplitOperatorSolver.__init__ -> quantumlab.solvers.backends.get_backend        [exact] quantumlab\solvers\split_operator.py:129
+  quantumlab.solvers.split_operator.SplitOperatorSolver.__init__ -> quantumlab.solvers.split_operator.__init__     [exact] quantumlab\solvers\split_operator.py:103
+  quantumlab.solvers.split_operator.SplitOperatorSolver.__init__ -> quantumlab.solvers.split_operator.update_operators [exact] quantumlab\solvers\split_operator.py:146
+  quantumlab.solvers.split_operator.SplitOperatorSolver._advance -> quantumlab.solvers.split_operator._norm        [exact] quantumlab\solvers\split_operator.py:250; quantumlab\solvers\split_operator.py:256
+  quantumlab.solvers.split_operator.SplitOperatorSolver._advance -> quantumlab.solvers.split_operator._strang      [exact] quantumlab\solvers\split_operator.py:253
+  quantumlab.solvers.split_operator.SplitOperatorSolver._potential_half_step -> quantumlab.solvers.split_operator.V_eff        [exact] quantumlab\solvers\split_operator.py:221; quantumlab\solvers\split_operator.py:222
+  quantumlab.solvers.split_operator.SplitOperatorSolver._potential_half_step -> quantumlab.solvers.split_operator._potential_on_device [exact] quantumlab\solvers\split_operator.py:204
+  quantumlab.solvers.split_operator.SplitOperatorSolver._potential_on_device -> quantumlab.solvers.split_operator.potential_at [exact] quantumlab\solvers\split_operator.py:196
+  quantumlab.solvers.split_operator.SplitOperatorSolver._rotating_kinetic_parts -> quantumlab.core.spectral.ndim                  [exact] quantumlab\solvers\split_operator.py:173
+  quantumlab.solvers.split_operator.SplitOperatorSolver._strang -> quantumlab.solvers.split_operator._kinetic_step [exact] quantumlab\solvers\split_operator.py:240
+  quantumlab.solvers.split_operator.SplitOperatorSolver._strang -> quantumlab.solvers.split_operator._potential_half_step [exact] quantumlab\solvers\split_operator.py:239; quantumlab\solvers\split_operator.py:241
+  quantumlab.solvers.split_operator.SplitOperatorSolver.evolve -> quantumlab.solvers.split_operator._advance     [exact] quantumlab\solvers\split_operator.py:281
+  quantumlab.solvers.split_operator.SplitOperatorSolver.evolve -> quantumlab.solvers.split_operator._download    [exact] quantumlab\solvers\split_operator.py:283; quantumlab\solvers\split_operator.py:284
+  quantumlab.solvers.split_operator.SplitOperatorSolver.evolve -> quantumlab.solvers.split_operator._upload      [exact] quantumlab\solvers\split_operator.py:279
+  quantumlab.solvers.split_operator.SplitOperatorSolver.potential_at -> quantumlab.potentials.time_dependent.evaluate_at [name] quantumlab\solvers\split_operator.py:191
+  quantumlab.solvers.split_operator.SplitOperatorSolver.step -> quantumlab.solvers.split_operator._advance     [exact] quantumlab\solvers\split_operator.py:271
+  quantumlab.solvers.split_operator.SplitOperatorSolver.step -> quantumlab.solvers.split_operator._download    [exact] quantumlab\solvers\split_operator.py:271
+  quantumlab.solvers.split_operator.SplitOperatorSolver.step -> quantumlab.solvers.split_operator._upload      [exact] quantumlab\solvers\split_operator.py:271
+  quantumlab.solvers.split_operator.SplitOperatorSolver.update_operators -> quantumlab.solvers.split_operator._rotating_kinetic_parts [exact] quantumlab\solvers\split_operator.py:160
+  quantumlab.solvers.split_step_1d.SplitStep1DSolver.__init__ -> quantumlab.potentials.apertures.evaluate       [name] quantumlab\solvers\split_step_1d.py:10
+  quantumlab.solvers.split_step_1d.SplitStep1DSolver.__init__ -> quantumlab.solvers.split_step_1d.__init__      [exact] quantumlab\solvers\split_step_1d.py:9
+  quantumlab.solvers.split_step_1d.SplitStep1DSolver.__init__ -> quantumlab.solvers.split_step_1d.update_operators [exact] quantumlab\solvers\split_step_1d.py:14
+  quantumlab.solvers.split_step_1d.SplitStep1DSolver.step -> quantumlab.core.wavefunction.WaveFunction1D    [exact] quantumlab\solvers\split_step_1d.py:27
+  quantumlab.solvers.split_step_1d.SplitStep1DSolver.step -> quantumlab.core.wavefunction.copy              [name] quantumlab\solvers\split_step_1d.py:21
+  quantumlab.solvers.split_step_2d.SplitStep2DSolver.__init__ -> quantumlab.potentials.apertures.evaluate       [name] quantumlab\solvers\split_step_2d.py:19
+  quantumlab.solvers.split_step_2d.SplitStep2DSolver.__init__ -> quantumlab.solvers.split_step_2d.__init__      [exact] quantumlab\solvers\split_step_2d.py:18
+  quantumlab.solvers.split_step_2d.SplitStep2DSolver.__init__ -> quantumlab.solvers.split_step_2d.update_operators [exact] quantumlab\solvers\split_step_2d.py:23
+  quantumlab.solvers.split_step_2d.SplitStep2DSolver.step -> quantumlab.core.wavefunction.WaveFunction2D    [exact] quantumlab\solvers\split_step_2d.py:41
+  quantumlab.solvers.split_step_2d.SplitStep2DSolver.step -> quantumlab.core.wavefunction.copy              [name] quantumlab\solvers\split_step_2d.py:32
+  quantumlab.solvers.split_step_3d.SplitStep3DSolver.__init__ -> quantumlab.potentials.apertures.evaluate       [name] quantumlab\solvers\split_step_3d.py:41
+  quantumlab.solvers.split_step_3d.SplitStep3DSolver.__init__ -> quantumlab.solvers.split_step_3d.__init__      [exact] quantumlab\solvers\split_step_3d.py:39
+  quantumlab.solvers.split_step_3d.SplitStep3DSolver.__init__ -> quantumlab.solvers.split_step_3d.update_operators [exact] quantumlab\solvers\split_step_3d.py:47
+  quantumlab.solvers.split_step_3d.SplitStep3DSolver.step -> quantumlab.core.wavefunction.WaveFunction3D    [exact] quantumlab\solvers\split_step_3d.py:65
+  quantumlab.solvers.split_step_3d.SplitStep3DSolver.step -> quantumlab.core.wavefunction.copy              [name] quantumlab\solvers\split_step_3d.py:56
+  quantumlab.solvers.split_step_3d_gpu.SplitStep3DGPU.__init__ -> quantumlab.potentials.apertures.evaluate       [name] quantumlab\solvers\split_step_3d_gpu.py:60; quantumlab\solvers\split_step_3d_gpu.py:68
+  quantumlab.solvers.split_step_3d_gpu.SplitStep3DGPU.__init__ -> quantumlab.solvers.split_step_3d_gpu.__init__  [exact] quantumlab\solvers\split_step_3d_gpu.py:41
+  quantumlab.solvers.split_step_3d_gpu.SplitStep3DGPU.__init__ -> quantumlab.solvers.split_step_3d_gpu.update_operators [exact] quantumlab\solvers\split_step_3d_gpu.py:76
+  quantumlab.solvers.split_step_3d_gpu.SplitStep3DGPU.step -> quantumlab.core.wavefunction.WaveFunction3D    [exact] quantumlab\solvers\split_step_3d_gpu.py:93; quantumlab\solvers\split_step_3d_gpu.py:105
+  quantumlab.solvers.split_step_3d_gpu.SplitStep3DGPU.step -> quantumlab.core.wavefunction.copy              [name] quantumlab\solvers\split_step_3d_gpu.py:95
+  quantumlab.solvers.split_step_3d_gpu.SplitStep3DGPU.step -> quantumlab.solvers.split_step_3d_gpu._step_gpu_internal [exact] quantumlab\solvers\split_step_3d_gpu.py:92
+  quantumlab.solvers.split_step_3d_gpu.SplitStep3DGPU.step_sequence -> quantumlab.core.wavefunction.WaveFunction3D    [exact] quantumlab\solvers\split_step_3d_gpu.py:123
+  quantumlab.solvers.split_step_3d_gpu.SplitStep3DGPU.step_sequence -> quantumlab.solvers.split_step_3d_gpu._step_gpu_internal [exact] quantumlab\solvers\split_step_3d_gpu.py:121
+  quantumlab.solvers.split_step_3d_gpu.SplitStep3DGPU.step_sequence -> quantumlab.solvers.split_step_3d_gpu.step      [exact] quantumlab\solvers\split_step_3d_gpu.py:115
+
+### stationary
+  quantumlab.stationary.conjugate_gradient.ground_state_pcg -> quantumlab.core.spectral.k_squared             [exact] quantumlab\stationary\conjugate_gradient.py:52
+  quantumlab.stationary.conjugate_gradient.ground_state_pcg -> quantumlab.core.spectral.volume_element        [exact] quantumlab\stationary\conjugate_gradient.py:50
+  quantumlab.stationary.conjugate_gradient.ground_state_pcg -> quantumlab.core.spectral.wavefunction_class    [exact] quantumlab\stationary\conjugate_gradient.py:132
+  quantumlab.stationary.conjugate_gradient.ground_state_pcg -> quantumlab.potentials.apertures.evaluate       [name] quantumlab\stationary\conjugate_gradient.py:51
+  quantumlab.stationary.conjugate_gradient.ground_state_pcg -> quantumlab.stationary.conjugate_gradient.energy_from [exact] quantumlab\stationary\conjugate_gradient.py:82; quantumlab\stationary\conjugate_gradient.py:111; quantumlab\stationary\conjugate_gradient.py:124
+  quantumlab.stationary.conjugate_gradient.ground_state_pcg -> quantumlab.stationary.conjugate_gradient.h_psi [exact] quantumlab\stationary\conjugate_gradient.py:75; quantumlab\stationary\conjugate_gradient.py:110; quantumlab\stationary\conjugate_gradient.py:123
+  quantumlab.stationary.conjugate_gradient.ground_state_pcg -> quantumlab.stationary.conjugate_gradient.inner [exact] quantumlab\stationary\conjugate_gradient.py:60; quantumlab\stationary\conjugate_gradient.py:74; quantumlab\stationary\conjugate_gradient.py:79; quantumlab\stationary\conjugate_gradient.py:81
+  quantumlab.stationary.conjugate_gradient.ground_state_pcg -> quantumlab.stationary.imaginary_time.ConvergenceInfo [exact] quantumlab\stationary\conjugate_gradient.py:132
+  quantumlab.stationary.conjugate_gradient.ground_state_pcg -> quantumlab.stationary.imaginary_time._default_guess [exact] quantumlab\stationary\conjugate_gradient.py:54
+  quantumlab.stationary.conjugate_gradient.ground_state_pcg.energy_from -> quantumlab.stationary.conjugate_gradient.inner [exact] quantumlab\stationary\conjugate_gradient.py:70
+  quantumlab.stationary.conjugate_gradient.ground_state_pcg.energy_from -> quantumlab.stationary.conjugate_gradient.quartic [exact] quantumlab\stationary\conjugate_gradient.py:70
+  quantumlab.stationary.conjugate_gradient.ground_state_pcg.h_psi -> quantumlab.stationary.hamiltonian.apply_hamiltonian [exact] quantumlab\stationary\conjugate_gradient.py:63
+  quantumlab.stationary.eigensolver.eigenstates  -> quantumlab.core.spectral.k_squared             [exact] quantumlab\stationary\eigensolver.py:48
+  quantumlab.stationary.eigensolver.eigenstates  -> quantumlab.core.spectral.volume_element        [exact] quantumlab\stationary\eigensolver.py:98
+  quantumlab.stationary.eigensolver.eigenstates  -> quantumlab.core.spectral.wavefunction_class    [exact] quantumlab\stationary\eigensolver.py:99
+  quantumlab.stationary.eigensolver.eigenstates  -> quantumlab.core.wavefunction.norm              [name] quantumlab\stationary\eigensolver.py:88; quantumlab\stationary\eigensolver.py:88
+  quantumlab.stationary.eigensolver.eigenstates  -> quantumlab.potentials.apertures.evaluate       [name] quantumlab\stationary\eigensolver.py:47
+  quantumlab.stationary.eigensolver.eigenstates.matvec -> quantumlab.stationary.eigensolver._as_block    [exact] quantumlab\stationary\eigensolver.py:55
+  quantumlab.stationary.eigensolver.eigenstates.precondition -> quantumlab.stationary.eigensolver._as_block    [exact] quantumlab\stationary\eigensolver.py:72
+  quantumlab.stationary.hamiltonian.apply_hamiltonian -> quantumlab.core.spectral.k_squared             [exact] quantumlab\stationary\hamiltonian.py:13
+  quantumlab.stationary.imaginary_time._coupled_energy_mu -> quantumlab.stationary.hamiltonian.apply_hamiltonian [exact] quantumlab\stationary\imaginary_time.py:184
+  quantumlab.stationary.imaginary_time._coupled_energy_mu -> quantumlab.stationary.imaginary_time._inner    [exact] quantumlab\stationary\imaginary_time.py:185; quantumlab\stationary\imaginary_time.py:187
+  quantumlab.stationary.imaginary_time._energy_and_mu -> quantumlab.stationary.hamiltonian.apply_hamiltonian [exact] quantumlab\stationary\imaginary_time.py:31
+  quantumlab.stationary.imaginary_time._energy_and_mu -> quantumlab.stationary.imaginary_time._inner    [exact] quantumlab\stationary\imaginary_time.py:32; quantumlab\stationary\imaginary_time.py:35
+  quantumlab.stationary.imaginary_time.coupled_ground_state -> quantumlab.core.spectral.volume_element        [exact] quantumlab\stationary\imaginary_time.py:221
+  quantumlab.stationary.imaginary_time.coupled_ground_state -> quantumlab.core.spectral.wavefunction_class    [exact] quantumlab\stationary\imaginary_time.py:222
+  quantumlab.stationary.imaginary_time.coupled_ground_state -> quantumlab.potentials.apertures.evaluate       [name] quantumlab\stationary\imaginary_time.py:223
+  quantumlab.stationary.imaginary_time.coupled_ground_state -> quantumlab.solvers.multicomponent.CoupledGPESolver [exact] quantumlab\stationary\imaginary_time.py:219
+  quantumlab.stationary.imaginary_time.coupled_ground_state -> quantumlab.solvers.multicomponent.evolve       [name] quantumlab\stationary\imaginary_time.py:229
+  quantumlab.stationary.imaginary_time.coupled_ground_state -> quantumlab.stationary.imaginary_time.CoupledConvergenceInfo [exact] quantumlab\stationary\imaginary_time.py:237
+  quantumlab.stationary.imaginary_time.coupled_ground_state -> quantumlab.stationary.imaginary_time._coupled_energy_mu [exact] quantumlab\stationary\imaginary_time.py:231; quantumlab\stationary\imaginary_time.py:236
+  quantumlab.stationary.imaginary_time.excited_states -> quantumlab.stationary.imaginary_time.ground_state [exact] quantumlab\stationary\imaginary_time.py:161
+  quantumlab.stationary.imaginary_time.ground_state -> quantumlab.core.spectral.ndim                  [exact] quantumlab\stationary\imaginary_time.py:90
+  quantumlab.stationary.imaginary_time.ground_state -> quantumlab.core.spectral.volume_element        [exact] quantumlab\stationary\imaginary_time.py:103
+  quantumlab.stationary.imaginary_time.ground_state -> quantumlab.core.spectral.wavefunction_class    [exact] quantumlab\stationary\imaginary_time.py:104
+  quantumlab.stationary.imaginary_time.ground_state -> quantumlab.solvers.base.step                   [name] quantumlab\stationary\imaginary_time.py:126
+  quantumlab.stationary.imaginary_time.ground_state -> quantumlab.solvers.multicomponent.evolve       [name] quantumlab\stationary\imaginary_time.py:130
+  quantumlab.stationary.imaginary_time.ground_state -> quantumlab.solvers.split_operator.SplitOperatorSolver [exact] quantumlab\stationary\imaginary_time.py:100
+  quantumlab.stationary.imaginary_time.ground_state -> quantumlab.solvers.split_operator.potential_at [exact] quantumlab\stationary\imaginary_time.py:105
+  quantumlab.stationary.imaginary_time.ground_state -> quantumlab.stationary.imaginary_time.ConvergenceInfo [exact] quantumlab\stationary\imaginary_time.py:139
+  quantumlab.stationary.imaginary_time.ground_state -> quantumlab.stationary.imaginary_time._default_guess [exact] quantumlab\stationary\imaginary_time.py:109
+  quantumlab.stationary.imaginary_time.ground_state -> quantumlab.stationary.imaginary_time._energy_and_mu [exact] quantumlab\stationary\imaginary_time.py:132; quantumlab\stationary\imaginary_time.py:138
+  quantumlab.stationary.imaginary_time.ground_state -> quantumlab.stationary.imaginary_time.ground_state [exact] quantumlab\stationary\imaginary_time.py:93
+  quantumlab.stationary.imaginary_time.ground_state -> quantumlab.stationary.imaginary_time.project   [exact] quantumlab\stationary\imaginary_time.py:118; quantumlab\stationary\imaginary_time.py:127
+  quantumlab.stationary.imaginary_time.ground_state.project -> quantumlab.stationary.imaginary_time._inner    [exact] quantumlab\stationary\imaginary_time.py:115; quantumlab\stationary\imaginary_time.py:116
+
+### strongfield
+  quantumlab.strongfield.classical_cutoff        -> quantumlab.strongfield.ponderomotive_energy    [exact] quantumlab\strongfield.py:67
+  quantumlab.strongfield.dipole_acceleration     -> quantumlab.observables.current.gradient        [name] quantumlab\strongfield.py:127; quantumlab\strongfield.py:130
+  quantumlab.strongfield.dipole_acceleration     -> quantumlab.potentials.apertures.evaluate       [name] quantumlab\strongfield.py:130
+
+### visualization
+  quantumlab.visualization.animation.WavePacketAnimator._init_frame -> quantumlab.potentials.apertures.evaluate       [name] quantumlab\visualization\animation.py:62
+  quantumlab.visualization.plots_1d.plot_dual_space_1d -> quantumlab.observables.momentum.get_momentum_probability_density [exact] quantumlab\visualization\plots_1d.py:52
+  quantumlab.visualization.plots_1d.plot_wavefunction_1d -> quantumlab.potentials.apertures.evaluate       [name] quantumlab\visualization\plots_1d.py:14
+  quantumlab.visualization.plots_1d.plot_wavefunction_1d -> quantumlab.visualization.style.set_style       [exact] quantumlab\visualization\plots_1d.py:8
+  quantumlab.visualization.plots_1d.plot_wavefunction_1d -> quantumlab.visualization.volume_3d.close       [exact] quantumlab\visualization\plots_1d.py:38
+  quantumlab.visualization.plots_2d.plot_density_2d -> quantumlab.potentials.apertures.evaluate       [name] quantumlab\visualization\plots_2d.py:51
+  quantumlab.visualization.plots_2d.plot_density_snapshots_2d -> quantumlab.potentials.apertures.evaluate       [name] quantumlab\visualization\plots_2d.py:113
+  quantumlab.visualization.volume_3d.IsosurfaceRenderer.__init__ -> quantumlab.core.wavefunction.norm              [name] quantumlab\visualization\volume_3d.py:106
+  quantumlab.visualization.volume_3d.IsosurfaceRenderer.__init__ -> quantumlab.potentials.apertures.evaluate       [name] quantumlab\visualization\volume_3d.py:112
+  quantumlab.visualization.volume_3d.export_interactive_html -> quantumlab.core.grid.Grid3D                    [exact] quantumlab\visualization\volume_3d.py:343
+  quantumlab.visualization.volume_3d.extract_isosurface -> quantumlab.core.wavefunction.norm              [name] quantumlab\visualization\volume_3d.py:50
+
+==============================================================================
+NODES WITH NO INCOMING RESOLVED CALL EDGE (nothing calls them, statically)
+==============================================================================
+  quantumlab.core.absorbing_boundary.AbsorbingBoundaryLayer._binomial
+  quantumlab.core.absorbing_boundary.AbsorbingBoundaryLayer.apply
+  quantumlab.core.grid.Grid1D.__init__
+  quantumlab.core.grid.Grid1D.shape
+  quantumlab.core.grid.Grid2D.__init__
+  quantumlab.core.grid.Grid2D.shape
+  quantumlab.core.grid.Grid3D.__init__
+  quantumlab.core.grid.Grid3D.shape
+  quantumlab.core.wavefunction.WaveFunction1D.__init__
+  quantumlab.core.wavefunction.WaveFunction1D.fourier_transform
+  quantumlab.core.wavefunction.WaveFunction1D.norm
+  quantumlab.core.wavefunction.WaveFunction1D.probability_density
+  quantumlab.core.wavefunction.WaveFunction2D.__init__
+  quantumlab.core.wavefunction.WaveFunction2D.fourier_transform
+  quantumlab.core.wavefunction.WaveFunction2D.norm
+  quantumlab.core.wavefunction.WaveFunction2D.probability_density
+  quantumlab.core.wavefunction.WaveFunction3D.__init__
+  quantumlab.core.wavefunction.WaveFunction3D.fourier_transform
+  quantumlab.core.wavefunction.WaveFunction3D.norm
+  quantumlab.core.wavefunction.WaveFunction3D.probability_density
+  quantumlab.core.wavefunction.WaveFunction3D.slice_xy
+  quantumlab.core.wavefunction.WaveFunction3D.slice_xz
+  quantumlab.core.wavefunction.WaveFunction3D.slice_yz
+  quantumlab.observables.coefficients.reflection_coefficient
+  quantumlab.observables.coefficients.transmission_coefficient
+  quantumlab.observables.current.vortex_positions.wrapped
+  quantumlab.observables.nonlinear.miscibility_overlap
+  quantumlab.potentials.apertures.ApertureScreen
+  quantumlab.potentials.apertures.ApertureScreen.__init__
+  quantumlab.potentials.apertures.ApertureScreen.aperture_centers
+  quantumlab.potentials.apertures.StadiumBilliard
+  quantumlab.potentials.apertures.StadiumBilliard.__init__
+  quantumlab.potentials.barriers.Gaussian2DBarrier
+  quantumlab.potentials.barriers.Gaussian2DBarrier.__init__
+  quantumlab.potentials.barriers.Gaussian2DBarrier.evaluate
+  quantumlab.potentials.barriers.Gaussian3DBarrier
+  quantumlab.potentials.barriers.Gaussian3DBarrier.__init__
+  quantumlab.potentials.barriers.Gaussian3DBarrier.evaluate
+  quantumlab.potentials.barriers.GaussianBarrier
+  quantumlab.potentials.barriers.GaussianBarrier.__init__
+  quantumlab.potentials.barriers.GaussianBarrier.evaluate
+  quantumlab.potentials.barriers.MultipleBarriers
+  quantumlab.potentials.barriers.MultipleBarriers.__init__
+  quantumlab.potentials.barriers.MultipleBarriers.evaluate
+  quantumlab.potentials.barriers.PotentialStep
+  quantumlab.potentials.barriers.PotentialStep.__init__
+  quantumlab.potentials.barriers.PotentialStep.evaluate
+  quantumlab.potentials.barriers.RectangularBarrier
+  quantumlab.potentials.barriers.RectangularBarrier.__init__
+  quantumlab.potentials.barriers.RectangularBarrier.evaluate
+  quantumlab.potentials.barriers.ResonantTunnelingDiode
+  quantumlab.potentials.barriers.ResonantTunnelingDiode.__init__
+  quantumlab.potentials.barriers.ResonantTunnelingDiode.evaluate
+  quantumlab.potentials.base.Potential
+  quantumlab.potentials.base.Potential.evaluate
+  quantumlab.potentials.coulomb.SoftCoulomb
+  quantumlab.potentials.coulomb.SoftCoulomb.__init__
+  quantumlab.potentials.custom.CustomPotential
+  quantumlab.potentials.custom.CustomPotential.__init__
+  quantumlab.potentials.custom.CustomPotential.evaluate
+  quantumlab.potentials.disorder.RandomDisorder
+  quantumlab.potentials.disorder.RandomDisorder.__init__
+  quantumlab.potentials.disorder.RandomDisorder.evaluate
+  quantumlab.potentials.oscillator.HarmonicOscillator
+  quantumlab.potentials.oscillator.HarmonicOscillator.__init__
+  quantumlab.potentials.oscillator.HarmonicOscillator.evaluate
+  quantumlab.potentials.periodic.CrystalPotential
+  quantumlab.potentials.periodic.CrystalPotential.__init__
+  quantumlab.potentials.periodic.CrystalPotential.evaluate
+  quantumlab.potentials.time_dependent.DipoleDrive
+  quantumlab.potentials.time_dependent.DipoleDrive.__init__
+  quantumlab.potentials.time_dependent.TimeDependentCustomPotential
+  quantumlab.potentials.time_dependent.TimeDependentCustomPotential.__init__
+  quantumlab.potentials.time_dependent.TimeDependentPotential
+  quantumlab.potentials.time_dependent.TimeDependentPotential.evaluate_at
+  quantumlab.potentials.time_dependent.flat_top_envelope
+  quantumlab.potentials.time_dependent.flat_top_envelope.envelope
+  quantumlab.potentials.time_dependent.sin2_envelope
+  quantumlab.potentials.time_dependent.sin2_envelope.envelope
+  quantumlab.potentials.traps.HarmonicTrap
+  quantumlab.potentials.traps.HarmonicTrap.__init__
+  quantumlab.potentials.wells.DoubleWell
+  quantumlab.potentials.wells.DoubleWell.__init__
+  quantumlab.potentials.wells.DoubleWell.evaluate
+  quantumlab.potentials.wells.FiniteSquareWell
+  quantumlab.potentials.wells.FiniteSquareWell.__init__
+  quantumlab.potentials.wells.FiniteSquareWell.evaluate
+  quantumlab.potentials.wells.InfiniteSquareWell
+  quantumlab.potentials.wells.InfiniteSquareWell.__init__
+  quantumlab.potentials.wells.InfiniteSquareWell.evaluate
+  quantumlab.runner.SimulationRunner
+  quantumlab.runner.SimulationRunner.__init__
+  quantumlab.runner.SimulationRunner._validate_config
+  quantumlab.solvers.base.Solver
+  quantumlab.solvers.base.Solver.__init__
+  quantumlab.solvers.base.Solver.backend
+  quantumlab.solvers.base.Solver.step
+  quantumlab.solvers.multicomponent.CoupledGPESolver._densities
+  quantumlab.solvers.multicomponent.CoupledGPESolver._download
+  quantumlab.solvers.multicomponent.CoupledGPESolver._effective_potentials
+  quantumlab.solvers.multicomponent.CoupledGPESolver._norm
+  quantumlab.solvers.multicomponent.CoupledGPESolver._upload
+  quantumlab.solvers.multicomponent.CoupledGPESolver.backend
+  quantumlab.solvers.multicomponent.CoupledGPESolver.t
+  quantumlab.solvers.split_operator.SplitOperatorSolver._download
+  quantumlab.solvers.split_operator.SplitOperatorSolver._kinetic_step
+  quantumlab.solvers.split_operator.SplitOperatorSolver._norm
+  quantumlab.solvers.split_operator.SplitOperatorSolver._potential_half_step.V_eff
+  quantumlab.solvers.split_operator.SplitOperatorSolver._upload
+  quantumlab.solvers.split_operator.SplitOperatorSolver.backend
+  quantumlab.solvers.split_operator.SplitOperatorSolver.t
+  quantumlab.solvers.split_step_1d.SplitStep1DSolver.update_operators
+  quantumlab.solvers.split_step_2d.SplitStep2DSolver.update_operators
+  quantumlab.solvers.split_step_3d.SplitStep3DSolver.update_operators
+  quantumlab.solvers.split_step_3d_gpu.SplitStep3DGPU._step_gpu_internal
+  quantumlab.solvers.split_step_3d_gpu.SplitStep3DGPU.backend
+  quantumlab.solvers.split_step_3d_gpu.SplitStep3DGPU.update_operators
+  quantumlab.stationary.conjugate_gradient.ground_state_pcg.inner
+  quantumlab.stationary.conjugate_gradient.ground_state_pcg.quartic
+  quantumlab.stationary.eigensolver.eigenstates._as_block
+  quantumlab.strongfield.attosecond_pulses
+  quantumlab.strongfield.classical_returns.x
+  quantumlab.strongfield.gabor_transform
+  quantumlab.strongfield.harmonic_spectrum
+  quantumlab.strongfield.intensity_to_field
+  quantumlab.strongfield.wavelength_to_omega
+  quantumlab.visualization.animation.WavePacketAnimator.__init__
+  quantumlab.visualization.animation.WavePacketAnimator._update_frame
+  quantumlab.visualization.volume_3d.IsosurfaceAnimation.__enter__
+  quantumlab.visualization.volume_3d.IsosurfaceRenderer._shade
+  quantumlab.visualization.volume_3d.IsosurfaceRenderer._style_axes
+
+  -> 131 of 286 nodes have no resolved call in or out

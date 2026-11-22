@@ -1,0 +1,129 @@
+{
+  "audit": "quantum-simulation CPD",
+  "date": "2026-11-21",
+  "graph_type": "producer-consumer traceability",
+  "edges": [
+    {
+      "from": "split_step_1d.py",
+      "to": "probe_01_strang_ordering.py",
+      "edge": "solver call"
+    },
+    {
+      "from": "split_step_1d.py",
+      "to": "probe_07_convergence.py",
+      "edge": "solver call"
+    },
+    {
+      "from": "split_step_2d.py",
+      "to": "probe_09_vortex.py",
+      "edge": "solver call"
+    },
+    {
+      "from": "split_step_3d.py",
+      "to": "probe_08_energy_momentum.py",
+      "edge": "solver call"
+    },
+    {
+      "from": "split_step_3d_gpu.py",
+      "to": "probe_11_cpu_gpu.py",
+      "edge": "solver call"
+    },
+    {
+      "from": "potential_at(t)",
+      "to": "split_step_1d.py",
+      "edge": "dependency"
+    },
+    {
+      "from": "potential_at(t)",
+      "to": "split_step_2d.py",
+      "edge": "dependency"
+    },
+    {
+      "from": "potential_at(t)",
+      "to": "split_step_3d.py",
+      "edge": "dependency"
+    },
+    {
+      "from": "potential_at(t)",
+      "to": "split_step_3d_gpu.py",
+      "edge": "dependency"
+    },
+    {
+      "from": "probe_06_time_dependent.py",
+      "to": "split_step_1d.py",
+      "edge": "tests time-dependent potential"
+    },
+    {
+      "from": "domain27_zero_floor_physics.json",
+      "to": "generate_validation_artifacts.py",
+      "edge": "input data"
+    },
+    {
+      "from": "domain27_zero_floor_physics.json",
+      "to": "pix2text extraction pipeline",
+      "edge": "source data"
+    },
+    {
+      "from": "pix2text extraction (failed)",
+      "to": "classification_breakdown.png",
+      "edge": "invalid artifact"
+    },
+    {
+      "from": "probe_11_cpu_gpu.py",
+      "to": "domain27_zero_floor_physics.json",
+      "edge": "produces cpu_center, gpu_center"
+    },
+    {
+      "from": "probe_08_energy_momentum.py",
+      "to": "domain27_zero_floor_physics.json",
+      "edge": "produces cpu_energy, gpu_energy"
+    },
+    {
+      "from": "domain27_zero_floor_physics.json",
+      "to": "domain27_zero_floor_comparison.json",
+      "edge": "shares physics results"
+    }
+  ],
+  "executions": [
+    {
+      "domain": "D19",
+      "file": "g0_domain19_results.json",
+      "status": "executed"
+    },
+    {
+      "domain": "D20",
+      "file": "domain20_fft_performance.json",
+      "status": "executed"
+    },
+    {
+      "domain": "D22",
+      "file": "domain22_memory_scaling.json",
+      "status": "executed"
+    },
+    {
+      "domain": "D23",
+      "file": "domain23_power_thermal.json",
+      "status": "executed"
+    },
+    {
+      "domain": "D24",
+      "file": "domain24_architecture_comparison.json",
+      "status": "executed"
+    },
+    {
+      "domain": "D27.3",
+      "file": "domain27_zero_floor_physics.json",
+      "status": "executed"
+    },
+    {
+      "domain": "D27.3",
+      "file": "domain27_zero_floor_comparison.json",
+      "status": "executed"
+    },
+    {
+      "domain": "D1-D12",
+      "file": "probe_01-12.txt",
+      "status": "executed"
+    }
+  ]
+}

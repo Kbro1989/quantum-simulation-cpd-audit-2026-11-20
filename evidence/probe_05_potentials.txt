@@ -1,0 +1,73 @@
+=== Domain 5: Potential dimensionality and units ===
+5a GaussianBarrier          Grid1D shape=(64,) finite/real/shape-ok=True
+5a GaussianBarrier          Grid2D shape=(24, 24) finite/real/shape-ok=True
+5a GaussianBarrier          Grid3D shape=(12, 12, 12) finite/real/shape-ok=True
+5a RectangularBarrier       Grid1D shape=(64,) finite/real/shape-ok=True
+5a RectangularBarrier       Grid2D shape=(24, 24) finite/real/shape-ok=True
+5a RectangularBarrier       Grid3D shape=(12, 12, 12) finite/real/shape-ok=True
+5a PotentialStep            Grid1D shape=(64,) finite/real/shape-ok=True
+5a PotentialStep            Grid2D shape=(24, 24) finite/real/shape-ok=True
+5a PotentialStep            Grid3D shape=(12, 12, 12) finite/real/shape-ok=True
+5a MultipleBarriers         Grid1D shape=(64,) finite/real/shape-ok=True
+5a MultipleBarriers         Grid2D shape=(24, 24) finite/real/shape-ok=True
+5a MultipleBarriers         Grid3D shape=(12, 12, 12) finite/real/shape-ok=True
+5a ResonantTunnelingDiode   Grid1D shape=(64,) finite/real/shape-ok=True
+5a ResonantTunnelingDiode   Grid2D shape=(24, 24) finite/real/shape-ok=True
+5a ResonantTunnelingDiode   Grid3D shape=(12, 12, 12) finite/real/shape-ok=True
+5a Gaussian2DBarrier        Grid2D shape=(24, 24) finite/real/shape-ok=True
+5a Gaussian2DBarrier        Grid3D shape=(12, 12, 12) finite/real/shape-ok=True
+5a Gaussian3DBarrier        Grid3D shape=(12, 12, 12) finite/real/shape-ok=True
+5a InfiniteSquareWell       Grid1D shape=(64,) finite/real/shape-ok=True
+5a InfiniteSquareWell       Grid2D shape=(24, 24) finite/real/shape-ok=True
+5a FiniteSquareWell         Grid1D shape=(64,) finite/real/shape-ok=True
+5a FiniteSquareWell         Grid2D shape=(24, 24) finite/real/shape-ok=True
+5a DoubleWell               Grid1D shape=(64,) finite/real/shape-ok=True
+5a DoubleWell               Grid2D shape=(24, 24) finite/real/shape-ok=True
+5a HarmonicOscillator       Grid1D shape=(64,) finite/real/shape-ok=True
+5a HarmonicOscillator       Grid2D shape=(24, 24) finite/real/shape-ok=True
+5a HarmonicOscillator       Grid3D shape=(12, 12, 12) finite/real/shape-ok=True
+5a CrystalPotential         Grid1D shape=(64,) finite/real/shape-ok=True
+5a CrystalPotential         Grid2D shape=(24, 24) finite/real/shape-ok=True
+5a RandomDisorder           Grid1D shape=(64,) finite/real/shape-ok=True
+5a RandomDisorder           Grid2D shape=(24, 24) finite/real/shape-ok=True
+5a CustomPotential          Grid1D shape=(64,) finite/real/shape-ok=True
+5a CustomPotential          Grid2D shape=(24, 24) finite/real/shape-ok=True
+5a CustomPotential          Grid3D shape=(12, 12, 12) finite/real/shape-ok=True
+5a HarmonicTrap             Grid1D shape=(64,) finite/real/shape-ok=True
+5a HarmonicTrap             Grid2D shape=(24, 24) finite/real/shape-ok=True
+5a HarmonicTrap             Grid3D shape=(12, 12, 12) finite/real/shape-ok=True
+5a ApertureScreen           Grid2D shape=(24, 24) finite/real/shape-ok=True
+5a ApertureScreen           Grid3D shape=(12, 12, 12) finite/real/shape-ok=True
+5a StadiumBilliard          Grid2D shape=(24, 24) finite/real/shape-ok=True
+5a SoftCoulomb              Grid1D shape=(64,) finite/real/shape-ok=True
+5a SoftCoulomb              Grid2D shape=(24, 24) finite/real/shape-ok=True
+5a SoftCoulomb              Grid3D shape=(12, 12, 12) finite/real/shape-ok=True
+5a DipoleDrive              Grid1D shape=(64,) finite/real/shape-ok=True
+5a DipoleDrive              Grid2D shape=(24, 24) finite/real/shape-ok=True
+5a DipoleDrive              Grid3D shape=(12, 12, 12) finite/real/shape-ok=True
+5a TimeDependentCustom      Grid1D shape=(64,) finite/real/shape-ok=True
+5a TimeDependentCustom      Grid2D shape=(24, 24) finite/real/shape-ok=True
+5a TimeDependentCustom      Grid3D shape=(12, 12, 12) finite/real/shape-ok=True
+5b guards:
+5b Gaussian2DBarrier->1D    TypeError: Gaussian2DBarrier requires a 2D or 3D grid.
+5b Gaussian3DBarrier->2D    TypeError: Gaussian3DBarrier requires a Grid3D.
+5b ApertureScreen->1D       TypeError: ApertureScreen requires a Grid2D or Grid3D.
+5b StadiumBilliard->3D      TypeError: StadiumBilliard requires a Grid2D.
+5c analytic values:
+5c HO m=2,w=3 at x=1.0: V = 9.000000 (expect 0.5*2*9*1 = 9)
+5c GaussianBarrier V(x0) = 2.000000 (expect 2)  V(x=1.250) = 0.830474 (expect 2*exp(-((x-0.5)/0.8)^2) = 0.830474)
+5c Crystal V(x=0) = 0.000000  V(x=a=1) = 0.000000 (period a)
+5c DoubleWell V(0) = 2.000000 (expect 2)  V(+-d=2) = 0.000000 (expect 0)
+5c SoftCoulomb V(0) = -0.707107 (expect -1/sqrt(2) = -0.707107)
+5c HarmonicTrap(scalar) vs HarmonicOscillator 1D max|diff| = 0.000e+00
+5c RandomDisorder same-seed identical = True ; range [-0.9976, 0.9984] (expect [-1,1])
+5c DipoleDrive V(t=0) == V_base (sin0=0): max|diff| = 0.000e+00
+5c DipoleDrive force(0.25) = 0.277951 (expect F0*env*sin(wt+phi) = 0.277951)
+5d eigensolver ground-state energies:
+5d 1D HO omega=1.0 m=1.0  E0 = 0.5000000000  (expect hbar*omega/2 = 0.5000000000)
+5d 1D HO omega=2.0 m=1.0  E0 = 1.0000000000  (expect hbar*omega/2 = 1.0000000000)
+5d 1D HO omega=1 m_pot=2 (solver m=1) E0 = 0.7071067812 (mismatch -> 0.5*sqrt(2) = 0.7071067812)
+5d 1D SoftCoulomb Z=1 a^2=2    E0 = -0.5000000096  (expect -0.5)
+5d 2D HO omega=1 m=1           E0 = 1.0000000000  (expect hbar*omega = 1.0)
+5d 3D HO omega=1 m=1           E0 = 1.4999824124  (expect 3*hbar*omega/2 = 1.5)
+=== end Domain 5 ===

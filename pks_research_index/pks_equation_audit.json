@@ -1,0 +1,161 @@
+{
+  "generated": "2026-11-22",
+  "document": "pks_ei-kurve_extracted_text.md",
+  "document_sha256": "ec6fc4d31a744bf34617d577aa65c3ded081b7103e64eeef5222824fef4ff324",
+  "method": "independent re-derivation where the transcribed form is legible; numerical check otherwise. Transcription confidence is inherited from the inventory and is the limiting factor.",
+  "checks": [
+    {
+      "equation_id": "PKS-EQ-03",
+      "method": "direct evaluation at y = 0.5, 1, 2, 4",
+      "result": {
+        "samples": [
+          {
+            "y": 0.5,
+            "x": 2.0,
+            "x*y": 1.0
+          },
+          {
+            "y": 1.0,
+            "x": 1.0,
+            "x*y": 1.0
+          },
+          {
+            "y": 2.0,
+            "x": 0.5,
+            "x*y": 1.0
+          },
+          {
+            "y": 4.0,
+            "x": 0.25,
+            "x*y": 1.0
+          }
+        ]
+      },
+      "agrees_with_source": true,
+      "note": "identity is self-consistent; this is an algebraic identity, not a physical law",
+      "status": "ALGEBRAICALLY_VERIFIED",
+      "status_note": "x*y=1 is an algebraic identity. It is not evidence of a physical law."
+    },
+    {
+      "equation_id": "PKS-EQ-07",
+      "method": "closed-form evaluation for the 'Oktav-Ei' z1=1, z2=2",
+      "result": {
+        "z1": 1.0,
+        "z2": 2.0,
+        "z0": 0.857142857143
+      },
+      "agrees_with_source": true,
+      "note": "z0 = 6/7 = 0.857142857143; this is the cutting height the document's parameter and two-point forms must both satisfy",
+      "status": "ALGEBRAICALLY_VERIFIED_UNDER_STATED_INPUTS",
+      "status_note": "z0 = 6/7 follows from the stated z1=1, z2=2. Consistency check, not independent confirmation that the geometric construction is correct."
+    },
+    {
+      "equation_id": "PKS-EQ-08",
+      "method": "solve z0 = z1*(1 - tan a) for alpha",
+      "result": {
+        "tan_alpha": 0.142857142857,
+        "alpha_deg": 8.130102354
+      },
+      "agrees_with_source": true,
+      "note": "self-consistent by construction",
+      "status": "ALGEBRAICALLY_VERIFIED_UNDER_STATED_INPUTS",
+      "status_note": "tan a = 1/7 follows from EQ-07 plus the assumed z1=1. Algebraic consistency, not independent verification of the construction."
+    },
+    {
+      "equation_id": "PKS-EQ-09",
+      "method": "solve z0 = z2*(1 + tan a) for alpha",
+      "result": {
+        "tan_alpha": -0.571428571429,
+        "alpha_deg": -29.744881297
+      },
+      "agrees_with_source": false,
+      "note": "DISAGREES with EQ-08 unless alpha is entered with opposite sign: tan a from the sharp vertex is +1/7, from the blunt vertex is -4/7. The source says alpha 'wird negativ eingesetzt'; the transcription of EQ-08/EQ-09 is glyph-fragmented, so this is a transcription flag, not yet a mathematical contradiction.",
+      "status": "SIGN_CONVENTION_UNRESOLVED",
+      "status_note": "gives tan a = -4/7, opposite sign to EQ-08. The source states the angle is entered negatively; the printed diagram and equation are required to settle the convention. Not a contradiction yet."
+    },
+    {
+      "equation_id": "PKS-EQ-04",
+      "method": "visual recovery from rendered page 6",
+      "result": {
+        "printed": "x_bar = +/- sqrt( 1/(z0 - y_bar sin a)^2 - (y_bar cos a)^2 ), 0<=a<=90deg, y_bar!=0",
+        "matches_prior_transcription": true
+      },
+      "agrees_with_source": true,
+      "status": "ALGEBRAICALLY_VERIFIED_UNDER_STATED_INPUTS",
+      "status_note": "Printed form matches the transcription; describes a half-branch, not the closed curve."
+    },
+    {
+      "equation_id": "PKS-EQ-10",
+      "method": "printed equation recovered from rendered page 9, evaluated at z1=1,z2=2,z0=6/7,tan a=1/7; compared with numerical revolution of the EQ-05 closed curve",
+      "result": {
+        "printed_equation_V": 5.986906816,
+        "closed_curve_integral_V": 7.736654,
+        "source_stated_V": 0.4045
+      },
+      "agrees_with_source": false,
+      "status": "DISCREPANCY_PRESERVED",
+      "status_note": "Three-way disagreement. Preserved, not forced. Requires the page 7-8 diagram conventions to resolve."
+    },
+    {
+      "equation_id": "PKS-EQ-05",
+      "method": "visual recovery from rendered page 6 + numerical scan of phi in (0,2pi]",
+      "result": {
+        "gap_at_eps": {
+          "0.008": 0.01281497,
+          "0.004": 0.00640753,
+          "0.002": 0.00320377,
+          "0.001": 0.00160189,
+          "0.0005": 0.00080094,
+          "0.0001": 0.00016019
+        },
+        "gap_over_eps": 1.601886,
+        "analytic_limit_point": [
+          0.0,
+          1.6018862051
+        ],
+        "r_star_formula": "(z0 - sqrt(z0^2 - 4 tan a)) / (2 sin a)",
+        "both_endpoints_coincide": true
+      },
+      "agrees_with_source": true,
+      "status": "CLOSURE_PROVEN",
+      "status_note": "Numerically near-closed, then proven. The endpoint gap |P(2pi)-P(eps)| converges linearly to 0 with gap/eps = 1.601886 constant, and the analytic limit as phi -> 0+ gives the same point as phi = 2pi: P = (0, r*) with r* = (z0 - sqrt(z0^2 - 4 tan a))/(2 sin a) = 1.6018862051. Both endpoints coincide, so the closed egg profile is established analytically."
+    }
+  ],
+  "summary": {
+    "checks": 7,
+    "agree": 4,
+    "disagree_or_flagged": 3,
+    "status_counts": {
+      "ALGEBRAICALLY_VERIFIED": 1,
+      "ALGEBRAICALLY_VERIFIED_UNDER_STATED_INPUTS": 3,
+      "SIGN_CONVENTION_UNRESOLVED": 1,
+      "DISCREPANCY_PRESERVED": 1,
+      "CLOSURE_PROVEN": 1
+    },
+    "reading": "CLOSURE_PROVEN means both parameter-domain endpoints coincide - established numerically by linear convergence of the endpoint gap and analytically via the phi->0+ limit. DISCREPANCY_PRESERVED means the source's own equation and stated number disagree, and the disagreement is retained rather than forced."
+  },
+  "limits": [
+    "The PDF text layer fragments fractions, radicals and subscripts; EQ-04, EQ-05, EQ-07..EQ-10 carry partial or low transcription confidence.",
+    "EQ-05 (parameter form) could not be evaluated at all - the transcription is glyph fragments. The closed egg curve therefore remains unverified.",
+    "A transcription disagreement is not a mathematical contradiction; it is a flag to re-read the printed equation."
+  ],
+  "visual_recovery": {
+    "source_body": "pks_capture_bodies/20201029223404_*.bin",
+    "source_sha256": "ec4358df4aabe6f5c588",
+    "byte_identical_captures": [
+      "20201029223404",
+      "20240415004754",
+      "20260711234929"
+    ],
+    "pages_rendered": "pks_eikurve_pages/ (10 pages, 200 DPI)",
+    "pages_read_visually": [
+      6,
+      7,
+      9
+    ],
+    "pages_not_recovered": [
+      8
+    ],
+    "recovery_note": "Page 8 (two-point and point-slope forms) was rate-limited during visual reading and remains on the text-layer transcription."
+  }
+}

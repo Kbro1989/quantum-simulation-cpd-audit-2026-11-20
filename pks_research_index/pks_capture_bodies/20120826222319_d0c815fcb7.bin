@@ -1,0 +1,377 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>forschung_wasser</title><meta name="GENERATOR" content="Freeway Pro 3.5.15"><style type="text/css">
+<!--
+p {
+	margin-top:0px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+.style6 {
+	font-family: Verdana;
+	font-size: 16px;
+}
+.style69 { font-family: Verdana; color: #666; }
+.style32 { font-family: Verdana; font-weight: bold; }
+.standard1 { font-family: Verdana; }
+.style38 { font-family: Verdana; font-weight: bold; color: #666; }
+.flieklein { font-family: Verdana; }
+a {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #333;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #333;
+}
+a:hover {
+	text-decoration: none;
+	color: #F00;
+}
+a:active {
+	text-decoration: none;
+	color: #333;
+	font-size: 10px;
+}
+body {
+	background-image: url(Resources/thema_forschung_wasser_hg.jpg);
+	background-repeat: no-repeat;
+	background-position:center;
+	background-position:top;	
+}
+#LayoutTable table tr td table tr td font a b {
+	font-family: Verdana, Geneva, sans-serif;
+}
+#LayoutTable table tr td table tr td font a b {
+	font-size: 10px;
+}
+#LayoutTable table tr td table tr td p {
+	font-weight: bold;
+}
+-->
+</style>
+<script language="javascript" type="text/javascript"><!--
+
+var fwIsNetscape = navigator.appName == 'Netscape';
+
+fwLoad = new Object;
+function FWLoad(image)
+{
+	if (!document.images)
+		return null;
+	if (!fwLoad[image])
+	{
+		fwLoad[image]=new Image;
+		fwLoad[image].src=image;
+	}
+	return fwLoad[image].src;
+}
+
+fwRestore = new Object;
+function FWRestore(msg,chain) 
+{
+	if (document.images) 
+		for (var i in fwRestore)
+		{
+			var r = fwRestore[i];
+			if (r && (!chain || r.chain==chain) && r.msg==msg)
+			{
+				r.src = FWLoad(r.old);
+				fwRestore[i]=null;
+			}
+		}
+}
+
+function FWLSwap(name,msg,newImg,layer,chain,trigger) 
+{
+	var r = fwRestore[name];
+	if (document.images && (!r || r.msg < msg)) 
+	{
+		var uselayers = fwIsNetscape && document.layers && layer != '';
+		var hld = (uselayers) ? document.layers[layer].document : document;
+		var im = hld[name];
+		if (!im.old) im.old = im.src;
+		im.msg = msg;
+		im.chain = chain;
+		im.trigger = trigger;
+		if (newImg) im.src = FWLoad(newImg);
+		fwRestore[name] = im;
+	}
+}
+
+function FWCallHit(func,targNum,msg)
+{
+	if(func)
+		for (var i in func)
+			func[i](targNum,msg);
+}
+function FW_Hit(frameset,chain,targNum,msg)
+{
+	if (frameset && frameset.length)
+		for (var i=0 ; i <frameset.length ; i++)
+		{
+			FW_Hit(frameset[i].frames,chain,targNum,msg);
+			FWCallHit(top["FT_"+chain],targNum,msg);
+			FWCallHit(frameset[i].window["FT_"+chain],targNum,msg);
+		}
+	else
+		FWCallHit(window["FT_"+chain],targNum,msg);
+}
+
+fwHit = new Object;
+function FWSlave(frameset,chain,targNum,msg)
+{
+	if (msg==1) fwHit[chain]=targNum;
+	FW_Hit(frameset,chain,targNum,1);
+}
+
+function FWSRestore(frameset,chain)
+{
+	var hit=fwHit[chain];
+	if (hit)
+		FW_Hit(frameset,chain,hit,0);
+	fwHit[chain]=null;
+}
+function FWPreload(){FWLoad("Resources/objekt4b1a.gif");FWLoad("Resources/objekt4b1.gif");FWLoad("Resources/objekt4b1ad.gif");FWLoad("Resources/objekt4b1aa.gif");FWLoad("Resources/objekt4b1ba.gif");FWLoad("Resources/objekt4b1b.gif");FWLoad("Resources/objekt2a2am.gif");FWLoad("Resources/objekt2a2al.gif");FWLoad("Resources/objekt5at.gif");FWLoad("Resources/objekt5as.gif");FWLoad("Resources/objekt5bd.gif");FWLoad("Resources/objekt5bc.gif");}
+//-->
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body topmargin=0 leftmargin=0 marginheight=0 marginwidth=0 onload="FWPreload()"><div id="LayoutTable"><table border=0 cellspacing=0 cellpadding=0 align="center" width=802><tr valign=top><td rowspan=3><table border=0 cellspacing=0 cellpadding=0 width=173><tr valign=top><td rowspan=2><a href="forschung.html" target="main"><img src="Resources/transparent.gif" width="151" height="28" border="0"></a></td><td></td><td><a name="wasser_oben"></a><a href="#wasser_oben"><img src="Resources/forsch3.gif" border=0 width=11 height=8 alt=""></a></td><td height=8></td></tr><tr valign=top><td colspan=2></td><td height=20></td></tr><tr><td width=151><img src="Resources/_clear.gif" border=0 width=151 height=1 alt=""></td><td width=10><img src="Resources/_clear.gif" border=0 width=10 height=1 alt=""></td><td width=11><img src="Resources/_clear.gif" border=0 width=11 height=1 alt=""></td><td width=1 height=1><img src="Resources/_clear.gif" border=0 width=1 height=1 alt=""></td></tr></table></td><td colspan=2></td><td height=9></td></tr><tr valign=top><td></td><td><p><span class="style6">Forschung | Wasser</span></p></td><td height=19></td></tr><tr valign=top><td colspan=2></td><td height=1></td></tr><tr><td width=173><img src="Resources/_clear.gif" border=0 width=173 height=1 alt=""></td><td width=7><img src="Resources/_clear.gif" border=0 width=7 height=1 alt=""></td><td width=278><img src="Resources/_clear.gif" border=0 width=278 height=1 alt=""></td><td width=344 height=1><img src="Resources/_clear.gif" border=0 width=344 height=1 alt=""></td></tr></table><table border=0 cellspacing=0 cellpadding=0 align="center" width=806>
+	<tr valign=top><td colspan=4></td><td height=26></td></tr>
+				<tr valign=top><td></td><td><table border=0 cellspacing=0 cellpadding=0 width=118><tr valign=top>
+				        <td><a href="forschung_wasser.html" target="main">> Wasser</a></td><td></td><td height=12></td></tr><tr valign=top><td colspan=2></td><td height=4></td></tr><tr valign=top>
+				          <td colspan=2><a href="forschung_landu.html" target="main">> Landwirtschaft &amp;    &nbsp;&nbsp;&nbsp;Forstwirtschaft</a><a href="forschung_landu..html" target="main"></a></td><td height=23></td></tr><tr valign=top><td colspan=2></td><td height=5></td></tr><tr valign=top>
+				            <td><a href="forschung_energi.html" target="main">> Energie</a></td><td></td><td height=12></td></tr><tr><td width=57><img src="Resources/_clear.gif" border=0 width=57 height=1 alt=""></td><td width=60><img src="Resources/_clear.gif" border=0 width=60 height=1 alt=""></td><td width=1 height=1><img src="Resources/_clear.gif" border=0 width=1 height=1 alt=""></td></tr></table></td>
+					<td></td>
+					<td rowspan=2 width="551">
+						<p><font size="-1" face="Verdana"><b>Forschung an Universit&auml;ten und Fachhochschulen zum Themenbereich </b><b>&#x201E;</b><b>Wasser und Viktor Schauberger</b><b>&#x201C;</b><b><br>
+								</b><br>
+							</font><font size="-1"><span class="standard1"></span></font></p>
+						<p><font size="-1" face="Verdana"><b>&Uuml;berblick:</b><b><br>
+								</b></font></p>
+						<table border="0" cellpadding="0" cellspacing="0" width="373">
+							<tr>
+								<td width="26">
+									<p><font size="-1" face="Verdana"><b>1.) </b></font></p>
+								</td>
+								<td><font size="-1" face="Verdana"><b>Technische Universit&auml;t Braunschweig<a href="#1"> >></a></b></font></td>
+							</tr>
+							<tr>
+								<td width="26"></td>
+								<td><font size="-1" face="Verdana">Leichtwei&szlig; Institut f&uuml;r Wasserbau<br>
+									</font></td>
+							</tr>
+						</table>
+						<p></p>
+						<table border="0" cellpadding="0" cellspacing="0" width="550">
+							<tr>
+								<td width="26">
+									<p><font size="-1" face="Verdana"><b>2.) </b></font></p>
+								</td>
+								<td><p>Master-Arbeit am &quot;Institue for Ecopreneurship&quot; <font size="-1" face="Verdana"><b><a href="#2">>></a></b></font><font size="-1" face="Verdana"><b><br>
+						        (IEC) an der FHNW - University of Applied Sciences Northwestern Switzerland</b></font></p></td>
+							</tr>
+							<tr>
+								<td width="26"></td>
+								<td><font size="-1" face="Verdana">Institute for Ecopreneurship (IEC)</font></td>
+							</tr>
+						</table>
+						<p></p>
+						<table border="0" cellpadding="0" cellspacing="0" width="550">
+							<tr>
+								<td width="26">
+									<p><font size="-1" face="Verdana"><b>3.)</b></font><font size="-1"><b> </b></font></p>
+								</td>
+								<td><font size="-1" face="Verdana"><b>Technische Universit&auml;t Graz <a href="#3">>></a></b></font></td>
+							</tr>
+							<tr>
+								<td width="26"></td>
+								<td><font size="-1" face="Verdana">Institut f&uuml;r Wasserbau</font></td>
+							</tr>
+						</table>
+						<p><font size="-1" face="Verdana"><br>
+							</font></p>
+						<p><font size="-1"><span class="standard1"></span></font></p>
+					</td>
+					<td height=57></td>
+				</tr>
+				<tr valign=top><td colspan=3></td><td height=111></td></tr><tr><td width=20><img src="Resources/_clear.gif" border=0 width=20 height=1 alt=""></td><td width=118><img src="Resources/_clear.gif" border=0 width=118 height=1 alt=""></td><td width=72><img src="Resources/_clear.gif" border=0 width=72 height=1 alt=""></td><td width=551><img src="Resources/_clear.gif" border=0 width=550 height=1 alt=""></td><td width=42 height=1><img src="Resources/_clear.gif" border=0 width=42 height=1 alt=""></td></tr></table><table border=0 cellspacing=0 cellpadding=0 align="center"width=802>
+				<tr valign=top height="18">
+					<td height="18" valign="top" align="right"><img src="Resources/objekt2a2a.gif" border=0 width=22 height=11 alt="" usemap="#map1" name="img6"></td>
+					<td height="18"><font size="-1" face="Verdana"><a name="1"></a></font>
+						<p><font size="-1" color="#5e5e5e" face="Verdana"><b>ad 1.) Studentische Arbeiten am Leichtwei&szlig;-Institut f&uuml;r Wasserbau an der TU Braunschweig<br>
+								</b></font><font size="-1" face="Verdana"><b><br>
+								</b></font></p>
+						<p><font size="-1" color="#5e5e5e" face="Verdana">a) Flussbau nach Viktor Schauberger - Ein Vergleich zwischen konventionellen, naturnahen und Schaubergers Methoden<br>
+							</font><font size="-1" face="Verdana"><br>
+							</font></p>
+						<p><font size="-1" face="Verdana">Im Studienjahr 2002/2003 ist am &#x201E;Leichtwei&szlig;-Institut&#x201C; eine erste Vertieferarbeit zu Viktor Schauberger abgenommen worden. Klaus Koll hat diese Arbeit &uuml;ber &quot;Wasserbau nach Viktor Schauberger&quot; am Institut f&uuml;r Wasserbau und Gew&auml;sserschutz, Prof. Dr.-Ing. habil. Andreas Dittrich, eingereicht. Sie enth&auml;lt eine fundierte Gegen&uuml;berstellung von herk&ouml;mmlicher Flussverbauung einerseits, Bestrebungen zur &quot;Renaturierung&quot; andererseits - und dazu als vollkommen eigenst&auml;ndigen, dritten Weg die Vorschl&auml;ge Viktor Schaubergers, wie man Flie&szlig;gew&auml;sser zu regulieren habe.<br>
+								<br>
+								Wir zitieren aus der Zusammenfassung dieser Arbeit:<br>
+							</font></p>
+					</td>
+					<td height="18"></td>
+					<td height="18"></td>
+					<td height=18></td>
+				</tr>
+				<tr valign=top height="18"><td colspan=4 height="18">
+						
+					</td><td height=18></td></tr><tr valign=top><td rowspan=3 valign="bottom" align="right"><img src="Resources/objekt2a2a.gif" border=0 width=22 height=11 alt="" usemap="#map1" name="img6"></td><td rowspan=3>
+						<p><font face="Verdana"><i><font size="-1" color="#5e5e5e">Der Flussbau nach Viktor Schauberger wird in diesem Entwurf mit dem konventionellen und dem naturnahen Wasserbau verglichen. Der konventionelle Wasserbau zeichnet sich dadurch aus, dass Fl&uuml;ssen h&auml;ufig nur die Funktion als Vorfluter, Transportmedium oder Schifffahrtstrasse zugedacht war und Belange der Natur weitgehend au&szlig;er Acht gelassen wurden. Eingesetzt wurde meist der Totverbau oder auch steifer Verbau.</font></i></font></p>
+						<p><font face="Verdana"><i><font size="-1" color="#5e5e5e">Flussabschnitte wurden begradigt und das Flussbett durch steifen Verbau und Querwerke in schwerer Ausf&uuml;hrung reguliert und gesichert. Um der gest&ouml;rten Biologie und den hohen Unterhaltskosten Rechnung zu tragen, wird vermehrt R&uuml;ckbau von technisch ver&auml;nderten Flussl&auml;ufen hin zu naturn&auml;heren Gew&auml;ssern betrieben. </font></i></font></p>
+						<p><font face="Verdana"><i><font size="-1" color="#5e5e5e">Im naturnahen Flussbau werden die Fl&uuml;sse und ihre Randgebiete in erster Linie als Lebensraum f&uuml;r Flora und Fauna gesehen. Er verfolgt die Wiederbelebung von biologisch ver&ouml;deten Gew&auml;sserstrukturen und den Schutz vorhandener naturnaher </font><font size="-1" color="#5e5e5e">Flie&szlig;gew&auml;sser. </font><font size="-1" color="#5e5e5e"><br>
+									</font><font size="-1" color="#5e5e5e"><br>
+									</font><font size="-1" color="#5e5e5e">Wichtige Instrumente im naturnahen Flussbau sind der Lebendverbau, die Beschattung der Ufer und der Einsatz von leichten Buhnen. Eine Sonderstellung </font><font size="-1" color="#5e5e5e">nehmen die </font><font size="-1" color="#5e5e5e">&#x201E;</font><font size="-1" color="#5e5e5e">Iowa Vanes</font><font size="-1" color="#5e5e5e">&#x201C;</font><font size="-1" color="#5e5e5e"> ein, die direkt, ohne weitere Ufereinbauten, durch ihren Einfluss auf die Str&ouml;mung eine Sicherung der Ufer bei gleichzeitiger Eintiefung der </font><font size="-1" color="#5e5e5e">Gew&auml;ssermitte bewirken.</font><font size="-1" color="#5e5e5e"><br>
+									</font></i></font></p>
+						<p><font face="Verdana"><i><font size="-1" color="#5e5e5e">Bereits in den 1920er Jahren sah Schauberger den negativen Einfluss des konventionellen Flussbaus voraus. Er entwickelte hierzu alternative Konzepte, die im wesentlichen auf seiner Theorie, dass die Wassertemperatur der regelnde Faktor ist, </font><font size="-1" color="#5e5e5e">basieren. Er ging davon aus, dass nur durch Ber&uuml;cksichtigung des Temperatureinflusses </font><font size="-1" color="#5e5e5e">&#x201E;</font><font size="-1" color="#5e5e5e">naturrichtiger</font><font size="-1" color="#5e5e5e">&#x201C;</font><font size="-1" color="#5e5e5e"> Flussbau betrieben werden kann. In der Regulierung der Salza in &Ouml;sterreich und in einem Neubau eines oberirdischen Regenwasserkanals in Schweden wurde erfolgreich auf Ans&auml;tze Schaubergers </font><font size="-1" color="#5e5e5e">aufgebaut.</font><font size="-1" color="#5e5e5e"><br>
+									</font></i></font></p>
+						<p><font face="Verdana"><i><font size="-1" color="#5e5e5e">Der Vergleich zwischen konventionellem und naturnahem Flussbau und dem Flussbau nach Schauberger zeigt, dass einige seiner bereits in den 1920er und 1930er Jahren entwickelten Regulierungsma&szlig;nahmen gro&szlig;e &Auml;hnlichkeit zu Methoden aufweisen, die erst seit kurzer Zeit Stand der Technik sind. Dies sind der beschattende Uferbewuchs, der ein wesentlicher Grundsatz des naturnahen Flussbaus ist, ein Buhnensystem, das sehr einem erst k&uuml;rzlich entwickelten alternativen Buhnensystem &auml;hnelt, und die </font><font size="-1" color="#5e5e5e">&#x201E;</font><font size="-1" color="#5e5e5e">Energiek&ouml;rper</font><font size="-1" color="#5e5e5e">&#x201C;</font><font size="-1" color="#5e5e5e">, deren Prinzip sich mit den erst 1987 patentierten Iowa Vanes deckt.</font></i></font></p>
+						<p><font face="Verdana"><i><font size="-1" color="#5e5e5e">Schauberger entwickelte noch weitere Systeme zur Gew&auml;sserregulierung, zu denen es jedoch weder im konventionellen noch im naturnahen Flussbau vergleichbare </font><font size="-1" color="#5e5e5e">Elemente gibt.</font><font size="-1" color="#5e5e5e"><br>
+									</font></i></font></p>
+						<p><font face="Verdana"><i><font size="-1" color="#5e5e5e">Der entscheidende Unterschied zwischen konventionellem/naturnahem Flussbau und demjenigen nach Schauberger und vermutlich auch die Skepsis, die Schauberger von Ingenieursseite entgegengebracht wird, liegt in dem Grundgedanken Schaubergers, dass die Wassertemperatur der ma&szlig;gebende Faktor bei der Gew&auml;sserregulierung ist. </font><font size="-1" color="#5e5e5e">Um die Methoden Schaubergers vollst&auml;ndig beurteilen zu k&ouml;nnen, muss deshalb</font><font size="-1" color="#5e5e5e"><br>
+									</font></i></font></p>
+						<p><font face="Verdana"><i><font size="-1" color="#5e5e5e">zun&auml;chst untersucht werden, inwieweit Schaubergers Theorie zutrifft. Eine auf diese Arbeit aufbauende Literaturarbeit zu dem Einfluss der Temperatur auf die Wasserbewegung und den Geschiebetransport kann hierzu den Ausgangspunkt </font><font size="-1" color="#5e5e5e">bilden.</font><font size="-1" color="#5e5e5e"><br>
+									</font></i></font><br>
+						</p>
+					</td><td colspan=2></td><td height=303></td></tr><tr valign=top><td></td><td></td><td height=24></td></tr><tr valign=top height="621"><td colspan=2 height="621"></td><td height=621></td></tr><tr height="16"><td width=210 height="16"><img src="Resources/_clear.gif" border=0 width=210 height=1 alt=""></td><td width=487 height="16"><img src="Resources/_clear.gif" border=0 width=487 height=1 alt=""></td><td width=63 height="16"><img src="Resources/_clear.gif" border=0 width=63 height=1 alt=""></td><td width=40 height="16"><img src="Resources/_clear.gif" border=0 width=40 height=1 alt=""></td><td width=2 height=16><img src="Resources/_clear.gif" border=0 width=2 height=1 alt=""></td></tr></table><table border=0 cellspacing=0 cellpadding=0 align="center" width=802>
+				<tr valign=top>
+					<td width="100" valign="top" align="right"></td>
+					<td><p><font size="-1"><span class="style32">&nbsp;</span></font></p><p><font size="-1" face="Verdana"><span class="style38">b) &quot;Zum Einfluss der Wassertemperatur auf die Wasserbewegung und den Sedimenttransport&quot;</span></font><font size="-1"><span class="standard1"></span></font></p><p><font size="-1" face="Verdana">Im September 2003 kam es zu einer zweiten Studienarbeit Leichtwei&szlig;-Institut f&uuml;r Wasserbau an der TU Braunschweig, betreut von Dipl.-Ing. Matthias Mende, vorgelegt von cand. Ing. Anne M&uuml;ller-Jahreis:</font></p><p><font size="-1" face="Verdana"><span class="standard1">Aus dieser Arbeit entnehmen wir folgende Zusammenfassung</span></font></p></td><td height=131></td></tr>
+				<tr>
+					<td width=100><img src="Resources/_clear.gif" border=0 width=210 height=1 alt=""></td>
+					<td width=550><img src="Resources/_clear.gif" border=0 width=550 height=1 alt=""></td><td width=42 height=1><img src="Resources/_clear.gif" border=0 width=42 height=1 alt=""></td></tr></table><table border=0 cellspacing=0 cellpadding=0 align="center"width=802><tr valign=top><td colspan=2></td><td height=7></td></tr><tr valign=top><td></td><td>
+						<p><font color="#5e5e5e" face="Verdana"><i><font size="-1">&quot;In dieser Studienarbeit wird, ausgehend von den Theorien Viktor Schaubergers, der </font></i></font><font size="-1"><span class="style69"></span></font><font color="#5e5e5e" face="Verdana"><i><font size="-1">Einfluss der Wassertemperatur auf das Flie&szlig;verhalten und den Sedimenttransport </font></i></font><font size="-1" color="#5e5e5e" face="Verdana"><i>untersucht.<br>
+								</i></font><font size="-1" color="#5e5e5e"><i></i></font><font size="-1" color="#5e5e5e" face="Verdana"><i><br>
+									Schauberger ging davon aus, dass sich die Temperaturdifferenzen zwischen Wasser und Boden in Form des halben und des vollen hydrologischen Kreislaufes auf das Flie&szlig;verhalten im Gew&auml;sser auswirken. </i></font><font face="Verdana"><br>
+							</font><font size="-1" color="#5e5e5e" face="Verdana"><i>Ferner war Schauberger der Meinung, dass eine Ann&auml;herung der Wassertemperatur an 4 &deg;C (Anomaliepunkt des Wassers) die Zunahme der Flie&szlig;geschwindigkeit, eine Verringerung der Turbulenzintensit&auml;t und eine Erh&ouml;hung der Sedimenttransportrate bewirkt. <br>
+								</i></font></p>
+						<p><font size="-1" color="#5e5e5e" face="Verdana"><i>Um zu zeigen, inwiefern der Einfluss der Wassertemperatur auf die Wasserbewegung und den Sedimenttransport in den g&auml;ngigen Flie&szlig;- und Feststofftransportformeln ber&uuml;cksichtigt wird, sind in diesem Entwurf einige Beispielrechnungen enthalten.</i></font><font face="Verdana"><br>
+								<br>
+							</font><font size="-1" color="#5e5e5e" face="Verdana"><i>In den Berechnungen werden die Flie&szlig;formeln nach Gauckler-Manning-Strickler und nach Colebrook-White gegen&uuml;bergestellt. Die Ermittlung der Geschiebetransportraten erfolgt bei verschiedenen Temperaturen mit Hilfe der Ans&auml;tze nach Shields und nach Meyer-Peter-M&uuml;ller. Die Ergebnisse der Beispielrechnungen zeigen, dass die Differenzen der Geschiebetransportraten infolge des Temperatureinflusses im Vergleich zu den Differenzen infolge der unterschiedlichen Formeln nicht ma&szlig;gebend sind.<br>
+								</i></font></p>
+						<p><font size="-1" color="#5e5e5e"><i></i></font><font size="-1" color="#5e5e5e" face="Verdana"><i><br>
+									Im Rahmen dieser Studienarbeit sind die Ergebnisse einer Literaturrecherche zum </i><i>Thema </i><i>&#x201E;</i><i>Einfluss der Wassertemperatur auf die Wasserbewegung und den </i><i>Feststofftransport</i><i>&#x201C;</i><i> dargestellt. Die Ergebnisse der Literaturrecherche weisen darauf hin, dass die Geschiebetransportrate von der Wassertemperatur beeinflusst wird.<br>
+								</i></font></p>
+						<p><font size="-1" color="#5e5e5e" face="Verdana"><i>Diese Aussage stimmt mit Schaubergers Theorien &uuml;berein. Die Einfl&uuml;sse der Temperatur sind jedoch sehr komplex: Die Wirkung auf den Sedimenttransport h&auml;ngt u. a. von der Kornreynoldszahl, der Rauheit der Sohle und der Sohlformen und von der Art des Transportes (Geschiebe, Schwebstoffe) ab. Ferner wird aus der Literaturrecherche ersichtlich, dass die Ergebnisse der Laborversuche oft sehr stark von den Beobachtungen an einem nat&uuml;rlichen Flie&szlig;gew&auml;sser abweichen. Ein Grund hierf&uuml;r sind Skalierungsprobleme und einschr&auml;nkende Laborbedingungen.<br>
+								</i></font><font size="-1" color="#5e5e5e"><i></i></font><font size="-1" color="#5e5e5e" face="Verdana"><i><br>
+									Um den Einfluss der Wassertemperatur auf das Flie&szlig;verhalten und denFeststofftransport weiterf&uuml;hrend zu untersuchen, m&uuml;ssten in Zukunft verst&auml;rkt Messungen an naturnahen Flussl&auml;ufen vorgenommen werden, damit die komplexen Interaktionen der Parameter ber&uuml;cksichtigt werden k&ouml;nnen.&quot;<br>
+								</i></font></p>
+						<p><font size="-2" face="Verdana"><span class="flieklein">&copy;Leichtwei&szlig;-Institut, TU Braunschweig / Anne M&uuml;ller-Jahreis</span></font></p>
+					</td><td height=427></td></tr><tr><td width=210><img src="Resources/_clear.gif" border=0 width=210 height=1 alt=""></td><td width=487><img src="Resources/_clear.gif" border=0 width=487 height=1 alt=""></td><td width=105 height=1><img src="Resources/_clear.gif" border=0 width=105 height=1 alt=""></td></tr></table><table border=0 cellspacing=0 cellpadding=0 align="center" width=803><tr valign=top><td colspan=2></td><td height=17></td></tr>
+				<tr valign=top height="66">
+					<td width="211" valign="bottom" align="right" height="66"><img src="Resources/objekt2a2a.gif" border=0 width=22 height=11 alt="" usemap="#map1" name="img6"></td>
+					<td height="66">
+						<p><font size="-1" face="Verdana"><span class="standard1">Soweit ein Ausschnitt aus der umfangreichen wissenschaftlichen Arbeit zu Viktor Schaubergers Theorien und Vergleichen wissenschaftlicher Texte zum Einfluss von Temperaturunterschieden auf das Verhalten von str&ouml;mendem Wasser.</span></font><br>
+							<br>
+							<br>
+						</p>
+					</td>
+					<td height=66></td>
+				</tr>
+				<tr valign=top>
+					<td width="211" valign="top" align="right"></td>
+					<td>
+						<p><b><font face="Verdana">c) </font><font size="-1" face="Verdana">Vergleich einer &#x201A;Pendelrampe&#x2019; mit konventionellen Bauweisen rauer Rampen&#x201C;<br>
+									<br>
+								</font></b></p>
+						<p><font size="-1" face="Verdana">Diese Arbeit aus 2004 (ebenfalls am Leichtwei&szlig;-Institut f&uuml;r Wasserbau der TU Braunschweig) befasst sich mit der von Otmar Grober und der Baubezirksleitung Bruck an der Mur entwickelten Bauform der &#x201E;Pendelrampe&#x201C;.<br>
+								<br>
+							</font></p>
+						<p><font size="-1" color="#5e5e5e" face="Verdana"><i>Pendelrampen unterscheiden sich durch ihren Aufbau und ihre Funktionsweise von allen anderen Rampenbauweisen. Sie bestehen aus Sohlgurten, die wechselseitig zur Gew&auml;ssermitte geneigt sind, so dass sich bei Niedrig- und Mittelwasser ein m&auml;andrierender Flie&szlig;weg einstellt und der Stromstrich bei h&ouml;heren Abfl&uuml;ssen in Rampenmitte gelenkt wird. Dadurch wird der Str&ouml;mungsangriff auf die Ufer weitgehend minimiert,was, im Vergleich zu den herk&ouml;mmlichen Bauweisen, zu einer niedrigeren Bauh&ouml;he der Ufersicherungen f&uuml;hrt. Die Ufersicherung besteht wie bei den herk&ouml;mmlichen Rampenbauweisen aus Blocksteinen, zus&auml;tzlich werden Wurzelst&ouml;cke und Baust&auml;mme in die Ufersicherungsma&szlig;nahmen integriert.<br>
+									<br>
+								</i></font></p>
+						<p><font size="-1" color="#5e5e5e" face="Verdana"><i>Die bei der Pendelrampe durchgef&uuml;hrten Schutzma&szlig;nahmen gegen Erosion &auml;hneln denen f&uuml;r Rampen der aufgel&ouml;sten Bauweise. Hinter den Sohlgurtsteinen werden Kolkschutzsteine in die Sohle eingebracht, die auch eine St&uuml;tzfunktion gegen&uuml;ber den Rampensteinen erf&uuml;llen. Aufwendige Nachbett- und Kolksicherungen, wie sie bei Block- und Sch&uuml;ttsteinrampen durchgef&uuml;hrt werden m&uuml;ssen, k&ouml;nnen bei Pendelrampen entfallen.<br>
+									<br>
+									Die an raue Rampen gestellten &ouml;kologischen Anforderungen werden von Rampen der Riegelbauweise sowie von Pendelrampen am besten umgesetzt. Durch die bei diesen Bauweisen vorhandenen unterschiedlichen Rauheiten und Flie&szlig;geschwindigkeiten entsteht eine gro&szlig;e Strukturvielfalt im Bereich des Rampenk&ouml;rpers. Pendelrampen f&uuml;gen sich zudem durch die Verwendung von naturnahen Baustoffen und die teilweise mit Lebendbaumaterialien durchgef&uuml;hrten Ufersicherungsma&szlig;nahmen besonders gut in die umgebende Landschaft ein.</i></font><font face="Verdana"><br>
+							</font><font size="-1" color="#5e5e5e" face="Verdana"><i><br>
+									Aus finanzieller Sicht f&uuml;hren die kompakte Bauweise der Pendelrampe sowie die reduzierten Ufersicherungs- und Kolkschutzma&szlig;nahmen im Vergleich zu konventionellen Rampen zu niedrigeren Baukosten.<br>
+								</i></font></p>
+						<p><font size="-1" color="#5e5e5e" face="Verdana"><i>Die von der Baubezirksleitung Bruck an der Mur entwickelte Pendelrampe ist eine sehr gute Alternative zu den bisher bekannten Rampenbauweisen. Neben den wasserbaulichen Anforderungen werden vor allem die &ouml;kologischen Belange durch die an die Natur angelehnte Bauweise erf&uuml;llt. Gerade in Hinblick auf die neue europ&auml;ische Wasserrahmenrichtlinie (EG-WRRL), die u.a. einen guten &ouml;kologischen Zustand der Gew&auml;sser und damit die Durchg&auml;ngigkeit f&uuml;r aquatische Organismen fordert, ist die Pendelrampe besonders geeignet, die sich aus der Richtlinie ergebenden Forderungen umzusetzen.<br>
+								</i></font><font size="-1" face="Verdana"><br>
+							</font></p>
+						<p><font size="-1" face="Verdana"><span class="standard1">Anschrift bei Fragen zu den Artikeln:&nbsp;</span></font></p>
+					  <p><font size="-1" face="Verdana"><span class="standard1">Leichtwei&szlig;-Institut f&uuml;r Wasserbau der TU Braunschweig</span><span class="standard1"><br>
+								</span><span class="standard1">Abt. Wasserbau und Gew&auml;sserschutz</span><span class="standard1"><br>
+								</span><span class="standard1">Beethovenstr. 51a</span><span class="standard1"><br>
+								</span><span class="standard1">D-38106 Braunschweig </span><span class="standard1"><br>
+								</span><span class="standard1">Tel. ++49 (0)531-391 3940</span></font><font face="Verdana"><br>
+							</font><font size="-1" face="Verdana"><span class="standard1">Fax. ++49 (0)531-391 8184</span></font></p>
+					  <p><font size="-1" face="Verdana"><span class="standard1">Weitere Artikel zu verwandten Themen siehe Link: </a></span><span class="standard1"><a href="http://www.iub-ag.ch/publikationen.html" target="_blank">>></a><br>
+								</span></font></p>
+					  <p><font face="Verdana" size="-1">sowie:</font></p>
+					  <p>Pendellampe <font size="-1" face="Verdana"><a href="Resources/Pendelrampe_Mende_Gassmann.pdf" target="_blank"> >><br>
+					  </a></font></p>
+<p></p>
+					</td>
+					<td height=696></td>
+				</tr>
+				<tr valign=top><td width="211" valign="top" align="right"><img src="Resources/objekt2a2a.gif" border=0 width=22 height=11 alt="" usemap="#map1" name="img6"></td><td>
+						<p><a name="2"></a></p>
+						<p><font size="-1"><span class="standard1"></span></font><font size="-1" face="Verdana"><b>ad 2.) Master-Arbeit am </b><b>&#x201C;</b><b>Institute for Ecopreneurship</b><b>&#x201D;</b><b> (IEC) an der FHNW - University of Applied Sciences Northwestern Switzerland (Fachhochschule Nordwestschweiz)</b><b><br>
+								</b><b><br>
+						</b></font></p>
+						<p><font size="3" face="Verdana">WASSER, FLUSS UND FORM </font><font size="-1" face="Verdana">&#150; </font><font size="3" face="Verdana">eine Ann&auml;herung an ganzheitliches Design von Flussrenaturierungen<br>
+							</font><font size="-1" face="Verdana"><br>
+							</font></p>
+						<p><font size="-1" face="Verdana"><b>Niels Werdenberg</b><b><br>
+								</b></font></p>
+						<p><font size="-1" face="Verdana">Biologe, Umweltingenieur<br>
+								<br>
+							</font></p>
+						<p><font size="-1" face="Verdana">&#x201C;&#x2026;<i>Eine durchwegs exzellente Arbeit und h&ouml;chst lesenswerte Lekt&uuml;re f&uuml;r jeden ernsthaften Studenten des Flussbaus und des Wasserresourcenmanagements.</i>&#x201D; Callum Coats, Autor und &Ouml;kotechnologieexperte<br>
+								<br>
+							</font></p>
+						<p><font size="-1" face="Verdana">Diese umfassende Arbeit n&auml;hert sich aus ganzheitlicher Sicht dem Wesen des Wassers und der Flie&szlig;gew&auml;sser. Sie umschreibt die Eigenschaften des Mediums, seine nat&uuml;rlichen Str&ouml;mungsph&auml;nomene und liquide Strukturierung und leitet daraus m&ouml;gliche Synthesen f&uuml;r den Wasserbau, f&uuml;r Renaturierungsma&szlig;nahmen und f&uuml;r das Resourcenmanagement ab. <br>
+								<br>
+							</font></p>
+						<p><font size="-1" face="Verdana">Da die innere und &auml;u&szlig;ere Dynamik nat&uuml;rlicher Energien &#150; sei es in Bezug auf Wasserqualit&auml;t oder auf Str&ouml;mungsph&auml;nomene  &#150;  in der herk&ouml;mmlichen Hydrologie und Wasserwirtschaft bisher nur wenig Beachtung fand, zieht diese Arbeit Beobachtungen von au&szlig;erhalb des wissenschaftlichen Mainstreams heran, unter anderen den alternativen hydrologischen Ansatz des &Ouml;sterreichischen Naturkundlers Viktor Schauberger (1885-1958) sowie neueste Ergebnisse aus der physikalisch orientierten Wasserforschung. Verschiedene flussbauliche Designs werden vor diesem Hintergrund diskutiert und in einen ganzheitlichen Zusammenhang gebracht. <br>
+								<br>
+							</font></p>
+						<p><font size="-1" face="Verdana">Wie der Autor aufzeigt, k&ouml;nnen Ingenieure davon profitieren, den Wasserbau als Kommunikation mit dem nat&uuml;rlichen Energiefluss eines Flie&szlig;gew&auml;ssers zu verstehen, wobei durch Aspekte des Materials, der Form und der Bewegung kommuniziert wird: In einer gelungenen Kommunikation scheinen sich selbst bei minimalem Materialinput die durch das Design hervorgerufenen Str&ouml;mungsmuster zu verst&auml;rken und zu vervielf&auml;ltigen, w&auml;hrend ein resonanzloses Design Widerst&auml;nde erzeugt und die Effizienz und Lebensdauer der Konstruktion herabsetzt. Die Art dieser Kommunikation wirkt sich ebenfalls auf die liquide Strukturierung des Flusses, das Angebot an aquatischem Habitat und m&ouml;glicherweise auch auf die Gew&auml;ssergesundheit aus, da vielf&auml;ltige Synergien zwischen der nat&uuml;rlichen Bewegungsform des Wassers, seiner Vitalit&auml;t und der Gesundheit des &Ouml;kosystems zu bestehen scheinen. Die Arbeit beleuchtet entsprechende Beobachtungen und Konzepte zur Informationsspeicherung und zur energetischen Qualit&auml;tskomponente des Wassers, deren Einbindung gerade auch f&uuml;r Renaturierungsprojekte von Nutzen sein kann. <br>
+								<br>
+							</font></p>
+						<p><font size="-1" face="Verdana">Nicht zuletzt geht der Autor in dieser Arbeit auch auf die gesellschaftliche und kulturelle Dynamik des Systems Flusslandschaft ein, einem Wirkungsfeld von weiteren Synergien zwischen nachhaltiger &Ouml;kosystemgesundheit und dem Design &ouml;kologisch orientierter Restaurationsprojekte, wo ebenfalls eine entsprechende Kommunikation der Akteure gefragt ist. Exemplarisch f&uuml;r eine gegl&uuml;ckte Kommunikation auf den angesprochenen Ebenen werden verschiedene Konstruktionen des &Ouml;sterreichischen Flussbauers Otmar Grober diskutiert, welche &#150; aus nat&uuml;rlichen Materialien bestehend und auf Niedrigwasserniveau gesetzt &#150; mittels Anregung von nat&uuml;rlichen Flie&szlig;mustern einen effizienten, kosteng&uuml;nstigen Hochwasserschutz erzielen und zudem die Gew&auml;ssergesundheit und den Erholungswert der Landschaft unterst&uuml;tzen. <br>
+								<br>
+							</font></p>
+						<p><font size="-1" face="Verdana">Im letzten, praktischen Teil der Arbeit unterzieht der Autor ein experimentelles Flussrenaturierungs-projekt der Australischen Griffith University einer ganzheitlichen Analyse, wobei auf str&ouml;mungstechnische Aspekte vertieft eingegangen wird, um L&ouml;sungen f&uuml;r das Problemfeld Lenkleistung erarbeiten zu k&ouml;nnen. Das Projekt der Universit&auml;t sieht vor, die Geschiebedynamik und das Habitatangebot des Australischen Hunter River mittels Einbau von Totholzstrukturen zu vergr&ouml;&szlig;ern. Die Planer sind aber unzufrieden mit deren str&ouml;mungslenkenden Wirkung. Der Autor zeigt hier auf, dass durch eine Adaption der Stirnseite zu einer mehr organischen Form eine einrollende L&auml;ngswirbelbewegung entsteht, welche die Lenkleistung der Holzkonstruktionen erheblich verbessern k&ouml;nnte.<br>
+								<br>
+							</font></p>
+						<p><font size="-1" face="Verdana">Diese Arbeit umfasst rund 90 Seiten und ist in voller L&auml;nge derzeit nur auf Englisch verf&uuml;gbar; dazu gibt es auch eine vierseitige Zusammenfassung auf Deutsch &#150; beide k&ouml;nnen als pdf-Versionen hier bezogen werden:<br>
+								<br>
+							</font></p>
+						<p><font size="-1" face="Verdana">http://www.vortexresolutions.com </a><a href="http://www.vortexresolutions.com " target="_blank">>></a><br>
+					    </font></p>
+						<p><font size="-1" face="Verdana"><br>
+							</font></p>
+					</td><td height=696></td></tr>
+				<tr>
+					<td width=211></td>
+					<td width=550>
+						<p><a name="3"></a></p>
+						<p><font size="-1" face="Verdana"><b>ad 3.) Technische Universit&auml;t Graz, Institut f&uuml;r Wasserbau</b><b><br>
+								</b></font><font face="Verdana"><br>
+							</font></p>
+					  <p>Die Mathematikerin Christine Sindelar hat im Fr&uuml;hjahr 2011 am Institut f&uuml;r Wasserbau an der TU Graz ihre Dissertation &#x201E;Design of a Meandering Ramp&#x201C; mit Auszeichnung abgeschlossen. <br>
+						</p>
+						<p>Im Vorwort ihrer Dissertation schreibt Dr. Sindelar: <a href="http://portal.tugraz.at/portal/page/portal/TU_Graz/Einrichtungen/Institute/Homepages/i2130/links/links_veroeffentlichungen/Dissertationen" target="_blank">&gt;&gt;</a><br>
+						</p>
+						<p></p>
+						<p>&quot;Von Anfang an war es mein Ziel, die unkonventionellen Bauweisen von Otmar Grober wissenschaftlich zu untersuchen. Er hat mir mit der von ihm entwickelten &#x201C;Pendelrampe&#x201D; nicht nur zu einem ausgesprochen faszinierenden Thema verholfen, sondern er ist f&uuml;r mich auch ein gro&szlig;es Vorbild darin, f&uuml;r die eigenen &Uuml;berzeugungen beherzt einzustehen.&quot;<br>
+						</p>
+						<p>Zur Dissertation von C. Sindelar kommt man &uuml;ber:<br>
+						</p>
+						<p></p>
+						<p>Einen &Uuml;berblick &uuml;ber die Thematik mit weiterf&uuml;hrender Literatur bietet der Wikipedia-Eintrag: <a href="http://de.wikipedia.org/wiki/Instream_River_Training#cite_ref-2" target="_blank">&gt;&gt;</a></p>
+						<p></p>
+						<p>Zur Praktischen Umsetzung</p>
+						<p><font size="-1" face="Verdana">Siehe Link: Flussbau-Hochwasserschutz <a href="anwendungen_hoch.html" target="main">>></a><br>
+					  </font></p>
+						<p>&nbsp;</p>
+					  <p>&nbsp;</p>
+					</td>
+					<td width=42 height=1></td>
+				</tr>
+				<tr><td width=211><img src="Resources/_clear.gif" border=0 width=210 height=1 alt=""></td><td width=550><img src="Resources/_clear.gif" border=0 width=550 height=1 alt=""></td><td width=42 height=1><img src="Resources/_clear.gif" border=0 width=42 height=1 alt=""></td></tr></table><table border=0 cellspacing=0 cellpadding=0 align="center"width=802><tr valign=top><td colspan=2></td><td height=18></td></tr><tr valign=top><td></td><td><img src="Resources/objekt2a2am.gif" border=0 width=22 height=11 alt="" usemap="#map1" name="img4"></td><td height=11><img src="Resources/pks_ende.png" width="200" height="15"></td></tr><tr><td width=210><img src="Resources/_clear.gif" border=0 width=210 height=1 alt=""></td><td width=22><img src="Resources/_clear.gif" border=0 width=22 height=1 alt=""></td><td width=570 height=1><img src="Resources/_clear.gif" border=0 width=570 height=1 alt=""></td></tr></table><map name="map1"><area shape=polygon alt="" coords="0,11,11,0,22,11" href="#wasser_oben" onMouseOver="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo');FWLSwap('img4',1,'Resources/objekt2a2al.gif','','Indigo')" onMouseOut="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo')"></map><table border=0 cellspacing=0 cellpadding=0 align="center" width=802><tr valign=top><td colspan=6></td><td height=13></td></tr><tr valign=top><td colspan=5></td><td rowspan=2>&nbsp;</td><td height=1></td></tr><tr valign=top><td></td><td>&nbsp;</td><td></td><td>&nbsp;</td><td></td><td height=14></td></tr><tr><td width=180><img src="Resources/_clear.gif" border=0 width=180 height=1 alt=""></td><td width=68><img src="Resources/_clear.gif" border=0 width=68 height=1 alt=""></td><td width=5><img src="Resources/_clear.gif" border=0 width=5 height=1 alt=""></td><td width=45><img src="Resources/_clear.gif" border=0 width=45 height=1 alt=""></td><td width=4><img src="Resources/_clear.gif" border=0 width=4 height=1 alt=""></td><td width=139><img src="Resources/_clear.gif" border=0 width=139 height=1 alt=""></td><td width=361 height=1><img src="Resources/_clear.gif" border=0 width=361 height=1 alt=""></td></tr></table></div></body></html>

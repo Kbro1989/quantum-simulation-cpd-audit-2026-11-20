@@ -1,0 +1,118 @@
+======================================================================
+GATE G0 + DOMAIN 19: CUDA Execution Provenance and Residency
+======================================================================
+Device: {
+  "available": true,
+  "device_id": 0,
+  "name": "NVIDIA RTX A1000 6GB Laptop GPU",
+  "compute_capability": "8.6",
+  "total_memory": 6441926656,
+  "uuid": null
+}
+
+
+>>> Test 1: SplitOperatorSolver with backend='cupy' (explicit)
+
+============================================================
+TEST: SplitOperator_1D_cupy_explicit
+Config: solver=split_operator, backend=cupy, gpu=False, device_id=0
+Expected backend: cupy
+  Backend resolved: cupy
+  Expected: cupy
+  Running 5 evolution steps...
+  Result: PASS
+
+>>> Test 2: SplitOperatorSolver with backend='auto' (should resolve to cupy)
+
+============================================================
+TEST: SplitOperator_1D_auto
+Config: solver=split_operator, backend=auto, gpu=False, device_id=0
+Expected backend: cupy
+  Backend resolved: cupy
+  Expected: cupy
+  Running 5 evolution steps...
+  Result: PASS
+
+>>> Test 3: SplitOperatorSolver with gpu=True (KNOWN DEFECT)
+
+============================================================
+TEST: SplitOperator_1D_gpu_true
+Config: solver=split_operator, backend=numpy, gpu=True, device_id=0
+Expected backend: scipy-cpu
+  Backend resolved: scipy-cpu
+  Expected: scipy-cpu
+  Running 5 evolution steps...
+  Result: PASS
+
+>>> Test 4: SplitOperatorSolver 2D with backend='cupy'
+
+============================================================
+TEST: SplitOperator_2D_cupy
+Config: solver=split_operator, backend=cupy, gpu=False, device_id=0
+Expected backend: cupy
+  Backend resolved: cupy
+  Expected: cupy
+  Running 5 evolution steps...
+  Result: PASS
+
+>>> Test 5: SplitOperatorSolver 3D with backend='cupy'
+
+============================================================
+TEST: SplitOperator_3D_cupy
+Config: solver=split_operator, backend=cupy, gpu=False, device_id=0
+Expected backend: cupy
+  Backend resolved: cupy
+  Expected: cupy
+  Running 3 evolution steps...
+  Result: PASS
+
+>>> Test 6: SplitStep3DGPU (explicit GPU solver)
+
+============================================================
+TEST: SplitStep3DGPU
+Config: solver=split_step_3d_gpu, backend=cupy, gpu=False, device_id=0
+Expected backend: cupy
+  Backend resolved: unknown
+  Expected: cupy
+  Running 3 evolution steps...
+  Result: FAIL
+  ERROR: Backend mismatch: got unknown, expected cupy
+  ERROR: Exception: AttributeError: 'SplitStep3DSolver' object has no attribute '_advance'
+
+>>> Test 7: SplitOperatorSolver with invalid device_id (should fail)
+
+============================================================
+TEST: SplitOperator_invalid_device
+Config: solver=split_operator, backend=cupy, gpu=False, device_id=1
+Expected backend: cupy
+  Result: FAIL
+  ERROR: Exception: ValueError: Invalid CUDA device_id 1; 1 device(s) available
+
+>>> Test 8: SplitOperatorSolver with backend='numpy' (CPU baseline)
+
+============================================================
+TEST: SplitOperator_1D_numpy
+Config: solver=split_operator, backend=numpy, gpu=False, device_id=0
+Expected backend: scipy-cpu
+  Backend resolved: scipy-cpu
+  Expected: scipy-cpu
+  Running 3 evolution steps...
+  Result: PASS
+
+======================================================================
+SUMMARY
+======================================================================
+Tests passed: 7/8
+  [PASS] SplitOperator_1D_cupy_explicit
+  [PASS] SplitOperator_1D_auto
+  [PASS] SplitOperator_1D_gpu_true
+  [PASS] SplitOperator_2D_cupy
+  [PASS] SplitOperator_3D_cupy
+  [FAIL] SplitStep3DGPU
+    ERROR: Backend mismatch: got unknown, expected cupy
+    ERROR: Exception: AttributeError: 'SplitStep3DSolver' object has no attribute '_advance'
+  [PASS] SplitOperator_invalid_device
+    ERROR: Exception: ValueError: Invalid CUDA device_id 1; 1 device(s) available
+  [PASS] SplitOperator_1D_numpy
+
+Results saved: C:\Users\krist\Desktop\quantum-simulation-cpd-audit-2026-11-20\nvidia_validation\domain19_cuda_residency\g0_domain19_results.json

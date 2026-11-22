@@ -1,0 +1,17 @@
+=== Domain 6: Time-dependent Hamiltonians ===
+6a t=0.00 force=0.0000000000 expect=0.0000000000 diff=0.00e+00
+6a t=0.25 force=0.2779511598 expect=0.2779511598 diff=0.00e+00
+6a t=0.50 force=0.9092974268 expect=0.9092974268 diff=0.00e+00
+6a t=1.00 force=-0.7015664554 expect=-0.7015664554 diff=0.00e+00
+6a t=1.50 force=-0.9589242747 expect=-0.9589242747 diff=0.00e+00
+6a t=2.00 force=0.0000000000 expect=0.0000000000 diff=0.00e+00
+6a t=2.50 force=0.0000000000 expect=0.0000000000 diff=0.00e+00
+6a max|evaluate_at(t) - (V_base - F(t) x)| = 0.000e+00
+6b sin2: env(0)=0.000 env(2)=0.000 env(1)=1.000000 (expect 1) env(-1)=0.000 env(3)=0.000
+6c flat_top: f(0)=0.000 f(4)=0.000 f(0.5)=0.500000 f(2)=1.000000 f(3.5)=0.500000
+6d order=2 evaluate_at times = [0.  0.1]
+6d order=4 evaluate_at times = [ 0.          0.13512072  0.13512072 -0.03512072 -0.03512072  0.1       ]
+6e legacy V == DipoleDrive.evaluate_at(grid,0) (force=0): True
+6e legacy V == V_base: True
+6f after 20 steps max|psi_legacy - psi_td| = 0.892318 (nonzero => legacy ignores drive)
+=== end Domain 6 ===

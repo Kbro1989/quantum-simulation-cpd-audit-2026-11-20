@@ -1,0 +1,64 @@
+{
+  "generated": "2026-11-22",
+  "cdx_query": "https://web.archive.org/cdx/search/cdx?url=pks.or.at%2F*&output=json&filter=statuscode:200&collapse=urlkey&fl=timestamp,original",
+  "cdx_rows": 1513,
+  "documents": [
+    {
+      "file": "pks_ei-kurve_extracted_text.md",
+      "description": "Harthun & Rennert, _Die Ei-Kurve als Schnitt des Hyperbolischen Kegels_",
+      "source_url": "https://pks.or.at/wp-content/uploads/Berechnung_Ei-Kurve.pdf",
+      "retrieved": "2026-11-22",
+      "retrieval_method": "reader extraction of the LIVE url (origin serves a JS challenge to curl)",
+      "archived_capture_used": null,
+      "bytes": 13271,
+      "sha256": "ec6fc4d31a744bf34617d577aa65c3ded081b7103e64eeef5222824fef4ff324",
+      "transcription_confidence": "partial - PDF text layer mangles fractions and radicals"
+    },
+    {
+      "file": "pks_viktor_biography_extracted.md",
+      "description": "PKS Viktor Schauberger biography",
+      "source_url": "https://pks.or.at/en/viktorschauberger/",
+      "retrieved": "2026-11-22",
+      "retrieval_method": "reader extraction of the LIVE url (origin serves a JS challenge to curl)",
+      "archived_capture_used": null,
+      "bytes": 8969,
+      "sha256": "0f3df0222ecfcc91ab267ec6d3fb105d6ec63e859f75d44a238dcbec518a8a49",
+      "transcription_confidence": "high - HTML to markdown"
+    },
+    {
+      "file": "pks_walter_biography_extracted.md",
+      "description": "PKS Walter Schauberger biography",
+      "source_url": "https://pks.or.at/en/walterschauberger/",
+      "retrieved": "2026-11-22",
+      "retrieval_method": "reader extraction of the LIVE url (origin serves a JS challenge to curl)",
+      "archived_capture_used": null,
+      "bytes": 9538,
+      "sha256": "7f8733575b461bdd93f8519c089b8d2bb6067ad78adaf790c11d19ff3b7cd814",
+      "transcription_confidence": "high - HTML to markdown"
+    },
+    {
+      "file": "pks_patent_inventory_extracted.md",
+      "description": "PKS patent inventory",
+      "source_url": "https://pks.or.at/en/patents/",
+      "retrieved": "2026-11-22",
+      "retrieval_method": "reader extraction of the LIVE url (origin serves a JS challenge to curl)",
+      "archived_capture_used": null,
+      "bytes": 8781,
+      "sha256": "3f93ec52f26a4ea074892edd09ca7ec42acf683b31f60a75b6a6d83c02c47535",
+      "transcription_confidence": "high - HTML to markdown"
+    }
+  ],
+  "origin_access": {
+    "method": "curl",
+    "result": "blocked by JavaScript challenge interstitial",
+    "interstitials_kept": [
+      "pks_ei-kurve_BLOCKED_js_challenge.html",
+      "pks_ei-kurve_retry_BLOCKED_js_challenge.html",
+      "pks_patents_BLOCKED_js_challenge.html",
+      "pks_viktor_BLOCKED_js_challenge.html",
+      "pks_walter_BLOCKED_js_challenge.html"
+    ]
+  },
+  "archived_captures_fetched": 0,
+  "note": "No archived capture body has been fetched. The index is an inventory, not a content corpus. Every content statement in this index traces to the live-url extractions listed above."
+}

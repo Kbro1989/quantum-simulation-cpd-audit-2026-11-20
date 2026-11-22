@@ -1,0 +1,51 @@
+{
+  "repo": "C:/Users/krist/Desktop/quantum-simulation-main/quantum-simulation-main",
+  "audit_dir": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20",
+  "generated": "2026-11-21",
+  "domains": {
+    "13": {
+      "files": [
+        "domain13_gaussian_1d_width.png",
+        "domain13_gaussian_2d_aniso.png",
+        "domain13_gaussian_2d_aniso_after.png",
+        "domain13_gaussian_3d_slice.png",
+        "domain13_parseval.png"
+      ]
+    },
+    "14": {
+      "files": [
+        "domain14_gaussian_vortex_superposition.png",
+        "domain14_superposition_1d.png",
+        "domain14_superposition_1d_after.png",
+        "domain14_superposition_2d.png",
+        "domain14_superposition_vortices.png"
+      ]
+    },
+    "15": {
+      "files": [
+        "domain15_grid_translation.png",
+        "domain15_threshold_sensitivity.png",
+        "domain15_vortex_charges.png"
+      ]
+    },
+    "16": {
+      "files": [
+        "domain16_straight_vortex.png",
+        "domain16_vortex_ring.png"
+      ]
+    },
+    "17": {
+      "files": [
+        "domain17_threshold_map.png",
+        "domain17_underflow.png",
+        "domain17_zero_taxonomy.png"
+      ]
+    },
+    "18": {
+      "files": [
+        "domain18_cpu_gpu_precision.png",
+        "domain18_resolution_crosscheck.png"
+      ]
+    }
+  }
+}
