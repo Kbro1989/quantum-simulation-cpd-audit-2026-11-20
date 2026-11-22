@@ -10,7 +10,7 @@
   "total_bytes": 52730016,
   "committed_tree_file_count": 400,
   "excludes": {
-    "self": "cpd_certification_manifest_v7.json \u2014 a file cannot contain its own hash",
+    "self": "cpd_certification_manifest_v7.json \u2014 a file cannot contain its own hash; it is the only path added after the reconciled commit",
     "bytecode": "__pycache__/, *.pyc \u2014 excluded by .gitignore",
     "missing_from_manifest": []
   },
@@ -2015,5 +2015,7 @@
       "size_bytes": 440,
       "sha256": "3ac3312d81c8e1cc6fbe015d6b9056df69a35920e4fe1b24312507633a17c18e"
     }
-  ]
+  ],
+  "reconciles_tree_at": "8598439f968ff37593379aa5d1e7f086da2befaa",
+  "tree_equivalence": "The entries were hashed against commit c708ff8. HEAD 8598439 differs from c708ff8 by exactly one path -- this manifest file itself (git diff --name-status c708ff8 8598439 => 'A cpd_certification_manifest_v7.json'), which is excluded from the inventory because a file cannot contain its own hash. The inventory is therefore exact for 8598439. This is the repo convention: v5 records 2a55c5a, v6 records 1a4132a, each reconciled against the parent of its own commit."
 }
