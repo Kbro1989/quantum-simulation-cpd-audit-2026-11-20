@@ -291,6 +291,33 @@ Both sets **FAIL**.
 Artifact: `pks_research_index/quantum_vortex_d3_remediation_v3.json`,
 `pks_vortex_d3_remediation_v3_2026-11-22.md`.
 
+**Revision 4 — circle fitting. Hypothesis confirmed; still NOT VALIDATED.** Every
+valid crossing lies on the circle of radius R centred on the vortex, so the centre can
+be fitted without assuming the four-crossing mean is unbiased. The four-crossing
+control returned **`None` in nearly every case** while the fit answered — the
+four-direction approximation was indeed the weakness. At N=64 the centred case fits to
+**0.0002** with `R_fit = 2.0000`.
+
+Acceptance: C1 bounded **PASS**, C2 refinement **PASS**, C3 radius gate **PASS**,
+C5 reserved blind holdout **FAIL** (14 pass, 4 gated-out, 2 ungated), C6 sector-drop
+sensitivity **FAIL**. Estimator SHA-256 identical across dev and holdout runs — frozen
+before evaluation.
+
+**Operating envelope** (accuracy is governed by angular coverage, not the fit):
+
+| coverage | max error |
+|---|---|
+| 0.5 | 1.81 |
+| 0.6 | 1.07 |
+| 0.7–0.8 | 0.42–0.55 |
+| 0.9–1.0 | **0.00–0.09** |
+
+Constraint: coverage ≳ 0.9 for sub-0.1 accuracy. Coverage is limited by the
+valid-domain boundary, so this is a **domain-size constraint on the estimator** —
+recorded as an operating constraint, not claimed as general localization.
+Artifacts: `pks_research_index/quantum_vortex_d3_remediation_v4.json`,
+`..._v4_holdout.json`, `cpd_vortex_d3_acceptance_v4_2026-11-22.py`.
+
 ### 3.3 PKS egg-curve mathematics
 
 Recovered from the rendered PDF (byte-identical across the 2020/2024/2026 captures,
@@ -321,9 +348,10 @@ the next gate.
 - **EQ-10** volume discrepancy unresolved (5.986907 / 7.736654 / 0.4045).
 - **Vortex-line evolution** is `NOT_CERTIFIED`. The regularized state closed D1
   (core depletion) and D4 (independent velocity-field circulation, ratio 0.99–1.02),
-  but **Gate 1 failed** and **three D3 remediation revisions failed** — revision 3
-  found the root cause of the blind failures (valid-domain boundary, not the seed)
-  but the estimators still miss criteria — see §3.2.
+  but **Gate 1 failed** and **four D3 remediation revisions failed** — revision 4's
+  circle fit confirmed the hypothesis and passes C1/C2/C3, but fails the blind
+  holdout and the sector-drop sensitivity, and is bound by a coverage ≥ 0.9 operating
+  envelope — see §3.2.
 - **Gate 2 — GPE stationarity** is `NOT_TESTED`. Separate gate, not started.
 
 ---

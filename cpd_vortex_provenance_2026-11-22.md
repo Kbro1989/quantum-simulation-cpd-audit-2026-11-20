@@ -229,3 +229,37 @@ feasibility approximation, not an exact method.
 
 Artifact: `pks_research_index/quantum_vortex_d3_remediation_v3.json`,
 `pks_research_index/pks_vortex_d3_remediation_v3_2026-11-22.md`.
+
+### 6.6 Revision 4 — circle fitting, hypothesis confirmed, still NOT VALIDATED
+
+Every valid crossing lies on the circle of radius R centred on the vortex, so the
+centre can be fitted without assuming the four-crossing mean is unbiased.
+
+**Hypothesis confirmed:** the four-crossing control returned `None` in nearly every
+case (fewer than four cardinal crossings survive the domain) while the fit answered.
+At N=64 the centred case fits to **0.0002** with `R_fit = 2.0000`.
+
+Acceptance: C1 bounded **PASS**, C2 refinement **PASS**, C3 radius gate **PASS**,
+C5 reserved blind holdout **FAIL** (14 pass / 4 gated-out / 2 ungated), C6 sector-drop
+sensitivity **FAIL**. The estimator SHA-256 is identical across development and
+holdout runs — frozen before evaluation.
+
+**Operating envelope** — accuracy is governed by angular coverage:
+
+| coverage | max error |
+|---|---|
+| 0.5 | 1.81 |
+| 0.6 | 1.07 |
+| 0.7–0.8 | 0.42–0.55 |
+| 0.9–1.0 | 0.00–0.09 |
+
+Coverage is limited by the valid-domain boundary (revision 3's finding), so this is a
+domain-size constraint on the estimator, recorded as an operating constraint and not
+claimed as general localization. The ±0.35 radius gate misses some degraded fits;
+tightening it would be tuning against the holdout, so it is reported instead.
+
+**D3 remains `NOT VALIDATED`. Gate 2 remains `NOT_TESTED`.**
+
+Artifacts: `pks_research_index/quantum_vortex_d3_remediation_v4.json`,
+`pks_research_index/quantum_vortex_d3_remediation_v4_holdout.json`,
+`cpd_vortex_d3_acceptance_v4_2026-11-22.py`.

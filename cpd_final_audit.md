@@ -282,3 +282,18 @@ Acceptance now checks refinement in **both** directions (48→64 and 64→96) fo
 timesteps and both replacement estimators; neither refines monotonically, so C2 fails
 for both. Disc intersection is qualified as an adaptively refined numerical
 feasibility approximation. **D3 remains `NOT VALIDATED`.**
+
+**Revision 4 — circle fitting.** Every valid crossing lies on the circle of radius R
+centred on the vortex, so the centre can be fitted without the four-crossing mean.
+The hypothesis is confirmed: the four-crossing control returned `None` in nearly every
+case while the fit answered, and the centred case at N=64 fits to 0.0002 with
+`R_fit = 2.0000`.
+
+C1 bounded **PASS**, C2 refinement **PASS**, C3 radius gate **PASS**, C5 reserved blind
+holdout **FAIL** (14 pass / 4 gated-out / 2 ungated), C6 sector-drop **FAIL**. The
+estimator SHA-256 is identical across development and holdout runs.
+
+**Operating envelope:** coverage 0.5 → error 1.81; 0.6 → 1.07; 0.7–0.8 → 0.42–0.55;
+0.9–1.0 → 0.00–0.09. Coverage is bounded by the valid-domain boundary, so this is a
+domain-size constraint on the estimator — recorded as an operating constraint, not
+claimed as general localization. **D3 remains `NOT VALIDATED`.**

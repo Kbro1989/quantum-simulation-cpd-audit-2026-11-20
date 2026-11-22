@@ -1,0 +1,7188 @@
+{
+  "revision": 4,
+  "status": "D3 remediation revision 4 -- NOT VALIDATED",
+  "preserved": [
+    "b7b3391",
+    "895bec2",
+    "d259430",
+    "8bfcd92"
+  ],
+  "estimator": "circle fit (Kasa + Gauss-Newton) on valid recorded crossings",
+  "control": "four-crossing cardinal mean",
+  "hypothesis": "the earlier weakness is the four-direction centre approximation, not the winding-boundary geometry",
+  "loop_radius": 2.0,
+  "angles": [
+    0,
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100,
+    110,
+    120,
+    130,
+    140,
+    150,
+    160,
+    170,
+    180,
+    190,
+    200,
+    210,
+    220,
+    230,
+    240,
+    250,
+    260,
+    270,
+    280,
+    290,
+    300,
+    310,
+    320,
+    330,
+    340,
+    350
+  ],
+  "estimator_sha256": "0b108d82e7ad83b098f34149494cd8943c80ee7c3d00708006ba629247edca69",
+  "mode": "holdout",
+  "profiles": [
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 80,
+      "n_hits": 11,
+      "seed": [
+        1.6363636363636365,
+        2.090909090909091
+      ],
+      "angular_coverage": 0.6111,
+      "n_crossings": 22,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "domain_exit"
+        }
+      ],
+      "control_four_mean": null,
+      "circle_fit": {
+        "centre": [
+          1.4323072692811731,
+          1.6360746972267104
+        ],
+        "radius": 1.8304124806069269,
+        "rms_residual": 0.3952270737087935,
+        "max_residual": 0.81584197533326,
+        "condition": 9.22496674807035,
+        "n": 22
+      },
+      "radius_matches_loop": true,
+      "circle_error_vs_true": 0.6913,
+      "reference_core": [
+        1.75,
+        2.25
+      ],
+      "circle_error_vs_ref": 0.6913,
+      "sensitivity_sector_0_dropped": {
+        "n": 20,
+        "centre": [
+          0.8743,
+          0.9364
+        ],
+        "rms_residual": 0.6973,
+        "radius": 1.362,
+        "error_vs_true": 1.5787
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 18,
+        "centre": [
+          1.7128,
+          1.3369
+        ],
+        "rms_residual": 0.477,
+        "radius": 1.648,
+        "error_vs_true": 0.9139
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 13,
+        "centre": [
+          1.4874,
+          1.7372
+        ],
+        "rms_residual": 0.3264,
+        "radius": 2.031,
+        "error_vs_true": 0.5762
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 15,
+        "centre": [
+          1.1754,
+          2.3958
+        ],
+        "rms_residual": 0.3519,
+        "radius": 1.822,
+        "error_vs_true": 0.5928
+      },
+      "displacement": [
+        1.75,
+        2.25
+      ],
+      "N": 48,
+      "dt": 0.005
+    },
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 80,
+      "n_hits": 11,
+      "seed": [
+        1.6363636363636365,
+        2.090909090909091
+      ],
+      "angular_coverage": 0.6111,
+      "n_crossings": 22,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "domain_exit"
+        }
+      ],
+      "control_four_mean": null,
+      "circle_fit": {
+        "centre": [
+          1.4323072692811731,
+          1.6360746972267104
+        ],
+        "radius": 1.8304124806069269,
+        "rms_residual": 0.3952270737087935,
+        "max_residual": 0.81584197533326,
+        "condition": 9.22496674807035,
+        "n": 22
+      },
+      "radius_matches_loop": true,
+      "circle_error_vs_true": 0.6913,
+      "reference_core": [
+        1.75,
+        2.25
+      ],
+      "circle_error_vs_ref": 0.6913,
+      "sensitivity_sector_0_dropped": {
+        "n": 20,
+        "centre": [
+          0.8743,
+          0.9364
+        ],
+        "rms_residual": 0.6973,
+        "radius": 1.362,
+        "error_vs_true": 1.5787
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 18,
+        "centre": [
+          1.7128,
+          1.3369
+        ],
+        "rms_residual": 0.477,
+        "radius": 1.648,
+        "error_vs_true": 0.9139
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 13,
+        "centre": [
+          1.4874,
+          1.7372
+        ],
+        "rms_residual": 0.3264,
+        "radius": 2.031,
+        "error_vs_true": 0.5762
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 15,
+        "centre": [
+          1.1754,
+          2.3958
+        ],
+        "rms_residual": 0.3519,
+        "radius": 1.822,
+        "error_vs_true": 0.5928
+      },
+      "displacement": [
+        1.75,
+        2.25
+      ],
+      "N": 48,
+      "dt": 0.0025
+    },
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 105,
+      "n_hits": 14,
+      "seed": [
+        1.96875,
+        2.169642857142857
+      ],
+      "angular_coverage": 0.6389,
+      "n_crossings": 23,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "domain_exit"
+        }
+      ],
+      "control_four_mean": null,
+      "circle_fit": {
+        "centre": [
+          1.6537425465515398,
+          2.2095650959044226
+        ],
+        "radius": 2.0370036731049255,
+        "rms_residual": 0.09400735009684302,
+        "max_residual": 0.14154418824531834,
+        "condition": 10.449715368086778,
+        "n": 23
+      },
+      "radius_matches_loop": true,
+      "circle_error_vs_true": 0.1044,
+      "reference_core": [
+        1.6875,
+        2.25
+      ],
+      "circle_error_vs_ref": 0.0527,
+      "sensitivity_sector_0_dropped": {
+        "n": 20,
+        "centre": [
+          1.4957,
+          2.0037
+        ],
+        "rms_residual": 0.1592,
+        "radius": 1.8844,
+        "error_vs_true": 0.354
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 19,
+        "centre": [
+          1.7999,
+          2.0528
+        ],
+        "rms_residual": 0.1123,
+        "radius": 1.9467,
+        "error_vs_true": 0.2034
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 14,
+        "centre": [
+          1.7202,
+          2.2402
+        ],
+        "rms_residual": 0.0634,
+        "radius": 2.0645,
+        "error_vs_true": 0.0314
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 16,
+        "centre": [
+          1.5173,
+          2.3833
+        ],
+        "rms_residual": 0.1673,
+        "radius": 1.989,
+        "error_vs_true": 0.2681
+      },
+      "displacement": [
+        1.75,
+        2.25
+      ],
+      "N": 64,
+      "dt": 0.005
+    },
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 105,
+      "n_hits": 14,
+      "seed": [
+        1.96875,
+        2.169642857142857
+      ],
+      "angular_coverage": 0.6389,
+      "n_crossings": 23,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "domain_exit"
+        }
+      ],
+      "control_four_mean": null,
+      "circle_fit": {
+        "centre": [
+          1.6537425465515398,
+          2.2095650959044226
+        ],
+        "radius": 2.0370036731049255,
+        "rms_residual": 0.09400735009684302,
+        "max_residual": 0.14154418824531834,
+        "condition": 10.449715368086778,
+        "n": 23
+      },
+      "radius_matches_loop": true,
+      "circle_error_vs_true": 0.1044,
+      "reference_core": [
+        1.6875,
+        2.25
+      ],
+      "circle_error_vs_ref": 0.0527,
+      "sensitivity_sector_0_dropped": {
+        "n": 20,
+        "centre": [
+          1.4957,
+          2.0037
+        ],
+        "rms_residual": 0.1592,
+        "radius": 1.8844,
+        "error_vs_true": 0.354
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 19,
+        "centre": [
+          1.7999,
+          2.0528
+        ],
+        "rms_residual": 0.1123,
+        "radius": 1.9467,
+        "error_vs_true": 0.2034
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 14,
+        "centre": [
+          1.7202,
+          2.2402
+        ],
+        "rms_residual": 0.0634,
+        "radius": 2.0645,
+        "error_vs_true": 0.0314
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 16,
+        "centre": [
+          1.5173,
+          2.3833
+        ],
+        "rms_residual": 0.1673,
+        "radius": 1.989,
+        "error_vs_true": 0.2681
+      },
+      "displacement": [
+        1.75,
+        2.25
+      ],
+      "N": 64,
+      "dt": 0.0025
+    },
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 80,
+      "n_hits": 14,
+      "seed": [
+        -2.5,
+        -1.7142857142857142
+      ],
+      "angular_coverage": 0.75,
+      "n_crossings": 27,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "ok"
+        }
+      ],
+      "control_four_mean": null,
+      "circle_fit": {
+        "centre": [
+          -2.100796104595151,
+          -1.75186309711049
+        ],
+        "radius": 2.0434436698043807,
+        "rms_residual": 0.2668512731031856,
+        "max_residual": 0.44253225200526836,
+        "condition": 13.595848661064336,
+        "n": 27
+      },
+      "radius_matches_loop": true,
+      "circle_error_vs_true": 0.3992,
+      "sensitivity_sector_0_dropped": {
+        "n": 18,
+        "centre": [
+          -2.3492,
+          -1.9225
+        ],
+        "rms_residual": 0.2286,
+        "radius": 2.0841,
+        "error_vs_true": 0.2291
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 22,
+        "centre": [
+          -1.6821,
+          -2.2654
+        ],
+        "rms_residual": 0.4805,
+        "radius": 1.7465,
+        "error_vs_true": 0.9668
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 23,
+        "centre": [
+          -1.9292,
+          -1.6483
+        ],
+        "rms_residual": 0.3234,
+        "radius": 1.9394,
+        "error_vs_true": 0.5798
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 18,
+        "centre": [
+          -2.3536,
+          -1.3428
+        ],
+        "rms_residual": 0.3386,
+        "radius": 1.9602,
+        "error_vs_true": 0.4327
+      },
+      "displacement": [
+        -2.5,
+        -1.75
+      ],
+      "N": 48,
+      "dt": 0.005
+    },
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 80,
+      "n_hits": 14,
+      "seed": [
+        -2.5,
+        -1.7142857142857142
+      ],
+      "angular_coverage": 0.75,
+      "n_crossings": 27,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "ok"
+        }
+      ],
+      "control_four_mean": null,
+      "circle_fit": {
+        "centre": [
+          -2.100796104595151,
+          -1.75186309711049
+        ],
+        "radius": 2.0434436698043807,
+        "rms_residual": 0.2668512731031856,
+        "max_residual": 0.44253225200526836,
+        "condition": 13.595848661064336,
+        "n": 27
+      },
+      "radius_matches_loop": true,
+      "circle_error_vs_true": 0.3992,
+      "sensitivity_sector_0_dropped": {
+        "n": 18,
+        "centre": [
+          -2.3492,
+          -1.9225
+        ],
+        "rms_residual": 0.2286,
+        "radius": 2.0841,
+        "error_vs_true": 0.2291
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 22,
+        "centre": [
+          -1.6821,
+          -2.2654
+        ],
+        "rms_residual": 0.4805,
+        "radius": 1.7465,
+        "error_vs_true": 0.9668
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 23,
+        "centre": [
+          -1.9292,
+          -1.6483
+        ],
+        "rms_residual": 0.3234,
+        "radius": 1.9394,
+        "error_vs_true": 0.5798
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 18,
+        "centre": [
+          -2.3536,
+          -1.3428
+        ],
+        "rms_residual": 0.3386,
+        "radius": 1.9602,
+        "error_vs_true": 0.4327
+      },
+      "displacement": [
+        -2.5,
+        -1.75
+      ],
+      "N": 48,
+      "dt": 0.0025
+    },
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 105,
+      "n_hits": 12,
+      "seed": [
+        -2.25,
+        -1.78125
+      ],
+      "angular_coverage": 0.8056,
+      "n_crossings": 29,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "ok"
+        }
+      ],
+      "control_four_mean": null,
+      "circle_fit": {
+        "centre": [
+          -2.3386117843510323,
+          -1.7727455063975543
+        ],
+        "radius": 2.0673076067874363,
+        "rms_residual": 0.14729428187908528,
+        "max_residual": 0.23039147634751322,
+        "condition": 13.51536766957995,
+        "n": 29
+      },
+      "radius_matches_loop": true,
+      "circle_error_vs_true": 0.163,
+      "reference_core": [
+        -2.4375,
+        -1.6875
+      ],
+      "circle_error_vs_ref": 0.1306,
+      "sensitivity_sector_0_dropped": {
+        "n": 20,
+        "centre": [
+          -2.5131,
+          -1.8765
+        ],
+        "rms_residual": 0.153,
+        "radius": 2.0899,
+        "error_vs_true": 0.1272
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 23,
+        "centre": [
+          -1.9769,
+          -2.0737
+        ],
+        "rms_residual": 0.2938,
+        "radius": 1.8239,
+        "error_vs_true": 0.6152
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 24,
+        "centre": [
+          -2.0206,
+          -1.5316
+        ],
+        "rms_residual": 0.2667,
+        "radius": 1.8759,
+        "error_vs_true": 0.5268
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 20,
+        "centre": [
+          -2.517,
+          -1.6586
+        ],
+        "rms_residual": 0.1304,
+        "radius": 2.0901,
+        "error_vs_true": 0.093
+      },
+      "displacement": [
+        -2.5,
+        -1.75
+      ],
+      "N": 64,
+      "dt": 0.005
+    },
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 105,
+      "n_hits": 12,
+      "seed": [
+        -2.25,
+        -1.78125
+      ],
+      "angular_coverage": 0.8056,
+      "n_crossings": 29,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "ok"
+        }
+      ],
+      "control_four_mean": null,
+      "circle_fit": {
+        "centre": [
+          -2.3386117843510323,
+          -1.7727455063975543
+        ],
+        "radius": 2.0673076067874363,
+        "rms_residual": 0.14729428187908528,
+        "max_residual": 0.23039147634751322,
+        "condition": 13.51536766957995,
+        "n": 29
+      },
+      "radius_matches_loop": true,
+      "circle_error_vs_true": 0.163,
+      "reference_core": [
+        -2.4375,
+        -1.6875
+      ],
+      "circle_error_vs_ref": 0.1306,
+      "sensitivity_sector_0_dropped": {
+        "n": 20,
+        "centre": [
+          -2.5131,
+          -1.8765
+        ],
+        "rms_residual": 0.153,
+        "radius": 2.0899,
+        "error_vs_true": 0.1272
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 23,
+        "centre": [
+          -1.9769,
+          -2.0737
+        ],
+        "rms_residual": 0.2938,
+        "radius": 1.8239,
+        "error_vs_true": 0.6152
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 24,
+        "centre": [
+          -2.0206,
+          -1.5316
+        ],
+        "rms_residual": 0.2667,
+        "radius": 1.8759,
+        "error_vs_true": 0.5268
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 20,
+        "centre": [
+          -2.517,
+          -1.6586
+        ],
+        "rms_residual": 0.1304,
+        "radius": 2.0901,
+        "error_vs_true": 0.093
+      },
+      "displacement": [
+        -2.5,
+        -1.75
+      ],
+      "N": 64,
+      "dt": 0.0025
+    },
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 80,
+      "n_hits": 10,
+      "seed": [
+        2.2,
+        -2.5
+      ],
+      "angular_coverage": 0.5278,
+      "n_crossings": 19,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "domain_exit"
+        }
+      ],
+      "control_four_mean": null,
+      "circle_fit": {
+        "centre": [
+          1.2584183090934422,
+          -1.2159772561608837
+        ],
+        "radius": 1.1810903788074563,
+        "rms_residual": 0.7593126515431687,
+        "max_residual": 1.390385132763778,
+        "condition": 20.59273240848994,
+        "n": 19
+      },
+      "radius_matches_loop": false,
+      "circle_error_vs_true": 1.8149,
+      "sensitivity_sector_0_dropped": {
+        "n": 16,
+        "centre": [
+          -0.0597,
+          -1.5484
+        ],
+        "rms_residual": 1.2713,
+        "radius": 0.5554,
+        "error_vs_true": 2.8959
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 10,
+        "centre": [
+          1.8075,
+          -1.6804
+        ],
+        "rms_residual": 0.2652,
+        "radius": 1.6869,
+        "error_vs_true": 1.1013
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 12,
+        "centre": [
+          2.7229,
+          -2.1233
+        ],
+        "rms_residual": 6.4356,
+        "radius": -4.5286,
+        "error_vs_true": 0.1296
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 19,
+        "centre": [
+          1.2584,
+          -1.216
+        ],
+        "rms_residual": 0.7593,
+        "radius": 1.1811,
+        "error_vs_true": 1.8149
+      },
+      "displacement": [
+        2.75,
+        -2.25
+      ],
+      "N": 48,
+      "dt": 0.005
+    },
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 80,
+      "n_hits": 10,
+      "seed": [
+        2.2,
+        -2.5
+      ],
+      "angular_coverage": 0.5278,
+      "n_crossings": 19,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "domain_exit"
+        }
+      ],
+      "control_four_mean": null,
+      "circle_fit": {
+        "centre": [
+          1.2584183090934422,
+          -1.2159772561608837
+        ],
+        "radius": 1.1810903788074563,
+        "rms_residual": 0.7593126515431687,
+        "max_residual": 1.390385132763778,
+        "condition": 20.59273240848994,
+        "n": 19
+      },
+      "radius_matches_loop": false,
+      "circle_error_vs_true": 1.8149,
+      "sensitivity_sector_0_dropped": {
+        "n": 16,
+        "centre": [
+          -0.0597,
+          -1.5484
+        ],
+        "rms_residual": 1.2713,
+        "radius": 0.5554,
+        "error_vs_true": 2.8959
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 10,
+        "centre": [
+          1.8075,
+          -1.6804
+        ],
+        "rms_residual": 0.2652,
+        "radius": 1.6869,
+        "error_vs_true": 1.1013
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 12,
+        "centre": [
+          2.7229,
+          -2.1233
+        ],
+        "rms_residual": 6.4356,
+        "radius": -4.5286,
+        "error_vs_true": 0.1296
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 19,
+        "centre": [
+          1.2584,
+          -1.216
+        ],
+        "rms_residual": 0.7593,
+        "radius": 1.1811,
+        "error_vs_true": 1.8149
+      },
+      "displacement": [
+        2.75,
+        -2.25
+      ],
+      "N": 48,
+      "dt": 0.0025
+    },
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 105,
+      "n_hits": 11,
+      "seed": [
+        2.522727272727273,
+        -1.9090909090909092
+      ],
+      "angular_coverage": 0.5556,
+      "n_crossings": 20,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "domain_exit"
+        }
+      ],
+      "control_four_mean": null,
+      "circle_fit": {
+        "centre": [
+          1.8840957429888785,
+          -1.6234189082042931
+        ],
+        "radius": 1.4278075246454276,
+        "rms_residual": 0.41299365707901275,
+        "max_residual": 0.7614188297110922,
+        "condition": 18.63470598587519,
+        "n": 20
+      },
+      "radius_matches_loop": false,
+      "circle_error_vs_true": 1.0688,
+      "sensitivity_sector_0_dropped": {
+        "n": 16,
+        "centre": [
+          0.8729,
+          -1.6244
+        ],
+        "rms_residual": 0.7607,
+        "radius": 0.8123,
+        "error_vs_true": 1.9786
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 11,
+        "centre": [
+          2.256,
+          -1.8021
+        ],
+        "rms_residual": 0.1875,
+        "radius": 1.777,
+        "error_vs_true": 0.6668
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 13,
+        "centre": [
+          2.6992,
+          -2.2831
+        ],
+        "rms_residual": 3.5375,
+        "radius": -1.5269,
+        "error_vs_true": 0.0606
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 20,
+        "centre": [
+          1.8841,
+          -1.6234
+        ],
+        "rms_residual": 0.413,
+        "radius": 1.4278,
+        "error_vs_true": 1.0688
+      },
+      "displacement": [
+        2.75,
+        -2.25
+      ],
+      "N": 64,
+      "dt": 0.005
+    },
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 105,
+      "n_hits": 11,
+      "seed": [
+        2.522727272727273,
+        -1.9090909090909092
+      ],
+      "angular_coverage": 0.5556,
+      "n_crossings": 20,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "domain_exit"
+        }
+      ],
+      "control_four_mean": null,
+      "circle_fit": {
+        "centre": [
+          1.8840957429888785,
+          -1.6234189082042931
+        ],
+        "radius": 1.4278075246454276,
+        "rms_residual": 0.41299365707901275,
+        "max_residual": 0.7614188297110922,
+        "condition": 18.63470598587519,
+        "n": 20
+      },
+      "radius_matches_loop": false,
+      "circle_error_vs_true": 1.0688,
+      "sensitivity_sector_0_dropped": {
+        "n": 16,
+        "centre": [
+          0.8729,
+          -1.6244
+        ],
+        "rms_residual": 0.7607,
+        "radius": 0.8123,
+        "error_vs_true": 1.9786
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 11,
+        "centre": [
+          2.256,
+          -1.8021
+        ],
+        "rms_residual": 0.1875,
+        "radius": 1.777,
+        "error_vs_true": 0.6668
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 13,
+        "centre": [
+          2.6992,
+          -2.2831
+        ],
+        "rms_residual": 3.5375,
+        "radius": -1.5269,
+        "error_vs_true": 0.0606
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 20,
+        "centre": [
+          1.8841,
+          -1.6234
+        ],
+        "rms_residual": 0.413,
+        "radius": 1.4278,
+        "error_vs_true": 1.0688
+      },
+      "displacement": [
+        2.75,
+        -2.25
+      ],
+      "N": 64,
+      "dt": 0.0025
+    },
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 80,
+      "n_hits": 10,
+      "seed": [
+        -1.5,
+        2.2
+      ],
+      "angular_coverage": 0.7222,
+      "n_crossings": 26,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "ok"
+        }
+      ],
+      "control_four_mean": null,
+      "circle_fit": {
+        "centre": [
+          -1.700575202347187,
+          2.393497550847086
+        ],
+        "radius": 1.9948600136233285,
+        "rms_residual": 0.23410737968030806,
+        "max_residual": 0.35478267745561665,
+        "condition": 13.60159723702329,
+        "n": 26
+      },
+      "radius_matches_loop": true,
+      "circle_error_vs_true": 0.3599,
+      "sensitivity_sector_0_dropped": {
+        "n": 21,
+        "centre": [
+          -2.4042,
+          1.6794
+        ],
+        "rms_residual": 0.5414,
+        "radius": 1.4769,
+        "error_vs_true": 1.2547
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 23,
+        "centre": [
+          -1.3161,
+          2.0077
+        ],
+        "rms_residual": 0.3826,
+        "radius": 1.6699,
+        "error_vs_true": 0.8599
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 17,
+        "centre": [
+          -1.2323,
+          2.756
+        ],
+        "rms_residual": 0.3798,
+        "radius": 1.9516,
+        "error_vs_true": 0.5177
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 17,
+        "centre": [
+          -1.757,
+          2.4764
+        ],
+        "rms_residual": 0.2365,
+        "radius": 2.1043,
+        "error_vs_true": 0.2737
+      },
+      "displacement": [
+        -1.75,
+        2.75
+      ],
+      "N": 48,
+      "dt": 0.005
+    },
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 80,
+      "n_hits": 10,
+      "seed": [
+        -1.5,
+        2.2
+      ],
+      "angular_coverage": 0.7222,
+      "n_crossings": 26,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "ok"
+        }
+      ],
+      "control_four_mean": null,
+      "circle_fit": {
+        "centre": [
+          -1.700575202347187,
+          2.393497550847086
+        ],
+        "radius": 1.9948600136233285,
+        "rms_residual": 0.23410737968030806,
+        "max_residual": 0.35478267745561665,
+        "condition": 13.60159723702329,
+        "n": 26
+      },
+      "radius_matches_loop": true,
+      "circle_error_vs_true": 0.3599,
+      "sensitivity_sector_0_dropped": {
+        "n": 21,
+        "centre": [
+          -2.4042,
+          1.6794
+        ],
+        "rms_residual": 0.5414,
+        "radius": 1.4769,
+        "error_vs_true": 1.2547
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 23,
+        "centre": [
+          -1.3161,
+          2.0077
+        ],
+        "rms_residual": 0.3826,
+        "radius": 1.6699,
+        "error_vs_true": 0.8599
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 17,
+        "centre": [
+          -1.2323,
+          2.756
+        ],
+        "rms_residual": 0.3798,
+        "radius": 1.9516,
+        "error_vs_true": 0.5177
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 17,
+        "centre": [
+          -1.757,
+          2.4764
+        ],
+        "rms_residual": 0.2365,
+        "radius": 2.1043,
+        "error_vs_true": 0.2737
+      },
+      "displacement": [
+        -1.75,
+        2.75
+      ],
+      "N": 48,
+      "dt": 0.0025
+    },
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 105,
+      "n_hits": 12,
+      "seed": [
+        -1.78125,
+        2.4375
+      ],
+      "angular_coverage": 0.6944,
+      "n_crossings": 25,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "ok"
+        }
+      ],
+      "control_four_mean": null,
+      "circle_fit": {
+        "centre": [
+          -1.7173332198470186,
+          2.331374959806162
+        ],
+        "radius": 1.9662331067611352,
+        "rms_residual": 0.24583967281925426,
+        "max_residual": 0.38532193707939855,
+        "condition": 14.67135717341289,
+        "n": 25
+      },
+      "radius_matches_loop": true,
+      "circle_error_vs_true": 0.4199,
+      "sensitivity_sector_0_dropped": {
+        "n": 21,
+        "centre": [
+          -2.1312,
+          1.8611
+        ],
+        "rms_residual": 0.4098,
+        "radius": 1.6171,
+        "error_vs_true": 0.9672
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 22,
+        "centre": [
+          -1.447,
+          1.9756
+        ],
+        "rms_residual": 0.377,
+        "radius": 1.7228,
+        "error_vs_true": 0.8315
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 16,
+        "centre": [
+          -1.5251,
+          2.4137
+        ],
+        "rms_residual": 0.3003,
+        "radius": 1.9718,
+        "error_vs_true": 0.4046
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 16,
+        "centre": [
+          -1.8493,
+          2.598
+        ],
+        "rms_residual": 0.1904,
+        "radius": 2.0756,
+        "error_vs_true": 0.1815
+      },
+      "displacement": [
+        -1.75,
+        2.75
+      ],
+      "N": 64,
+      "dt": 0.005
+    },
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 105,
+      "n_hits": 12,
+      "seed": [
+        -1.78125,
+        2.4375
+      ],
+      "angular_coverage": 0.6944,
+      "n_crossings": 25,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "domain_exit"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "ok"
+        }
+      ],
+      "control_four_mean": null,
+      "circle_fit": {
+        "centre": [
+          -1.7173332198470186,
+          2.331374959806162
+        ],
+        "radius": 1.9662331067611352,
+        "rms_residual": 0.24583967281925426,
+        "max_residual": 0.38532193707939855,
+        "condition": 14.67135717341289,
+        "n": 25
+      },
+      "radius_matches_loop": true,
+      "circle_error_vs_true": 0.4199,
+      "sensitivity_sector_0_dropped": {
+        "n": 21,
+        "centre": [
+          -2.1312,
+          1.8611
+        ],
+        "rms_residual": 0.4098,
+        "radius": 1.6171,
+        "error_vs_true": 0.9672
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 22,
+        "centre": [
+          -1.447,
+          1.9756
+        ],
+        "rms_residual": 0.377,
+        "radius": 1.7228,
+        "error_vs_true": 0.8315
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 16,
+        "centre": [
+          -1.5251,
+          2.4137
+        ],
+        "rms_residual": 0.3003,
+        "radius": 1.9718,
+        "error_vs_true": 0.4046
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 16,
+        "centre": [
+          -1.8493,
+          2.598
+        ],
+        "rms_residual": 0.1904,
+        "radius": 2.0756,
+        "error_vs_true": 0.1815
+      },
+      "displacement": [
+        -1.75,
+        2.75
+      ],
+      "N": 64,
+      "dt": 0.0025
+    },
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 80,
+      "n_hits": 14,
+      "seed": [
+        0.5,
+        1.2857142857142858
+      ],
+      "angular_coverage": 1.0,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "ok"
+        }
+      ],
+      "control_four_mean": [
+        0.4999999999999999,
+        1.2678571427573584
+      ],
+      "circle_fit": {
+        "centre": [
+          0.5000004768047299,
+          1.2573997674148623
+        ],
+        "radius": 2.2031467041878336,
+        "rms_residual": 0.2033130299728084,
+        "max_residual": 0.2105464718022081,
+        "condition": 5.63125200897706,
+        "n": 36
+      },
+      "radius_matches_loop": true,
+      "circle_error_vs_true": 0.0074,
+      "reference_core": [
+        0.5,
+        1.25
+      ],
+      "circle_error_vs_ref": 0.0074,
+      "sensitivity_sector_0_dropped": {
+        "n": 27,
+        "centre": [
+          0.2675,
+          1.1545
+        ],
+        "rms_residual": 0.2462,
+        "radius": 2.1353,
+        "error_vs_true": 0.2514
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 27,
+        "centre": [
+          0.7222,
+          1.0211
+        ],
+        "rms_residual": 0.2649,
+        "radius": 2.1146,
+        "error_vs_true": 0.319
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 27,
+        "centre": [
+          0.7512,
+          1.3674
+        ],
+        "rms_residual": 0.2524,
+        "radius": 2.1244,
+        "error_vs_true": 0.2773
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 27,
+        "centre": [
+          0.2604,
+          1.5056
+        ],
+        "rms_residual": 0.275,
+        "radius": 2.1012,
+        "error_vs_true": 0.3503
+      },
+      "displacement": [
+        0.5,
+        1.25
+      ],
+      "N": 48,
+      "dt": 0.005
+    },
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 80,
+      "n_hits": 14,
+      "seed": [
+        0.5,
+        1.2857142857142858
+      ],
+      "angular_coverage": 1.0,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "ok"
+        }
+      ],
+      "control_four_mean": [
+        0.4999999999999999,
+        1.2678571427573584
+      ],
+      "circle_fit": {
+        "centre": [
+          0.5000004768047299,
+          1.2573997674148623
+        ],
+        "radius": 2.2031467041878336,
+        "rms_residual": 0.2033130299728084,
+        "max_residual": 0.2105464718022081,
+        "condition": 5.63125200897706,
+        "n": 36
+      },
+      "radius_matches_loop": true,
+      "circle_error_vs_true": 0.0074,
+      "reference_core": [
+        0.5,
+        1.25
+      ],
+      "circle_error_vs_ref": 0.0074,
+      "sensitivity_sector_0_dropped": {
+        "n": 27,
+        "centre": [
+          0.2675,
+          1.1545
+        ],
+        "rms_residual": 0.2462,
+        "radius": 2.1353,
+        "error_vs_true": 0.2514
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 27,
+        "centre": [
+          0.7222,
+          1.0211
+        ],
+        "rms_residual": 0.2649,
+        "radius": 2.1146,
+        "error_vs_true": 0.319
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 27,
+        "centre": [
+          0.7512,
+          1.3674
+        ],
+        "rms_residual": 0.2524,
+        "radius": 2.1244,
+        "error_vs_true": 0.2773
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 27,
+        "centre": [
+          0.2604,
+          1.5056
+        ],
+        "rms_residual": 0.275,
+        "radius": 2.1012,
+        "error_vs_true": 0.3503
+      },
+      "displacement": [
+        0.5,
+        1.25
+      ],
+      "N": 48,
+      "dt": 0.0025
+    },
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 105,
+      "n_hits": 15,
+      "seed": [
+        0.4375,
+        1.0625
+      ],
+      "angular_coverage": 1.0,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "ok"
+        }
+      ],
+      "control_four_mean": [
+        0.4686889557633548,
+        1.1561889359727502
+      ],
+      "circle_fit": {
+        "centre": [
+          0.5035571807540422,
+          1.2089205960359846
+        ],
+        "radius": 2.1218540529022967,
+        "rms_residual": 0.12693040928656454,
+        "max_residual": 0.16301039509047088,
+        "condition": 5.190453344600863,
+        "n": 36
+      },
+      "radius_matches_loop": true,
+      "circle_error_vs_true": 0.0412,
+      "reference_core": [
+        0.5625,
+        1.3125
+      ],
+      "circle_error_vs_ref": 0.1192,
+      "sensitivity_sector_0_dropped": {
+        "n": 27,
+        "centre": [
+          0.0795,
+          1.0204
+        ],
+        "rms_residual": 0.2776,
+        "radius": 1.9357,
+        "error_vs_true": 0.4791
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 27,
+        "centre": [
+          0.4738,
+          1.1905
+        ],
+        "rms_residual": 0.1302,
+        "radius": 2.11,
+        "error_vs_true": 0.065
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 27,
+        "centre": [
+          0.8441,
+          1.3925
+        ],
+        "rms_residual": 0.2363,
+        "radius": 1.9989,
+        "error_vs_true": 0.3725
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 27,
+        "centre": [
+          0.5549,
+          1.1973
+        ],
+        "rms_residual": 0.1281,
+        "radius": 2.1421,
+        "error_vs_true": 0.0761
+      },
+      "displacement": [
+        0.5,
+        1.25
+      ],
+      "N": 64,
+      "dt": 0.005
+    },
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 105,
+      "n_hits": 15,
+      "seed": [
+        0.4375,
+        1.0625
+      ],
+      "angular_coverage": 1.0,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "ok"
+        }
+      ],
+      "control_four_mean": [
+        0.4686889557633548,
+        1.1561889359727502
+      ],
+      "circle_fit": {
+        "centre": [
+          0.5035571807540422,
+          1.2089205960359846
+        ],
+        "radius": 2.1218540529022967,
+        "rms_residual": 0.12693040928656454,
+        "max_residual": 0.16301039509047088,
+        "condition": 5.190453344600863,
+        "n": 36
+      },
+      "radius_matches_loop": true,
+      "circle_error_vs_true": 0.0412,
+      "reference_core": [
+        0.5625,
+        1.3125
+      ],
+      "circle_error_vs_ref": 0.1192,
+      "sensitivity_sector_0_dropped": {
+        "n": 27,
+        "centre": [
+          0.0795,
+          1.0204
+        ],
+        "rms_residual": 0.2776,
+        "radius": 1.9357,
+        "error_vs_true": 0.4791
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 27,
+        "centre": [
+          0.4738,
+          1.1905
+        ],
+        "rms_residual": 0.1302,
+        "radius": 2.11,
+        "error_vs_true": 0.065
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 27,
+        "centre": [
+          0.8441,
+          1.3925
+        ],
+        "rms_residual": 0.2363,
+        "radius": 1.9989,
+        "error_vs_true": 0.3725
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 27,
+        "centre": [
+          0.5549,
+          1.1973
+        ],
+        "rms_residual": 0.1281,
+        "radius": 2.1421,
+        "error_vs_true": 0.0761
+      },
+      "displacement": [
+        0.5,
+        1.25
+      ],
+      "N": 64,
+      "dt": 0.0025
+    }
+  ],
+  "centred_time": [
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 80,
+      "n_hits": 11,
+      "seed": [
+        -0.18181818181818182,
+        -0.18181818181818182
+      ],
+      "angular_coverage": 1.0,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "ok"
+        }
+      ],
+      "control_four_mean": [
+        -0.09090909099375667,
+        -0.0909090909937566
+      ],
+      "circle_fit": {
+        "centre": [
+          -0.016337191642131255,
+          -0.01633581919905867
+        ],
+        "radius": 2.1017100805299016,
+        "rms_residual": 0.10446097053393938,
+        "max_residual": 0.124816164939058,
+        "condition": 2.8550445500942816,
+        "n": 36
+      },
+      "radius_matches_loop": true,
+      "circle_error_vs_true": 0.0231,
+      "reference_core": [
+        0.0,
+        0.0
+      ],
+      "circle_error_vs_ref": 0.0231,
+      "sensitivity_sector_0_dropped": {
+        "n": 27,
+        "centre": [
+          -0.143,
+          -0.1368
+        ],
+        "rms_residual": 0.1518,
+        "radius": 2.0402,
+        "error_vs_true": 0.1979
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 27,
+        "centre": [
+          0.1866,
+          -0.2119
+        ],
+        "rms_residual": 0.1814,
+        "radius": 2.0144,
+        "error_vs_true": 0.2824
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 27,
+        "centre": [
+          0.0492,
+          0.0514
+        ],
+        "rms_residual": 0.1191,
+        "radius": 2.0965,
+        "error_vs_true": 0.0711
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 27,
+        "centre": [
+          -0.193,
+          0.1949
+        ],
+        "rms_residual": 0.1795,
+        "radius": 2.019,
+        "error_vs_true": 0.2743
+      },
+      "N": 48,
+      "dt": 0.005,
+      "step": 0
+    },
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 80,
+      "n_hits": 11,
+      "seed": [
+        -0.18181818181818182,
+        0.18181818181818182
+      ],
+      "angular_coverage": 1.0,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "ok"
+        }
+      ],
+      "control_four_mean": [
+        -0.09092975657602612,
+        0.09097065420990652
+      ],
+      "circle_fit": {
+        "centre": [
+          -0.06059953948708839,
+          0.13183225892410094
+        ],
+        "radius": 2.105501427179612,
+        "rms_residual": 0.15158538378778952,
+        "max_residual": 0.2504277619847135,
+        "condition": 2.855069820146793,
+        "n": 36
+      },
+      "radius_matches_loop": true,
+      "circle_error_vs_true": 0.1451,
+      "reference_core": [
+        0.0,
+        0.0
+      ],
+      "circle_error_vs_ref": 0.1451,
+      "sensitivity_sector_0_dropped": {
+        "n": 27,
+        "centre": [
+          -0.2784,
+          -0.1095
+        ],
+        "rms_residual": 0.1982,
+        "radius": 2.0108,
+        "error_vs_true": 0.2991
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 27,
+        "centre": [
+          -0.0133,
+          0.0987
+        ],
+        "rms_residual": 0.1311,
+        "radius": 2.1346,
+        "error_vs_true": 0.0995
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 27,
+        "centre": [
+          0.1783,
+          0.3143
+        ],
+        "rms_residual": 0.2386,
+        "radius": 2.0118,
+        "error_vs_true": 0.3613
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 27,
+        "centre": [
+          -0.2167,
+          0.3117
+        ],
+        "rms_residual": 0.2397,
+        "radius": 2.0008,
+        "error_vs_true": 0.3796
+      },
+      "N": 48,
+      "dt": 0.005,
+      "step": 100
+    },
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 80,
+      "n_hits": 30,
+      "seed": [
+        -0.43333333333333335,
+        -0.5333333333333333
+      ],
+      "angular_coverage": 1.0,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "ok"
+        }
+      ],
+      "control_four_mean": [
+        -0.2166060434964796,
+        -0.26666307787721344
+      ],
+      "circle_fit": {
+        "centre": [
+          0.007346148036344395,
+          -0.0933698414310607
+        ],
+        "radius": 2.155645566908163,
+        "rms_residual": 0.1786490765496107,
+        "max_residual": 0.24930334785153918,
+        "condition": 3.0174330841036014,
+        "n": 36
+      },
+      "radius_matches_loop": true,
+      "circle_error_vs_true": 0.0937,
+      "reference_core": [
+        0.0,
+        0.0
+      ],
+      "circle_error_vs_ref": 0.0937,
+      "sensitivity_sector_0_dropped": {
+        "n": 27,
+        "centre": [
+          -0.5082,
+          -0.409
+        ],
+        "rms_residual": 0.3537,
+        "radius": 1.8571,
+        "error_vs_true": 0.6523
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 27,
+        "centre": [
+          0.2317,
+          -0.3396
+        ],
+        "rms_residual": 0.2796,
+        "radius": 2.049,
+        "error_vs_true": 0.4111
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 27,
+        "centre": [
+          0.2107,
+          0.0596
+        ],
+        "rms_residual": 0.2129,
+        "radius": 2.1435,
+        "error_vs_true": 0.219
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 27,
+        "centre": [
+          -0.062,
+          0.0318
+        ],
+        "rms_residual": 0.1791,
+        "radius": 2.1551,
+        "error_vs_true": 0.0697
+      },
+      "N": 48,
+      "dt": 0.005,
+      "step": 200
+    },
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 80,
+      "n_hits": 11,
+      "seed": [
+        -0.18181818181818182,
+        -0.18181818181818182
+      ],
+      "angular_coverage": 1.0,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "ok"
+        }
+      ],
+      "control_four_mean": [
+        -0.09090909099375667,
+        -0.0909090909937566
+      ],
+      "circle_fit": {
+        "centre": [
+          -0.016337191642131255,
+          -0.01633581919905867
+        ],
+        "radius": 2.1017100805299016,
+        "rms_residual": 0.10446097053393938,
+        "max_residual": 0.124816164939058,
+        "condition": 2.8550445500942816,
+        "n": 36
+      },
+      "radius_matches_loop": true,
+      "circle_error_vs_true": 0.0231,
+      "reference_core": [
+        0.0,
+        0.0
+      ],
+      "circle_error_vs_ref": 0.0231,
+      "sensitivity_sector_0_dropped": {
+        "n": 27,
+        "centre": [
+          -0.143,
+          -0.1368
+        ],
+        "rms_residual": 0.1518,
+        "radius": 2.0402,
+        "error_vs_true": 0.1979
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 27,
+        "centre": [
+          0.1866,
+          -0.2119
+        ],
+        "rms_residual": 0.1814,
+        "radius": 2.0144,
+        "error_vs_true": 0.2824
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 27,
+        "centre": [
+          0.0492,
+          0.0514
+        ],
+        "rms_residual": 0.1191,
+        "radius": 2.0965,
+        "error_vs_true": 0.0711
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 27,
+        "centre": [
+          -0.193,
+          0.1949
+        ],
+        "rms_residual": 0.1795,
+        "radius": 2.019,
+        "error_vs_true": 0.2743
+      },
+      "N": 48,
+      "dt": 0.0025,
+      "step": 0
+    },
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 80,
+      "n_hits": 11,
+      "seed": [
+        -0.18181818181818182,
+        0.18181818181818182
+      ],
+      "angular_coverage": 1.0,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "ok"
+        }
+      ],
+      "control_four_mean": [
+        -0.090919869655574,
+        0.09091209474189049
+      ],
+      "circle_fit": {
+        "centre": [
+          -0.033092915297527614,
+          0.025931250398109496
+        ],
+        "radius": 2.1019437963024883,
+        "rms_residual": 0.10859827838283433,
+        "max_residual": 0.14399205618659217,
+        "condition": 2.855048786438758,
+        "n": 36
+      },
+      "radius_matches_loop": true,
+      "circle_error_vs_true": 0.042,
+      "reference_core": [
+        0.0,
+        0.0
+      ],
+      "circle_error_vs_ref": 0.042,
+      "sensitivity_sector_0_dropped": {
+        "n": 27,
+        "centre": [
+          -0.2326,
+          -0.1816
+        ],
+        "rms_residual": 0.1886,
+        "radius": 2.0119,
+        "error_vs_true": 0.2951
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 27,
+        "centre": [
+          0.0318,
+          -0.0358
+        ],
+        "rms_residual": 0.1154,
+        "radius": 2.1016,
+        "error_vs_true": 0.0478
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 27,
+        "centre": [
+          0.1829,
+          0.204
+        ],
+        "rms_residual": 0.1804,
+        "radius": 2.0191,
+        "error_vs_true": 0.2739
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 27,
+        "centre": [
+          -0.158,
+          0.1583
+        ],
+        "rms_residual": 0.1636,
+        "radius": 2.0346,
+        "error_vs_true": 0.2237
+      },
+      "N": 48,
+      "dt": 0.0025,
+      "step": 100
+    },
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 80,
+      "n_hits": 11,
+      "seed": [
+        -0.18181818181818182,
+        0.18181818181818182
+      ],
+      "angular_coverage": 1.0,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "ok"
+        }
+      ],
+      "control_four_mean": [
+        -0.09092975843867127,
+        0.09097065444273716
+      ],
+      "circle_fit": {
+        "centre": [
+          -0.06060584462787377,
+          0.13183010498791486
+        ],
+        "radius": 2.1055016698181466,
+        "rms_residual": 0.15158601707658162,
+        "max_residual": 0.2504284826708598,
+        "condition": 2.8550698206086227,
+        "n": 36
+      },
+      "radius_matches_loop": true,
+      "circle_error_vs_true": 0.1451,
+      "reference_core": [
+        0.0,
+        0.0
+      ],
+      "circle_error_vs_ref": 0.1451,
+      "sensitivity_sector_0_dropped": {
+        "n": 27,
+        "centre": [
+          -0.2784,
+          -0.1095
+        ],
+        "rms_residual": 0.1982,
+        "radius": 2.0108,
+        "error_vs_true": 0.2991
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 27,
+        "centre": [
+          -0.0133,
+          0.0987
+        ],
+        "rms_residual": 0.1311,
+        "radius": 2.1346,
+        "error_vs_true": 0.0995
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 27,
+        "centre": [
+          0.1783,
+          0.3143
+        ],
+        "rms_residual": 0.2386,
+        "radius": 2.0118,
+        "error_vs_true": 0.3613
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 27,
+        "centre": [
+          -0.2167,
+          0.3117
+        ],
+        "rms_residual": 0.2397,
+        "radius": 2.0008,
+        "error_vs_true": 0.3796
+      },
+      "N": 48,
+      "dt": 0.0025,
+      "step": 200
+    },
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 105,
+      "n_hits": 15,
+      "seed": [
+        0.0,
+        0.0
+      ],
+      "angular_coverage": 1.0,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "ok"
+        }
+      ],
+      "control_four_mean": [
+        -2.3283067999122836e-10,
+        -2.328305881427184e-10
+      ],
+      "circle_fit": {
+        "centre": [
+          1.5280148060249512e-11,
+          -5.664399965542761e-11
+        ],
+        "radius": 1.9999999999223896,
+        "rms_residual": 4.5727026161058655e-10,
+        "max_residual": 6.017257803136999e-10,
+        "condition": 2.8284271248735933,
+        "n": 36
+      },
+      "radius_matches_loop": true,
+      "circle_error_vs_true": 0.0,
+      "reference_core": [
+        0.0,
+        0.0
+      ],
+      "circle_error_vs_ref": 0.0,
+      "sensitivity_sector_0_dropped": {
+        "n": 27,
+        "centre": [
+          0.0,
+          0.0
+        ],
+        "rms_residual": 0.0,
+        "radius": 2.0,
+        "error_vs_true": 0.0
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 27,
+        "centre": [
+          0.0,
+          -0.0
+        ],
+        "rms_residual": 0.0,
+        "radius": 2.0,
+        "error_vs_true": 0.0
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 27,
+        "centre": [
+          -0.0,
+          -0.0
+        ],
+        "rms_residual": 0.0,
+        "radius": 2.0,
+        "error_vs_true": 0.0
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 27,
+        "centre": [
+          -0.0,
+          0.0
+        ],
+        "rms_residual": 0.0,
+        "radius": 2.0,
+        "error_vs_true": 0.0
+      },
+      "N": 64,
+      "dt": 0.005,
+      "step": 0
+    },
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 105,
+      "n_hits": 15,
+      "seed": [
+        0.0,
+        0.0
+      ],
+      "angular_coverage": 1.0,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "ok"
+        }
+      ],
+      "control_four_mean": [
+        -2.3516826331651776e-05,
+        9.141233749698774e-05
+      ],
+      "circle_fit": {
+        "centre": [
+          -4.7171508541451475e-05,
+          0.0001827223337582836
+        ],
+        "radius": 1.9999989552650859,
+        "rms_residual": 5.062296093546401e-07,
+        "max_residual": 9.835746863640082e-07,
+        "condition": 2.828426150178544,
+        "n": 36
+      },
+      "radius_matches_loop": true,
+      "circle_error_vs_true": 0.0002,
+      "reference_core": [
+        0.0,
+        0.0
+      ],
+      "circle_error_vs_ref": 0.0002,
+      "sensitivity_sector_0_dropped": {
+        "n": 27,
+        "centre": [
+          -0.0,
+          0.0002
+        ],
+        "rms_residual": 0.0,
+        "radius": 2.0,
+        "error_vs_true": 0.0002
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 27,
+        "centre": [
+          -0.0,
+          0.0002
+        ],
+        "rms_residual": 0.0,
+        "radius": 2.0,
+        "error_vs_true": 0.0002
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 27,
+        "centre": [
+          -0.0,
+          0.0002
+        ],
+        "rms_residual": 0.0,
+        "radius": 2.0,
+        "error_vs_true": 0.0002
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 27,
+        "centre": [
+          -0.0,
+          0.0002
+        ],
+        "rms_residual": 0.0,
+        "radius": 2.0,
+        "error_vs_true": 0.0002
+      },
+      "N": 64,
+      "dt": 0.005,
+      "step": 100
+    },
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 105,
+      "n_hits": 35,
+      "seed": [
+        -0.05357142857142857,
+        0.16071428571428573
+      ],
+      "angular_coverage": 1.0,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "ok"
+        }
+      ],
+      "control_four_mean": [
+        -0.026744764231677633,
+        0.08035021814118554
+      ],
+      "circle_fit": {
+        "centre": [
+          0.004194789304786554,
+          -0.014391391877749274
+        ],
+        "radius": 2.115516788330916,
+        "rms_residual": 0.11539360490070961,
+        "max_residual": 0.1304578067858111,
+        "condition": 2.8399405578451593,
+        "n": 36
+      },
+      "radius_matches_loop": true,
+      "circle_error_vs_true": 0.015,
+      "reference_core": [
+        0.0,
+        0.0
+      ],
+      "circle_error_vs_ref": 0.015,
+      "sensitivity_sector_0_dropped": {
+        "n": 27,
+        "centre": [
+          -0.1479,
+          -0.2163
+        ],
+        "rms_residual": 0.1866,
+        "radius": 2.0477,
+        "error_vs_true": 0.262
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 27,
+        "centre": [
+          0.0974,
+          -0.1711
+        ],
+        "rms_residual": 0.1651,
+        "radius": 2.0756,
+        "error_vs_true": 0.1969
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 27,
+        "centre": [
+          0.1615,
+          0.1582
+        ],
+        "rms_residual": 0.167,
+        "radius": 2.0449,
+        "error_vs_true": 0.2261
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 27,
+        "centre": [
+          -0.1332,
+          0.2013
+        ],
+        "rms_residual": 0.1716,
+        "radius": 2.0337,
+        "error_vs_true": 0.2413
+      },
+      "N": 64,
+      "dt": 0.005,
+      "step": 200
+    },
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 105,
+      "n_hits": 15,
+      "seed": [
+        0.0,
+        0.0
+      ],
+      "angular_coverage": 1.0,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "ok"
+        }
+      ],
+      "control_four_mean": [
+        -2.3283067999122836e-10,
+        -2.328305881427184e-10
+      ],
+      "circle_fit": {
+        "centre": [
+          1.5280148060249512e-11,
+          -5.664399965542761e-11
+        ],
+        "radius": 1.9999999999223896,
+        "rms_residual": 4.5727026161058655e-10,
+        "max_residual": 6.017257803136999e-10,
+        "condition": 2.8284271248735933,
+        "n": 36
+      },
+      "radius_matches_loop": true,
+      "circle_error_vs_true": 0.0,
+      "reference_core": [
+        0.0,
+        0.0
+      ],
+      "circle_error_vs_ref": 0.0,
+      "sensitivity_sector_0_dropped": {
+        "n": 27,
+        "centre": [
+          0.0,
+          0.0
+        ],
+        "rms_residual": 0.0,
+        "radius": 2.0,
+        "error_vs_true": 0.0
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 27,
+        "centre": [
+          0.0,
+          -0.0
+        ],
+        "rms_residual": 0.0,
+        "radius": 2.0,
+        "error_vs_true": 0.0
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 27,
+        "centre": [
+          -0.0,
+          -0.0
+        ],
+        "rms_residual": 0.0,
+        "radius": 2.0,
+        "error_vs_true": 0.0
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 27,
+        "centre": [
+          -0.0,
+          0.0
+        ],
+        "rms_residual": 0.0,
+        "radius": 2.0,
+        "error_vs_true": 0.0
+      },
+      "N": 64,
+      "dt": 0.0025,
+      "step": 0
+    },
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 105,
+      "n_hits": 15,
+      "seed": [
+        0.0,
+        0.0
+      ],
+      "angular_coverage": 1.0,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "ok"
+        }
+      ],
+      "control_four_mean": [
+        1.6224803402928056e-05,
+        4.749745130649963e-06
+      ],
+      "circle_fit": {
+        "centre": [
+          3.244542638862851e-05,
+          9.50481055899651e-06
+        ],
+        "radius": 1.9999998120674658,
+        "rms_residual": 9.050786056700245e-08,
+        "max_residual": 1.7109404670812012e-07,
+        "condition": 2.8284269475164794,
+        "n": 36
+      },
+      "radius_matches_loop": true,
+      "circle_error_vs_true": 0.0,
+      "reference_core": [
+        0.0,
+        0.0
+      ],
+      "circle_error_vs_ref": 0.0,
+      "sensitivity_sector_0_dropped": {
+        "n": 27,
+        "centre": [
+          0.0,
+          0.0
+        ],
+        "rms_residual": 0.0,
+        "radius": 2.0,
+        "error_vs_true": 0.0
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 27,
+        "centre": [
+          0.0,
+          0.0
+        ],
+        "rms_residual": 0.0,
+        "radius": 2.0,
+        "error_vs_true": 0.0
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 27,
+        "centre": [
+          0.0,
+          0.0
+        ],
+        "rms_residual": 0.0,
+        "radius": 2.0,
+        "error_vs_true": 0.0
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 27,
+        "centre": [
+          0.0,
+          0.0
+        ],
+        "rms_residual": 0.0,
+        "radius": 2.0,
+        "error_vs_true": 0.0
+      },
+      "N": 64,
+      "dt": 0.0025,
+      "step": 100
+    },
+    {
+      "n_valid_loops": 64,
+      "n_rejected_loops": 105,
+      "n_hits": 15,
+      "seed": [
+        0.0,
+        0.0
+      ],
+      "angular_coverage": 1.0,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "loop_radius": 2.0,
+      "crossings": [
+        {
+          "angle_deg": 0,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 10,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 20,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 30,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 40,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 50,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 60,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 70,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 80,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 90,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 100,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 110,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 120,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 130,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 140,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 150,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 160,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 170,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 180,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 190,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 200,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 210,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 220,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 230,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 240,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 250,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 260,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 270,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 280,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 290,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 300,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 310,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 320,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 330,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 340,
+          "reason": "ok"
+        },
+        {
+          "angle_deg": 350,
+          "reason": "ok"
+        }
+      ],
+      "control_four_mean": [
+        -2.3513101041353314e-05,
+        9.141233749698774e-05
+      ],
+      "circle_fit": {
+        "centre": [
+          -4.716429189488275e-05,
+          0.00018272208570730046
+        ],
+        "radius": 1.9999989553426,
+        "rms_residual": 5.061650447544607e-07,
+        "max_residual": 9.840632373414593e-07,
+        "condition": 2.8284261501980694,
+        "n": 36
+      },
+      "radius_matches_loop": true,
+      "circle_error_vs_true": 0.0002,
+      "reference_core": [
+        0.0,
+        0.0
+      ],
+      "circle_error_vs_ref": 0.0002,
+      "sensitivity_sector_0_dropped": {
+        "n": 27,
+        "centre": [
+          -0.0,
+          0.0002
+        ],
+        "rms_residual": 0.0,
+        "radius": 2.0,
+        "error_vs_true": 0.0002
+      },
+      "sensitivity_sector_90_dropped": {
+        "n": 27,
+        "centre": [
+          -0.0,
+          0.0002
+        ],
+        "rms_residual": 0.0,
+        "radius": 2.0,
+        "error_vs_true": 0.0002
+      },
+      "sensitivity_sector_180_dropped": {
+        "n": 27,
+        "centre": [
+          -0.0,
+          0.0002
+        ],
+        "rms_residual": 0.0,
+        "radius": 2.0,
+        "error_vs_true": 0.0002
+      },
+      "sensitivity_sector_270_dropped": {
+        "n": 27,
+        "centre": [
+          -0.0,
+          0.0002
+        ],
+        "rms_residual": 0.0,
+        "radius": 2.0,
+        "error_vs_true": 0.0002
+      },
+      "N": 64,
+      "dt": 0.0025,
+      "step": 200
+    }
+  ]
+}
