@@ -348,8 +348,9 @@ def create_validation_index():
         for test_name, files in test_dirs:
             f.write(f'<div class="test-card"><h2>{test_name}</h2>')
             for fn in files:
-                f.write(f'<div class="artifact"><a href="{fn}">'
-                        f'<img src="{fn}" alt="{fn}">'
+                rel = f"{test_name}/{fn}"
+                f.write(f'<div class="artifact"><a href="{rel}">'
+                        f'<img src="{rel}" alt="{fn}">'
                         f'<div class="file">{fn}</div></a></div>')
             f.write('</div>\n')
 

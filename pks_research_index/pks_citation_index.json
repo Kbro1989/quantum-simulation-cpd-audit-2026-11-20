@@ -1,0 +1,158 @@
+{
+  "collection": "schauberger_sources_2026-11-22",
+  "built": "2026-11-22",
+  "source_pdf_count": 6,
+  "populations": {
+    "gpe_bec": "mean-field Gross-Pitaevskii / trapped BEC",
+    "two_fluid_helium": "coupled normal-fluid + superfluid helium models",
+    "classical_cfd": "classical fluid / CFD methodology",
+    "classical_geometry": "classical vortex geometry and coordinate systems"
+  },
+  "note": "Bibliographic fields extracted from the arXiv abs pages and PDF text layers; hashes, byte sizes and page counts derived from disk. The populations overlap mathematically but do not validate the same physical model.",
+  "records": [
+    {
+      "id": "fetter_svidzinsky_2001_jopcm",
+      "file": "fetter_vortices_yale.pdf",
+      "title": "Vortices in a trapped dilute Bose-Einstein condensate",
+      "authors": [
+        "Alexander L. Fetter",
+        "Anatoly A. Svidzinsky"
+      ],
+      "year": 2001,
+      "venue": "Journal of Physics: Condensed Matter 13 (2001) R135-R194",
+      "doi": "10.1088/0953-8984/13/12/201",
+      "pii": "S0953-8984(01)08644-1",
+      "arxiv_id": "cond-mat/0102003",
+      "version": "published",
+      "population": "gpe_bec",
+      "topic": "GPE vortex structure, energy, dynamics, normal modes, stability, vortex arrays",
+      "relevance": "Primary GPE reference for the QuantumLab 1D/2D/3D solver and BEC vortex physics.",
+      "bytes": 717890,
+      "sha256": "1d8758790b1c0aac6ebd6c97658616863f981a1ae9cc334c0d7fc7caa74ba608",
+      "pages": 60,
+      "on_disk": true,
+      "url": "https://arxiv.org/abs/cond-mat/0102003"
+    },
+    {
+      "id": "fetter_svidzinsky_2001_arxiv",
+      "file": "arxiv_cond-mat_0102003_fetter.pdf",
+      "title": "Vortices in a trapped dilute Bose-Einstein condensate",
+      "authors": [
+        "Alexander Fetter",
+        "Anatoly Svidzinsky"
+      ],
+      "year": 2001,
+      "venue": "arXiv preprint",
+      "doi": null,
+      "arxiv_id": "cond-mat/0102003",
+      "version": "preprint",
+      "population": "gpe_bec",
+      "topic": "Same work as the J. Phys.: Condens. Matter review; preprint form.",
+      "relevance": "Same as the published version; useful for cross-checking pagination and equations.",
+      "bytes": 975902,
+      "sha256": "d8de900ebb0d59ed639eab5c34e857c6dfd742334e005e6b4b875a280f0fbca3",
+      "pages": 50,
+      "on_disk": true,
+      "url": "https://arxiv.org/abs/cond-mat/0102003"
+    },
+    {
+      "id": "tang_2022_vortex_rings",
+      "file": "arxiv_2211.01560_vortex_rings.pdf",
+      "title": "Imaging the decay of quantized vortex rings to decipher quantum dissipation",
+      "authors": [
+        "Yuan Tang",
+        "Wei Guo",
+        "Hiromichi Kobayashi",
+        "Satoshi Yui",
+        "Makoto Tsubota",
+        "Toshiaki Kanai"
+      ],
+      "year": 2022,
+      "venue": "arXiv preprint",
+      "doi": null,
+      "arxiv_id": "2211.01560",
+      "version": "preprint",
+      "population": "two_fluid_helium",
+      "topic": "Quantized vortex rings in He II; Schwarz / two-way / self-consistent two-way models; mutual friction",
+      "relevance": "Bridge into 3D vortex-ring dynamics and dissipation; NOT a single-component GPE validation.",
+      "bytes": 1249251,
+      "sha256": "5f0c01e7cebc6fee0ab628761c0044b51638ef4e7339206444e37b94cf485220",
+      "pages": 10,
+      "on_disk": true,
+      "url": "https://arxiv.org/abs/2211.01560"
+    },
+    {
+      "id": "bradley_2026_turbulence",
+      "file": "arxiv_2607.22244_turbulence.pdf",
+      "title": "Turbulence in Quantum Gases: Vortices, Waves, and Cascades",
+      "authors": [
+        "Ashton S. Bradley",
+        "Tyler W. Neely",
+        "Xiaoquan Yu",
+        "Brian P. Anderson"
+      ],
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "doi": null,
+      "arxiv_id": "2607.22244",
+      "version": "preprint",
+      "population": "gpe_bec",
+      "topic": "Review: quantum turbulence, vortex dynamics, waves, cascades in ultracold gases",
+      "relevance": "Literature map for later numerical and experimental vortex work in the GPE setting.",
+      "bytes": 1823659,
+      "sha256": "35528d246c4d7937f66614941c732ec2a366f8a3f05e5d3b479951b2e35bdc31",
+      "pages": 32,
+      "on_disk": true,
+      "url": "https://arxiv.org/abs/2607.22244"
+    },
+    {
+      "id": "lyra_2021_elliptic",
+      "file": "arxiv_2108.04013_lyra.pdf",
+      "title": "Vortex solution in elliptic coordinates",
+      "authors": [
+        "Wladimir Lyra"
+      ],
+      "year": 2021,
+      "venue": "arXiv preprint",
+      "doi": null,
+      "arxiv_id": "2108.04013",
+      "version": "preprint",
+      "population": "classical_geometry",
+      "topic": "Exact elliptical vortex solution of the Euler equations; elliptic-coordinate transformations",
+      "relevance": "Geometric / mathematical reference (metric factors, differential geometry), not a quantum-vortex solution.",
+      "bytes": 191290,
+      "sha256": "4aafc1c8cec1e73e55110c7918173f0215086213cc58a9ef49e7d45a363f8bc4",
+      "pages": 7,
+      "on_disk": true,
+      "url": "https://arxiv.org/abs/2108.04013"
+    },
+    {
+      "id": "donepudi_2024_pof",
+      "file": "donepudi_2024_physics_of_fluids.pdf",
+      "title": "Numerical analysis of vortex dynamics in hyperbolic funnels using computational fluid dynamics",
+      "authors": [
+        "Teja Donepudi",
+        "Maarten van de Griend",
+        "Luewton L. F. Agostinho",
+        "Esther J. de Kroon",
+        "Roman Klymenko",
+        "Rene Pecnik",
+        "Jakob Woisetschlager",
+        "Elmar C. Fuchs"
+      ],
+      "year": 2024,
+      "venue": "Physics of Fluids 36, 095171 (2024)",
+      "doi": "10.1063/5.0222216",
+      "arxiv_id": null,
+      "version": "published",
+      "population": "classical_cfd",
+      "topic": "3D structured meshes, volume-of-fluid multiphase modelling, Euler-Euler, SST turbulence with curvature correction",
+      "relevance": "Classical vortex geometry and CFD methodology; separate from quantum-simulation validation.",
+      "bytes": 3993275,
+      "sha256": "e9e46e483f10344d231b1528360162a0f818f574e2a2e0ac32a3942db10dac9c",
+      "pages": 12,
+      "on_disk": true,
+      "url": "https://doi.org/10.1063/5.0222216"
+    }
+  ]
+}
