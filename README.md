@@ -382,6 +382,14 @@ physical model.
 **Global manifest re-reconciled.** `cpd_certification_manifest_v6.json` reconciles the
 working tree to its own commit; v1.0–v5.0 are preserved unchanged.
 
+**Missing primary references retrieved (audit step 4).** Four of five requested papers were
+downloaded and verified (HTTP 200, `%PDF-` magic, page count, SHA-256):
+`arxiv_cond-mat_9806038_dalfovo.pdf`, `arxiv_cond-mat_9906144_castin_dum.pdf`,
+`arxiv_2001.01616_galantucci.pdf`, `arxiv_1711.02814_yui.pdf`. The fifth (Fonda, Sreenivasan
+& Lathrop, PNAS 116, 1924) is recorded as `RETRIEVAL_BLOCKED` — PMC serves a JS-gated page and
+PNAS/EuropePMC return 403 from this host; it is left pending, not fabricated. See
+`pks_research_index/pks_retrieved_references_2026-11-22.json`.
+
 ### 3.4 Open gates
 
 - **Gate 27 assets need re-evaluation.** See the flagged block in the visual-assets

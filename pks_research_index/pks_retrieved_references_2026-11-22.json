@@ -1,0 +1,69 @@
+{
+  "retrieved": "2026-11-22",
+  "count": 4,
+  "verified_count": 4,
+  "records": [
+    {
+      "file": "arxiv_cond-mat_9806038_dalfovo.pdf",
+      "source_url": "https://arxiv.org/pdf/cond-mat/9806038",
+      "identifier": "cond-mat/9806038",
+      "description": "Dalfovo, Giorgini, Pitaevskii, Stringari — Theory of Bose-Einstein condensation in trapped gases",
+      "population": "gpe_bec",
+      "http_status": "200",
+      "bytes": 1205032,
+      "sha256": "66bd2946d9763efea4394693295274cd2bf12920417e143c6ceddffc5249ee62",
+      "magic_ok": true,
+      "pages": 69,
+      "verified": true
+    },
+    {
+      "file": "arxiv_cond-mat_9906144_castin_dum.pdf",
+      "source_url": "https://arxiv.org/pdf/cond-mat/9906144",
+      "identifier": "cond-mat/9906144",
+      "description": "Castin, Dum — Bose-Einstein condensates with vortices in rotating traps",
+      "population": "gpe_bec",
+      "http_status": "200",
+      "bytes": 356301,
+      "sha256": "05627909dd3bea872c6a906415050f627424f6b022d3860cb3b41ec3c3f5fbae",
+      "magic_ok": true,
+      "pages": 31,
+      "verified": true
+    },
+    {
+      "file": "arxiv_2001.01616_galantucci.pdf",
+      "source_url": "https://arxiv.org/pdf/2001.01616",
+      "identifier": "2001.01616",
+      "description": "Galantucci et al. — A new self-consistent approach of quantum turbulence in superfluid helium",
+      "population": "two_fluid_helium",
+      "http_status": "200",
+      "bytes": 7434919,
+      "sha256": "dc8f563af7ce55ca7bb419da979e85d4b60c912e7551150be6b6a6cacd4e3f6c",
+      "magic_ok": true,
+      "pages": 20,
+      "verified": true
+    },
+    {
+      "file": "arxiv_1711.02814_yui.pdf",
+      "source_url": "https://arxiv.org/pdf/1711.02814",
+      "identifier": "1711.02814",
+      "description": "Yui et al. — Three-dimensional coupled dynamics of the two-fluid model in superfluid He-4",
+      "population": "two_fluid_helium",
+      "http_status": "200",
+      "bytes": 1880687,
+      "sha256": "5cb51dfec7a5b5e05d43562f02527ec1c8348e3de6bc1f993f6bd1ff0cdb2fbf",
+      "magic_ok": true,
+      "pages": 8,
+      "verified": true
+    }
+  ],
+  "pending": [
+    {
+      "file": "fonda_2019_pnas_reconnection.pdf",
+      "identifier": "10.1073/pnas.1816403116",
+      "description": "Fonda, Sreenivasan, Lathrop — Reconnection scaling in quantum fluids (PNAS 116, 1924)",
+      "population": "two_fluid_helium",
+      "status": "RETRIEVAL_BLOCKED",
+      "reason": "PMC serves a JS-gated 'Preparing to download' page (no PDF); pnas.org/pdf and europepmc.org/pdf render both return HTTP 403 from this host. Not fabricated — left pending."
+    }
+  ]
+}

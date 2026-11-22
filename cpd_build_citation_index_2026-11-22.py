@@ -2,7 +2,7 @@
 """
 cpd_build_citation_index_2026-11-22.py
 
-Builds a citation index for the six PDFs in schauberger_sources_2026-11-22/.
+Builds a citation index for the PDFs in schauberger_sources_2026-11-22/.
 
 Bibliographic fields are taken from the sources themselves (arXiv abs pages and the
 PDF text layers, extracted 2026-11-22); hashes, byte sizes and page counts are derived
@@ -114,6 +114,63 @@ ENTRIES = [
         "topic": "3D structured meshes, volume-of-fluid multiphase modelling, Euler-Euler, SST turbulence with curvature correction",
         "relevance": "Classical vortex geometry and CFD methodology; separate from quantum-simulation validation.",
     },
+    # --- retrieved 2026-11-22 (reference audit step 4) ---
+    {
+        "id": "dalfovo_1999_rmp",
+        "file": "arxiv_cond-mat_9806038_dalfovo.pdf",
+        "title": "Theory of Bose-Einstein condensation in trapped gases",
+        "authors": ["Franco Dalfovo", "Stefano Giorgini", "Lev P. Pitaevskii", "Sandro Stringari"],
+        "year": 1999,
+        "venue": "Reviews of Modern Physics 71, 463 (1999); arXiv preprint 1998",
+        "doi": "10.1103/RevModPhys.71.463",
+        "arxiv_id": "cond-mat/9806038",
+        "version": "preprint",
+        "population": "gpe_bec",
+        "topic": "Mean-field theory of trapped BEC; GPE, collective modes, stability",
+        "relevance": "Core BEC theory reference for the solver's mean-field layer.",
+    },
+    {
+        "id": "castin_dum_1999_epjd",
+        "file": "arxiv_cond-mat_9906144_castin_dum.pdf",
+        "title": "Bose-Einstein condensates with vortices in rotating traps",
+        "authors": ["Y. Castin", "R. Dum"],
+        "year": 1999,
+        "venue": "European Physical Journal D 7, 399-412 (1999)",
+        "doi": "10.1007/s100530050584",
+        "arxiv_id": "cond-mat/9906144",
+        "version": "preprint",
+        "population": "gpe_bec",
+        "topic": "Minimal-energy vortex solutions in rotating traps; Thomas-Fermi variational Ansatz; vortex stabilisation",
+        "relevance": "Directly relevant to rotating-trap vortex states and energy estimates.",
+    },
+    {
+        "id": "galantucci_2020_foucault",
+        "file": "arxiv_2001.01616_galantucci.pdf",
+        "title": "A new self-consistent approach of quantum turbulence in superfluid helium",
+        "authors": ["Luca Galantucci", "Andrew W. Baggaley", "Carlo F. Barenghi", "Giorgio Krstulovic"],
+        "year": 2020,
+        "venue": "arXiv preprint",
+        "doi": None,
+        "arxiv_id": "2001.01616",
+        "version": "preprint",
+        "population": "two_fluid_helium",
+        "topic": "FOUCAULT model: vortex-filament superfluid coupled to a modified Navier-Stokes normal fluid",
+        "relevance": "Self-consistent two-fluid quantum-turbulence modelling; not a single-component GPE validation.",
+    },
+    {
+        "id": "yui_2017_two_fluid",
+        "file": "arxiv_1711.02814_yui.pdf",
+        "title": "Three-Dimensional Coupled Dynamics of Two-Fluid Model in Superfluid 4He: Deformed Velocity Profile of Normal Fluid in Thermal Counterflow",
+        "authors": ["Satoshi Yui", "Makoto Tsubota", "Hiromichi Kobayashi"],
+        "year": 2017,
+        "venue": "arXiv preprint",
+        "doi": None,
+        "arxiv_id": "1711.02814",
+        "version": "preprint",
+        "population": "two_fluid_helium",
+        "topic": "3D coupled two-fluid dynamics in thermal counterflow; normal-fluid velocity profile deformation",
+        "relevance": "Coupled two-fluid dynamics; separate population from the GPE solver.",
+    },
 ]
 
 
@@ -155,6 +212,8 @@ def main():
     lines = ["# Citation index — schauberger_sources_2026-11-22", "",
              "Built 2026-11-22. Bibliographic fields are extracted from the arXiv abs pages",
              "and PDF text layers; hashes, byte sizes and page counts are derived from disk.", "",
+             f"{len(records)} records: the original six-PDF collection plus the four primary",
+             "references retrieved on 2026-11-22 (reference audit step 4).", "",
              "## Evidence populations (kept separate)", ""]
     for k, v in out["populations"].items():
         lines.append(f"- **{k}** — {v}")
