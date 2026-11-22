@@ -241,6 +241,17 @@ Artifact: `pks_research_index/pks_vortex_regularized_2026-11-22.md` and
 `quantum_vortex_regularized.json`. Full evolution remains `NOT_CERTIFIED` — D3
 degrades after step 20 and the circulation residual is ~1% at N=48.
 
+**Gate 1 — D3 convergence (2026-11-22): FAILS its acceptance condition.** With an
+independent reference (central local density minimum, no phase), the reference core
+stays at **(0,0) for all 200 steps, all runs, all slices** — the vortex is stationary,
+as a centred vortex in a symmetric trap should be. The winding-centroid detector
+drifts to 1.2–2.6 grid units and gets **worse** at N=64 than N=48; halving dt changes
+nothing, and `competing_minima = 1` throughout. Diagnosis: **detector bias** — the
+±1 hit-list is a disc whose centroid is ill-conditioned, not physical motion and not
+numerical instability. Winding around the detected core stays +1 at r = 3, 4.
+Artifact: `pks_research_index/quantum_vortex_gate1_d3.json`,
+`pks_vortex_gate1_d3_2026-11-22.md`.
+
 ### 3.3 PKS egg-curve mathematics
 
 Recovered from the rendered PDF (byte-identical across the 2020/2024/2026 captures,
@@ -271,7 +282,9 @@ the next gate.
 - **EQ-10** volume discrepancy unresolved (5.986907 / 7.736654 / 0.4045).
 - **Vortex-line evolution** is `NOT_CERTIFIED`. The regularized state closed D1
   (core depletion) and D4 (independent velocity-field circulation, ratio 0.99–1.02),
-  but D3 still degrades after step 20 — see §3.2.
+  but **Gate 1 failed**: D3 does not converge under refinement and the drift is
+  detector bias, not physical motion — see §3.2.
+- **Gate 2 — GPE stationarity** is `NOT_TESTED`. Separate gate, not started.
 
 ---
 

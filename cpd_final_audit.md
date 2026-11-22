@@ -187,6 +187,11 @@ is now an **independent velocity-field integral** (Γ/(h/m) = 0.99–1.02, conve
 toward 1 at finer grid). D3 localisation is exact at t = 0–20 on N=48 but still
 degrades by step 40, so full evolution remains **NOT_CERTIFIED**.
 
+**Gate 1 (D3 convergence) then FAILED its acceptance condition.** Against an
+independent density-based reference the vortex is stationary at (0,0) for all 200
+steps, while the winding-centroid detector drifts and is worse at N=64 than N=48 —
+detector bias, not physical motion. **Gate 2 (GPE stationarity) is `NOT_TESTED`.**
+
 ### 7.2 PKS egg-curve mathematics
 
 EQ-05 is **CLOSURE_PROVEN** (analytic endpoint coincidence, removable singularities

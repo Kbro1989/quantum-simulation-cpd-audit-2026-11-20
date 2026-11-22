@@ -126,3 +126,22 @@ restates D2. The residual is discretization error: ~1% at N=48, ~0.5% at N=64.
 
 D3 remains the open item. Full evolution stays `NOT_CERTIFIED`.
 Artifact: `pks_research_index/pks_vortex_regularized_2026-11-22.md`.
+
+### 6.2 Gate 1 — D3 convergence: FAILS
+
+`cpd_vortex_gate1_d3_convergence_2026-11-22.py` — separate gate, N ∈ {48,64} ×
+dt ∈ {0.005, 0.0025}, steps 0–200, three z-slices, reference = central local density
+minimum (no phase).
+
+The reference stays at **(0,0) for every frame of every run** — the vortex is
+stationary. The winding-centroid detector drifts to 1.2–2.6 grid units, is **worse**
+at N=64 than N=48, is insensitive to halving dt, and `competing_minima = 1`
+throughout. Diagnosis: **detector bias**, not physical motion and not instability.
+Winding around the detected core remains +1 at r = 3, 4.
+
+The first reference implementation (global density minimum) failed the same way as
+the old corner detector — the Gaussian tail beats the core — and was corrected to a
+local minimum inside a declared region.
+
+Artifact: `pks_research_index/quantum_vortex_gate1_d3.json`,
+`pks_research_index/pks_vortex_gate1_d3_2026-11-22.md`.
