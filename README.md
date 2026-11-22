@@ -312,13 +312,39 @@ before evaluation.
 | 0.7–0.8 | 0.42–0.55 |
 | 0.9–1.0 | **0.00–0.09** |
 
-Constraint: coverage ≳ 0.9 for sub-0.1 accuracy. Coverage is limited by the
-valid-domain boundary, so this is a **domain-size constraint on the estimator** —
-recorded as an operating constraint, not claimed as general localization.
-Artifacts: `pks_research_index/quantum_vortex_d3_remediation_v4.json`,
 `..._v4_holdout.json`, `cpd_vortex_d3_acceptance_v4_2026-11-22.py`.
 
-### 3.3 PKS egg-curve mathematics
+### Experiment 1 — domain enlargement
+
+**Script:** `cpd_vortex_domain_experiment_2026-11-22.py` (estimator imported, unmodified).
+**Result: PASS.** At L=6 the estimator has coverage 0.75–1.0 (degrades below 0.9) and
+errors 0.02–0.55. At L=8 (N=85, dx=0.188) every profile has **100% coverage** and errors
+**0.001–0.053**, with 0 domain exits. At L=12 (N=128, dx=0.1875) errors **0.001–0.039**.
+
+So the domain boundary IS the binding constraint, and enlarging the domain to L=8 recovers
+coverage and accuracy. This is a domain-size experiment — the estimator is unchanged and
+frozen, which keeps the comparison honest.
+
+### Experiment 2 — independent diagnostic gate
+
+**Script:** `cpd_vortex_gate_derivation_2026-11-22.py`, SHA-256 `c1aec197c4b007f6f8519177…`.
+Features vs true error on 21 development observations: coverage −0.84, largest gap +0.84,
+rms residual +0.88, centre standard error +0.77, fit condition −0.22. Frozen gate:
+`coverage ≥ 0.90`, `largest angular gap ≤ 40°`, `centre standard error ≤ 0.25`. Evaluated
+on a 6-profile new holdout (18 runs): 8 pass, 10 rejected, **0 ungated failures** — the
+gate rejects all short-arc fits. The gate is a measurement improvement, not a domain fix;
+D3 stays NOT VALIDATED.
+
+**Joint conclusion:**
+
+| criterion | result |
+|---|---|
+| Gate rejects all inaccurate short-arc fits | PASS |
+| Gate never accepts an inaccurate estimate | PASS (0 ungated) |
+| L=8 recovers coverage and fills the blind set (Experiment 1) | PASS |
+| Gate 2 | NOT TESTED |
+
+D3 remains `NOT VALIDATED`.
 
 Recovered from the rendered PDF (byte-identical across the 2020/2024/2026 captures,
 SHA-256 `ec4358df…`). Status of the equation audit:

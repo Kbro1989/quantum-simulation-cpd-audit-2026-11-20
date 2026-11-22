@@ -1,0 +1,1173 @@
+{
+  "experiment": "independent diagnostic gate derivation",
+  "status": "DIAGNOSTIC -- gate frozen before holdout evaluation",
+  "frozen_estimator_sha256": "0b108d82e7ad83b098f34149494cd8943c80ee7c3d00708006ba629247edca69",
+  "gate_implementation_sha256": "c1aec197c4b007f6f851917739092186c3c4d1728da0a9a634b7aaf3c9cf0605",
+  "gate_thresholds": {
+    "min_coverage": 0.9,
+    "max_gap_deg": 40.0,
+    "max_centre_std": 0.25
+  },
+  "derivation_data": "development profiles at L=6,8,12 only",
+  "holdout_profiles": [
+    [
+      2.0,
+      2.0
+    ],
+    [
+      -2.0,
+      -2.0
+    ],
+    [
+      1.0,
+      -2.0
+    ],
+    [
+      -2.0,
+      1.0
+    ],
+    [
+      2.5,
+      0.25
+    ],
+    [
+      -0.5,
+      2.5
+    ]
+  ],
+  "development": [
+    {
+      "valid": true,
+      "coverage": 1.0,
+      "largest_gap_deg": 10,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "domain_exits": 105,
+      "rejected_loops": 105,
+      "R_fit": 2.119248994243978,
+      "rms_residual": 0.12061632593249974,
+      "max_residual": 0.13703473370092722,
+      "condition": 7.4336543319667525,
+      "centre": [
+        1.4999985695899862,
+        -0.9823363899940183
+      ],
+      "centre_std": 0.0,
+      "error_vs_true": 0.0177,
+      "gate_accept": true,
+      "ungated_fail": false,
+      "profile_set": "development",
+      "L": 6.0,
+      "N": 64,
+      "dx": 0.1875,
+      "displacement": [
+        1.5,
+        -1.0
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 0.9722,
+      "largest_gap_deg": 20,
+      "n_crossings": 35,
+      "n_angles": 36,
+      "domain_exits": 105,
+      "rejected_loops": 105,
+      "R_fit": 2.094784478901189,
+      "rms_residual": 0.11895825440384167,
+      "max_residual": 0.18433721670277992,
+      "condition": 11.051100852169487,
+      "centre": [
+        -1.9103251327421107,
+        1.5000042892020993
+      ],
+      "centre_std": 4.693455336382251e+24,
+      "error_vs_true": 0.0897,
+      "gate_accept": false,
+      "ungated_fail": false,
+      "profile_set": "development",
+      "L": 6.0,
+      "N": 64,
+      "dx": 0.1875,
+      "displacement": [
+        -2.0,
+        1.5
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 0.75,
+      "largest_gap_deg": 100,
+      "n_crossings": 27,
+      "n_angles": 36,
+      "domain_exits": 105,
+      "rejected_loops": 105,
+      "R_fit": 2.173212228630597,
+      "rms_residual": 0.18658455842457491,
+      "max_residual": 0.25622354066445485,
+      "condition": 8.456304605971686,
+      "centre": [
+        -0.08234853039973192,
+        2.489608131640482
+      ],
+      "centre_std": 8.104665339700253e+26,
+      "error_vs_true": 0.083,
+      "gate_accept": false,
+      "ungated_fail": false,
+      "profile_set": "development",
+      "L": 6.0,
+      "N": 64,
+      "dx": 0.1875,
+      "displacement": [
+        0.0,
+        2.5
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 0.8056,
+      "largest_gap_deg": 80,
+      "n_crossings": 29,
+      "n_angles": 36,
+      "domain_exits": 105,
+      "rejected_loops": 105,
+      "R_fit": 2.1379984701552375,
+      "rms_residual": 0.25644392106840175,
+      "max_residual": 0.40431916982599314,
+      "condition": 8.703746652672388,
+      "centre": [
+        1.9843721309218063,
+        0.7694428330832076
+      ],
+      "centre_std": 0.0,
+      "error_vs_true": 0.2663,
+      "gate_accept": false,
+      "ungated_fail": false,
+      "profile_set": "development",
+      "L": 6.0,
+      "N": 64,
+      "dx": 0.1875,
+      "displacement": [
+        2.25,
+        0.75
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 0.8056,
+      "largest_gap_deg": 80,
+      "n_crossings": 29,
+      "n_angles": 36,
+      "domain_exits": 105,
+      "rejected_loops": 105,
+      "R_fit": 2.071653215633138,
+      "rms_residual": 0.16929178035845402,
+      "max_residual": 0.2724572383955475,
+      "condition": 10.146657002981039,
+      "centre": [
+        -1.243705157910012,
+        -2.0489105895839677
+      ],
+      "centre_std": 0.0,
+      "error_vs_true": 0.2012,
+      "gate_accept": false,
+      "ungated_fail": false,
+      "profile_set": "development",
+      "L": 6.0,
+      "N": 64,
+      "dx": 0.1875,
+      "displacement": [
+        -1.25,
+        -2.25
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 0.75,
+      "largest_gap_deg": 100,
+      "n_crossings": 27,
+      "n_angles": 36,
+      "domain_exits": 105,
+      "rejected_loops": 105,
+      "R_fit": 2.026130613592808,
+      "rms_residual": 0.2664827827451004,
+      "max_residual": 0.4166925758555555,
+      "condition": 10.859202954003484,
+      "centre": [
+        0.7681770944651308,
+        -2.3595898167193923
+      ],
+      "error_vs_true": 0.3908,
+      "gate_accept": false,
+      "ungated_fail": false,
+      "profile_set": "development",
+      "L": 6.0,
+      "N": 64,
+      "dx": 0.1875,
+      "displacement": [
+        0.75,
+        -2.75
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 0.75,
+      "largest_gap_deg": 100,
+      "n_crossings": 27,
+      "n_angles": 36,
+      "domain_exits": 105,
+      "rejected_loops": 105,
+      "R_fit": 1.9412001773703396,
+      "rms_residual": 0.3193140094736057,
+      "max_residual": 0.4878565994542787,
+      "condition": 10.610089793951067,
+      "centre": [
+        -2.204628739487591,
+        -0.7959519870397866
+      ],
+      "centre_std": 1.4283063564133648e+31,
+      "error_vs_true": 0.5473,
+      "gate_accept": false,
+      "ungated_fail": false,
+      "profile_set": "development",
+      "L": 6.0,
+      "N": 64,
+      "dx": 0.1875,
+      "displacement": [
+        -2.75,
+        -0.75
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 1.0,
+      "largest_gap_deg": 10,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "domain_exits": 145,
+      "rejected_loops": 145,
+      "R_fit": 2.125509527331787,
+      "rms_residual": 0.12716050330187678,
+      "max_residual": 0.14920311300321054,
+      "condition": 7.968620162581672,
+      "centre": [
+        1.505059499193087,
+        -0.9767126495146142
+      ],
+      "centre_std": 0.0,
+      "error_vs_true": 0.0238,
+      "gate_accept": true,
+      "ungated_fail": false,
+      "profile_set": "development",
+      "L": 8.0,
+      "N": 85,
+      "dx": 0.18823529411764706,
+      "displacement": [
+        1.5,
+        -1.0
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 1.0,
+      "largest_gap_deg": 10,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "domain_exits": 145,
+      "rejected_loops": 145,
+      "R_fit": 2.1090350899412615,
+      "rms_residual": 0.11315406039347559,
+      "max_residual": 0.14207219569688756,
+      "condition": 12.023746318578498,
+      "centre": [
+        -1.9796666612031384,
+        1.52589141071227
+      ],
+      "centre_std": 1.6006210302791153e+29,
+      "error_vs_true": 0.0329,
+      "gate_accept": false,
+      "ungated_fail": false,
+      "profile_set": "development",
+      "L": 8.0,
+      "N": 85,
+      "dx": 0.18823529411764706,
+      "displacement": [
+        -2.0,
+        1.5
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 1.0,
+      "largest_gap_deg": 10,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "domain_exits": 145,
+      "rejected_loops": 145,
+      "R_fit": 2.144358446832652,
+      "rms_residual": 0.14439418507917443,
+      "max_residual": 0.14503434915310853,
+      "condition": 12.375657294164379,
+      "centre": [
+        1.5019573164921098e-08,
+        2.4992260195670615
+      ],
+      "error_vs_true": 0.0008,
+      "gate_accept": false,
+      "ungated_fail": false,
+      "profile_set": "development",
+      "L": 8.0,
+      "N": 85,
+      "dx": 0.18823529411764706,
+      "displacement": [
+        0.0,
+        2.5
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 1.0,
+      "largest_gap_deg": 10,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "domain_exits": 145,
+      "rejected_loops": 145,
+      "R_fit": 2.061303130944497,
+      "rms_residual": 0.06311552742458805,
+      "max_residual": 0.0759696185529608,
+      "condition": 10.760171727884178,
+      "centre": [
+        2.2409852335374127,
+        0.7615207170901924
+      ],
+      "centre_std": 1.820352475374332e+29,
+      "error_vs_true": 0.0146,
+      "gate_accept": false,
+      "ungated_fail": false,
+      "profile_set": "development",
+      "L": 8.0,
+      "N": 85,
+      "dx": 0.18823529411764706,
+      "displacement": [
+        2.25,
+        0.75
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 1.0,
+      "largest_gap_deg": 10,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "domain_exits": 145,
+      "rejected_loops": 145,
+      "R_fit": 2.1980371074893004,
+      "rms_residual": 0.20382246493138778,
+      "max_residual": 0.25153598183728754,
+      "condition": 11.863716659847707,
+      "centre": [
+        -1.2136930403496387,
+        -2.2108748331660304
+      ],
+      "centre_std": 7.625091914014616e+29,
+      "error_vs_true": 0.0534,
+      "gate_accept": false,
+      "ungated_fail": false,
+      "profile_set": "development",
+      "L": 8.0,
+      "N": 85,
+      "dx": 0.18823529411764706,
+      "displacement": [
+        -1.25,
+        -2.25
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 1.0,
+      "largest_gap_deg": 10,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "domain_exits": 145,
+      "rejected_loops": 145,
+      "R_fit": 2.164583403156775,
+      "rms_residual": 0.1683593929951581,
+      "max_residual": 0.21060010069895818,
+      "condition": 14.883265984917692,
+      "centre": [
+        0.733810806839171,
+        -2.7931250835415353
+      ],
+      "centre_std": 0.0,
+      "error_vs_true": 0.0461,
+      "gate_accept": true,
+      "ungated_fail": false,
+      "profile_set": "development",
+      "L": 8.0,
+      "N": 85,
+      "dx": 0.18823529411764706,
+      "displacement": [
+        0.75,
+        -2.75
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 1.0,
+      "largest_gap_deg": 10,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "domain_exits": 145,
+      "rejected_loops": 145,
+      "R_fit": 2.1645860126141128,
+      "rms_residual": 0.168361737350154,
+      "max_residual": 0.2106011631298934,
+      "condition": 14.883265984917692,
+      "centre": [
+        -2.7931250738971847,
+        -0.7338154053835622
+      ],
+      "centre_std": 6.358411669626659e+30,
+      "error_vs_true": 0.0461,
+      "gate_accept": false,
+      "ungated_fail": false,
+      "profile_set": "development",
+      "L": 8.0,
+      "N": 85,
+      "dx": 0.18823529411764706,
+      "displacement": [
+        -2.75,
+        -0.75
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 1.0,
+      "largest_gap_deg": 10,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "domain_exits": 235,
+      "rejected_loops": 235,
+      "R_fit": 2.1417698474753903,
+      "rms_residual": 0.14214027485094213,
+      "max_residual": 0.1502934359909056,
+      "condition": 7.879030895970845,
+      "centre": [
+        1.5079670426638667,
+        -1.0029298117722434
+      ],
+      "centre_std": 0.0,
+      "error_vs_true": 0.0085,
+      "gate_accept": true,
+      "ungated_fail": false,
+      "profile_set": "development",
+      "L": 12.0,
+      "N": 128,
+      "dx": 0.1875,
+      "displacement": [
+        1.5,
+        -1.0
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 1.0,
+      "largest_gap_deg": 10,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "domain_exits": 235,
+      "rejected_loops": 235,
+      "R_fit": 2.103585281650863,
+      "rms_residual": 0.10787035887967673,
+      "max_residual": 0.14285807722228583,
+      "condition": 12.017957364530378,
+      "centre": [
+        -1.964303857965218,
+        1.5167203577604353
+      ],
+      "centre_std": 0.0,
+      "error_vs_true": 0.0394,
+      "gate_accept": true,
+      "ungated_fail": false,
+      "profile_set": "development",
+      "L": 12.0,
+      "N": 128,
+      "dx": 0.1875,
+      "displacement": [
+        -2.0,
+        1.5
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 1.0,
+      "largest_gap_deg": 10,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "domain_exits": 235,
+      "rejected_loops": 235,
+      "R_fit": 2.1120671890402662,
+      "rms_residual": 0.11274344591446073,
+      "max_residual": 0.12630559967282018,
+      "condition": 12.054171506324254,
+      "centre": [
+        -0.004650452727785415,
+        2.513556207574633
+      ],
+      "centre_std": 9.479942357856417e+26,
+      "error_vs_true": 0.0143,
+      "gate_accept": false,
+      "ungated_fail": false,
+      "profile_set": "development",
+      "L": 12.0,
+      "N": 128,
+      "dx": 0.1875,
+      "displacement": [
+        0.0,
+        2.5
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 1.0,
+      "largest_gap_deg": 10,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "domain_exits": 235,
+      "rejected_loops": 235,
+      "R_fit": 2.107655645677149,
+      "rms_residual": 0.10885610176603405,
+      "max_residual": 0.12456705021772874,
+      "condition": 11.214099284363561,
+      "centre": [
+        2.261749382312393,
+        0.7378340806290081
+      ],
+      "centre_std": 2.2158678413430265e+26,
+      "error_vs_true": 0.0169,
+      "gate_accept": false,
+      "ungated_fail": false,
+      "profile_set": "development",
+      "L": 12.0,
+      "N": 128,
+      "dx": 0.1875,
+      "displacement": [
+        2.25,
+        0.75
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 1.0,
+      "largest_gap_deg": 10,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "domain_exits": 235,
+      "rejected_loops": 235,
+      "R_fit": 2.083053228538692,
+      "rms_residual": 0.08449257799310825,
+      "max_residual": 0.10301211126637555,
+      "condition": 12.76559876650086,
+      "centre": [
+        -1.230346027191715,
+        -2.2539600184313264
+      ],
+      "error_vs_true": 0.02,
+      "gate_accept": false,
+      "ungated_fail": false,
+      "profile_set": "development",
+      "L": 12.0,
+      "N": 128,
+      "dx": 0.1875,
+      "displacement": [
+        -1.25,
+        -2.25
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 1.0,
+      "largest_gap_deg": 10,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "domain_exits": 235,
+      "rejected_loops": 235,
+      "R_fit": 2.1221374281362566,
+      "rms_residual": 0.12304784638445172,
+      "max_residual": 0.13627757701417598,
+      "condition": 15.081765315272875,
+      "centre": [
+        0.7509173953161002,
+        -2.763935996271769
+      ],
+      "centre_std": 0.0,
+      "error_vs_true": 0.014,
+      "gate_accept": true,
+      "ungated_fail": false,
+      "profile_set": "development",
+      "L": 12.0,
+      "N": 128,
+      "dx": 0.1875,
+      "displacement": [
+        0.75,
+        -2.75
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 1.0,
+      "largest_gap_deg": 10,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "domain_exits": 235,
+      "rejected_loops": 235,
+      "R_fit": 2.1024903845380867,
+      "rms_residual": 0.10258535069790256,
+      "max_residual": 0.10367825915320661,
+      "condition": 15.098279809057585,
+      "centre": [
+        -2.7510094305208095,
+        -0.7500031005724555
+      ],
+      "centre_std": 3.373293766891187e+22,
+      "error_vs_true": 0.001,
+      "gate_accept": false,
+      "ungated_fail": false,
+      "profile_set": "development",
+      "L": 12.0,
+      "N": 128,
+      "dx": 0.1875,
+      "displacement": [
+        -2.75,
+        -0.75
+      ]
+    }
+  ],
+  "holdout": [
+    {
+      "valid": true,
+      "coverage": 0.7222,
+      "largest_gap_deg": 60,
+      "n_crossings": 26,
+      "n_angles": 36,
+      "domain_exits": 105,
+      "rejected_loops": 105,
+      "R_fit": 2.035707404461167,
+      "rms_residual": 0.17879357281121772,
+      "max_residual": 0.2728679141121728,
+      "condition": 11.28984069367058,
+      "centre": [
+        1.8314247515120385,
+        1.8314266041154095
+      ],
+      "centre_std": 0.0,
+      "error_vs_true": 0.2384,
+      "gate_accept": false,
+      "ungated_fail": false,
+      "profile_set": "holdout",
+      "L": 6.0,
+      "N": 64,
+      "dx": 0.1875,
+      "displacement": [
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 0.7222,
+      "largest_gap_deg": 60,
+      "n_crossings": 26,
+      "n_angles": 36,
+      "domain_exits": 105,
+      "rejected_loops": 105,
+      "R_fit": 2.036931755099686,
+      "rms_residual": 0.17314460452982997,
+      "max_residual": 0.2548018487541597,
+      "condition": 10.456079168491064,
+      "centre": [
+        -1.8453086744053082,
+        -1.8453174354659594
+      ],
+      "centre_std": 3.816465416245028e+28,
+      "error_vs_true": 0.2188,
+      "gate_accept": false,
+      "ungated_fail": false,
+      "profile_set": "holdout",
+      "L": 6.0,
+      "N": 64,
+      "dx": 0.1875,
+      "displacement": [
+        -2.0,
+        -2.0
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 0.8611,
+      "largest_gap_deg": 60,
+      "n_crossings": 31,
+      "n_angles": 36,
+      "domain_exits": 105,
+      "rejected_loops": 105,
+      "R_fit": 2.186235061141083,
+      "rms_residual": 0.21629306282643204,
+      "max_residual": 0.3026047600275763,
+      "condition": 8.76775850711562,
+      "centre": [
+        1.0256636871644618,
+        -1.8863295565963023
+      ],
+      "centre_std": 8.501613671842694e+21,
+      "error_vs_true": 0.1165,
+      "gate_accept": false,
+      "ungated_fail": false,
+      "profile_set": "holdout",
+      "L": 6.0,
+      "N": 64,
+      "dx": 0.1875,
+      "displacement": [
+        1.0,
+        -2.0
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 0.8611,
+      "largest_gap_deg": 60,
+      "n_crossings": 31,
+      "n_angles": 36,
+      "domain_exits": 105,
+      "rejected_loops": 105,
+      "R_fit": 2.186235026131398,
+      "rms_residual": 0.21629292391221283,
+      "max_residual": 0.302604418420543,
+      "condition": 8.767758507115616,
+      "centre": [
+        -1.8863298236718653,
+        1.025663448828253
+      ],
+      "centre_std": 0.0,
+      "error_vs_true": 0.1165,
+      "gate_accept": false,
+      "ungated_fail": false,
+      "profile_set": "holdout",
+      "L": 6.0,
+      "N": 64,
+      "dx": 0.1875,
+      "displacement": [
+        -2.0,
+        1.0
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 0.75,
+      "largest_gap_deg": 100,
+      "n_crossings": 27,
+      "n_angles": 36,
+      "domain_exits": 105,
+      "rejected_loops": 105,
+      "R_fit": 1.9618511979721658,
+      "rms_residual": 0.2797902425824696,
+      "max_residual": 0.43458275539940683,
+      "condition": 8.543319776346154,
+      "centre": [
+        2.026302510018662,
+        0.2506148158081874
+      ],
+      "centre_std": 1.913450815863582e+29,
+      "error_vs_true": 0.4737,
+      "gate_accept": false,
+      "ungated_fail": false,
+      "profile_set": "holdout",
+      "L": 6.0,
+      "N": 64,
+      "dx": 0.1875,
+      "displacement": [
+        2.5,
+        0.25
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 0.75,
+      "largest_gap_deg": 100,
+      "n_crossings": 27,
+      "n_angles": 36,
+      "domain_exits": 105,
+      "rejected_loops": 105,
+      "R_fit": 2.099846791694894,
+      "rms_residual": 0.2085925498230193,
+      "max_residual": 0.31952971179281886,
+      "condition": 9.283962606829794,
+      "centre": [
+        -0.5530960253982236,
+        2.2870439709447523
+      ],
+      "centre_std": 6.091860104385943e+29,
+      "error_vs_true": 0.2195,
+      "gate_accept": false,
+      "ungated_fail": false,
+      "profile_set": "holdout",
+      "L": 6.0,
+      "N": 64,
+      "dx": 0.1875,
+      "displacement": [
+        -0.5,
+        2.5
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 1.0,
+      "largest_gap_deg": 10,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "domain_exits": 145,
+      "rejected_loops": 145,
+      "R_fit": 2.1120952848116064,
+      "rms_residual": 0.11461426433733742,
+      "max_residual": 0.14564768261601535,
+      "condition": 14.375928734533451,
+      "centre": [
+        1.9763279968396221,
+        1.9763264023607616
+      ],
+      "centre_std": 0.0,
+      "error_vs_true": 0.0335,
+      "gate_accept": true,
+      "ungated_fail": false,
+      "profile_set": "holdout",
+      "L": 8.0,
+      "N": 85,
+      "dx": 0.18823529411764706,
+      "displacement": [
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 1.0,
+      "largest_gap_deg": 10,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "domain_exits": 145,
+      "rejected_loops": 145,
+      "R_fit": 2.1120957626995303,
+      "rms_residual": 0.11461476320566134,
+      "max_residual": 0.14564834117981973,
+      "condition": 14.375928734533451,
+      "centre": [
+        -1.9763265662558163,
+        -1.976327519764199
+      ],
+      "centre_std": 0.0,
+      "error_vs_true": 0.0335,
+      "gate_accept": true,
+      "ungated_fail": false,
+      "profile_set": "holdout",
+      "L": 8.0,
+      "N": 85,
+      "dx": 0.18823529411764706,
+      "displacement": [
+        -2.0,
+        -2.0
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 1.0,
+      "largest_gap_deg": 10,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "domain_exits": 145,
+      "rejected_loops": 145,
+      "R_fit": 2.089209763081018,
+      "rms_residual": 0.09136573991702451,
+      "max_residual": 0.11387169360346205,
+      "condition": 10.316984114357718,
+      "centre": [
+        0.9764162699568295,
+        -2.00778481767213
+      ],
+      "error_vs_true": 0.0248,
+      "gate_accept": false,
+      "ungated_fail": false,
+      "profile_set": "holdout",
+      "L": 8.0,
+      "N": 85,
+      "dx": 0.18823529411764706,
+      "displacement": [
+        1.0,
+        -2.0
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 1.0,
+      "largest_gap_deg": 10,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "domain_exits": 145,
+      "rejected_loops": 145,
+      "R_fit": 2.089209040387132,
+      "rms_residual": 0.09136482620495043,
+      "max_residual": 0.11386966303480062,
+      "condition": 10.316984114357712,
+      "centre": [
+        -2.007782910386084,
+        0.9764169177521681
+      ],
+      "centre_std": 0.0,
+      "error_vs_true": 0.0248,
+      "gate_accept": true,
+      "ungated_fail": false,
+      "profile_set": "holdout",
+      "L": 8.0,
+      "N": 85,
+      "dx": 0.18823529411764706,
+      "displacement": [
+        -2.0,
+        1.0
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 1.0,
+      "largest_gap_deg": 10,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "domain_exits": 145,
+      "rejected_loops": 145,
+      "R_fit": 2.1140563786042956,
+      "rms_residual": 0.1279644700986596,
+      "max_residual": 0.1835258708436167,
+      "condition": 12.426180569737774,
+      "centre": [
+        2.5122511155568854,
+        0.18150042553771126
+      ],
+      "centre_std": 0.0,
+      "error_vs_true": 0.0696,
+      "gate_accept": true,
+      "ungated_fail": false,
+      "profile_set": "holdout",
+      "L": 8.0,
+      "N": 85,
+      "dx": 0.18823529411764706,
+      "displacement": [
+        2.5,
+        0.25
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 1.0,
+      "largest_gap_deg": 10,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "domain_exits": 145,
+      "rejected_loops": 145,
+      "R_fit": 2.1198560119430736,
+      "rms_residual": 0.12633839190325274,
+      "max_residual": 0.16487994185003751,
+      "condition": 13.210035886078085,
+      "centre": [
+        -0.5148895098809271,
+        2.542355898624852
+      ],
+      "centre_std": 0.0,
+      "error_vs_true": 0.0449,
+      "gate_accept": true,
+      "ungated_fail": false,
+      "profile_set": "holdout",
+      "L": 8.0,
+      "N": 85,
+      "dx": 0.18823529411764706,
+      "displacement": [
+        -0.5,
+        2.5
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 1.0,
+      "largest_gap_deg": 10,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "domain_exits": 235,
+      "rejected_loops": 235,
+      "R_fit": 2.1152667647971097,
+      "rms_residual": 0.1152776133308868,
+      "max_residual": 0.11803768883557542,
+      "condition": 14.783904316000138,
+      "centre": [
+        1.997949355259407,
+        1.9979491019336935
+      ],
+      "centre_std": 0.0,
+      "error_vs_true": 0.0029,
+      "gate_accept": true,
+      "ungated_fail": false,
+      "profile_set": "holdout",
+      "L": 12.0,
+      "N": 128,
+      "dx": 0.1875,
+      "displacement": [
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 1.0,
+      "largest_gap_deg": 10,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "domain_exits": 235,
+      "rejected_loops": 235,
+      "R_fit": 2.1088592042253542,
+      "rms_residual": 0.10905158803344503,
+      "max_residual": 0.11398742643742987,
+      "condition": 14.70081577531802,
+      "centre": [
+        -2.0034888110292375,
+        -2.0034866553108555
+      ],
+      "error_vs_true": 0.0049,
+      "gate_accept": false,
+      "ungated_fail": false,
+      "profile_set": "holdout",
+      "L": 12.0,
+      "N": 128,
+      "dx": 0.1875,
+      "displacement": [
+        -2.0,
+        -2.0
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 1.0,
+      "largest_gap_deg": 10,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "domain_exits": 235,
+      "rejected_loops": 235,
+      "R_fit": 2.099480740394542,
+      "rms_residual": 0.10518624034971048,
+      "max_residual": 0.13885110061874517,
+      "condition": 10.424315312335455,
+      "centre": [
+        0.9722273111587237,
+        -2.027745761998057
+      ],
+      "centre_std": 2.3525815344410853e+28,
+      "error_vs_true": 0.0393,
+      "gate_accept": false,
+      "ungated_fail": false,
+      "profile_set": "holdout",
+      "L": 12.0,
+      "N": 128,
+      "dx": 0.1875,
+      "displacement": [
+        1.0,
+        -2.0
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 1.0,
+      "largest_gap_deg": 10,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "domain_exits": 235,
+      "rejected_loops": 235,
+      "R_fit": 2.0994820075794145,
+      "rms_residual": 0.1051874965385132,
+      "max_residual": 0.138852474362694,
+      "condition": 10.424315312335453,
+      "centre": [
+        -2.0277462236888364,
+        0.9722275678992779
+      ],
+      "centre_std": 4.159218369291057e+28,
+      "error_vs_true": 0.0393,
+      "gate_accept": false,
+      "ungated_fail": false,
+      "profile_set": "holdout",
+      "L": 12.0,
+      "N": 128,
+      "dx": 0.1875,
+      "displacement": [
+        -2.0,
+        1.0
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 1.0,
+      "largest_gap_deg": 10,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "domain_exits": 235,
+      "rejected_loops": 235,
+      "R_fit": 2.107801126118615,
+      "rms_residual": 0.10901895231402406,
+      "max_residual": 0.12771564613432007,
+      "condition": 12.051935157582877,
+      "centre": [
+        2.504134740002642,
+        0.2695725654197724
+      ],
+      "centre_std": 0.0,
+      "error_vs_true": 0.02,
+      "gate_accept": true,
+      "ungated_fail": false,
+      "profile_set": "holdout",
+      "L": 12.0,
+      "N": 128,
+      "dx": 0.1875,
+      "displacement": [
+        2.5,
+        0.25
+      ]
+    },
+    {
+      "valid": true,
+      "coverage": 1.0,
+      "largest_gap_deg": 10,
+      "n_crossings": 36,
+      "n_angles": 36,
+      "domain_exits": 235,
+      "rejected_loops": 235,
+      "R_fit": 2.199868750389004,
+      "rms_residual": 0.2027359571888961,
+      "max_residual": 0.2474436136681064,
+      "condition": 12.392715070261865,
+      "centre": [
+        -0.45373292320671726,
+        2.511856039972693
+      ],
+      "centre_std": 0.0,
+      "error_vs_true": 0.0478,
+      "gate_accept": true,
+      "ungated_fail": false,
+      "profile_set": "holdout",
+      "L": 12.0,
+      "N": 128,
+      "dx": 0.1875,
+      "displacement": [
+        -0.5,
+        2.5
+      ]
+    }
+  ],
+  "holdout_summary": {
+    "pass": 8,
+    "rejected": 10,
+    "ungated": 0
+  }
+}

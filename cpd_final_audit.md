@@ -295,5 +295,25 @@ estimator SHA-256 is identical across development and holdout runs.
 
 **Operating envelope:** coverage 0.5 → error 1.81; 0.6 → 1.07; 0.7–0.8 → 0.42–0.55;
 0.9–1.0 → 0.00–0.09. Coverage is bounded by the valid-domain boundary, so this is a
-domain-size constraint on the estimator — recorded as an operating constraint, not
-claimed as general localization. **D3 remains `NOT VALIDATED`.**
+domain-size constraint on the estimator — recorded as an operating constraint, not claimed
+as general localization. **D3 remains `NOT VALIDATED`.**
+
+**Experiment 2 — independent diagnostic gate** (`cpd_vortex_gate_derivation_2026-11-22.py`,
+SHA-256 `c1aec197c4b007f6f8519177…`): features coverage/gap/rms/condition correlate with
+error (coverage −0.84, gap +0.84, RMS +0.88, condition −0.22). Frozen gate:
+`coverage ≥ 0.90`, `largest_gap ≤ 40°`, `centre_std ≤ 0.25`. Evaluated on a 6-profile new
+holdout (18 runs): 8 pass, 10 rejected, 0 ungated failures. The gate rejects all
+short-arc fits — a measurement improvement, not a domain fix. D3 stays `NOT VALIDATED`.
+
+**Joint conclusion:**
+
+| criterion | result |
+|---|---|
+| Gate rejects all inaccurate short-arc fits | PASS |
+| Gate never accepts an inaccurate estimate | PASS (0 ungated) |
+| L=8 recovers coverage and fills the blind set | PASS |
+| Gate 2 | NOT TESTED |
+
+**D3 remains `NOT VALIDATED`. Gate 2 remains `NOT_TESTED`.**
+Artifacts: `cpd_vortex_gate_derivation_2026-11-22.py`,
+`pks_research_index/quantum_vortex_gate_derivation.json`.

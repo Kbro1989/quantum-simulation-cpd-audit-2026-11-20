@@ -258,8 +258,24 @@ domain-size constraint on the estimator, recorded as an operating constraint and
 claimed as general localization. The ±0.35 radius gate misses some degraded fits;
 tightening it would be tuning against the holdout, so it is reported instead.
 
-**D3 remains `NOT VALIDATED`. Gate 2 remains `NOT_TESTED`.**
+**Gate 2 remains `NOT_TESTED`.**
 
-Artifacts: `pks_research_index/quantum_vortex_d3_remediation_v4.json`,
-`pks_research_index/quantum_vortex_d3_remediation_v4_holdout.json`,
-`cpd_vortex_d3_acceptance_v4_2026-11-22.py`.
+**Experiment 2 — independent diagnostic gate** (`cpd_vortex_gate_derivation_2026-11-22.py`,
+SHA-256 `c1aec197c4b007f6f8519177…`). Features vs true error on 21 development
+observations: coverage −0.84, largest gap +0.84, rms residual +0.88, centre standard
+error +0.77, fit condition −0.22. Frozen gate: `coverage ≥ 0.90`, `largest angular gap
+≤ 40°`, `centre standard error ≤ 0.25`. Evaluated on a 6-profile new holdout (18 runs):
+8 pass, 10 rejected, **0 ungated failures**. The gate rejects all short-arc fits — it is
+a measurement improvement, not a domain fix. D3 stays `NOT VALIDATED`.
+
+**Joint conclusion:**
+
+| criterion | result |
+|---|---|
+| Gate rejects all inaccurate short-arc fits | PASS |
+| Gate never accepts an inaccurate estimate | PASS (0 ungated) |
+| L=8 recovers coverage and fills the blind set | PASS |
+| Gate 2 | NOT TESTED |
+
+Artifacts: `cpd_vortex_gate_derivation_2026-11-22.py`,
+`pks_research_index/quantum_vortex_gate_derivation.json`.
