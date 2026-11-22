@@ -5,9 +5,11 @@ Created 2026-11-20 · first published commit `6734d5a` (2026-11-22) · maintaine
 
 This repository is **not** the simulation. It is the independent record that asks
 whether the simulation's outputs are mathematically and physically defensible, and
-whether each claim can be traced to a source. The production library lives at
-`C:\Users\krist\Desktop\quantum-simulation-main\quantum-simulation-main`; the upstream
-project is `rasidi3112/quantum-simulation`.
+whether each claim can be traced to a source. Your fork (QuantumLab) is
+[Kbro1989/quantum-simulation](https://github.com/Kbro1989/quantum-simulation); the
+upstream project is [rasidi3112/quantum-simulation](https://github.com/rasidi3112/quantum-simulation).
+The local checkout this workspace audits is
+`C:\Users\krist\Desktop\quantum-simulation-main\quantum-simulation-main`.
 
 <details>
 <summary>🖼️ &nbsp;Visual assets — PNG / GIF &nbsp;·&nbsp; commit-pinned to <code>1f75a65</code> &nbsp;·&nbsp; 5 GIFs, 79 PNGs</summary>
@@ -338,9 +340,9 @@ the next gate.
 
 | repository | role |
 |---|---|
-| `Kbro1989/quantum-simulation` | production fork (QuantumLab) |
-| `rasidi3112/quantum-simulation` | upstream; original 1D foundation and later physics expansion |
-| `Kbro1989/archive-org-api-knowledge-base` | archival retrieval methodology (separate reference) |
+| [Kbro1989/quantum-simulation](https://github.com/Kbro1989/quantum-simulation) | your fork — production QuantumLab code |
+| [rasidi3112/quantum-simulation](https://github.com/rasidi3112/quantum-simulation) | upstream; original 1D foundation and later physics expansion |
+| [Kbro1989/archive-org-api-knowledge-base](https://github.com/Kbro1989/archive-org-api-knowledge-base) | archival retrieval methodology (separate reference) |
 
 ---
 
