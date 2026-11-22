@@ -192,6 +192,12 @@ independent density-based reference the vortex is stationary at (0,0) for all 20
 steps, while the winding-centroid detector drifts and is worse at N=64 than N=48 —
 detector bias, not physical motion. **Gate 2 (GPE stationarity) is `NOT_TESTED`.**
 
+The **D3 remediation candidate also failed**: the disc-intersection estimator is
+empty in every frame of all six runs, and boundary bisection answers only 12–21 of
+33. A check on whether N=64 is an 8x8 floor plane confirmed it is not (64 points per
+axis), but exposed the mechanism — the ±1 hit set grows ~4x and ceases to be a single
+disc.
+
 ### 7.2 PKS egg-curve mathematics
 
 EQ-05 is **CLOSURE_PROVEN** (analytic endpoint coincidence, removable singularities

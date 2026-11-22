@@ -145,3 +145,30 @@ local minimum inside a declared region.
 
 Artifact: `pks_research_index/quantum_vortex_gate1_d3.json`,
 `pks_research_index/pks_vortex_gate1_d3_2026-11-22.md`.
+
+### 6.3 D3 remediation candidate — NOT VALIDATED
+
+`cpd_vortex_d3_remediation_2026-11-22.py` — three estimators (baseline centroid,
+disc intersection, boundary bisection) against an independent density reference, on
+N ∈ {48, 64, 96} × dt ∈ {0.005, 0.0025}, with pre-declared acceptance criteria.
+
+| criterion | result |
+|---|---|
+| bounded error ≤ 1.0 | **FAIL** |
+| refinement not worse | **FAIL** |
+| the two new estimators agree | **FAIL** — no frame where both answer |
+| unambiguous | **PASS** — competing minima = 1 |
+| blind displaced profiles | **FAIL** — disc intersection empty on all three |
+
+The disc-intersection estimator is empty in all 33 frames of all six runs. A check on
+whether N=64 is special (an 8x8 floor plane) found it is **not** — N=64 is 64 points
+per axis; an 8x8 plane would be N=8 — but it exposed the mechanism: the ±1 hit set
+grows from ~41 points to ~180 and spreads, so the two radii's discs share no common
+point. The estimator's premise (the ±1 region is one disc) is what fails.
+
+The reference qualification is preserved: the density minimum is an independent
+observable, not ground truth — exposed to density noise, grid anisotropy and core
+structure, and confined to a declared central region.
+
+Artifact: `pks_research_index/quantum_vortex_d3_remediation.json`,
+`pks_research_index/pks_vortex_d3_remediation_2026-11-22.md`.
