@@ -172,3 +172,25 @@ structure, and confined to a declared central region.
 
 Artifact: `pks_research_index/quantum_vortex_d3_remediation.json`,
 `pks_research_index/pks_vortex_d3_remediation_2026-11-22.md`.
+
+### 6.4 Revision 2 — geometry corrected, still NOT VALIDATED
+
+Revision 1's bilinear sampler **clamped out-of-domain loop samples to the grid edge**,
+which can manufacture winding; every revision-1 estimate was contaminated. Revision 2
+rejects any loop not wholly inside the domain and records valid vs rejected counts.
+
+| estimator | rev 1 max err | rev 2 max err |
+|---|---|---|
+| baseline centroid (control) | 2.71–3.36 | 0.49–1.48 |
+| disc intersection | empty / 0.13 | 0.0994–0.1326 (coverage 9–33/33) |
+| boundary bisection | 1.07–2.78 | **0.2433–0.7415, 33/33** |
+
+The revision-1 hit-set growth was **boundary contamination, not phase structure**;
+rejected counts are now constant (80 at R=2, 188 at R=3).
+
+Acceptance (separable evaluator, N=96 included, control excluded): bounded **FAIL**,
+refinement **FAIL**, agreement **PASS**, unambiguous **PASS**, blind **FAIL**.
+**D3 remains `NOT VALIDATED`.**
+
+Artifact: `pks_research_index/quantum_vortex_d3_remediation_v2.json`,
+`cpd_vortex_d3_acceptance_2026-11-22.py`.

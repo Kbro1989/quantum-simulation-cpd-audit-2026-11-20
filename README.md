@@ -254,30 +254,23 @@ numerical instability. Winding around the detected core stays +1 at r = 3, 4.
 Artifact: `pks_research_index/quantum_vortex_gate1_d3.json`,
 `pks_vortex_gate1_d3_2026-11-22.md`.
 
-**D3 remediation candidate — NOT VALIDATED.** Two replacement estimators were
-built and evaluated blind against pre-declared criteria, on the four Gate 1
-configurations plus N=96:
+**D3 remediation revision 2 — geometry corrected, still NOT VALIDATED.** Revision 1's
+sampler **clamped out-of-domain loop samples to the grid edge**, which can manufacture
+winding; every revision-1 estimate was contaminated by it. Revision 2 rejects any loop
+not wholly inside the domain and records valid vs rejected counts per frame.
 
-| criterion | result |
-|---|---|
-| bounded error ≤ 1.0 | **FAIL** — baseline 2.71–3.36; disc-intersection 33/33 empty; boundary-bisection 1.07–2.78 |
-| refinement not worse | **FAIL** — no disc-intersection data; bisection worse at N=64 |
-| the two new estimators agree | **FAIL** — no frame where both answer |
-| unambiguous | **PASS** — competing minima = 1 everywhere |
-| blind displaced profiles | **FAIL** — disc-intersection empty on all three |
+| estimator | rev 1 max err | rev 2 max err |
+|---|---|---|
+| baseline centroid (control) | 2.71–3.36 | 0.49–1.48 |
+| disc intersection | empty / 0.13 | 0.0994–0.1326 (coverage 9–33/33) |
+| boundary bisection | 1.07–2.78 | **0.2433–0.7415, 33/33 frames** |
 
-The disc-intersection estimator is empty in **every frame of all six runs**; the
-boundary bisection answers 12–21 of 33 frames. A check on whether N=64 is special
-("an 8×8 floor plane") found it is **not** — N=64 is 64 points *per axis* (64×64
-plane, 64³ points); an 8×8 plane would be N=8. But it exposed the mechanism: the ±1
-hit set grows from ~41 points to ~180 and spreads, so the two radii's discs have **no
-common point**. The premise that the ±1 region is one disc is what fails.
-Reference qualification: the density minimum is an independent observable, **not**
-ground truth — it is noise-, anisotropy- and core-structure-dependent and restricted
-to a declared central region; its prominence, competing-minimum separation and
-region-size sensitivity are recorded per frame.
-Artifact: `pks_research_index/quantum_vortex_d3_remediation.json`,
-`pks_vortex_d3_remediation_2026-11-22.md`.
+The revision-1 "hit-set growth" was **boundary contamination, not phase structure**;
+rejected counts are now constant (80 at R=2, 188 at R=3). Acceptance: bounded
+**FAIL** (disc-intersection coverage), refinement **FAIL**, B/C agreement **PASS**,
+unambiguous **PASS**, blind displaced **FAIL** (bisection empty on 2 of 3).
+Artifacts: `pks_research_index/quantum_vortex_d3_remediation_v2.json`,
+`cpd_vortex_d3_acceptance_2026-11-22.py`.
 
 ### 3.3 PKS egg-curve mathematics
 
@@ -309,8 +302,9 @@ the next gate.
 - **EQ-10** volume discrepancy unresolved (5.986907 / 7.736654 / 0.4045).
 - **Vortex-line evolution** is `NOT_CERTIFIED`. The regularized state closed D1
   (core depletion) and D4 (independent velocity-field circulation, ratio 0.99–1.02),
-  but **Gate 1 failed** and the **D3 remediation candidate also failed** — the
-  disc-intersection estimator is empty in every frame — see §3.2.
+  but **Gate 1 failed** and **two D3 remediation revisions failed** — revision 2
+  corrected the clamped-boundary geometry and cut error ~10×, but the estimators
+  still miss criteria — see §3.2.
 - **Gate 2 — GPE stationarity** is `NOT_TESTED`. Separate gate, not started.
 
 ---

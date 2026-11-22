@@ -222,6 +222,46 @@ a certification — a hash establishes what is on disk, not that any claim is ve
 ### 7.4 Still pending
 
 - `cpd_independent_physics_validation.md` is a **PENDING scaffold**, not a result.
-- EQ-09 awaits the page-8 diagram.
-- The regularised vortex initial state and an independent velocity-field circulation
-  integral are the next physics gates.
+- EQ-09 awaits the page-8 diagram of the Harthun/Rennert PDF.
+- EQ-10 volume discrepancy unresolved (5.986907 / 7.736654 / 0.4045).
+- **D3 spatial localization is `NOT VALIDATED`** after two remediation revisions;
+  see §7.5. The corrected measurement geometry (revision 2) cut localization error
+  by an order of magnitude but the disc-intersection estimator still lacks coverage.
+- **Gate 2 — GPE stationarity is `NOT_TESTED`** and has not been started.
+
+### 7.5 D3 remediation — two revisions, both NOT VALIDATED
+
+**Revision 1** (`895bec2`): baseline centroid, disc intersection, boundary bisection
+against a density reference. Disc intersection empty in all 33 frames of all six
+runs; boundary bisection 1.07–2.78. Blamed on "the ±1 region is not one disc".
+
+**Revision 2** (this commit) corrected the **measurement geometry**: revision 1's
+bilinear sampler **clamped out-of-domain loop samples to the grid edge**, which can
+manufacture winding. Now any loop not wholly inside the domain is rejected, with
+valid and rejected counts recorded per frame, grid and z-slice.
+
+Effect of the correction — localization error dropped by an order of magnitude:
+
+| estimator | revision 1 max err | revision 2 max err |
+|---|---|---|
+| baseline centroid (control) | 2.71–3.36 | 0.49–1.48 |
+| disc intersection | empty / 0.13 | 0.0994–0.1326 (coverage 9–33 of 33) |
+| boundary bisection | 1.07–2.78 | **0.2433–0.7415, 33/33 frames** |
+
+The revision-1 "hit-set growth" was therefore **boundary contamination**, not phase
+structure; rejected-loop counts are now constant (80 for R=2, 188 for R=3).
+
+Acceptance (replacements only; control excluded):
+
+| criterion | result |
+|---|---|
+| bounded error ≤ 1.0 | **FAIL** — disc intersection coverage 9–33/33; bisection passes all 6 runs |
+| refinement not worse | **FAIL** — disc intersection 0.1326 at N=64 vs 0.0994 at N=48 |
+| B/C agreement ≤ 0.5 | **PASS** — 0.029–0.133 |
+| unambiguous | **PASS** — competing minima = 1 |
+| blind displaced ≤ 0.5 | **FAIL** — bisection returns nothing on 2 of 3 |
+
+**Overall FAIL — D3 remains `NOT VALIDATED`.** Gate 2 stays `NOT_TESTED`.
+Artifacts: `pks_research_index/quantum_vortex_d3_remediation_v2.json`,
+`cpd_vortex_d3_remediation_v2_2026-11-22.py`,
+`cpd_vortex_d3_acceptance_2026-11-22.py`.
