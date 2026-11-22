@@ -226,6 +226,21 @@ method (a winding hit-list is a disc; the core is its centroid). The earlier
 corner-minimum detector and its spurious windings are **superseded** — see
 `pks_research_index/pks_vortex_detector_v3_2026-11-22.md`.
 
+**Regularized state (2026-11-22).** The Gaussian state above is singular — its
+amplitude is maximal on its own axis. The regular profile
+`ψ = A·r⊥·exp(−(r⊥²+z²)/4σ²)·exp(iθ)` vanishes on the axis and closes two gates:
+
+| diagnostic | gaussian | regularized |
+|---|---|---|
+| D1 core depletion | FAIL | **PASS** — axis ρ = 0.000000 vs annulus 0.016170, every frame |
+| D2 winding = 1 | PASS with caveat | **PASS** — +1.000 at r = 2/3/4, both grids |
+| D3 localisation | exact at t=0 only | exact at t = 0–20 (N=48); **still uncertified late** |
+| D4 circulation | restated D2 | **independent velocity-field route**, Γ/(h/m) = 0.99–1.02 |
+
+Artifact: `pks_research_index/pks_vortex_regularized_2026-11-22.md` and
+`quantum_vortex_regularized.json`. Full evolution remains `NOT_CERTIFIED` — D3
+degrades after step 20 and the circulation residual is ~1% at N=48.
+
 ### 3.3 PKS egg-curve mathematics
 
 Recovered from the rendered PDF (byte-identical across the 2020/2024/2026 captures,
@@ -254,9 +269,9 @@ the next gate.
   pix2text extraction, single-revision CPU/GPU baselines, unreviewed D27.3.
 - **EQ-09** awaits the page-8 diagram of the Harthun/Rennert PDF.
 - **EQ-10** volume discrepancy unresolved (5.986907 / 7.736654 / 0.4045).
-- **Vortex-line evolution** is `NOT_CERTIFIED`; the regularised initial state
-  (psi ~ r*exp(-r^2/4 sigma^2)*exp(i theta)) and an independent velocity-field
-  circulation integral are the next physics gates.
+- **Vortex-line evolution** is `NOT_CERTIFIED`. The regularized state closed D1
+  (core depletion) and D4 (independent velocity-field circulation, ratio 0.99–1.02),
+  but D3 still degrades after step 20 — see §3.2.
 
 ---
 
@@ -269,7 +284,9 @@ the next gate.
 - Missing measurements are recorded as missing. `cpd_independent_physics_validation.md`
   is a **PENDING** scaffold and must not be read as a completed validation.
 - `.gitignore` excludes Python bytecode and caches. Four `__pycache__/*.pyc` files
-  remain tracked from the baseline commit; removing them requires a commit.
+  were tracked in the baseline `6734d5a`; they were **removed from the index in
+  `1f75a65`** and are absent from `f0bd4c0`. The baseline commit itself is unchanged
+  and still contains them — history is preserved, not rewritten.
 - `cpd_certification_manifest.json` (v1.0, 72 files) is stale against the current
   tree. It is preserved unchanged; the current inventory is
   `cpd_certification_manifest_v2.json` (359 files). A manifest is a file listing,

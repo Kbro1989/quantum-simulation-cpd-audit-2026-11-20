@@ -1,0 +1,339 @@
+{
+  "grid_convention": "dx = (hi-lo)/N; origin is a node iff N is even",
+  "initial_state": "psi = A * r_perp * exp(-(r_perp^2+z^2)/(4 sigma^2)) * exp(i theta)",
+  "hbar": 1.0,
+  "mass": 1.0,
+  "sigma": 1.0,
+  "h_over_m": 6.283185307179586,
+  "radii": [
+    2.0,
+    3.0,
+    4.0
+  ],
+  "grids": {
+    "48": {
+      "origin_index": 24,
+      "origin_coordinate": 0.0,
+      "dx": 0.25,
+      "frames": [
+        {
+          "step": 0,
+          "axis_density": 0.0,
+          "annulus_density": 0.01616969,
+          "depleted": true,
+          "blind_core": [
+            0.0,
+            0.0
+          ],
+          "blind_error": 0.0,
+          "loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "gamma_velocity_field": 6.232311,
+              "ratio_to_h_over_m": 0.9919
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "gamma_velocity_field": 6.294438,
+              "ratio_to_h_over_m": 1.0018
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "gamma_velocity_field": 6.380758,
+              "ratio_to_h_over_m": 1.0155
+            }
+          ]
+        },
+        {
+          "step": 10,
+          "axis_density": 0.0,
+          "annulus_density": 0.01618637,
+          "depleted": true,
+          "blind_core": [
+            0.0,
+            0.0
+          ],
+          "blind_error": 0.0,
+          "loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "gamma_velocity_field": 6.232038,
+              "ratio_to_h_over_m": 0.9919
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "gamma_velocity_field": 6.294046,
+              "ratio_to_h_over_m": 1.0017
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "gamma_velocity_field": 6.380166,
+              "ratio_to_h_over_m": 1.0154
+            }
+          ]
+        },
+        {
+          "step": 20,
+          "axis_density": 0.0,
+          "annulus_density": 0.01623601,
+          "depleted": true,
+          "blind_core": [
+            0.0,
+            0.0
+          ],
+          "blind_error": 0.0,
+          "loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "gamma_velocity_field": 6.231224,
+              "ratio_to_h_over_m": 0.9917
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "gamma_velocity_field": 6.292887,
+              "ratio_to_h_over_m": 1.0015
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "gamma_velocity_field": 6.3785,
+              "ratio_to_h_over_m": 1.0152
+            }
+          ]
+        },
+        {
+          "step": 30,
+          "axis_density": 0.0,
+          "annulus_density": 0.01631726,
+          "depleted": true,
+          "blind_core": [
+            -1.25,
+            -1.25
+          ],
+          "blind_error": 1.7678,
+          "loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "gamma_velocity_field": 6.229867,
+              "ratio_to_h_over_m": 0.9915
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "gamma_velocity_field": 6.290963,
+              "ratio_to_h_over_m": 1.0012
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "gamma_velocity_field": 6.37586,
+              "ratio_to_h_over_m": 1.0147
+            }
+          ]
+        },
+        {
+          "step": 40,
+          "axis_density": 0.0,
+          "annulus_density": 0.0164278,
+          "depleted": true,
+          "blind_core": [
+            -0.6667,
+            -1.0
+          ],
+          "blind_error": 1.2019,
+          "loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "gamma_velocity_field": 6.227971,
+              "ratio_to_h_over_m": 0.9912
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "gamma_velocity_field": 6.288268,
+              "ratio_to_h_over_m": 1.0008
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "gamma_velocity_field": 6.371168,
+              "ratio_to_h_over_m": 1.014
+            }
+          ]
+        }
+      ]
+    },
+    "64": {
+      "origin_index": 32,
+      "origin_coordinate": 0.0,
+      "dx": 0.1875,
+      "frames": [
+        {
+          "step": 0,
+          "axis_density": 0.0,
+          "annulus_density": 0.0164201,
+          "depleted": true,
+          "blind_core": [
+            -0.0938,
+            -0.0938
+          ],
+          "blind_error": 0.1326,
+          "loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "gamma_velocity_field": 6.256601,
+              "ratio_to_h_over_m": 0.9958
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "gamma_velocity_field": 6.289638,
+              "ratio_to_h_over_m": 1.001
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "gamma_velocity_field": 6.338302,
+              "ratio_to_h_over_m": 1.0088
+            }
+          ]
+        },
+        {
+          "step": 10,
+          "axis_density": 0.0,
+          "annulus_density": 0.01643769,
+          "depleted": true,
+          "blind_core": [
+            -0.0938,
+            -0.0938
+          ],
+          "blind_error": 0.1326,
+          "loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "gamma_velocity_field": 6.256446,
+              "ratio_to_h_over_m": 0.9957
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "gamma_velocity_field": 6.28942,
+              "ratio_to_h_over_m": 1.001
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "gamma_velocity_field": 6.337977,
+              "ratio_to_h_over_m": 1.0087
+            }
+          ]
+        },
+        {
+          "step": 20,
+          "axis_density": 0.0,
+          "annulus_density": 0.01649004,
+          "depleted": true,
+          "blind_core": [
+            -0.0938,
+            -0.0938
+          ],
+          "blind_error": 0.1326,
+          "loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "gamma_velocity_field": 6.255985,
+              "ratio_to_h_over_m": 0.9957
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "gamma_velocity_field": 6.288765,
+              "ratio_to_h_over_m": 1.0009
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "gamma_velocity_field": 6.337039,
+              "ratio_to_h_over_m": 1.0086
+            }
+          ]
+        },
+        {
+          "step": 30,
+          "axis_density": 0.0,
+          "annulus_density": 0.0165758,
+          "depleted": true,
+          "blind_core": [
+            -1.4196,
+            -0.8304
+          ],
+          "blind_error": 1.6447,
+          "loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "gamma_velocity_field": 6.255216,
+              "ratio_to_h_over_m": 0.9955
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "gamma_velocity_field": 6.287667,
+              "ratio_to_h_over_m": 1.0007
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "gamma_velocity_field": 6.335278,
+              "ratio_to_h_over_m": 1.0083
+            }
+          ]
+        },
+        {
+          "step": 40,
+          "axis_density": 0.0,
+          "annulus_density": 0.01669271,
+          "depleted": true,
+          "blind_core": [
+            -1.3828,
+            -1.3828
+          ],
+          "blind_error": 1.9556,
+          "loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "gamma_velocity_field": 6.254145,
+              "ratio_to_h_over_m": 0.9954
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "gamma_velocity_field": 6.286103,
+              "ratio_to_h_over_m": 1.0005
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "gamma_velocity_field": 6.332849,
+              "ratio_to_h_over_m": 1.0079
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

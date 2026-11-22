@@ -1803,5 +1803,15 @@
       "size_bytes": 440,
       "sha256": "3ac3312d81c8e1cc6fbe015d6b9056df69a35920e4fe1b24312507633a17c18e"
     }
-  ]
+  ],
+  "excludes": {
+    "self": "cpd_certification_manifest_v2.json \u2014 a file cannot contain its own hash; regeneration is not idempotent while it lists itself.",
+    "bytecode": "__pycache__/, *.pyc \u2014 excluded by .gitignore",
+    "missing_from_manifest": [
+      "cpd_certification_manifest_v2.json"
+    ]
+  },
+  "committed_tree_file_count": 360,
+  "manifest_entry_count": 359,
+  "reconciled_against": "f0bd4c0de04c2d2eb7a948a532de5330083918c1"
 }

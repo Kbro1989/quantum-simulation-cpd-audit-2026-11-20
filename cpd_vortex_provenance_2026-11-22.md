@@ -107,3 +107,22 @@ condition, and D4 is computed from the same phase increments as D2, so it is not
 independent check. The next physics gates are a regularised initial state
 (ψ ∝ r·e^(−r²/4σ²)·e^(iθ), so the amplitude vanishes on the axis) and an independent
 velocity-field circulation integral.
+
+### 6.1 Regularized state — both gates closed (2026-11-22)
+
+`cpd_vortex_regularized_2026-11-22.py` repeats the measurement with
+ψ = A·r⊥·exp(−(r⊥²+z²)/4σ²)·exp(iθ), which vanishes linearly on the axis.
+
+| diagnostic | gaussian | regularized |
+|---|---|---|
+| D1 core depletion | FAIL (axis ρ 0.063494 > annulus 0.009062) | **PASS** (axis ρ = 0.000000) |
+| D2 winding | PASS with caveat | **PASS** (+1.000, r = 2/3/4, N=48 and N=64) |
+| D3 localisation | exact at t=0 only | exact at t = 0–20 (N=48); drifts to 1.20–1.77 by step 40 |
+| D4 circulation | restated D2 | **independent velocity-field route**, Γ/(h/m) = 0.99–1.02 |
+
+The circulation is now computed from **v = (ℏ/m)·Im(∇ψ/ψ)** integrated around the
+loop — a gradient of the complex field, not a phase-difference sum — so D4 no longer
+restates D2. The residual is discretization error: ~1% at N=48, ~0.5% at N=64.
+
+D3 remains the open item. Full evolution stays `NOT_CERTIFIED`.
+Artifact: `pks_research_index/pks_vortex_regularized_2026-11-22.md`.

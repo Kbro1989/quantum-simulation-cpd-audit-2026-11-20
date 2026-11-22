@@ -180,6 +180,13 @@ Two implementation defects were found and fixed: grid convention
 hit-list is a disc; the core is its centroid). Earlier corner-minimum measurements
 are superseded.
 
+A **regularized initial state** (`cpd_vortex_regularized_2026-11-22.py`,
+ψ = A·r⊥·exp(−(r⊥²+z²)/4σ²)·exp(iθ)) then closed two further gates: D1 core
+depletion now **passes** (axis ρ = 0.000000 vs annulus 0.016170) and D4 circulation
+is now an **independent velocity-field integral** (Γ/(h/m) = 0.99–1.02, converging
+toward 1 at finer grid). D3 localisation is exact at t = 0–20 on N=48 but still
+degrades by step 40, so full evolution remains **NOT_CERTIFIED**.
+
 ### 7.2 PKS egg-curve mathematics
 
 EQ-05 is **CLOSURE_PROVEN** (analytic endpoint coincidence, removable singularities
@@ -190,8 +197,10 @@ Artifacts: `pks_research_index/pks_printed_math_recovery_2026-11-22.md`,
 
 ### 7.3 Repository hygiene
 
-`.gitignore` added. Four `__pycache__/*.pyc` files remain tracked from the baseline
-commit `6734d5a`; removing them requires a commit. The baseline is immutable.
+`.gitignore` added. Four `__pycache__/*.pyc` files were tracked in the baseline
+commit `6734d5a`; they were **removed from the index in `1f75a65`** and are absent
+from `f0bd4c0`. The baseline commit itself is unchanged and still contains them —
+history is preserved, not rewritten.
 
 `cpd_certification_manifest.json` (v1.0, 2026-11-21) records a 72-file,
 1,051,846-byte snapshot and is **stale** against the current tree. It is preserved
