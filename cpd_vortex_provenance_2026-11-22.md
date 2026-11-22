@@ -194,3 +194,38 @@ refinement **FAIL**, agreement **PASS**, unambiguous **PASS**, blind **FAIL**.
 
 Artifact: `pks_research_index/quantum_vortex_d3_remediation_v2.json`,
 `cpd_vortex_d3_acceptance_2026-11-22.py`.
+
+### 6.5 Revision 3 — diagnostics, root cause of the blind failures
+
+`cpd_vortex_d3_remediation_v3_2026-11-22.py`. The `domain_exit` → `no_bracket`
+overwrite is fixed; every direction keeps its real termination reason, last valid
+radius and last observed winding, and all four crossings are stored.
+
+Across 56 direction attempts (7 profiles × 2 seeds × 4 directions):
+
+| reason | count |
+|---|---|
+| `ok` | 47 |
+| **`domain_exit`** | **9** |
+| `no_opposite_winding` | 0 |
+| `refinement_failed` | 0 |
+| `start_not_interior` | 0 |
+
+Both seeds — hit-set centroid and verified-interior-hit — fail **identically**, so the
+cause is not the seed. The angular scan shows the failed angles point exactly at the
+nearest domain edge. **Cause: the valid-domain boundary** — the outward walk uses a
+loop of radius 2.0 in a domain only 11.75 wide (`[-6, 5.75]`).
+
+**Silent-bias hazard:** when the centroid seed is off-centre and all four directions
+still return `ok`, the crossing mean is biased (errors 0.88–0.95) rather than failing.
+The four-crossing mean is unbiased only when the seed is the core.
+
+**Blind-profile discipline:** the original three displacements are now a comparison
+baseline only; four fresh displacements are reserved for independent validation. Both
+sets **FAIL**. Disc-intersection is qualified as an adaptively refined numerical
+feasibility approximation, not an exact method.
+
+**D3 remains `NOT VALIDATED`.** Gate 2 remains `NOT_TESTED`.
+
+Artifact: `pks_research_index/quantum_vortex_d3_remediation_v3.json`,
+`pks_research_index/pks_vortex_d3_remediation_v3_2026-11-22.md`.

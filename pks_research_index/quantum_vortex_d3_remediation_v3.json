@@ -1,0 +1,3604 @@
+{
+  "revision": 3,
+  "status": "D3 remediation revision 3 -- NOT VALIDATED",
+  "preserved": [
+    "b7b3391 (Gate 1)",
+    "895bec2 (revision 1)",
+    "d259430 (revision 2)"
+  ],
+  "bisection_termination_reasons": [
+    "start_not_interior",
+    "domain_exit",
+    "no_opposite_winding",
+    "refinement_failed"
+  ],
+  "blind_profile_discipline": "the original three displacements were inspected during development and are retained as a COMPARISON baseline only; four fresh displacements are reserved for independent blind validation",
+  "baseline_profiles": [
+    [
+      1.5,
+      -1.0
+    ],
+    [
+      -2.0,
+      1.5
+    ],
+    [
+      0.0,
+      2.5
+    ]
+  ],
+  "fresh_profiles": [
+    [
+      2.25,
+      0.75
+    ],
+    [
+      -1.25,
+      -2.25
+    ],
+    [
+      0.75,
+      -2.75
+    ],
+    [
+      -2.75,
+      -0.75
+    ]
+  ],
+  "baseline_comparison": [
+    {
+      "label": "baseline",
+      "displacement": [
+        1.5,
+        -1.0
+      ],
+      "grid_N": 48,
+      "reference_core": [
+        1.5,
+        -1.0
+      ],
+      "n_valid_loops": 64,
+      "n_rejected_loops": 80,
+      "n_hits": 12,
+      "centroid_seed": {
+        "start": [
+          1.5,
+          -1.0
+        ],
+        "start_winding": 1.0000000000000002,
+        "start_classified_interior": true,
+        "crossings": [
+          [
+            3.4999999995343387,
+            -1.0
+          ],
+          [
+            -0.5000000004656613,
+            -1.0
+          ],
+          [
+            1.5,
+            0.9999999995343387
+          ],
+          [
+            1.5,
+            -3.0000000004656613
+          ]
+        ],
+        "directions": {
+          "xp": {
+            "reason": "ok",
+            "last_valid_radius": 1.9999999995343387,
+            "last_winding": null
+          },
+          "xn": {
+            "reason": "ok",
+            "last_valid_radius": 2.0000000004656613,
+            "last_winding": null
+          },
+          "yp": {
+            "reason": "ok",
+            "last_valid_radius": 1.9999999995343387,
+            "last_winding": null
+          },
+          "yn": {
+            "reason": "ok",
+            "last_valid_radius": 2.0000000004656613,
+            "last_winding": null
+          }
+        },
+        "coverage": "ok",
+        "core": [
+          1.4999999997671694,
+          -1.0000000002328306
+        ],
+        "extent": 2.0000000002328306,
+        "seed": [
+          1.5,
+          -1.0
+        ],
+        "error_vs_true": 0.0,
+        "error_vs_ref": 0.0
+      },
+      "centroid_seed_angular_scan": {
+        "seed": [
+          1.5,
+          -1.0
+        ],
+        "angles": [
+          {
+            "angle_deg": 0,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 10,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 20,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 30,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 40,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 50,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 60,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 70,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 80,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 90,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 100,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 110,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 120,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 130,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 140,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 150,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 160,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 170,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 180,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 190,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 200,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 210,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 220,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 230,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 240,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 250,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 260,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 270,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 280,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 290,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 300,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 310,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 320,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 330,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 340,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 350,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          }
+        ],
+        "n_ok": 36,
+        "min_radius": 1.875,
+        "max_radius": 2.125,
+        "mean_radius": 1.9861111111111112
+      },
+      "verified_hit_seed": {
+        "start": [
+          0.0,
+          -2.0
+        ],
+        "start_winding": 1.0000000000000002,
+        "start_classified_interior": true,
+        "crossings": [
+          [
+            3.2320508076809347,
+            -2.0
+          ],
+          [
+            -0.23205080768093467,
+            -2.0
+          ],
+          [
+            0.0,
+            0.3227647007443011
+          ],
+          [
+            0.0,
+            -2.322764700744301
+          ]
+        ],
+        "directions": {
+          "xp": {
+            "reason": "ok",
+            "last_valid_radius": 3.2320508076809347,
+            "last_winding": null
+          },
+          "xn": {
+            "reason": "ok",
+            "last_valid_radius": 0.23205080768093467,
+            "last_winding": null
+          },
+          "yp": {
+            "reason": "ok",
+            "last_valid_radius": 2.322764700744301,
+            "last_winding": null
+          },
+          "yn": {
+            "reason": "ok",
+            "last_valid_radius": 0.3227647007443011,
+            "last_winding": null
+          }
+        },
+        "coverage": "ok",
+        "core": [
+          0.75,
+          -1.5
+        ],
+        "extent": 2.5319115726876364,
+        "seed": [
+          0.0,
+          -2.0
+        ],
+        "error_vs_true": 0.9014,
+        "error_vs_ref": 0.9014
+      },
+      "verified_hit_seed_angular_scan": {
+        "seed": [
+          0.0,
+          -2.0
+        ],
+        "angles": [
+          {
+            "angle_deg": 0,
+            "crossing_radius": 3.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 10,
+            "crossing_radius": 3.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 20,
+            "crossing_radius": 3.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 30,
+            "crossing_radius": 3.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 40,
+            "crossing_radius": 3.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 50,
+            "crossing_radius": 3.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 60,
+            "crossing_radius": 3.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 70,
+            "crossing_radius": 3.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 80,
+            "crossing_radius": 2.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 90,
+            "crossing_radius": 2.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 100,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 110,
+            "crossing_radius": 1.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 120,
+            "crossing_radius": 0.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 130,
+            "crossing_radius": 0.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 140,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 150,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 160,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 170,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 180,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 190,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 200,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 210,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 220,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 230,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 240,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 250,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 260,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 270,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 280,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 290,
+            "crossing_radius": 0.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 300,
+            "crossing_radius": 0.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 310,
+            "crossing_radius": 1.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 320,
+            "crossing_radius": 1.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 330,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 340,
+            "crossing_radius": 2.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 350,
+            "crossing_radius": 2.875,
+            "reason": "ok"
+          }
+        ],
+        "n_ok": 36,
+        "min_radius": 0.125,
+        "max_radius": 3.875,
+        "mean_radius": 1.4791666666666667
+      }
+    },
+    {
+      "label": "baseline",
+      "displacement": [
+        -2.0,
+        1.5
+      ],
+      "grid_N": 48,
+      "reference_core": [
+        -2.0,
+        1.5
+      ],
+      "n_valid_loops": 64,
+      "n_rejected_loops": 80,
+      "n_hits": 12,
+      "centroid_seed": {
+        "start": [
+          -2.0,
+          1.5
+        ],
+        "start_winding": 1.0,
+        "start_classified_interior": true,
+        "crossings": [
+          [
+            -4.656612873077393e-10,
+            1.5
+          ],
+          [
+            -2.0,
+            3.4999999995343387
+          ],
+          [
+            -2.0,
+            -0.5000000004656613
+          ]
+        ],
+        "directions": {
+          "xp": {
+            "reason": "ok",
+            "last_valid_radius": 1.9999999995343387,
+            "last_winding": null
+          },
+          "xn": {
+            "reason": "domain_exit",
+            "last_valid_radius": 2.0,
+            "last_winding": 0.9972281823268502
+          },
+          "yp": {
+            "reason": "ok",
+            "last_valid_radius": 1.9999999995343387,
+            "last_winding": null
+          },
+          "yn": {
+            "reason": "ok",
+            "last_valid_radius": 2.0000000004656613,
+            "last_winding": null
+          }
+        },
+        "coverage": "partial_brackets",
+        "core": null,
+        "extent": null,
+        "seed": [
+          -2.0,
+          1.5
+        ]
+      },
+      "centroid_seed_angular_scan": {
+        "seed": [
+          -2.0,
+          1.5
+        ],
+        "angles": [
+          {
+            "angle_deg": 0,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 10,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 20,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 30,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 40,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 50,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 60,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 70,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 80,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 90,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 100,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 110,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 120,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 130,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 140,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 150,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 160,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 170,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 180,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 190,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 200,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 210,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 220,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 230,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 240,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 250,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 260,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 270,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 280,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 290,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 300,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 310,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 320,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 330,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 340,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 350,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          }
+        ],
+        "n_ok": 33,
+        "min_radius": 1.875,
+        "max_radius": 2.125,
+        "mean_radius": 1.9734848484848484
+      },
+      "verified_hit_seed": {
+        "start": [
+          -3.0,
+          0.0
+        ],
+        "start_winding": 1.0,
+        "start_classified_interior": true,
+        "crossings": [
+          [
+            -0.6772352992556989,
+            0.0
+          ],
+          [
+            -3.322764700744301,
+            0.0
+          ],
+          [
+            -3.0,
+            3.2320508076809347
+          ],
+          [
+            -3.0,
+            -0.23205080768093467
+          ]
+        ],
+        "directions": {
+          "xp": {
+            "reason": "ok",
+            "last_valid_radius": 2.322764700744301,
+            "last_winding": null
+          },
+          "xn": {
+            "reason": "ok",
+            "last_valid_radius": 0.3227647007443011,
+            "last_winding": null
+          },
+          "yp": {
+            "reason": "ok",
+            "last_valid_radius": 3.2320508076809347,
+            "last_winding": null
+          },
+          "yn": {
+            "reason": "ok",
+            "last_valid_radius": 0.23205080768093467,
+            "last_winding": null
+          }
+        },
+        "coverage": "ok",
+        "core": [
+          -2.5,
+          0.75
+        ],
+        "extent": 2.5319115726876364,
+        "seed": [
+          -3.0,
+          0.0
+        ],
+        "error_vs_true": 0.9014,
+        "error_vs_ref": 0.9014
+      },
+      "verified_hit_seed_angular_scan": {
+        "seed": [
+          -3.0,
+          0.0
+        ],
+        "angles": [
+          {
+            "angle_deg": 0,
+            "crossing_radius": 2.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 10,
+            "crossing_radius": 2.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 20,
+            "crossing_radius": 3.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 30,
+            "crossing_radius": 3.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 40,
+            "crossing_radius": 3.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 50,
+            "crossing_radius": 3.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 60,
+            "crossing_radius": 3.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 70,
+            "crossing_radius": 3.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 80,
+            "crossing_radius": 3.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 90,
+            "crossing_radius": 3.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 100,
+            "crossing_radius": 2.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 110,
+            "crossing_radius": 2.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 120,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 130,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 140,
+            "crossing_radius": 1.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 150,
+            "crossing_radius": 0.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 160,
+            "crossing_radius": 0.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 170,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 180,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 190,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 200,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 210,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 220,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 230,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 240,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 250,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 260,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 270,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 280,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 290,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 300,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 310,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 320,
+            "crossing_radius": 0.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 330,
+            "crossing_radius": 0.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 340,
+            "crossing_radius": 1.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 350,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          }
+        ],
+        "n_ok": 35,
+        "min_radius": 0.125,
+        "max_radius": 3.875,
+        "mean_radius": 1.475
+      }
+    },
+    {
+      "label": "baseline",
+      "displacement": [
+        0.0,
+        2.5
+      ],
+      "grid_N": 48,
+      "reference_core": [
+        0.0,
+        2.5
+      ],
+      "n_valid_loops": 64,
+      "n_rejected_loops": 80,
+      "n_hits": 9,
+      "centroid_seed": {
+        "start": [
+          0.0,
+          2.0
+        ],
+        "start_winding": 1.0,
+        "start_classified_interior": true,
+        "crossings": [
+          [
+            1.9364133211784065,
+            2.0
+          ],
+          [
+            -1.9364133211784065,
+            2.0
+          ],
+          [
+            0.0,
+            0.4999999995343387
+          ]
+        ],
+        "directions": {
+          "xp": {
+            "reason": "ok",
+            "last_valid_radius": 1.9364133211784065,
+            "last_winding": null
+          },
+          "xn": {
+            "reason": "ok",
+            "last_valid_radius": 1.9364133211784065,
+            "last_winding": null
+          },
+          "yp": {
+            "reason": "domain_exit",
+            "last_valid_radius": 1.75,
+            "last_winding": 1.0
+          },
+          "yn": {
+            "reason": "ok",
+            "last_valid_radius": 1.5000000004656613,
+            "last_winding": null
+          }
+        },
+        "coverage": "partial_brackets",
+        "core": null,
+        "extent": null,
+        "seed": [
+          0.0,
+          2.0
+        ]
+      },
+      "centroid_seed_angular_scan": {
+        "seed": [
+          0.0,
+          2.0
+        ],
+        "angles": [
+          {
+            "angle_deg": 0,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 10,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 20,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 30,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 40,
+            "crossing_radius": 2.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 50,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 60,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 70,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 80,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 90,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 100,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 110,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 120,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 130,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 140,
+            "crossing_radius": 2.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 150,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 160,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 170,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 180,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 190,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 200,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 210,
+            "crossing_radius": 1.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 220,
+            "crossing_radius": 1.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 230,
+            "crossing_radius": 1.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 240,
+            "crossing_radius": 1.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 250,
+            "crossing_radius": 1.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 260,
+            "crossing_radius": 1.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 270,
+            "crossing_radius": 1.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 280,
+            "crossing_radius": 1.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 290,
+            "crossing_radius": 1.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 300,
+            "crossing_radius": 1.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 310,
+            "crossing_radius": 1.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 320,
+            "crossing_radius": 1.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 330,
+            "crossing_radius": 1.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 340,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 350,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          }
+        ],
+        "n_ok": 27,
+        "min_radius": 1.625,
+        "max_radius": 2.375,
+        "mean_radius": 1.8472222222222223
+      },
+      "verified_hit_seed": {
+        "start": [
+          -1.0,
+          1.0
+        ],
+        "start_winding": 1.0,
+        "start_classified_interior": true,
+        "crossings": [
+          [
+            1.322764700744301,
+            1.0
+          ],
+          [
+            -1.322764700744301,
+            1.0
+          ],
+          [
+            -1.0,
+            0.7679491923190653
+          ]
+        ],
+        "directions": {
+          "xp": {
+            "reason": "ok",
+            "last_valid_radius": 2.322764700744301,
+            "last_winding": null
+          },
+          "xn": {
+            "reason": "ok",
+            "last_valid_radius": 0.3227647007443011,
+            "last_winding": null
+          },
+          "yp": {
+            "reason": "domain_exit",
+            "last_valid_radius": 2.75,
+            "last_winding": 1.0
+          },
+          "yn": {
+            "reason": "ok",
+            "last_valid_radius": 0.23205080768093467,
+            "last_winding": null
+          }
+        },
+        "coverage": "partial_brackets",
+        "core": null,
+        "extent": null,
+        "seed": [
+          -1.0,
+          1.0
+        ]
+      },
+      "verified_hit_seed_angular_scan": {
+        "seed": [
+          -1.0,
+          1.0
+        ],
+        "angles": [
+          {
+            "angle_deg": 0,
+            "crossing_radius": 2.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 10,
+            "crossing_radius": 2.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 20,
+            "crossing_radius": 3.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 30,
+            "crossing_radius": 3.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 40,
+            "crossing_radius": 3.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 50,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 60,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 70,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 80,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 90,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 100,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 110,
+            "crossing_radius": 2.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 120,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 130,
+            "crossing_radius": 1.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 140,
+            "crossing_radius": 1.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 150,
+            "crossing_radius": 0.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 160,
+            "crossing_radius": 0.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 170,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 180,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 190,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 200,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 210,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 220,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 230,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 240,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 250,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 260,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 270,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 280,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 290,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 300,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 310,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 320,
+            "crossing_radius": 0.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 330,
+            "crossing_radius": 0.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 340,
+            "crossing_radius": 1.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 350,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          }
+        ],
+        "n_ok": 30,
+        "min_radius": 0.125,
+        "max_radius": 3.625,
+        "mean_radius": 1.075
+      }
+    }
+  ],
+  "fresh_validation": [
+    {
+      "label": "fresh",
+      "displacement": [
+        2.25,
+        0.75
+      ],
+      "grid_N": 48,
+      "reference_core": [
+        2.25,
+        0.75
+      ],
+      "n_valid_loops": 64,
+      "n_rejected_loops": 80,
+      "n_hits": 11,
+      "centroid_seed": {
+        "start": [
+          2.090909090909091,
+          0.6363636363636364
+        ],
+        "start_winding": 1.0,
+        "start_classified_interior": true,
+        "crossings": [
+          [
+            0.2532888181422921,
+            0.6363636363636364
+          ],
+          [
+            2.090909090909091,
+            2.7435871131125498
+          ],
+          [
+            2.090909090909091,
+            -1.2435871137898755
+          ]
+        ],
+        "directions": {
+          "xp": {
+            "reason": "domain_exit",
+            "last_valid_radius": 1.5,
+            "last_winding": 1.0
+          },
+          "xn": {
+            "reason": "ok",
+            "last_valid_radius": 1.8376202727667987,
+            "last_winding": null
+          },
+          "yp": {
+            "reason": "ok",
+            "last_valid_radius": 2.1072234767489135,
+            "last_winding": null
+          },
+          "yn": {
+            "reason": "ok",
+            "last_valid_radius": 1.8799507501535118,
+            "last_winding": null
+          }
+        },
+        "coverage": "partial_brackets",
+        "core": null,
+        "extent": null,
+        "seed": [
+          2.090909090909091,
+          0.6363636363636364
+        ]
+      },
+      "centroid_seed_angular_scan": {
+        "seed": [
+          2.090909090909091,
+          0.6363636363636364
+        ],
+        "angles": [
+          {
+            "angle_deg": 0,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 10,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 20,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 30,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 40,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 50,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 60,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 70,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 80,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 90,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 100,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 110,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 120,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 130,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 140,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 150,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 160,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 170,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 180,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 190,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 200,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 210,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 220,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 230,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 240,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 250,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 260,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 270,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 280,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 290,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 300,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 310,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 320,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 330,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 340,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 350,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          }
+        ],
+        "n_ok": 27,
+        "min_radius": 1.875,
+        "max_radius": 2.125,
+        "mean_radius": 1.9583333333333333
+      },
+      "verified_hit_seed": {
+        "start": [
+          1.0,
+          0.0
+        ],
+        "start_winding": 1.0,
+        "start_classified_interior": true,
+        "crossings": [
+          [
+            0.39595784479752183,
+            0.0
+          ],
+          [
+            1.0,
+            2.3111645127646625
+          ],
+          [
+            1.0,
+            -0.8111645127646625
+          ]
+        ],
+        "directions": {
+          "xp": {
+            "reason": "domain_exit",
+            "last_valid_radius": 2.75,
+            "last_winding": 1.0
+          },
+          "xn": {
+            "reason": "ok",
+            "last_valid_radius": 0.6040421552024782,
+            "last_winding": null
+          },
+          "yp": {
+            "reason": "ok",
+            "last_valid_radius": 2.3111645127646625,
+            "last_winding": null
+          },
+          "yn": {
+            "reason": "ok",
+            "last_valid_radius": 0.8111645127646625,
+            "last_winding": null
+          }
+        },
+        "coverage": "partial_brackets",
+        "core": null,
+        "extent": null,
+        "seed": [
+          1.0,
+          0.0
+        ]
+      },
+      "verified_hit_seed_angular_scan": {
+        "seed": [
+          1.0,
+          0.0
+        ],
+        "angles": [
+          {
+            "angle_deg": 0,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 10,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 20,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 30,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 40,
+            "crossing_radius": 3.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 50,
+            "crossing_radius": 3.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 60,
+            "crossing_radius": 3.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 70,
+            "crossing_radius": 2.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 80,
+            "crossing_radius": 2.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 90,
+            "crossing_radius": 2.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 100,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 110,
+            "crossing_radius": 1.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 120,
+            "crossing_radius": 1.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 130,
+            "crossing_radius": 1.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 140,
+            "crossing_radius": 0.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 150,
+            "crossing_radius": 0.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 160,
+            "crossing_radius": 0.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 170,
+            "crossing_radius": 0.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 180,
+            "crossing_radius": 0.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 190,
+            "crossing_radius": 0.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 200,
+            "crossing_radius": 0.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 210,
+            "crossing_radius": 0.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 220,
+            "crossing_radius": 0.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 230,
+            "crossing_radius": 0.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 240,
+            "crossing_radius": 0.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 250,
+            "crossing_radius": 0.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 260,
+            "crossing_radius": 0.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 270,
+            "crossing_radius": 0.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 280,
+            "crossing_radius": 0.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 290,
+            "crossing_radius": 1.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 300,
+            "crossing_radius": 1.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 310,
+            "crossing_radius": 1.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 320,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 330,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 340,
+            "crossing_radius": 2.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 350,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          }
+        ],
+        "n_ok": 31,
+        "min_radius": 0.625,
+        "max_radius": 3.375,
+        "mean_radius": 1.4475806451612903
+      }
+    },
+    {
+      "label": "fresh",
+      "displacement": [
+        -1.25,
+        -2.25
+      ],
+      "grid_N": 48,
+      "reference_core": [
+        -1.25,
+        -2.25
+      ],
+      "n_valid_loops": 64,
+      "n_rejected_loops": 80,
+      "n_hits": 13,
+      "centroid_seed": {
+        "start": [
+          -1.3846153846153846,
+          -2.3846153846153846
+        ],
+        "start_winding": 1.0000000000000002,
+        "start_classified_interior": true,
+        "crossings": [
+          [
+            0.7454272731064031,
+            -2.3846153846153846
+          ],
+          [
+            -3.245427272390001,
+            -2.3846153846153846
+          ],
+          [
+            -1.3846153846153846,
+            -0.2545727268935969
+          ]
+        ],
+        "directions": {
+          "xp": {
+            "reason": "ok",
+            "last_valid_radius": 2.1300426577217877,
+            "last_winding": null
+          },
+          "xn": {
+            "reason": "ok",
+            "last_valid_radius": 1.8608118877746165,
+            "last_winding": null
+          },
+          "yp": {
+            "reason": "ok",
+            "last_valid_radius": 2.1300426577217877,
+            "last_winding": null
+          },
+          "yn": {
+            "reason": "domain_exit",
+            "last_valid_radius": 1.5,
+            "last_winding": 1.0000000000000002
+          }
+        },
+        "coverage": "partial_brackets",
+        "core": null,
+        "extent": null,
+        "seed": [
+          -1.3846153846153846,
+          -2.3846153846153846
+        ]
+      },
+      "centroid_seed_angular_scan": {
+        "seed": [
+          -1.3846153846153846,
+          -2.3846153846153846
+        ],
+        "angles": [
+          {
+            "angle_deg": 0,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 10,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 20,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 30,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 40,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 50,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 60,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 70,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 80,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 90,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 100,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 110,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 120,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 130,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 140,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 150,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 160,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 170,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 180,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 190,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 200,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 210,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 220,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 230,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 240,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 250,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 260,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 270,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 280,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 290,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 300,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 310,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 320,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 330,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 340,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 350,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          }
+        ],
+        "n_ok": 29,
+        "min_radius": 1.875,
+        "max_radius": 2.125,
+        "mean_radius": 2.0301724137931036
+      },
+      "verified_hit_seed": {
+        "start": [
+          -3.0,
+          -3.0
+        ],
+        "start_winding": 1.0,
+        "start_classified_interior": true,
+        "crossings": [
+          [
+            0.6040421552024782,
+            -3.0
+          ],
+          [
+            -3.104042155202478,
+            -3.0
+          ],
+          [
+            -3.0,
+            -1.2817826424725354
+          ],
+          [
+            -3.0,
+            -3.2182173575274646
+          ]
+        ],
+        "directions": {
+          "xp": {
+            "reason": "ok",
+            "last_valid_radius": 3.604042155202478,
+            "last_winding": null
+          },
+          "xn": {
+            "reason": "ok",
+            "last_valid_radius": 0.10404215520247817,
+            "last_winding": null
+          },
+          "yp": {
+            "reason": "ok",
+            "last_valid_radius": 1.7182173575274646,
+            "last_winding": null
+          },
+          "yn": {
+            "reason": "ok",
+            "last_valid_radius": 0.21821735752746463,
+            "last_winding": null
+          }
+        },
+        "coverage": "ok",
+        "core": [
+          -2.125,
+          -2.625
+        ],
+        "extent": 2.7546862044291336,
+        "seed": [
+          -3.0,
+          -3.0
+        ],
+        "error_vs_true": 0.952,
+        "error_vs_ref": 0.952
+      },
+      "verified_hit_seed_angular_scan": {
+        "seed": [
+          -3.0,
+          -3.0
+        ],
+        "angles": [
+          {
+            "angle_deg": 0,
+            "crossing_radius": 3.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 10,
+            "crossing_radius": 3.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 20,
+            "crossing_radius": 3.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 30,
+            "crossing_radius": 3.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 40,
+            "crossing_radius": 3.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 50,
+            "crossing_radius": 3.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 60,
+            "crossing_radius": 3.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 70,
+            "crossing_radius": 2.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 80,
+            "crossing_radius": 2.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 90,
+            "crossing_radius": 1.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 100,
+            "crossing_radius": 1.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 110,
+            "crossing_radius": 0.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 120,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 130,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 140,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 150,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 160,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 170,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 180,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 190,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 200,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 210,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 220,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 230,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 240,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 250,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 260,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 270,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 280,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 290,
+            "crossing_radius": 0.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 300,
+            "crossing_radius": 0.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 310,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 320,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 330,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 340,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 350,
+            "crossing_radius": 3.375,
+            "reason": "ok"
+          }
+        ],
+        "n_ok": 32,
+        "min_radius": 0.125,
+        "max_radius": 3.875,
+        "mean_radius": 1.3046875
+      }
+    },
+    {
+      "label": "fresh",
+      "displacement": [
+        0.75,
+        -2.75
+      ],
+      "grid_N": 48,
+      "reference_core": [
+        0.75,
+        -2.75
+      ],
+      "n_valid_loops": 64,
+      "n_rejected_loops": 80,
+      "n_hits": 13,
+      "centroid_seed": {
+        "start": [
+          0.6153846153846154,
+          -2.6153846153846154
+        ],
+        "start_winding": 1.0,
+        "start_classified_interior": true,
+        "crossings": [
+          [
+            2.745427273106403,
+            -2.6153846153846154
+          ],
+          [
+            -1.245427272390001,
+            -2.6153846153846154
+          ],
+          [
+            0.6153846153846154,
+            -0.7545727276099989
+          ]
+        ],
+        "directions": {
+          "xp": {
+            "reason": "ok",
+            "last_valid_radius": 2.1300426577217877,
+            "last_winding": null
+          },
+          "xn": {
+            "reason": "ok",
+            "last_valid_radius": 1.8608118877746165,
+            "last_winding": null
+          },
+          "yp": {
+            "reason": "ok",
+            "last_valid_radius": 1.8608118877746165,
+            "last_winding": null
+          },
+          "yn": {
+            "reason": "domain_exit",
+            "last_valid_radius": 1.25,
+            "last_winding": 1.0
+          }
+        },
+        "coverage": "partial_brackets",
+        "core": null,
+        "extent": null,
+        "seed": [
+          0.6153846153846154,
+          -2.6153846153846154
+        ]
+      },
+      "centroid_seed_angular_scan": {
+        "seed": [
+          0.6153846153846154,
+          -2.6153846153846154
+        ],
+        "angles": [
+          {
+            "angle_deg": 0,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 10,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 20,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 30,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 40,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 50,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 60,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 70,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 80,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 90,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 100,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 110,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 120,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 130,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 140,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 150,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 160,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 170,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 180,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 190,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 200,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 210,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 220,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 230,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 240,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 250,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 260,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 270,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 280,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 290,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 300,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 310,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 320,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 330,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 340,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 350,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          }
+        ],
+        "n_ok": 26,
+        "min_radius": 1.875,
+        "max_radius": 2.125,
+        "mean_radius": 1.9519230769230769
+      },
+      "verified_hit_seed": {
+        "start": [
+          -1.0,
+          -3.0
+        ],
+        "start_winding": 1.0000000000000002,
+        "start_classified_interior": true,
+        "crossings": [
+          [
+            2.7342687896452844,
+            -3.0
+          ],
+          [
+            -1.2342687896452844,
+            -3.0
+          ],
+          [
+            -1.0,
+            -1.7817826424725354
+          ],
+          [
+            -1.0,
+            -3.7182173575274646
+          ]
+        ],
+        "directions": {
+          "xp": {
+            "reason": "ok",
+            "last_valid_radius": 3.7342687896452844,
+            "last_winding": null
+          },
+          "xn": {
+            "reason": "ok",
+            "last_valid_radius": 0.23426878964528441,
+            "last_winding": null
+          },
+          "yp": {
+            "reason": "ok",
+            "last_valid_radius": 1.2182173575274646,
+            "last_winding": null
+          },
+          "yn": {
+            "reason": "ok",
+            "last_valid_radius": 0.7182173575274646,
+            "last_winding": null
+          }
+        },
+        "coverage": "ok",
+        "core": [
+          -0.125,
+          -2.875
+        ],
+        "extent": 2.861999827295524,
+        "seed": [
+          -1.0,
+          -3.0
+        ],
+        "error_vs_true": 0.8839,
+        "error_vs_ref": 0.8839
+      },
+      "verified_hit_seed_angular_scan": {
+        "seed": [
+          -1.0,
+          -3.0
+        ],
+        "angles": [
+          {
+            "angle_deg": 0,
+            "crossing_radius": 3.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 10,
+            "crossing_radius": 3.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 20,
+            "crossing_radius": 3.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 30,
+            "crossing_radius": 3.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 40,
+            "crossing_radius": 3.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 50,
+            "crossing_radius": 2.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 60,
+            "crossing_radius": 2.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 70,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 80,
+            "crossing_radius": 1.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 90,
+            "crossing_radius": 1.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 100,
+            "crossing_radius": 0.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 110,
+            "crossing_radius": 0.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 120,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 130,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 140,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 150,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 160,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 170,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 180,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 190,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 200,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 210,
+            "crossing_radius": 0.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 220,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 230,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 240,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 250,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 260,
+            "crossing_radius": 0.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 270,
+            "crossing_radius": 0.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 280,
+            "crossing_radius": 0.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 290,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 300,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 310,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 320,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 330,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 340,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 350,
+            "crossing_radius": 3.625,
+            "reason": "ok"
+          }
+        ],
+        "n_ok": 30,
+        "min_radius": 0.125,
+        "max_radius": 3.875,
+        "mean_radius": 1.325
+      }
+    },
+    {
+      "label": "fresh",
+      "displacement": [
+        -2.75,
+        -0.75
+      ],
+      "grid_N": 48,
+      "reference_core": [
+        -2.75,
+        -0.75
+      ],
+      "n_valid_loops": 64,
+      "n_rejected_loops": 80,
+      "n_hits": 13,
+      "centroid_seed": {
+        "start": [
+          -2.6153846153846154,
+          -0.6153846153846154
+        ],
+        "start_winding": 0.9999999999999999,
+        "start_classified_interior": true,
+        "crossings": [
+          [
+            -0.7545727276099989,
+            -0.6153846153846154
+          ],
+          [
+            -2.6153846153846154,
+            1.245427272390001
+          ],
+          [
+            -2.6153846153846154,
+            -2.745427273106403
+          ]
+        ],
+        "directions": {
+          "xp": {
+            "reason": "ok",
+            "last_valid_radius": 1.8608118877746165,
+            "last_winding": null
+          },
+          "xn": {
+            "reason": "domain_exit",
+            "last_valid_radius": 1.25,
+            "last_winding": 1.0000000000000002
+          },
+          "yp": {
+            "reason": "ok",
+            "last_valid_radius": 1.8608118877746165,
+            "last_winding": null
+          },
+          "yn": {
+            "reason": "ok",
+            "last_valid_radius": 2.1300426577217877,
+            "last_winding": null
+          }
+        },
+        "coverage": "partial_brackets",
+        "core": null,
+        "extent": null,
+        "seed": [
+          -2.6153846153846154,
+          -0.6153846153846154
+        ]
+      },
+      "centroid_seed_angular_scan": {
+        "seed": [
+          -2.6153846153846154,
+          -0.6153846153846154
+        ],
+        "angles": [
+          {
+            "angle_deg": 0,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 10,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 20,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 30,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 40,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 50,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 60,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 70,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 80,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 90,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 100,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 110,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 120,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 130,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 140,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 150,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 160,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 170,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 180,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 190,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 200,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 210,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 220,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 230,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 240,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 250,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 260,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 270,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 280,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 290,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 300,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 310,
+            "crossing_radius": 2.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 320,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 330,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 340,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 350,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          }
+        ],
+        "n_ok": 26,
+        "min_radius": 1.875,
+        "max_radius": 2.125,
+        "mean_radius": 1.9519230769230769
+      },
+      "verified_hit_seed": {
+        "start": [
+          -4.0,
+          -2.0
+        ],
+        "start_winding": 1.0000000000000002,
+        "start_classified_interior": true,
+        "crossings": [
+          [
+            -1.1888354872353375,
+            -2.0
+          ],
+          [
+            -4.0,
+            0.8111645127646625
+          ],
+          [
+            -4.0,
+            -2.3111645127646625
+          ]
+        ],
+        "directions": {
+          "xp": {
+            "reason": "ok",
+            "last_valid_radius": 2.8111645127646625,
+            "last_winding": null
+          },
+          "xn": {
+            "reason": "domain_exit",
+            "last_valid_radius": 0.0,
+            "last_winding": 1.0000000000000002
+          },
+          "yp": {
+            "reason": "ok",
+            "last_valid_radius": 2.8111645127646625,
+            "last_winding": null
+          },
+          "yn": {
+            "reason": "ok",
+            "last_valid_radius": 0.3111645127646625,
+            "last_winding": null
+          }
+        },
+        "coverage": "partial_brackets",
+        "core": null,
+        "extent": null,
+        "seed": [
+          -4.0,
+          -2.0
+        ]
+      },
+      "verified_hit_seed_angular_scan": {
+        "seed": [
+          -4.0,
+          -2.0
+        ],
+        "angles": [
+          {
+            "angle_deg": 0,
+            "crossing_radius": 2.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 10,
+            "crossing_radius": 3.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 20,
+            "crossing_radius": 3.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 30,
+            "crossing_radius": 3.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 40,
+            "crossing_radius": 3.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 50,
+            "crossing_radius": 3.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 60,
+            "crossing_radius": 3.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 70,
+            "crossing_radius": 3.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 80,
+            "crossing_radius": 3.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 90,
+            "crossing_radius": 2.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 100,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 110,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 120,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 130,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 140,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 150,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 160,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 170,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 180,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 190,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 200,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 210,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 220,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 230,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 240,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 250,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 260,
+            "crossing_radius": null,
+            "reason": "domain_exit"
+          },
+          {
+            "angle_deg": 270,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 280,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 290,
+            "crossing_radius": 0.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 300,
+            "crossing_radius": 0.625,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 310,
+            "crossing_radius": 0.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 320,
+            "crossing_radius": 1.125,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 330,
+            "crossing_radius": 1.375,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 340,
+            "crossing_radius": 1.875,
+            "reason": "ok"
+          },
+          {
+            "angle_deg": 350,
+            "crossing_radius": 2.375,
+            "reason": "ok"
+          }
+        ],
+        "n_ok": 19,
+        "min_radius": 0.375,
+        "max_radius": 3.875,
+        "mean_radius": 2.2697368421052633
+      }
+    }
+  ]
+}

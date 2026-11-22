@@ -265,3 +265,20 @@ Acceptance (replacements only; control excluded):
 Artifacts: `pks_research_index/quantum_vortex_d3_remediation_v2.json`,
 `cpd_vortex_d3_remediation_v2_2026-11-22.py`,
 `cpd_vortex_d3_acceptance_2026-11-22.py`.
+
+**Revision 3 (diagnostics).** The `domain_exit` → `no_bracket` overwrite is fixed.
+Across 56 direction attempts the only failure is `domain_exit` (9);
+`no_opposite_winding`, `refinement_failed` and `start_not_interior` occur zero times.
+Both seeds fail identically, so it is not the seed; the angular scan shows the failed
+angles point at the nearest domain edge. **Cause: the valid-domain boundary** (loop
+radius 2.0 in a domain only 11.75 wide). A silent-bias hazard was also documented:
+an off-centre centroid seed with four `ok` directions gives a biased mean
+(0.88–0.95) rather than a failure.
+
+Blind-profile discipline: the original three displacements are a comparison baseline
+only; four fresh displacements are reserved for independent validation. Both FAIL.
+
+Acceptance now checks refinement in **both** directions (48→64 and 64→96) for both
+timesteps and both replacement estimators; neither refines monotonically, so C2 fails
+for both. Disc intersection is qualified as an adaptively refined numerical
+feasibility approximation. **D3 remains `NOT VALIDATED`.**

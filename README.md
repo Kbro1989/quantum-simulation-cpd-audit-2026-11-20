@@ -272,6 +272,25 @@ unambiguous **PASS**, blind displaced **FAIL** (bisection empty on 2 of 3).
 Artifacts: `pks_research_index/quantum_vortex_d3_remediation_v2.json`,
 `cpd_vortex_d3_acceptance_2026-11-22.py`.
 
+**Revision 3 — diagnostics. Root cause found.** The bisection failure diagnostics were
+restored (the `domain_exit` → `no_bracket` overwrite is fixed) and every direction now
+keeps its real termination reason. Across 56 direction attempts the **only** failure is
+**`domain_exit`** (9); `no_opposite_winding`, `refinement_failed` and
+`start_not_interior` all occur **zero** times. Both the centroid seed and a verified
+interior-hit seed fail **identically**, so it is not the seed; the angular scan shows
+the failed angles point exactly at the nearest domain edge. Cause: the outward walk
+uses a loop of radius 2.0 in a domain only 11.75 wide (`[-6, 5.75]`), so it exits the
+domain before reaching the ±1 boundary. A **silent-bias hazard** was also found: when
+the centroid seed is off-centre and all four directions return `ok`, the crossing mean
+is biased (errors 0.88–0.95) rather than failing.
+
+**Blind-profile discipline:** the original three displacements are now a *comparison
+baseline only*; four **fresh** displacements are reserved for independent validation.
+Both sets **FAIL**.
+
+Artifact: `pks_research_index/quantum_vortex_d3_remediation_v3.json`,
+`pks_vortex_d3_remediation_v3_2026-11-22.md`.
+
 ### 3.3 PKS egg-curve mathematics
 
 Recovered from the rendered PDF (byte-identical across the 2020/2024/2026 captures,
@@ -302,9 +321,9 @@ the next gate.
 - **EQ-10** volume discrepancy unresolved (5.986907 / 7.736654 / 0.4045).
 - **Vortex-line evolution** is `NOT_CERTIFIED`. The regularized state closed D1
   (core depletion) and D4 (independent velocity-field circulation, ratio 0.99–1.02),
-  but **Gate 1 failed** and **two D3 remediation revisions failed** — revision 2
-  corrected the clamped-boundary geometry and cut error ~10×, but the estimators
-  still miss criteria — see §3.2.
+  but **Gate 1 failed** and **three D3 remediation revisions failed** — revision 3
+  found the root cause of the blind failures (valid-domain boundary, not the seed)
+  but the estimators still miss criteria — see §3.2.
 - **Gate 2 — GPE stationarity** is `NOT_TESTED`. Separate gate, not started.
 
 ---

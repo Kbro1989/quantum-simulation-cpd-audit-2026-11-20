@@ -16,7 +16,7 @@ import sys
 from pathlib import Path
 
 IDX = Path(r"C:\Users\krist\Desktop\quantum-simulation-cpd-audit-2026-11-20\pks_research_index")
-SRC = IDX / "quantum_vortex_d3_remediation_v2.json"
+SRC = Path(sys.argv[1]) if len(sys.argv) > 1 else IDX / "quantum_vortex_d3_remediation_v2.json"
 
 REPLACEMENTS = ("disc_intersection", "boundary_bisection")
 CONTROL = "baseline_centroid"
@@ -24,9 +24,49 @@ CONTROL = "baseline_centroid"
 
 def main():
     d = json.load(open(SRC, encoding="utf-8"))
-    acc = d["acceptance_criteria"]
+    acc = d.get("acceptance_criteria") or {
+        "bounded_error": 1.0, "refine_factor": 1.2, "agree": 0.5, "blind": 0.5}
     BOUND = acc["bounded_error"]; REF = acc["refine_factor"]
     AGREE = acc["agree"]; BLIND = acc["blind"]
+
+    if "fresh_validation" in d:
+        # ---- revision-3 diagnostic schema: independent blind validation ----
+        print("=" * 78)
+        print("D3 REVISION 3 — FRESH INDEPENDENT BLIND VALIDATION")
+        print("source:", SRC.name)
+        print("discipline:", d["blind_profile_discipline"])
+        print("=" * 78)
+        for group in ("baseline_comparison", "fresh_validation"):
+            rows = d[group]
+            print(f"\n--- {group} ({len(rows)} profiles) ---")
+            ok_all = True
+            for r in rows:
+                line = []
+                for seed_name in ("centroid_seed", "verified_hit_seed"):
+                    b = r.get(seed_name)
+                    if not b:
+                        line.append(f"{seed_name}=none"); ok_all = False; continue
+                    e = b.get("error_vs_true")
+                    good = (b.get("coverage") == "ok") and (e is not None) and e <= BLIND
+                    ok_all &= good
+                    line.append(f"{seed_name}: cov={b.get('coverage')} "
+                                f"err={'None' if e is None else '%.4f' % e} "
+                                f"{'P' if good else 'F'}")
+                print(f"  true={r['displacement']}  " + " | ".join(line))
+            print(f"  -> {group}: {'PASS' if ok_all else 'FAIL'}")
+        print("\nDiagnostic termination reasons observed:")
+        reasons = {}
+        for group in ("baseline_comparison", "fresh_validation"):
+            for r in d[group]:
+                for seed_name in ("centroid_seed", "verified_hit_seed"):
+                    b = r.get(seed_name) or {}
+                    for k, v in (b.get("directions") or {}).items():
+                        reasons[v["reason"]] = reasons.get(v["reason"], 0) + 1
+        for k, v in sorted(reasons.items()):
+            print(f"   {k}: {v}")
+        print("\nNote: revision 3 is DIAGNOSTIC. D3 remains NOT VALIDATED.")
+        return 0
+
 
     print("=" * 78)
     print("D3 REMEDIATION REVISION 2 — ACCEPTANCE EVALUATION")
@@ -84,21 +124,19 @@ def main():
         c1 &= ok
         print(f"   N={N} dt={dt} {est:>18s} max={mx} answers={ans}/{tot} -> {'PASS' if ok else 'FAIL'}")
 
-    # ---------- C2 refinement ----------
-    print("\n[C2] refinement: err(N=64) <= %.1f * err(N=48); N=96 reported" % REF)
+    # ---------- C2 refinement (both directions, both timesteps) ----------
+    print("\n[C2] refinement, both directions: err(64) <= %.1f*err(48) AND err(96) <= %.1f*err(64)" % (REF, REF))
     c2 = True
     for est in REPLACEMENTS:
         for dt in (0.005, 0.0025):
-            a = slice_stats.get((48, dt, est), (None,))[0]
-            b = slice_stats.get((64, dt, est), (None,))[0]
-            c = slice_stats.get((96, dt, est), (None,))[0]
-            if a is None or b is None:
-                ok = False
-                print(f"   {est} dt={dt}: N48={a} N64={b} N96={c} -> FAIL (insufficient)")
-            else:
-                ok = b <= REF * a
-                print(f"   {est} dt={dt}: N48={a:.4f} N64={b:.4f} N96={c} -> {'PASS' if ok else 'FAIL'}")
-            c2 &= ok
+            e48 = slice_stats.get((48, dt, est), (None,))[0]
+            e64 = slice_stats.get((64, dt, est), (None,))[0]
+            e96 = slice_stats.get((96, dt, est), (None,))[0]
+            ok1 = (e48 is not None and e64 is not None) and e64 <= REF * e48
+            ok2 = (e64 is not None and e96 is not None) and e96 <= REF * e64
+            c2 &= (ok1 and ok2)
+            print(f"   {est} dt={dt}: N48={e48} N64={e64} N96={e96} "
+                  f"48->64 {'P' if ok1 else 'F'} 64->96 {'P' if ok2 else 'F'}")
 
     # ---------- C3 agreement ----------
     print("\n[C3] |B - C| <= %.2f (frames where both answer)" % AGREE)
