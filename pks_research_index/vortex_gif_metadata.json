@@ -1,0 +1,19 @@
+{
+  "artifact": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_asset_suite\\A_vortex_line\\vortex_line_evolution_v2.gif",
+  "source": "C:\\Users\\krist\\Desktop\\quantum-simulation-cpd-audit-2026-11-20\\quantum_3d_asset_suite\\A_vortex_line\\vortex_line_evolution.gif",
+  "note": "Written as a separate artifact; the original GIF is preserved unchanged.",
+  "size": [
+    990,
+    880
+  ],
+  "frames": 5,
+  "durations_ms": [
+    500,
+    500,
+    500,
+    500,
+    500
+  ],
+  "loop": 0,
+  "duration_verified": true
+}

@@ -1,0 +1,649 @@
+{
+  "grid": {
+    "N": 48,
+    "box": [
+      -6.0,
+      6.0
+    ],
+    "dx": 0.25,
+    "origin_index": 24,
+    "origin_coordinate": 0.0,
+    "origin_exact": true,
+    "convention": "dx = (hi-lo)/N; x[N//2] == 0 iff N is even"
+  },
+  "dt": 0.005,
+  "steps": 40,
+  "sigma": 1.0,
+  "hbar": 1.0,
+  "mass": 1.0,
+  "h_over_m": 6.283185307179586,
+  "D1_core_depletion": {
+    "axis_density": 0.06349363638004314,
+    "annulus_density": 0.009061800980342438,
+    "depleted": false,
+    "note": "imposed state |psi| = A exp(-r^2/4 sigma^2) is maximal on the axis"
+  },
+  "radii_grid_units": [
+    2.0,
+    3.0,
+    4.0,
+    5.0
+  ],
+  "z_slices_grid_units": [
+    -2.0,
+    0.0,
+    2.0
+  ],
+  "frames": [
+    {
+      "step": 0,
+      "z_slices": {
+        "-2.0": {
+          "slice_index": 16,
+          "analytical_axis": [
+            0.0,
+            0.0
+          ],
+          "analytical_reference_loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 5.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            }
+          ],
+          "blind_core": [
+            0.0,
+            0.0
+          ],
+          "blind_hit_count": 4,
+          "blind_core_error": 0.0
+        },
+        "0.0": {
+          "slice_index": 24,
+          "analytical_axis": [
+            0.0,
+            0.0
+          ],
+          "analytical_reference_loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 5.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            }
+          ],
+          "blind_core": [
+            0.0,
+            0.0
+          ],
+          "blind_hit_count": 4,
+          "blind_core_error": 0.0
+        },
+        "2.0": {
+          "slice_index": 32,
+          "analytical_axis": [
+            0.0,
+            0.0
+          ],
+          "analytical_reference_loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 5.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            }
+          ],
+          "blind_core": [
+            0.0,
+            0.0
+          ],
+          "blind_hit_count": 4,
+          "blind_core_error": 0.0
+        }
+      }
+    },
+    {
+      "step": 10,
+      "z_slices": {
+        "-2.0": {
+          "slice_index": 16,
+          "analytical_axis": [
+            0.0,
+            0.0
+          ],
+          "analytical_reference_loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 5.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            }
+          ],
+          "blind_core": [
+            -2.2727,
+            -1.3636
+          ],
+          "blind_hit_count": 11,
+          "blind_core_error": 2.6504
+        },
+        "0.0": {
+          "slice_index": 24,
+          "analytical_axis": [
+            0.0,
+            0.0
+          ],
+          "analytical_reference_loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 5.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            }
+          ],
+          "blind_core": [
+            -2.2727,
+            -1.3636
+          ],
+          "blind_hit_count": 11,
+          "blind_core_error": 2.6504
+        },
+        "2.0": {
+          "slice_index": 32,
+          "analytical_axis": [
+            0.0,
+            0.0
+          ],
+          "analytical_reference_loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 5.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            }
+          ],
+          "blind_core": [
+            -2.2727,
+            -1.3636
+          ],
+          "blind_hit_count": 11,
+          "blind_core_error": 2.6504
+        }
+      }
+    },
+    {
+      "step": 20,
+      "z_slices": {
+        "-2.0": {
+          "slice_index": 16,
+          "analytical_axis": [
+            0.0,
+            0.0
+          ],
+          "analytical_reference_loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 5.0,
+              "winding": 2.0,
+              "circulation_hbar_over_m": 12.566371,
+              "ratio_to_h_over_m": 2.0
+            }
+          ],
+          "blind_core": [
+            -1.7692,
+            -1.4615
+          ],
+          "blind_hit_count": 13,
+          "blind_core_error": 2.2948
+        },
+        "0.0": {
+          "slice_index": 24,
+          "analytical_axis": [
+            0.0,
+            0.0
+          ],
+          "analytical_reference_loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 5.0,
+              "winding": 2.0,
+              "circulation_hbar_over_m": 12.566371,
+              "ratio_to_h_over_m": 2.0
+            }
+          ],
+          "blind_core": [
+            -1.7692,
+            -1.4615
+          ],
+          "blind_hit_count": 13,
+          "blind_core_error": 2.2948
+        },
+        "2.0": {
+          "slice_index": 32,
+          "analytical_axis": [
+            0.0,
+            0.0
+          ],
+          "analytical_reference_loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 5.0,
+              "winding": 2.0,
+              "circulation_hbar_over_m": 12.566371,
+              "ratio_to_h_over_m": 2.0
+            }
+          ],
+          "blind_core": [
+            -1.7692,
+            -1.4615
+          ],
+          "blind_hit_count": 13,
+          "blind_core_error": 2.2948
+        }
+      }
+    },
+    {
+      "step": 30,
+      "z_slices": {
+        "-2.0": {
+          "slice_index": 16,
+          "analytical_axis": [
+            0.0,
+            0.0
+          ],
+          "analytical_reference_loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 5.0,
+              "winding": 0.0,
+              "circulation_hbar_over_m": 0.0,
+              "ratio_to_h_over_m": 0.0
+            }
+          ],
+          "blind_core": [
+            -0.7647,
+            -1.3529
+          ],
+          "blind_hit_count": 17,
+          "blind_core_error": 1.5541
+        },
+        "0.0": {
+          "slice_index": 24,
+          "analytical_axis": [
+            0.0,
+            0.0
+          ],
+          "analytical_reference_loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 5.0,
+              "winding": 0.0,
+              "circulation_hbar_over_m": 0.0,
+              "ratio_to_h_over_m": 0.0
+            }
+          ],
+          "blind_core": [
+            -0.7647,
+            -1.3529
+          ],
+          "blind_hit_count": 17,
+          "blind_core_error": 1.5541
+        },
+        "2.0": {
+          "slice_index": 32,
+          "analytical_axis": [
+            0.0,
+            0.0
+          ],
+          "analytical_reference_loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 5.0,
+              "winding": 0.0,
+              "circulation_hbar_over_m": 0.0,
+              "ratio_to_h_over_m": 0.0
+            }
+          ],
+          "blind_core": [
+            -0.7647,
+            -1.3529
+          ],
+          "blind_hit_count": 17,
+          "blind_core_error": 1.5541
+        }
+      }
+    },
+    {
+      "step": 40,
+      "z_slices": {
+        "-2.0": {
+          "slice_index": 16,
+          "analytical_axis": [
+            0.0,
+            0.0
+          ],
+          "analytical_reference_loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 5.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            }
+          ],
+          "blind_core": [
+            -0.8261,
+            -0.7391
+          ],
+          "blind_hit_count": 23,
+          "blind_core_error": 1.1085
+        },
+        "0.0": {
+          "slice_index": 24,
+          "analytical_axis": [
+            0.0,
+            0.0
+          ],
+          "analytical_reference_loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 5.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            }
+          ],
+          "blind_core": [
+            -0.8261,
+            -0.7391
+          ],
+          "blind_hit_count": 23,
+          "blind_core_error": 1.1085
+        },
+        "2.0": {
+          "slice_index": 32,
+          "analytical_axis": [
+            0.0,
+            0.0
+          ],
+          "analytical_reference_loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 5.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            }
+          ],
+          "blind_core": [
+            -0.8261,
+            -0.7391
+          ],
+          "blind_hit_count": 23,
+          "blind_core_error": 1.1085
+        }
+      }
+    }
+  ]
+}

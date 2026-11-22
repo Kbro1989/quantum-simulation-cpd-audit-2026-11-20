@@ -114,11 +114,34 @@
           1.6018862051
         ],
         "r_star_formula": "(z0 - sqrt(z0^2 - 4 tan a)) / (2 sin a)",
-        "both_endpoints_coincide": true
+        "both_endpoints_coincide": true,
+        "removable_singularity": {
+          "points": [
+            "phi = pi/2",
+            "phi = 3pi/2"
+          ],
+          "cause": "cos(phi) = 0 in the denominator",
+          "limit": "r -> 1/z0 = 7/6 = 1.166666666667",
+          "numerical": {
+            "pi/2+1e-3": 1.166442193,
+            "pi/2+1e-5": 1.166664421,
+            "pi/2+1e-7": 1.166666646,
+            "3pi/2+1e-3": 1.166891337,
+            "3pi/2+1e-5": 1.166668912,
+            "3pi/2+1e-7": 1.166666688
+          },
+          "removable": true
+        },
+        "radicand": {
+          "scanned_over": "phi in (0, 2pi), step 1e-4",
+          "min_value": 0.163265306,
+          "negative_samples": 0,
+          "non_negative_everywhere": true
+        }
       },
       "agrees_with_source": true,
       "status": "CLOSURE_PROVEN",
-      "status_note": "Numerically near-closed, then proven. The endpoint gap |P(2pi)-P(eps)| converges linearly to 0 with gap/eps = 1.601886 constant, and the analytic limit as phi -> 0+ gives the same point as phi = 2pi: P = (0, r*) with r* = (z0 - sqrt(z0^2 - 4 tan a))/(2 sin a) = 1.6018862051. Both endpoints coincide, so the closed egg profile is established analytically."
+      "status_note": "CLOSURE_PROVEN. Both parameter-domain endpoints coincide: |P(2pi)-P(eps)| converges linearly to 0 (gap/eps = 1.601886 constant) and the analytic phi->0+ limit equals P(2pi) = (0, r*), r* = (z0 - sqrt(z0^2 - 4 tan a))/(2 sin a) = 1.6018862051. Removable singularities at cos(phi)=0 verified: r -> 1/z0 = 7/6. Radicand non-negative over the whole domain (min 0.163265306, zero negative samples)."
     }
   ],
   "summary": {
@@ -132,11 +155,13 @@
       "DISCREPANCY_PRESERVED": 1,
       "CLOSURE_PROVEN": 1
     },
-    "reading": "CLOSURE_PROVEN means both parameter-domain endpoints coincide - established numerically by linear convergence of the endpoint gap and analytically via the phi->0+ limit. DISCREPANCY_PRESERVED means the source's own equation and stated number disagree, and the disagreement is retained rather than forced."
+    "reading": "CLOSURE_PROVEN means both parameter-domain endpoints coincide (analytic limit plus linear convergence of the endpoint gap), with removable singularities and radicand sign checked. DISCREPANCY_PRESERVED means the source's own equation and stated number disagree and the disagreement is retained. SIGN_CONVENTION_UNRESOLVED means the angle convention cannot be fixed without the page-8 diagram."
   },
   "limits": [
-    "The PDF text layer fragments fractions, radicals and subscripts; EQ-04, EQ-05, EQ-07..EQ-10 carry partial or low transcription confidence.",
-    "EQ-05 (parameter form) could not be evaluated at all - the transcription is glyph fragments. The closed egg curve therefore remains unverified.",
+    "The PDF text layer fragments fractions, radicals and subscripts; EQ-04 and EQ-07..EQ-10 carry partial or low transcription confidence. EQ-05 was recovered from the rendered page and is now proven.",
+    "EQ-05 is CLOSURE_PROVEN, not unverified: the negative-root branch closes, the endpoint gap converges linearly to zero, the removable singularities at cos(phi)=0 were checked (r -> 1/z0 = 7/6), and the radicand is non-negative over the full parameter domain.",
+    "EQ-10 remains DISCREPANCY_PRESERVED: the recovered printed equation gives 5.986907, the closed-curve integral gives 7.736654, and the source states 0.4045. Not forced.",
+    "EQ-09 remains SIGN_CONVENTION_UNRESOLVED pending the page-8 diagram, which was rate-limited during visual reading and is not yet recovered.",
     "A transcription disagreement is not a mathematical contradiction; it is a flag to re-read the printed equation."
   ],
   "visual_recovery": {

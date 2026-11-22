@@ -157,3 +157,51 @@ regression-covered once remediation is authorized.
 
 **Historical evidence:** preserved. No claim in this report exceeds what an executed probe
 or a read-only source examination supports; nothing is inferred as fact.
+
+---
+
+## 7. Post-audit addenda (2026-11-22)
+
+Later work in this workspace, after the report above was compiled. It does not amend
+§1–§6; it records what changed.
+
+### 7.1 Vortex diagnostics — detector v3
+
+The §3.1 vortex finding (charges `+1`/`−1`, position error `0.037`) describes the
+production `vortex_positions` observable and remains valid for **Referent B**. The
+separate 3D vortex-line animation was re-measured with a corrected detector:
+D1 core depletion **FAILS** for the imposed state, D2/D4 pass with caveats, D3 is
+validated at t=0 only, and full evolution is **NOT_CERTIFIED**.
+Artifacts: `pks_research_index/quantum_vortex_detector_v3.json`,
+`pks_research_index/pks_vortex_detector_v3_2026-11-22.md`.
+
+Two implementation defects were found and fixed: grid convention
+(`dx = (hi−lo)/N`; origin is a node only for even N) and localisation (a winding
+hit-list is a disc; the core is its centroid). Earlier corner-minimum measurements
+are superseded.
+
+### 7.2 PKS egg-curve mathematics
+
+EQ-05 is **CLOSURE_PROVEN** (analytic endpoint coincidence, removable singularities
+at `cos φ = 0` giving `r → 1/z₀ = 7/6`, radicand non-negative over the full domain).
+EQ-10 remains **DISCREPANCY_PRESERVED** (5.986907 / 7.736654 / 0.4045).
+Artifacts: `pks_research_index/pks_printed_math_recovery_2026-11-22.md`,
+`pks_research_index/pks_equation_audit.json`.
+
+### 7.3 Repository hygiene
+
+`.gitignore` added. Four `__pycache__/*.pyc` files remain tracked from the baseline
+commit `6734d5a`; removing them requires a commit. The baseline is immutable.
+
+`cpd_certification_manifest.json` (v1.0, 2026-11-21) records a 72-file,
+1,051,846-byte snapshot and is **stale** against the current tree. It is preserved
+unchanged; the current inventory is `cpd_certification_manifest_v2.json`
+(359 files, 39,808,907 bytes, bytecode excluded). A manifest is a file listing, not
+a certification — a hash establishes what is on disk, not that any claim is verified.
+
+### 7.4 Still pending
+
+- `cpd_independent_physics_validation.md` is a **PENDING scaffold**, not a result.
+- EQ-09 awaits the page-8 diagram.
+- The regularised vortex initial state and an independent velocity-field circulation
+  integral are the next physics gates.

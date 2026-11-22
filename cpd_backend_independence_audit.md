@@ -5,8 +5,17 @@ Audit target: C:/Users/krist/Desktop/quantum-simulation-cpd-audit-2026-11-20
 
 ## Status
 
-- NOT YET EXECUTED
-- This is the Phase 2 deliverable for CPU/GPU independence verification.
+**PENDING — the independent re-execution has not been performed.**
+
+- The table under "Expected findings" is **REPORTED** — values from an earlier
+  recorded run, not produced by this audit. The `gpu_*` rows are empty (`-`).
+- The CPU/GPU independence comparison itself is **PENDING**: no independent
+  re-execution has been run as of this audit.
+- This file is a plan plus inherited numbers. It is **not** a completed
+  independence verification and must not be cited as one.
+
+Executed CPU/GPU evidence that exists elsewhere: `cpd_final_audit.md` §3.1
+(`max‖dpsi‖ = 3.4e-15 / 2.7e-15 / 8.4e-16`, roundoff-scale).
 
 ## Method
 

@@ -1,4 +1,4 @@
-import numpy as np, math
+import numpy as np, math, sys
 sys.path.insert(0, r"C:\Users\krist\Desktop\quantum-simulation-main\quantum-simulation-main")
 from quantumlab.core.grid import Grid3D
 from quantumlab.potentials.traps import HarmonicTrap

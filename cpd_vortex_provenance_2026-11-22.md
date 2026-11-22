@@ -81,3 +81,29 @@ missing is a *second, distinct* representation:
 
 Until (1) exists, any vortex finding in this audit must be read as Referent B
 only. This note is that reading.
+
+## 6. Detector v3 — measured status (2026-11-22)
+
+The vortex-line animation is a **visualisation of Referent B**, not a verification of
+it. Detector v3 (`pks_research_index/quantum_vortex_detector_v3.json`,
+`cpd_vortex_detector_v3_2026-11-22.py`) measured the imposed state
+ψ = A·e^(−r²/4σ²)·e^(i·atan2(y,x)):
+
+| diagnostic | measurement | label |
+|---|---|---|
+| D1 core depletion | axis ρ = 0.063494 vs annulus ρ = 0.009062 — the axis is a density **maximum** | **FAIL_INITIAL_CONDITION** |
+| D2 phase winding | +1 at radii 2/3/4/5, z = −2/0/+2, every step (two wall-contaminated readings at r=5) | **PASS_WITH_BOUNDARY_CAVEAT** |
+| D3 blind localisation | exact at t=0 (error 0.0000); drift 1.11–2.65 by step 40 | **INITIAL_CONDITION_VALIDATED_ONLY** |
+| D4 circulation | Γ = h/m wherever winding is 1 | **PASS_WITH_INDEPENDENCE_CAVEAT** |
+
+Two implementation defects were found and fixed: the grid convention
+(`dx = (hi−lo)/N`, so the origin is a node only for **even** N — N=49 places it at
+−0.122449) and the localisation method (a winding hit-list is a **disc**; the core is
+its centroid). The earlier corner-minimum detector and its spurious windings are
+**superseded**.
+
+**Full vortex-line evolution: NOT_CERTIFIED.** D1 fails for the supplied initial
+condition, and D4 is computed from the same phase increments as D2, so it is not an
+independent check. The next physics gates are a regularised initial state
+(ψ ∝ r·e^(−r²/4σ²)·e^(iθ), so the amplitude vanishes on the axis) and an independent
+velocity-field circulation integral.

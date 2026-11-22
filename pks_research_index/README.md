@@ -17,18 +17,44 @@ hand-typed from the research narrative.
 
 ## What this index does NOT claim
 
-- **No content comparison between captures.** The CDX index supplies timestamps
-  and URLs, not page bodies. `content_hash` is `NOT_CAPTURED` and
-  `content_compared` is `no` on every row. Any statement about *what changed*
-  between two captures would be fabricated until capture bodies are fetched.
-- **No archived capture body has been fetched.** `archived_captures_fetched: 0`.
-  The four PKS documents were read from the live URLs via a reader because the
-  origin serves a JavaScript challenge interstitial to `curl`; the interstitials
-  are kept as `*_BLOCKED_js_challenge.html`.
+- **The temporal change map is an index, not a content comparison.** The CDX index
+  supplies timestamps and URLs, not page bodies. `content_hash` is `NOT_CAPTURED` and
+  `content_compared` is `no` on every row of `pks_temporal_change_map.csv`. Any
+  statement about *what changed* between two captures would be fabricated until the
+  capture bodies are fetched. Capture bodies **have** since been fetched for a pilot
+  set (32 unique bodies from 36 attempts); the per-URL comparisons live in
+  `pks_temporal_content_diffs/`.
 - **Equation confidence is marked, not assumed.** The PDF text layer fragments
-  fractions, radicals and subscripts. Entries PKS-EQ-04…EQ-10 are
-  `partial`/`low` and are leads to confirm against the printed PDF, not
-  established forms. PKS-EQ-01…EQ-03 and EQ-06 are `high`.
+  fractions, radicals and subscripts. EQ-04 and EQ-07…EQ-10 are `partial`/`low` and
+  are leads to confirm against the printed PDF. **EQ-05 and EQ-10 were subsequently
+  recovered from the rendered pages** (see below) and are no longer text-layer
+  transcriptions.
+- **A mathematical identity is not a physical mechanism.** The recovered egg-curve
+  geometry is a mathematical object with an unresolved volume calculation.
+
+## Equation recovery status (2026-11-22)
+
+The Harthun/Rennert PDF (`Berechnung_Ei-Kurve.pdf`, SHA-256 `ec4358df…`, 157,656 B)
+is **byte-identical across the 2020-10-29, 2024-04-15 and 2026-07-11 captures** — a
+fixed reference. Pages 6, 7 and 9 were rendered at 200 DPI and read visually
+(`pks_eikurve_pages/`); page 8 (two-point and point-slope forms) was rate-limited and
+remains on the text-layer transcription.
+
+| equation | status | artifact |
+|---|---|---|
+| EQ-03 | `ALGEBRAICALLY_VERIFIED` | `pks_equation_audit.json` |
+| EQ-07, EQ-08 | `ALGEBRAICALLY_VERIFIED_UNDER_STATED_INPUTS` | `pks_equation_audit.json` |
+| EQ-09 | `SIGN_CONVENTION_UNRESOLVED` | needs the page-8 diagram |
+| EQ-05 | `CLOSURE_PROVEN` | `pks_printed_math_recovery_2026-11-22.md` |
+| EQ-10 | `DISCREPANCY_PRESERVED` | `pks_printed_math_recovery_2026-11-22.md` |
+
+EQ-05 closure is analytic, not merely numerical: both parameter-domain endpoints
+coincide at `(0, 1.6018862051)`; the removable singularities at `cos φ = 0` give
+`r → 1/z₀ = 7/6`; the radicand is non-negative over the full domain (min 0.163265306,
+zero negative samples).
+
+EQ-10's three values are retained, not reconciled: printed equation **5.986907**,
+closed-curve integral **7.736654**, source-stated **0.4045**.
 
 ## Separation of concerns
 

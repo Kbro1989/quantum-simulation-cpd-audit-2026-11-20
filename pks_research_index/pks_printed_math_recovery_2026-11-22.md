@@ -80,6 +80,19 @@ and $P(0^+)=(0,r^*)$. At $\varphi=2\pi$: $\cos\varphi=1,\ \sin\varphi=0$, giving
 same $r^*$ and $P(2\pi)=(0,r^*)$. **Both endpoints coincide — the closed egg profile
 is established analytically, not just numerically.**
 
+**Removable singularities.** The parametrisation has apparent singularities at
+$\cos\varphi=0$ ($\varphi=\pi/2,\ 3\pi/2$). Taking the limit:
+
+$$\lim_{\cos\varphi\to0}r(\varphi)=\frac{1}{z_0}=\frac{7}{6}=1.166666666667$$
+
+Numerically confirmed: $\varphi=\pi/2+10^{-7}$ gives $r=1.166666646$;
+$\varphi=3\pi/2+10^{-7}$ gives $r=1.166666688$. The singularities are removable —
+the parametrisation does not become undefined at those points.
+
+**Radicand.** Scanned over $\varphi\in(0,2\pi)$ at step $10^{-4}$: minimum
+$0.163265306$, **zero negative samples** — the radicand is non-negative over the
+full parameter domain.
+
 The earlier open-branch result came from equation (1), which describes one
 half-branch, not the closed curve.
 

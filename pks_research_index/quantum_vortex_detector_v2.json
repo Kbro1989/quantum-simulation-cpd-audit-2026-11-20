@@ -1,0 +1,1217 @@
+{
+  "grid_N": 49,
+  "box": [
+    -6.0,
+    6.0
+  ],
+  "dt": 0.005,
+  "steps": 40,
+  "sigma": 1.0,
+  "hbar": 1.0,
+  "mass": 1.0,
+  "origin_index": 24,
+  "origin_coordinate": [
+    -0.12244897959183731,
+    -0.12244897959183731
+  ],
+  "D1_core_depletion": {
+    "axis_density_min": 9.526158917132419e-10,
+    "axis_density_max": 0.062081563291339494,
+    "depleted": true,
+    "note": "imposed state |psi| = A exp(-r^2/4 sigma^2) is maximal on the axis"
+  },
+  "radii_grid_units": [
+    2.0,
+    3.0,
+    4.0,
+    5.0
+  ],
+  "z_slices_grid_units": [
+    -2.0,
+    0.0,
+    2.0
+  ],
+  "h_over_m": 6.283185307179586,
+  "frames": [
+    {
+      "step": 0,
+      "z_slices": {
+        "-2.0": {
+          "slice_index": 16,
+          "analytical_axis": [
+            0.0,
+            0.0
+          ],
+          "analytical_reference_loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 5.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            }
+          ],
+          "blind_detector_hits": [
+            {
+              "x": -3.7959,
+              "y": -1.102,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": -0.8571,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": -0.6122,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": -0.3673,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": -0.1224,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": 0.1224,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": 0.3673,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": 0.6122,
+              "winding": 1.0
+            }
+          ],
+          "blind_detector_hit_count": 840,
+          "blind_detector_finds_origin": true
+        },
+        "0.0": {
+          "slice_index": 25,
+          "analytical_axis": [
+            0.0,
+            0.0
+          ],
+          "analytical_reference_loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 5.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            }
+          ],
+          "blind_detector_hits": [
+            {
+              "x": -3.7959,
+              "y": -1.102,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": -0.8571,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": -0.6122,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": -0.3673,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": -0.1224,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": 0.1224,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": 0.3673,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": 0.6122,
+              "winding": 1.0
+            }
+          ],
+          "blind_detector_hit_count": 840,
+          "blind_detector_finds_origin": true
+        },
+        "2.0": {
+          "slice_index": 33,
+          "analytical_axis": [
+            0.0,
+            0.0
+          ],
+          "analytical_reference_loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 5.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            }
+          ],
+          "blind_detector_hits": [
+            {
+              "x": -3.7959,
+              "y": -1.102,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": -0.8571,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": -0.6122,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": -0.3673,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": -0.1224,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": 0.1224,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": 0.3673,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": 0.6122,
+              "winding": 1.0
+            }
+          ],
+          "blind_detector_hit_count": 840,
+          "blind_detector_finds_origin": true
+        }
+      }
+    },
+    {
+      "step": 10,
+      "z_slices": {
+        "-2.0": {
+          "slice_index": 16,
+          "analytical_axis": [
+            0.0,
+            0.0
+          ],
+          "analytical_reference_loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 5.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            }
+          ],
+          "blind_detector_hits": [
+            {
+              "x": -3.7959,
+              "y": -1.102,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": -0.8571,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": -0.6122,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": -0.3673,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": -0.1224,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": 0.1224,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": 0.3673,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": 0.6122,
+              "winding": 1.0
+            }
+          ],
+          "blind_detector_hit_count": 840,
+          "blind_detector_finds_origin": true
+        },
+        "0.0": {
+          "slice_index": 25,
+          "analytical_axis": [
+            0.0,
+            0.0
+          ],
+          "analytical_reference_loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 5.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            }
+          ],
+          "blind_detector_hits": [
+            {
+              "x": -3.7959,
+              "y": -1.102,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": -0.8571,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": -0.6122,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": -0.3673,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": -0.1224,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": 0.1224,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": 0.3673,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": 0.6122,
+              "winding": 1.0
+            }
+          ],
+          "blind_detector_hit_count": 840,
+          "blind_detector_finds_origin": true
+        },
+        "2.0": {
+          "slice_index": 33,
+          "analytical_axis": [
+            0.0,
+            0.0
+          ],
+          "analytical_reference_loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 5.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            }
+          ],
+          "blind_detector_hits": [
+            {
+              "x": -3.7959,
+              "y": -1.102,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": -0.8571,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": -0.6122,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": -0.3673,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": -0.1224,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": 0.1224,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": 0.3673,
+              "winding": 1.0
+            },
+            {
+              "x": -3.7959,
+              "y": 0.6122,
+              "winding": 1.0
+            }
+          ],
+          "blind_detector_hit_count": 840,
+          "blind_detector_finds_origin": true
+        }
+      }
+    },
+    {
+      "step": 20,
+      "z_slices": {
+        "-2.0": {
+          "slice_index": 16,
+          "analytical_axis": [
+            0.0,
+            0.0
+          ],
+          "analytical_reference_loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 5.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            }
+          ],
+          "blind_detector_hits": [
+            {
+              "x": -5.0204,
+              "y": -5.0204,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.7755,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.5306,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.2857,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.0408,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -3.7959,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -3.551,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -3.3061,
+              "winding": 1.0
+            }
+          ],
+          "blind_detector_hit_count": 1293,
+          "blind_detector_finds_origin": true
+        },
+        "0.0": {
+          "slice_index": 25,
+          "analytical_axis": [
+            0.0,
+            0.0
+          ],
+          "analytical_reference_loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 5.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            }
+          ],
+          "blind_detector_hits": [
+            {
+              "x": -5.0204,
+              "y": -5.0204,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.7755,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.5306,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.2857,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.0408,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -3.7959,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -3.551,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -3.3061,
+              "winding": 1.0
+            }
+          ],
+          "blind_detector_hit_count": 1293,
+          "blind_detector_finds_origin": true
+        },
+        "2.0": {
+          "slice_index": 33,
+          "analytical_axis": [
+            0.0,
+            0.0
+          ],
+          "analytical_reference_loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 5.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            }
+          ],
+          "blind_detector_hits": [
+            {
+              "x": -5.0204,
+              "y": -5.0204,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.7755,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.5306,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.2857,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.0408,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -3.7959,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -3.551,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -3.3061,
+              "winding": 1.0
+            }
+          ],
+          "blind_detector_hit_count": 1293,
+          "blind_detector_finds_origin": true
+        }
+      }
+    },
+    {
+      "step": 30,
+      "z_slices": {
+        "-2.0": {
+          "slice_index": 16,
+          "analytical_axis": [
+            0.0,
+            0.0
+          ],
+          "analytical_reference_loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 5.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            }
+          ],
+          "blind_detector_hits": [
+            {
+              "x": -5.0204,
+              "y": -5.0204,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.7755,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.5306,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.2857,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.0408,
+              "winding": 2.0
+            },
+            {
+              "x": -5.0204,
+              "y": -3.7959,
+              "winding": 2.0
+            },
+            {
+              "x": -5.0204,
+              "y": -3.551,
+              "winding": 3.0
+            },
+            {
+              "x": -5.0204,
+              "y": -3.3061,
+              "winding": 2.0
+            }
+          ],
+          "blind_detector_hit_count": 1143,
+          "blind_detector_finds_origin": true
+        },
+        "0.0": {
+          "slice_index": 25,
+          "analytical_axis": [
+            0.0,
+            0.0
+          ],
+          "analytical_reference_loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 5.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            }
+          ],
+          "blind_detector_hits": [
+            {
+              "x": -5.0204,
+              "y": -5.0204,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.7755,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.5306,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.2857,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.0408,
+              "winding": 2.0
+            },
+            {
+              "x": -5.0204,
+              "y": -3.7959,
+              "winding": 2.0
+            },
+            {
+              "x": -5.0204,
+              "y": -3.551,
+              "winding": 3.0
+            },
+            {
+              "x": -5.0204,
+              "y": -3.3061,
+              "winding": 2.0
+            }
+          ],
+          "blind_detector_hit_count": 1143,
+          "blind_detector_finds_origin": true
+        },
+        "2.0": {
+          "slice_index": 33,
+          "analytical_axis": [
+            0.0,
+            0.0
+          ],
+          "analytical_reference_loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 5.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            }
+          ],
+          "blind_detector_hits": [
+            {
+              "x": -5.0204,
+              "y": -5.0204,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.7755,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.5306,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.2857,
+              "winding": 1.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.0408,
+              "winding": 2.0
+            },
+            {
+              "x": -5.0204,
+              "y": -3.7959,
+              "winding": 2.0
+            },
+            {
+              "x": -5.0204,
+              "y": -3.551,
+              "winding": 3.0
+            },
+            {
+              "x": -5.0204,
+              "y": -3.3061,
+              "winding": 2.0
+            }
+          ],
+          "blind_detector_hit_count": 1143,
+          "blind_detector_finds_origin": true
+        }
+      }
+    },
+    {
+      "step": 40,
+      "z_slices": {
+        "-2.0": {
+          "slice_index": 16,
+          "analytical_axis": [
+            0.0,
+            0.0
+          ],
+          "analytical_reference_loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 5.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            }
+          ],
+          "blind_detector_hits": [
+            {
+              "x": -5.0204,
+              "y": -5.0204,
+              "winding": 2.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.7755,
+              "winding": 2.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.5306,
+              "winding": 2.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.2857,
+              "winding": 2.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.0408,
+              "winding": 2.0
+            },
+            {
+              "x": -5.0204,
+              "y": -3.7959,
+              "winding": 2.0
+            },
+            {
+              "x": -5.0204,
+              "y": -3.551,
+              "winding": 2.0
+            },
+            {
+              "x": -5.0204,
+              "y": -3.3061,
+              "winding": 3.0
+            }
+          ],
+          "blind_detector_hit_count": 1554,
+          "blind_detector_finds_origin": true
+        },
+        "0.0": {
+          "slice_index": 25,
+          "analytical_axis": [
+            0.0,
+            0.0
+          ],
+          "analytical_reference_loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 5.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            }
+          ],
+          "blind_detector_hits": [
+            {
+              "x": -5.0204,
+              "y": -5.0204,
+              "winding": 2.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.7755,
+              "winding": 2.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.5306,
+              "winding": 2.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.2857,
+              "winding": 2.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.0408,
+              "winding": 2.0
+            },
+            {
+              "x": -5.0204,
+              "y": -3.7959,
+              "winding": 2.0
+            },
+            {
+              "x": -5.0204,
+              "y": -3.551,
+              "winding": 2.0
+            },
+            {
+              "x": -5.0204,
+              "y": -3.3061,
+              "winding": 3.0
+            }
+          ],
+          "blind_detector_hit_count": 1554,
+          "blind_detector_finds_origin": true
+        },
+        "2.0": {
+          "slice_index": 33,
+          "analytical_axis": [
+            0.0,
+            0.0
+          ],
+          "analytical_reference_loops": [
+            {
+              "radius": 2.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 3.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 4.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            },
+            {
+              "radius": 5.0,
+              "winding": 1.0,
+              "circulation_hbar_over_m": 6.283185,
+              "ratio_to_h_over_m": 1.0
+            }
+          ],
+          "blind_detector_hits": [
+            {
+              "x": -5.0204,
+              "y": -5.0204,
+              "winding": 2.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.7755,
+              "winding": 2.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.5306,
+              "winding": 2.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.2857,
+              "winding": 2.0
+            },
+            {
+              "x": -5.0204,
+              "y": -4.0408,
+              "winding": 2.0
+            },
+            {
+              "x": -5.0204,
+              "y": -3.7959,
+              "winding": 2.0
+            },
+            {
+              "x": -5.0204,
+              "y": -3.551,
+              "winding": 2.0
+            },
+            {
+              "x": -5.0204,
+              "y": -3.3061,
+              "winding": 3.0
+            }
+          ],
+          "blind_detector_hit_count": 1554,
+          "blind_detector_finds_origin": true
+        }
+      }
+    }
+  ]
+}

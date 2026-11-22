@@ -4,11 +4,25 @@ Generated: 2026-11-21 | Framework: Independent re-computation of physics observa
 Audit target: C:/Users/krist/Desktop/quantum-simulation-cpd-audit-2026-11-20
 
 ## Status
-- NOT YET EXECUTED
-- No independent re-computation has been performed as of this audit.
-- This file is a placeholder pending Phase 2 execution.
 
-## Scope
+**PENDING — SCAFFOLD ONLY. THIS IS NOT A RESULT.**
+
+- No independent re-computation has been performed as of this audit.
+- This file is a plan for Phase 2 execution. It records *what would be checked* and
+  *against what criterion*; it does not record any measurement.
+- Nothing below has been executed. Do not cite this file as validation evidence.
+
+Evidence that **has** been executed and can be cited instead:
+
+| executed evidence | location |
+|---|---|
+| 12-domain physics validation matrix | `cpd_physics_validation_matrix.md` |
+| mathematical validation synthesis | `cpd_mathematical_validation_report.md` |
+| final audit verdict (11/12 domains) | `cpd_final_audit.md` |
+| vortex detector v3 measurements | `pks_research_index/quantum_vortex_detector_v3.json` |
+| defect register (17 defects) | `cpd_defect_register.json` |
+
+## Scope (planned — not executed)
 
 Variables targeted for independent verification:
 
