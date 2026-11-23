@@ -121,25 +121,6 @@
       ]
     },
     {
-      "url": "http://www.pks.or.at:80/w_patents.html",
-      "capture_count": 20,
-      "years": [
-        "2008",
-        "2009",
-        "2010",
-        "2011",
-        "2013",
-        "2016"
-      ],
-      "first": "20080915103925",
-      "last": "20161001000105",
-      "selected": [
-        "20080915103925",
-        "20100727111443",
-        "20161001000105"
-      ]
-    },
-    {
       "url": "http://www.pks.or.at/w.schauberger_e.html",
       "capture_count": 18,
       "years": [

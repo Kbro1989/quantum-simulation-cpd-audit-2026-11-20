@@ -4,8 +4,8 @@
 **Builder:** `cpd_pks_research_index_builder_2026-11-22.py`
 **Source material:** `../schauberger_sources_2026-11-22/`
 
-Five artifacts, each generated from files already on disk. Nothing here is
-hand-typed from the research narrative.
+**Original five artifacts** (built 2026-11-22), each generated from files already on disk.
+Nothing here is hand-typed from the research narrative.
 
 | artifact | content |
 |---|---|
@@ -14,6 +14,13 @@ hand-typed from the research narrative.
 | `pks_equation_inventory.json` | 12 equations (10 from the Harthun/Rennert PDF, 2 external), each with verification flag and transcription confidence |
 | `pks_geometry_inventory.json` | 3 geometries (Walter egg curve, Donepudi funnel, Lyra elliptic vortex) + the open `xy=1` vs `z=0.079/r²` discrepancy |
 | `pks_claim_evidence_matrix.csv` | 12 claims classified: historical assertion / attribution, mathematical claim, experimentally supported, established methodological or mathematical result |
+
+**Subsequent expansions** (same directory, later additions — not part of the original five):
+`pks_citation_index.{json,md}` (10 records, four evidence populations),
+`pks_retrieved_references_2026-11-22.json` (4 hash-verified PDFs + 1 blocked),
+`pks_reconstruction_report.md`, `pks_printed_math_recovery_2026-11-22.md`,
+`pks_temporal_content_diffs{,.json}`, `pks_capture_*`, and the `pks_vortex_*` /
+`quantum_vortex_*` detector-generation reports (see `CPD_CROSS_REFERENCE_INDEX.md` §F).
 
 ## What this index does NOT claim
 

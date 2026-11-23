@@ -1,7 +1,7 @@
 {
   "outcomes": {
     "FIRST_OBSERVED": 11,
-    "IDENTICAL": 13,
+    "IDENTICAL": 11,
     "CHANGED": 10,
     "CONTENT_UNAVAILABLE": 0
   },
@@ -98,10 +98,10 @@
     },
     {
       "url": "http://www.pks.or.at:80/w_patents.html",
-      "captures": 5,
+      "captures": 3,
       "changed": 1,
       "distinct_raw": 2,
-      "identical": 3,
+      "identical": 1,
       "first": "20080915103925",
       "last": "20161001000105",
       "diff_file": "pks_temporal_content_diffs/29570614a4.md"

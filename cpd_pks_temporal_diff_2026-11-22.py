@@ -57,6 +57,10 @@ def main() -> None:
         seq = []
         prev = None
         for c in caps:
+            # skip duplicate temporal capture (same timestamp as previous capture);
+            # every fetch attempt is kept in the fetch log, not in the temporal diff
+            if prev is not None and c.get("capture_timestamp") == prev.get("timestamp"):
+                continue
             p = BODIES / c["file"]
             raw = p.read_bytes() if p.exists() else b""
             txt = text_of(raw, c["content_type"])
@@ -184,10 +188,13 @@ def main() -> None:
             "their sampled spans; that is evidence of *no change*, not of absence.",
             "- **Two retrieval failures** are recorded in `pks_capture_fetch_log.csv` "
             "and are not silently dropped.",
-            "- **Duplicate sampling entries.** An early revision listed one URL twice, "
-            "producing 34 index entries over 32 distinct bodies. The duplicates were "
-            "same-timestamp repeats of the same capture, so no evidence is lost, but "
-            "the counts differ and the builder now de-duplicates.",
+            "- **Duplicate sampling entries.** An early revision listed one URL twice in "
+            "the sampling frame, producing 21 entries over 32 distinct bodies. Deduplication "
+            "reduced the frame to 20 URLs; every fetch attempt is retained in the fetch log.",
+            "- **Pilot scope.** The 11-URL reconstruction is an intentionally bounded "
+            "scientific-content pilot. Nine additional URLs were excluded from this sampling "
+            "round, NOT determined to be historically irrelevant; they remain candidates for "
+            "a subsequent biographical and patent-focused reconstruction.",
             "- **Raw bodies are kept** under `pks_capture_bodies/` with SHA-256; no "
             "original index file was overwritten.",
             "- **Not established:** that any change was editorially or scientifically "

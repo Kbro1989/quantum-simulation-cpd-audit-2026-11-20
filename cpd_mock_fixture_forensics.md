@@ -12,16 +12,23 @@ Audit target: C:/Users/krist/Desktop/quantum-simulation-cpd-audit-2026-11-20
 - No hardcoded expected values found in producer code.
 - The PNG visualization artifacts are INVALID (R4, Pix2Text extraction failed).
 
-## Classification Rules Applied
-
+## Classification Rules Applied (canonical: producer-authenticity)
 | Class | Meaning |
 |-------|---------|
-| R1 | Real execution - actual solver execution with traceable outputs |
-| R2 | Derived output - computed from R1 data |
+| R1 | Actual solver execution - Potentially valid measurement |
+| R2 | Independent analytical or numerical reference - Independent validation |
 | R3 | Synthetic input - generated test conditions, not physical measurements |
-| R4 | Invalid artifact - extraction, plotting, or serialization failure |
-| R5 | Mock/fixture - hardcoded, mocked, or substituted data |
-| R6 | Unverified - provenance or execution cannot be established |
+| R4 | Derived visualization or transformation - Depends on source evidence |
+| R5 | Mock/stub/fabricated output - Invalid as execution evidence |
+| R6 | Historical report without reproducible execution artifacts - Unverified historical claim |
+
+## Artifact Validity Separation
+Evidence class and artifact validity are separate fields. An artifact can be
+evidence-class R4 (a derived visualization) while its validity is INVALID.
+
+| Artifact | Evidence class | Artifact validity | Reason | Source | Execution provenance |
+|---|---|---|---|---|---|
+| PNG visualization (3 files) | R4 | INVALID | Pix2Text extraction failed | Original PNG | Generator and extraction log |
 
 ## Mock/Fixture Scan Results
 

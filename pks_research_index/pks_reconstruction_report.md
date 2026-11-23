@@ -13,7 +13,7 @@ Frame: longitudinal continuity (same URL across years), peak-year coverage (2011
 | outcome | count |
 |---|---|
 | FIRST_OBSERVED (baseline per URL) | 11 |
-| IDENTICAL (byte-for-byte) | 13 |
+| IDENTICAL (byte-for-byte) | 11 |
 | CHANGED (bytes differ) | 10 |
 | CONTENT_UNAVAILABLE (body absent) | 0 |
 
@@ -45,7 +45,7 @@ Successful responses exceed unique bodies because an early revision listed one U
 | `http://www.pks.or.at/w.schauberger_e.html` | 2 | 2 | 1 | 20100324235812 | 20130718095426 |
 | `http://www.pks.or.at/w_berechnungen.html` | 3 | 2 | 1 | 20070820181455 | 20170521002120 |
 | `http://www.pks.or.at:80/viktor_patente.html` | 3 | 2 | 1 | 20080417032553 | 20150120154226 |
-| `http://www.pks.or.at:80/w_patents.html` | 5 | 2 | 1 | 20080915103925 | 20161001000105 |
+| `http://www.pks.or.at:80/w_patents.html` | 3 | 2 | 1 | 20080915103925 | 20161001000105 |
 | `http://pks.or.at/wp-content/uploads/Berechnung_Ei-Kurve.pdf` | 3 | 1 | 0 | 20201029223404 | 20260711234929 |
 | `http://www.pks.or.at/v.schauberger_e.html` | 3 | 1 | 0 | 20070820181052 | 20110821031856 |
 | `http://www.pks.or.at:80/v_patents.html` | 3 | 1 | 0 | 20091117122533 | 20110722220350 |
@@ -67,11 +67,11 @@ These are unchanged across every sampled capture - the strongest form of continu
 | Implosion | 4 | 20080417032553 | 20161001000105 | 2 |
 | Kepler | 3 | 20190824093147 | 20260711231444 | 1 |
 | PKS | 3 | 20190824093147 | 20260711231444 | 1 |
-| Patent | 21 | 20070820181620 | 20260711231444 | 9 |
+| Patent | 19 | 20070820181620 | 20260711231444 | 9 |
 | Pythagoras | 3 | 20190824093147 | 20260711231444 | 1 |
 | Reaktions-Kammer | 1 | 20161001000105 | 20161001000105 | 1 |
 | Viktor Schauberger | 19 | 20070820181030 | 20260711231444 | 7 |
-| Walter Schauberger | 19 | 20070730235440 | 20260711231444 | 6 |
+| Walter Schauberger | 17 | 20070730235440 | 20260711231444 | 6 |
 | Wirbel | 3 | 20070820181620 | 20171003054101 | 1 |
 | implosion | 4 | 20080417032553 | 20161001000105 | 2 |
 | vortex | 2 | 20070820181620 | 20120826222319 | 1 |
@@ -84,7 +84,8 @@ These are unchanged across every sampled capture - the strongest form of continu
 - **A capture count is not a publication event.** Peaks can be crawler behaviour, redesigns or repeated asset capture. Only same-URL sequences support change claims - and this pilot is deliberately same-URL.
 - **Byte identity is the strongest claim here.** `v.schauberger_e.html`, `v_patents.html` and the Harthun/Rennert PDF are byte-identical across their sampled spans; that is evidence of *no change*, not of absence.
 - **Two retrieval failures** are recorded in `pks_capture_fetch_log.csv` and are not silently dropped.
-- **Duplicate sampling entries.** An early revision listed one URL twice, producing 34 index entries over 32 distinct bodies. The duplicates were same-timestamp repeats of the same capture, so no evidence is lost, but the counts differ and the builder now de-duplicates.
+- **Duplicate sampling entries.** An early revision listed one URL twice in the sampling frame, producing 21 entries over 32 distinct bodies. Deduplication reduced the frame to 20 URLs; every fetch attempt is retained in the fetch log.
+- **Pilot scope.** The 11-URL reconstruction is an intentionally bounded scientific-content pilot. Nine additional URLs were excluded from this sampling round, NOT determined to be historically irrelevant; they remain candidates for a subsequent biographical and patent-focused reconstruction.
 - **Raw bodies are kept** under `pks_capture_bodies/` with SHA-256; no original index file was overwritten.
 - **Not established:** that any change was editorially or scientifically motivated. The pilot shows *that* bytes changed and *when*, not *why*.
 
