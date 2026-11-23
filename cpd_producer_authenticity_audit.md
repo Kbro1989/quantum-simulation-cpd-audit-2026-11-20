@@ -18,7 +18,7 @@ Audit target: C:/Users/krist/Desktop/quantum-simulation-cpd-audit-2026-11-20
 
 | Evidence class | Domain | Item | Status | Classification | Finding |
 |---------------|--------|------|---------------|---------------|---------|
-| Production source | D1-D24 (all domains) | quantumlab solvers (split_step_1d.py, 2d.py, 3d.py, 3d_gpu.py) | Upstream files (quantum-simulation-main fork) | RR1/R2 | Time-dependent API fix (potential_at(t), V_static, t, _update_operators(t)) reported. Historical claim needs fresh execution verification. |
+| Production source | D1-D24 (all domains) | quantumlab solvers (split_step_1d.py, 2d.py, 3d.py, 3d_gpu.py) | Upstream files (quantum-simulation-main fork) | RR1 | Time-dependent API fix (potential_at(t), V_static, t, _update_operators(t)) reported. Historical claim needs fresh execution verification. |
 | Production source | D1-D24 (all domains) | quantumlab potentials (base.py, barriers.py, time_dependent.py) | Upstream files on disk | RR2 | Potential classes exist but execution traces not in evidence/. Need to verify actual solver calls. |
 | Execution record | D19 (CUDA residency) | g0_domain19_results.json + g0_domain19_run.log | Real execution: g0_domain19_run.log (4162 bytes) | RR1 | Execution record exists. Verify that the probe script actually executed the production solver against GPU. |
 | Execution record | D20 (FFT performance) | domain20_fft_performance.json + domain20_run.log | Real execution: domain20_run.log (2754 bytes) | RR1 | Execution record exists. Check warm-up handling, repeated runs, GPU clock/thermal tracking. |

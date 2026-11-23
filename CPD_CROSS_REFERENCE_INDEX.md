@@ -38,10 +38,10 @@ not change scientific meaning depending on which document a reader opens.
 
 || Document ID | Path | Population | Parent refs | Supporting | Version/commit | Class (R1-R6/NOT_APPLICABLE) | Type | Supersedes | Superseded by |
 ||---|---|---|---|---|---|---|---|---|---|
-|| INV-PRODUCER | `cpd_producer_inventory.md` | production_audit | REPO-FINAL-AUDIT | `cpd_relationship_graph.json` | `44f30e3` | R2 | STATIC_ANALYSIS | — | — |
-|| INV-CONSUMER | `cpd_consumer_inventory.md` | production_audit | INV-PRODUCER | `cpd_relationship_graph.json` | `44f30e3` | R2 | STATIC_ANALYSIS | — | — |
-|| INV-DETACHED | `cpd_detached_inventory.md` | production_audit | INV-PRODUCER | — | `44f30e3` | R2 | STATIC_ANALYSIS | — | — |
-|| SOLVER-API | `cpd_solver_api_contract.md` | production_audit | INV-PRODUCER | — | `remediation/2026-11-20` | NOT_APPLICABLE | SPECIFICATION | — | — |
+||| INV-PRODUCER | cpd_producer_inventory.md | production_audit | REPO-FINAL-AUDIT | cpd_relationship_graph.json | 44f30e3 | Static-analysis evidence | STATIC_ANALYSIS | — | — |
+||| INV-CONSUMER | cpd_consumer_inventory.md | production_audit | INV-PRODUCER | cpd_relationship_graph.json | 44f30e3 | Static-analysis evidence | STATIC_ANALYSIS | — | — |
+||| INV-DETACHED | cpd_detached_inventory.md | production_audit | INV-PRODUCER | — | 44f30e3 | Static-analysis evidence | STATIC_ANALYSIS | — | — |
+||| SOLVER-API | cpd_solver_api_contract.md | production_audit | INV-PRODUCER | — | remediation/2026-11-20 | NOT_APPLICABLE | SPECIFICATION | — | — |
 || SOLVER-USAGE | `cpd_solver_usage_audit.md` | production_audit | SOLVER-API | — | `44f30e3` | R1 | Mixed source analysis and execution evidence | — | — |
 || SOLVER-LIFECYCLE | `cpd_solver_lifecycle_audit.md` | production_audit | SOLVER-USAGE | — | `44f30e3` | R1 | Mixed source analysis and execution evidence | — | — |
 || SOLVER-FIX-EVID | `cpd_solver_fix_evidence.md` | production_audit | SOLVER-LIFECYCLE | — | `44f30e3` | R1 | Separate patch evidence from execution evidence | — | — |
@@ -82,7 +82,7 @@ not change scientific meaning depending on which document a reader opens.
 || VORTEX-PROVENANCE | `cpd_vortex_provenance_2026-11-22.md` | historical_pks | SCHAUBERGER-ATLAS | — | 2026-11-22 | R2 | TERMINOLOGY_PROVENANCE | — | — |
 || PKS-CITATION | `pks_research_index/pks_citation_index.json` | historical_pks | PKS-RECON | `pks_citation_index.md` | 2026-11-22 | NOT_APPLICABLE | BIBLIOGRAPHIC_METADATA | — | — |
 || RASIDI-LINEAGE | `cpd_rasidi_kingwen_lineage_2026-11-22.md` | historical_pks | REPO-README | — | 2026-11-22 | NOT_APPLICABLE | GIT_PROVENANCE | — | — |
-|| PKS-RETRIEVED | `pks_research_index/pks_retrieved_references_2026-11-22.json` | historical_pks | PKS-CITATION | 4 PDFs in `schauberger_sources_2026-11-22/` | 2026-11-22 | R3 | HISTORICAL_PRIMARY_SOURCE | — | — |
+||| PKS-RETRIEVED | pks_research_index/pks_retrieved_references_2026-11-22.json | historical_pks | PKS-CITATION | 4 PDFs in `schauberger_sources_2026-11-22/` | 2026-11-22 | NOT_APPLICABLE | PRIMARY_SOURCE | — | — |
 
 ## F. Vortex detector generations (which is current)
 
