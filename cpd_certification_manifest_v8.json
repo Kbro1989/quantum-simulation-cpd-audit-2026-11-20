@@ -4,10 +4,10 @@
  "manifest_version": 8.0,
  "supersedes": "v7.0 (400 files) -> v8.0 (reverted hash-pinned records, deduped sampling frame, corrected taxonomy)",
  "note": "Inventory of the working tree after remediation. v7 was stale: it listed the agent-made edits to hash-pinned records (manifest v2-v4 tooling role, detached-inventory rewrite, final-audit edit). Those were reverted to HEAD. The 2026 berechnungen capture was independently inspected on disk and is a genuine, sparse WordPress calculation page: a main element with id=main and class=site-main contains an entry-content block; the entry-content text node links to http://pks.or.at/wp-content/uploads/Berechnung_Ei-Kurve.pdf. The 2021 capture is the same situation. The byte differences between captures were reclassified as metadata, encoding or page-generation changes, not scientific-content change. Sampling frame was deduped from 21 to 20 URLs. CPD_CROSS_REFERENCE_INDEX.md carries the R1-R6 classification addenda; RRT1-R6 glossary appended.",
- "commit": "b17836bdcfd87201158d83fc16f351066788f9a6 (HEAD)",
- "coverage": "408 files, 52,839,190 bytes",
- "file_count": 408,
- "total_bytes": 52839190,
+ "commit": "14704a1 (HEAD)",
+ "coverage": "406 files, 52,833,922 bytes",
+ "file_count": 406,
+ "total_bytes": 52833922,
  "excludes": {
   "self": "cpd_certification_manifest_v8.json (added after inventory)",
   "bytecode": "__pycache__/, *.pyc",
@@ -21,19 +21,9 @@
    "sha256": "02a21dccc4b7cce09fa688449c000f2e35941c02fe1aa7a8e678427258bbe6ec"
   },
   {
-   "path": "B1_tf_profile\\benchmark_01_tf_profile.py",
-   "size_bytes": 5062,
-   "sha256": "046df9a1910bdb58e36bfde10fa19c4bf930136541035d897430464b2347a175"
-  },
-  {
-   "path": "B1_tf_profile\\benchmark_run.log",
-   "size_bytes": 253,
-   "sha256": "db9e74ae170e8e578a1068275e8166084336c9db5069649e5be81024cab47ca8"
-  },
-  {
    "path": "CPD_CROSS_REFERENCE_INDEX.md",
-   "size_bytes": 12152,
-   "sha256": "45c5b9c571b9e47fce4dce6017f49bd82200c2a04f78479771e373205319cc56"
+   "size_bytes": 12202,
+   "sha256": "13cf74f358a0516acceb3cfbc0df82939d0662aea0374de8db86b9dfdde559b5"
   },
   {
    "path": "CUSTOM-INSTRUCTIONS.md",
@@ -217,8 +207,8 @@
   },
   {
    "path": "cpd_producer_authenticity_audit.md",
-   "size_bytes": 5175,
-   "sha256": "7821f3c385e1df62e3a617661197d12a1b52b6da3ece5c445028aa3870b3b19c"
+   "size_bytes": 5172,
+   "sha256": "95f4fb6b3188278af1d0b219a1076fd15569c4394746db62c24dfb45efc9a09b"
   },
   {
    "path": "cpd_producer_inventory.md",
